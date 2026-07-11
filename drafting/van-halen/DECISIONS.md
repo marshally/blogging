@@ -69,12 +69,25 @@ ME-gap foreshadowing. Everything else cut at 3.5k is corroboration or ornament.
 3,500 is the piece's natural floor: below it cuts tendons, above it adds unneeded muscle.
 
 ## D9. Voice: house style prompt applied (v2)
-v2 applies style/writing-style-prompt.md: question headers, "Let's (re)define some terms"
+v2 applies /docs/writing-style.md: question headers, "Let's (re)define some terms"
 section, coined dictionary definition (Shaper /ˈʃeɪpər/ noun), metaphor mock-guilt,
 bolded skimmer claims, italicized *Summary:* blocks per act, single strategic profanity,
 kicker circling the title. **Flagged deviation:** the piece necessarily runs three
 metaphor frames; per house style, confessed early with mock-guilt instead of hidden.
 
-## D10. The only direct quote
+## D10. The only direct quote — SUPERSEDED by D11
 Eddie, Billboard 2015: "he does not want to be my friend." Nine words, the piece's one
 human voice, closes the Roth arc. Everything else is paraphrase with attribution.
+
+## D11. Act titles are songs with lyric epigraphs (supersedes D10)
+Each act header is an era-native song with lyric epigraph: Act I "Runnin' with the
+Devil"; Act II "Why Can't This Be Love?" (official title has no question mark — added
+to keep the question-header convention); Act III "How Many Say I." "Jump" was the
+strongest Act I candidate ("back against the record machine") but rejected to protect
+the in-text reveal. New "Interlude: 5150" between Acts I and II tells the studio origin
+story around the "I hated that song" quote — research found it UNSOURCED (circulates
+via Fandom/VHND/Far Out with no dated interview), so the text flags it as folklore and
+pairs it with Eddie's documented milder quote (Guitar World, Feb 2014). D10's
+one-direct-quote rule is retired: quotes now allowed with verified sourcing or explicit
+folklore flags. Interlude foreshadows the Act III profanity ("saving this piece's
+profanity budget"). Word budget (~350) spent; draft now ~3,430 words.

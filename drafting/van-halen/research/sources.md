@@ -17,6 +17,17 @@
   (the post's only direct quote); criticism of Roth's live performances.
 - *Van Halen III* liner notes/credits (1998) — Eddie on bass (Anthony on 3 tracks),
   Eddie lead vocal on "How Many Say I," Mike Post co-production.
+- Eddie Van Halen, Guitar World, Feb 2014 (Chris Gill; VHND repost 2014-01-02) —
+  Minimoog riff "more like a Peter Gabriel song" spent on "Dancing in the Street";
+  "I wanted more control. I was always butting heads with Ted Templeman about what
+  makes a good record." Used in the Interlude.
+- "I [f—ing] hated that song. I never wanted to do it. That was the reason I decided
+  to build my own studio." — UNSOURCED; circulates via Fandom wiki/VHND/Far Out with
+  no dated interview. Used in the Interlude WITH an explicit folklore flag; do not
+  cite as sourced.
+- 5150 Studios name/timeline (police code via Donn Landee's scanner; built early 1983;
+  *1984* first album recorded there) — Wikipedia "5150 Studios," Songfacts, Eddie
+  Trunk Jan 2014.
 
 ## Academic
 - R. F. Bales, *Interaction Process Analysis* (1950).
@@ -44,3 +55,6 @@
 - [ ] Confirm piped-in vocals claim beyond Know Your Bass Player (keep "reportedly" if single-source)
 - [ ] Pull exact Billboard 2015 article for link
 - [ ] Locate a reprint of the Roth 1996 open letter for link
+- [ ] Check act epigraphs against recordings: "Runnin' with the Devil" opening-verse
+  wording (medium-high confidence only) and "How Many Say I" third line adjacency
+  ("Don't always believe all you need is love" — words verified, placement not)

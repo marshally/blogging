@@ -56,7 +56,10 @@ Second: I still haven't assigned one role.
 
 Belbin flagged two Shapers on one team as one of his known combustible configurations. There's a reason that seat is still open. It's where all the trouble starts.
 
-## Act I: Two Shapers, one seat (1974–1985)
+## Act I: Runnin' with the Devil (1974–1985)
+
+> I live my life like there's no tomorrow  
+> And all I've got, I had to steal
 
 The standard telling of classic-era Van Halen is "clashing egos." The framework suggests something more precise: **Eddie and Roth were two claimants to a single Shaper seat.** This wasn't a personality conflict that happened to occur on a team; it was a structural conflict *about* the team — a standing contest over whose will shaped the work. Roth was never content to hold only the audience-facing pole. His creative fingerprints on the band's direction, and later a solo career launched on the conviction that he was a driving force in his own right, mark him as a Shaper claimant, not merely a frontman.
 
@@ -74,7 +77,38 @@ One more Act I detail that pays off later. Bales says every group needs a social
 
 *Summary: two Shapers, one seat; the referee sided with one claimant; the other built his own pipeline and shipped the winning artifact; victory converted task conflict into relationship conflict; the team fractured on schedule.*
 
-## Act II: What if the seat is already taken? (1985–1996)
+## Interlude: 5150
+
+Before the next act, the fortress from Act I deserves its origin story.
+
+It starts, of all places, with a cover song. In 1982, Eddie was sitting on a Minimoog
+part he'd earmarked for something original — "I envisioned it being more like a Peter
+Gabriel song," he told Guitar World. Templeman heard it and decided it was exactly what
+the band's covers-heavy *Diver Down* album needed, and the riff was spent on a remake
+of "Dancing in the Street." The architect's favorite abstraction, requisitioned for
+somebody else's feature.
+
+There's a quote about this episode that shows up in every telling, and that nobody has
+ever pinned to a dated interview: "I hated that song. I never wanted to do it. That was
+the reason I decided to build my own studio." (The version that circulates also carries
+an intensifier before "hated." I'm saving this piece's profanity budget for a lesson
+later that earns it — restore Eddie's mentally.) His documented words are milder — "I
+wanted more control. I was always butting heads with Ted Templeman about what makes a
+good record" — but the folk version keeps winning because it's truer to the shape of
+the grievance. That's how apocrypha earn their keep.
+
+The name is the best part. Eddie and engineer Donn Landee christened the studio 5150,
+after the California police code for an involuntary psychiatric hold — Landee had
+picked the number up off a scanner. Eddie named his declaration of independence after
+the code for being committed against your will. Some jokes complete themselves.
+
+And if you want to know how completely the fortress won: two years after *1984*, when
+the band needed a title for its first post-Roth album, they didn't reach for a lyric.
+They named the album *5150*. The side branch had become main.
+
+## Act II: Why Can't This Be Love? (1985–1996)
+
+> Only time will tell if we stand the test of time
 
 Sammy Hagar is often described as the easygoing alternative to Roth, which is hilarious to anyone who's read his memoir *Red* — Hagar is nobody's shrinking violet. The Hagar era wasn't harmonious because Hagar was agreeable. It was harmonious because he arrived *after the structural contest was decided*. He joined Eddie's band, on Eddie's terms, recording in Eddie's studio. However accomplished, he entered as an occupant of the frontman role, not a claimant to the Shaper seat.
 
@@ -88,7 +122,11 @@ Every engineering org has run this experiment too: the beloved neutral manager l
 
 *Summary: a settled Shaper seat bought a decade of output; the stability was underwritten by a neutral Coordinator; the Coordinator died, the seat went partisan, and the first unbuffered task conflict ended the era.*
 
-## Act III: What happens when one person plays every instrument? (1996–2020)
+## Act III: How Many Say I (1996–2020)
+
+> Say live and let live, so quick to judge  
+> Slow to forgive, when you're holding a grudge  
+> Don't always believe all you need is love
 
 What happened next is what happens when a role structure loses its counterweights one by one.
 
