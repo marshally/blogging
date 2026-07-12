@@ -121,7 +121,7 @@ What happened next is what happens when a role structure loses its counterweight
 
 The 1996 MTV Video Music Awards reunion with Roth collapsed within weeks, in dueling public accounts. Eleven years apart, and the two-**Shapers** problem reignited in *days*. **Structural problems don't age out; they wait.**
 
-Gary Cherone — genuinely talented, hired from Extreme — lasted one album. He failed not for lack of ability but because **a role is a negotiated relationship with the specific people around it, not a seat you can staff from a resume.** By 1998 the frontman position had become so subordinate that it provided no counterweight at all. Every engineering leader has lived this hire: impressive on paper, dead on arrival structurally.
+Gary Cherone — genuinely talented, hired from Extreme — lasted one album, because **a role is a negotiated relationship with the specific people around it, not a seat you can staff from a resume.** By 1998 the frontman position had become so subordinate that it provided no counterweight at all. Every engineering leader has lived this hire: impressive on paper, dead on arrival structurally.
 
 And then there's *Van Halen III*, the band's worst-received album — where, delightfully, you don't need to psychoanalyze anyone, because the liner notes make the argument. Eddie played bass on most of the record (Anthony appears on only three tracks). Eddie sang lead on one song. Eddie took a heavy hand in production. One member occupying the **Plant**, **Shaper**, and **Completer Finisher** roles, now absorbing pieces of the **Teamworker**'s and frontman's — with no **Monitor Evaluator** anywhere in the organization to kill any of it in review. I told you we'd hear what that vacancy sounds like. It sounds like *Van Halen III*.
 
