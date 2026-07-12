@@ -38,7 +38,7 @@ Belbin gives us the characters. Bales gives us the plot. Van Halen gives us the 
 
 ## Meet the band (you already work with them)
 
-**The Plant — Eddie Van Halen.** Belbin's Plant is the creative source, the generator of the ideas everyone else works within — brilliant, unorthodox, territorial. Eddie invented techniques (two-handed tapping) the way great engineers invent abstractions, and built his own gear and eventually his own studio the way they roll their own tooling. You know this person: the architect-founder whose framework everyone else lives inside. And here's the detail to file away — on the two scoreboards that matter, loved-by-fans and revered-by-practitioners, Eddie maxed *both*. That almost never happens, and it warps everything around it.
+**The Plant — Eddie Van Halen.** Belbin's **Plant** is the creative source, the generator of the ideas everyone else works within — brilliant, unorthodox, territorial. Eddie invented techniques (two-handed tapping) the way great engineers invent abstractions, and built his own gear and eventually his own studio the way they roll their own tooling. You know this person: the architect-founder whose framework everyone else lives inside. And here's the detail to file away — on the two scoreboards that matter, loved-by-fans and revered-by-practitioners, Eddie maxed *both*. That almost never happens, and it warps everything around it.
 
 **The Completer Finisher — also Eddie.** In the studio he doubled as Belbin's perfectionist: the role that won't let it ship broken. You know this person too: the engineer who blocks the release over the flaky test everyone else has learned to ignore. And note the double-booking — one person holding both the idea-generator seat and the quality-gate seat concentrates a lot of veto power in one chair. That's going to matter.
 
@@ -48,40 +48,40 @@ Belbin gives us the characters. Bales gives us the plot. Van Halen gives us the 
 
 **The Teamworker — Michael Anthony.** Belbin's glue role: averts friction, supports others, morale infrastructure — and chronically under-recognized, because the contribution never shows up as attributable output. Anthony is respected by musicians not for bass virtuosity (his playing is praised as rock-solid, full stop) but for the high, bright backing harmonies so essential to the band's sound that writer after writer independently reached for the same epithet: *the secret weapon.* This is the glue person from Tanya Reilly's famous talk[^glue] — the engineer doing the reviews, the onboarding, the invisible cohesion work. Remember him. This story ends badly.
 
-**Coordinator-adjacent — Sammy Hagar.** An established star when he joined, collaborative with writing credits, a frontman who also played guitar — a product manager who could read code. Belbin's Coordinator is the chairperson: clarifies goals, pulls decisions out of the group, often not the most talented person in the room. Scoreboards: respected on both, worshipped on neither.
+**Coordinator-adjacent — Sammy Hagar.** An established star when he joined, collaborative with writing credits, a frontman who also played guitar — a product manager who could read code. Belbin's **Coordinator** is the chairperson: clarifies goals, pulls decisions out of the group, often not the most talented person in the room. Scoreboards: respected on both, worshipped on neither.
 
 **The Specialist — Wolfgang Van Halen.** Hired in 2006 for one defined slot: bass. We'll get to what that hire actually meant.
 
 Now, two observations about this cast sheet — and they're findings, not trivia.
 
-First, look at the *empty* seats. The band never had a **Monitor Evaluator** — Belbin's dispassionate internal critic, the person who kills bad ideas in design review. And it never had a stable in-house **Coordinator**; that role kept getting outsourced to producers and managers, with consequences each time the outsourced version disappeared. Keep the Monitor Evaluator vacancy in mind. In 1998, we're going to hear exactly what it sounds like.
+First, look at the *empty* seats. The band never had a **Monitor Evaluator** — Belbin's dispassionate internal critic, the person who kills bad ideas in design review. And it never had a stable in-house **Coordinator**; that role kept getting outsourced to producers and managers, with consequences each time the outsourced version disappeared. Keep the **Monitor Evaluator** vacancy in mind. In 1998, we're going to hear exactly what it sounds like.
 
 Second: I still haven't assigned one role.
 
 **Shaper** /ˈʃeɪpər/ *noun* — Belbin's driver role; the will that pushes the team through obstacles; the seat that decides *whose vision shapes the work*. See also: the reason your last reorg happened.
 
-Belbin flagged two Shapers on one team as one of his known combustible configurations. There's a reason that seat is still open. It's where all the trouble starts.
+Belbin flagged two **Shapers** on one team as one of his known combustible configurations. There's a reason that seat is still open. It's where all the trouble starts.
 
 ## Act I: Runnin' with the Devil (1974–1985)
 
 > I live my life like there's no tomorrow  
 > And all I've got, I had to steal
 
-The standard telling of classic-era Van Halen is "clashing egos." The framework suggests something more precise: **Eddie and Roth were two claimants to a single Shaper seat.** This wasn't a personality conflict that happened to occur on a team; it was a structural conflict *about* the team — a standing contest over whose will shaped the work. Roth was never content to hold only the audience-facing pole. His creative fingerprints on the band's direction, and later a solo career launched on the conviction that he was a driving force in his own right, mark him as a Shaper claimant, not merely a frontman.
+The standard telling of classic-era Van Halen is "clashing egos." The framework suggests something more precise: **Eddie and Roth were two claimants to a single Shaper seat.** This wasn't a personality conflict that happened to occur on a team; it was a structural conflict *about* the team — a standing contest over whose will shaped the work. Roth was never content to hold only the audience-facing pole. His creative fingerprints on the band's direction, and later a solo career launched on the conviction that he was a driving force in his own right, mark him as a **Shaper** claimant, not merely a frontman.
 
-For the first decade, the contest had a referee. Producer Ted Templeman functioned as the band's external Coordinator and Monitor Evaluator — and, as his own 2020 memoir and Greg Renoff's *Van Halen Rising* document, he tended to side with Roth on creative direction: short songs, guitar-forward, no synthesizers.[^templeman] Every software team knows this configuration: the architect whose alignment silently determines which internal faction wins design reviews.
+For the first decade, the contest had a referee. Producer Ted Templeman functioned as the band's external **Coordinator** and **Monitor Evaluator** — and, as his own 2020 memoir and Greg Renoff's *Van Halen Rising* document, he tended to side with Roth on creative direction: short songs, guitar-forward, no synthesizers.[^templeman] Every software team knows this configuration: the architect whose alignment silently determines which internal faction wins design reviews.
 
-Eddie kept losing the reviews. So he did what blocked Plants do. In 1983, he built 5150 Studios at his home — described in interview after interview as an explicit move to control recording. **The talented engineer, tired of being overridden during design reviews, exits the shared infrastructure and builds the thing on a side branch until it's a fait accompli.**
+Eddie kept losing the reviews. So he did what blocked **Plants** do. In 1983, he built 5150 Studios at his home — described in interview after interview as an explicit move to control recording. **The talented engineer, tired of being overridden during design reviews, exits the shared infrastructure and builds the thing on a side branch until it's a fait accompli.**
 
 The fait accompli has a name, and if you've read this far you already know it. "Jump" was a synth riff Eddie said was rejected for years — resisted by exactly the Roth–Templeman alliance that controlled the old pipeline.[^illwait] Recorded at 5150, on Eddie's turf, it became the only #1 single the band ever had.
 
-That's the song I cued up under the bridge. The track that scored the show beginning so perfectly wasn't just a good album opener — it was the decisive move in Van Halen's Shaper war, the artifact that proved the Plant could win outside the sanctioned process. I was soundtracking a fireworks show with a shipped side branch, and I didn't even know it.
+That's the song I cued up under the bridge. The track that scored the show beginning so perfectly wasn't just a good album opener — it was the decisive move in Van Halen's **Shaper** war, the artifact that proved the **Plant** could win outside the sanctioned process. I was soundtracking a fireworks show with a shipped side branch, and I didn't even know it.
 
 Winning the war didn't save the team; it ended it. Once the contest was decided, the conflict migrated from *task* to *relationship* — and the research here is unambiguous[^jehn]: task conflict can fuel a team, relationship conflict kills it. Within a year of the band's commercial peak, Roth was gone.
 
 One more Act I detail that pays off later. Bales says every group needs a social-emotional pole. Roth held its outward face — the charisma aimed at the audience. But the *inward* face, the one aimed at the band itself, was quietly held the whole time by Michael Anthony. File that away.
 
-*Summary: two Shapers, one seat; the referee sided with one claimant; the other built his own pipeline and shipped the winning artifact; victory converted task conflict into relationship conflict; the team fractured on schedule.*
+*Summary: two **Shapers**, one seat; the referee sided with one claimant; the other built his own pipeline and shipped the winning artifact; victory converted task conflict into relationship conflict; the team fractured on schedule.*
 
 ## Interlude: 5150
 
@@ -111,17 +111,17 @@ They named the album *5150*. The side branch had become main.
 
 > Only time will tell if we stand the test of time
 
-Sammy Hagar is often described as the easygoing alternative to Roth, which is hilarious to anyone who's read his memoir *Red* — Hagar is no shrinking violet. The Hagar era wasn't harmonious because Hagar was agreeable. It was harmonious because he arrived *after the structural contest was decided*. He joined Eddie's band, on Eddie's terms, recording in Eddie's studio. However accomplished, he entered as an occupant of the frontman role, not a claimant to the Shaper seat.
+Sammy Hagar is often described as the easygoing alternative to Roth, which is hilarious to anyone who's read his memoir *Red* — Hagar is no shrinking violet. The Hagar era wasn't harmonious because Hagar was agreeable. It was harmonious because he arrived *after the structural contest was decided*. He joined Eddie's band, on Eddie's terms, recording in Eddie's studio. However accomplished, he entered as an occupant of the frontman role, not a claimant to the **Shaper** seat.
 
 **Sequence, not temperament, is the variable.** There is a world of difference between two co-founders fighting over technical direction and a decorated senior hire who joins after the architecture is settled. Same talent, same strong personality, completely different structural position — completely different outcome.
 
 The outcome, for a decade, was remarkable: four consecutive #1 albums, more commercial success than the Roth era ever managed, and a legacy fans nonetheless rank below the original run.[^victory-riff] Whatever was lost with the friction — something was lost.
 
-But look closely, and the era's stability had a second load-bearing element: manager Ed Leffler, whom Hagar's memoir credits as the neutral figure holding the whole configuration together — the in-house Coordinator the band otherwise never had. Then the causal chain runs like a fuse. Leffler died in 1993. He was replaced by Ray Danniels — Alex's former brother-in-law and, in Hagar's telling, aligned with the brothers rather than neutral. The chairperson's seat, refilled by a partisan. Within three years, the first genuine task conflicts — songs for the *Twister* soundtrack, a greatest-hits album Hagar opposed — escalated with nothing left to buffer them, and Hagar was out. (Hagar tells the exit one way in *Red*; the brothers told it another.[^fired-or-quit] To be honest, we'll never know exactly what happened — and the fact that no two members could ever agree is itself evidence of what the group had become without a Coordinator.)
+But look closely, and the era's stability had a second load-bearing element: manager Ed Leffler, whom Hagar's memoir credits as the neutral figure holding the whole configuration together — the in-house **Coordinator** the band otherwise never had. Then the causal chain runs like a fuse. Leffler died in 1993. He was replaced by Ray Danniels — Alex's former brother-in-law and, in Hagar's telling, aligned with the brothers rather than neutral. The chairperson's seat, refilled by a partisan. Within three years, the first genuine task conflicts — songs for the *Twister* soundtrack, a greatest-hits album Hagar opposed — escalated with nothing left to buffer them, and Hagar was out. (Hagar tells the exit one way in *Red*; the brothers told it another.[^fired-or-quit] To be honest, we'll never know exactly what happened — and the fact that no two members could ever agree is itself evidence of what the group had become without a **Coordinator**.)
 
 Every engineering org has run this experiment too: the beloved neutral manager leaves, the replacement comes from one side of a standing rivalry, and conflicts that used to get resolved become crises.
 
-*Summary: a settled Shaper seat bought a decade of output; the stability was underwritten by a neutral Coordinator; the Coordinator died, the seat went partisan, and the first unbuffered task conflict ended the era.*
+*Summary: a settled **Shaper** seat bought a decade of output; the stability was underwritten by a neutral **Coordinator**; the **Coordinator** died, the seat went partisan, and the first unbuffered task conflict ended the era.*
 
 ## Act III: How Many Say I (1996–2020)
 
@@ -131,15 +131,15 @@ Every engineering org has run this experiment too: the beloved neutral manager l
 
 What happened next is what happens when a role structure loses its counterweights one by one.
 
-The 1996 MTV Video Music Awards reunion with Roth collapsed within weeks, in dueling public accounts. Eleven years apart, and the two-Shapers problem reignited in *days*. **Structural problems don't age out; they wait.**
+The 1996 MTV Video Music Awards reunion with Roth collapsed within weeks, in dueling public accounts. Eleven years apart, and the two-**Shapers** problem reignited in *days*. **Structural problems don't age out; they wait.**
 
 Gary Cherone — genuinely talented, hired from Extreme — lasted one album. He failed not for lack of ability but because **a role is a negotiated relationship with the specific people around it, not a seat you can staff from a resume.** By 1998 the frontman position had become so subordinate that it provided no counterweight at all. Every engineering leader has lived this hire: impressive on paper, dead on arrival structurally.
 
-And then there's *Van Halen III*, the band's worst-received album — where, delightfully, you don't need to psychoanalyze anyone, because the liner notes make the argument. Eddie played bass on most of the record (Anthony appears on only three tracks). Eddie sang lead on one song. Eddie took a heavy hand in production. One member occupying the Plant, Shaper, and Completer Finisher roles, now absorbing pieces of the Teamworker's and frontman's — with no Monitor Evaluator anywhere in the organization to kill any of it in review. I told you we'd hear what that vacancy sounds like. It sounds like *Van Halen III*.
+And then there's *Van Halen III*, the band's worst-received album — where, delightfully, you don't need to psychoanalyze anyone, because the liner notes make the argument. Eddie played bass on most of the record (Anthony appears on only three tracks). Eddie sang lead on one song. Eddie took a heavy hand in production. One member occupying the **Plant**, **Shaper**, and **Completer Finisher** roles, now absorbing pieces of the **Teamworker**'s and frontman's — with no **Monitor Evaluator** anywhere in the organization to kill any of it in review. I told you we'd hear what that vacancy sounds like. It sounds like *Van Halen III*.
 
 The Anthony story completes in parallel, and it's the cruelest data in the set. His songwriting and royalty position was cut back as early as the 1984 tour, at the band's commercial peak;[^wage-earner] he reportedly had to accept diminished terms just to participate in the 2004 reunion tour; in 2006 he was replaced outright, learning his status from the press.[^internet] The org chart had never been able to see what he did — Belbin could have predicted the contract terms. And then the punchline: on subsequent tours, recordings of his backing vocals were reportedly piped into the live shows.[^tape] Read that again. The organization removed the glue person, discovered the glue was load-bearing, and had to build tooling to fake his output. Glue work is real work, and firing your glue person is a fucking expensive way to learn that. And per Act I: when Anthony left, the band didn't just lose harmonies — it lost the inward-facing social pole it had quietly depended on since 1974.
 
-His replacement was Wolfgang, Eddie's son — the ultimate new guy, structurally incapable of contesting the Shaper seat, and by all accounts an excellent musician besides. The 2012–2015 reunion with Roth produced a real album and a tense armistice; the seat contest was never resolved, only rendered moot by Eddie's total structural victory. Eddie, in a 2015 Billboard interview, summarized the state of the twenty-year truce in eight words: "he does not want to be my friend."[^billboard] Eddie Van Halen died in October 2020, with the band's role structure — his studio, his son, his name on the marquee — arranged exactly as he'd built it.
+His replacement was Wolfgang, Eddie's son — the ultimate new guy, structurally incapable of contesting the **Shaper** seat, and by all accounts an excellent musician besides. The 2012–2015 reunion with Roth produced a real album and a tense armistice; the seat contest was never resolved, only rendered moot by Eddie's total structural victory. Eddie, in a 2015 Billboard interview, summarized the state of the twenty-year truce in eight words: "he does not want to be my friend."[^billboard] Eddie Van Halen died in October 2020, with the band's role structure — his studio, his son, his name on the marquee — arranged exactly as he'd built it.
 
 *Summary: the contested seat reignited on contact; the mis-hire proved a role is a relationship; the liner notes documented one member absorbing four roles with no critic in the building; the glue person was fired and then synthesized; succession completed the structure.*
 
@@ -149,9 +149,9 @@ Three claims, and I'll commit to them:
 
 **1. Every team has one Shaper seat, and the real fights are over who sits in it.** The conflicts we narrate as personality clashes are usually structural contests over whose will shapes the work — and they end when the seat question is settled, one way or another, not when anyone becomes nicer.
 
-**2. Teams fail from uncovered and duplicated roles, not talent deficits.** Van Halen at every moment had a surplus of talent. What it never had was a Monitor Evaluator; what it twice lost was its Coordinator; what it eventually fired was its Teamworker. Each vacancy has an audible signature in the discography.[^nobodys-perfect]
+**2. Teams fail from uncovered and duplicated roles, not talent deficits.** Van Halen at every moment had a surplus of talent. What it never had was a **Monitor Evaluator**; what it twice lost was its **Coordinator**; what it eventually fired was its **Teamworker**. Each vacancy has an audible signature in the discography.[^nobodys-perfect]
 
-**3. There are two scoreboards, and your org chart reads only one of them.** Fans — like users, like promotion committees — score what's legible from the front of the stage. Practitioners score the craft that's only visible from inside. The gap between the scoreboards is largest for exactly the Implementer and Teamworker roles, which is why the Alexes go unlisted and the Anthonys get their contracts reduced.
+**3. There are two scoreboards, and your org chart reads only one of them.** Fans — like users, like promotion committees — score what's legible from the front of the stage. Practitioners score the craft that's only visible from inside. The gap between the scoreboards is largest for exactly the **Implementer** and **Teamworker** roles, which is why the Alexes go unlisted and the Anthonys get their contracts reduced.
 
 Is this lens the whole truth? Maybe! Also, maybe not. The most influential modern research on team composition — Anita Woolley's collective-intelligence studies, Google's Project Aristotle — found that *who* is on a team matters less than how the team interacts: turn-taking, social sensitivity, psychological safety.[^aristotle] But notice that even that research is, in a sense, a finding about the same thing: the qualities that make teams work are precisely the ones no scoreboard was measuring.
 
@@ -212,7 +212,7 @@ The fog doesn't ruin the show. It just tells you which scoreboard you've been wa
 
 [^internet]: Michael Anthony, to [Rolling Stone in 2007](https://www.rollingstone.com/music/news/fired-van-halen-bassist-i-found-out-on-the-internet-20070904): "Probably like everybody else,
     I found out on the Internet and through word of mouth." Then: "I'm not a spiteful
-    person. At this point in my life, I don't need the drama." The Teamworker, to the
+    person. At this point in my life, I don't need the drama." The **Teamworker**, to the
     end.
 
 [^tape]: The accusation is Sammy Hagar's, about the 2007–08 reunion tour: "Those vocal

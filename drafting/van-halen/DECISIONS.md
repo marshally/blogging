@@ -158,3 +158,10 @@ kept as spare in research/alex-craft-details.md. All footnotes now carry canonic
 source links (see sources.md "Linking pass"). Alternate exhibits ranked in
 research/alex-craft-details.md — the "brown sound = Alex's snare" fact (Eddie,
 Billboard 2015) remains unused and is flagged there as a strong candidate.
+
+## D19. Belbin archetypes always bolded (2026-07-12)
+Post convention (Marshall's): every use of a Belbin archetype name (Plant, Shaper,
+Coordinator, Monitor Evaluator, Teamworker, Implementer, Completer Finisher,
+Resource Investigator, Specialist) is bolded, body and footnotes alike, including
+plurals ("two **Shapers**"). Bales' lowercase "task specialist"/"social-emotional
+specialist" are not Belbin roles and stay unbolded. Maintain on any new prose.
