@@ -165,7 +165,7 @@ The fog doesn't ruin the show. It just tells you which scoreboard you've been wa
 
 [^illwait]: Nor was it a one-song war: Roth and Templeman also wanted ["I'll Wait"](https://en.wikipedia.org/wiki/I%27ll_Wait) — the album's other synth track — off *1984* entirely. It went to #13.
 
-[^jehn]: Exactly, if you want it: "Relationship conflict exists when there are interpersonal incompatibilities among group members… Task conflict exists when there are disagreements among group members about the content of the tasks being performed" — Karen Jehn, [*Administrative Science Quarterly* 40 (1995), p. 258](https://www.jstor.org/stable/2393638). Van Halen ran the controlled experiment on both.
+[^jehn]: Exactly, if you want it: "Relationship conflict exists when there are interpersonal incompatibilities among group members… Task conflict exists when there are disagreements among group members about the content of the tasks being performed" — Karen Jehn, [*Administrative Science Quarterly* 40 (1995), p. 258](https://www.jstor.org/stable/2393638).
 
 [^folklore]: Confession: this quote is folklore. It appears in every retrospective and fan wiki, and nobody has ever pinned it to a dated interview. Eddie's documented words are milder — "I wanted more control. I was always butting heads with Ted Templeman about what makes a good record" ([Guitar World, 2014](https://www.vhnd.com/2014/01/02/eddie-van-halen-looks-back-on-van-halens-landmark-1984-album-and-the-creation-of-5150-studios/)) — but the folk version keeps winning because it's truer to the shape of the grievance. That's how apocrypha earn their keep.
 
