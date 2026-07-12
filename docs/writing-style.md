@@ -63,6 +63,7 @@ Name real referents, not generic stand-ins: "Hacker News," not "a tech gossip bo
 - No unattributed quotes, no stock inspirational quotes without a twist.
 - No gratuitous profanity or forced humor; if the joke doesn't sharpen the point, cut it.
 - Never let cleverness obscure the takeaway — every piece must leave the reader with a usable principle.
+- No typo tolerance. A typo is never voice: fix mechanical errors — spelling, broken markdown, hyphenation, inconsistent usage — on sight, no permission needed. (Wording, phrasing, and facts are a different matter: those are voice; don't touch without asking.)
 
 ## Two registers
 

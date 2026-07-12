@@ -19,8 +19,10 @@ harvesting and it's gone.
 
 The user-approved draft file under `drafting/<slug>/drafts/`: the one Marshall names,
 else the one the post's README/DECISIONS marks as "current draft", else the newest. If
-still ambiguous, ask — don't guess. The text in that file is final: publish it verbatim.
-Never copyedit it, even for apparent typos (ask instead).
+still ambiguous, ask — don't guess. The text in that file is final in substance:
+publish it verbatim, except mechanical errors. A typo is never voice — fix spelling,
+broken markdown, hyphenation, and internal inconsistencies on sight, listing the fixes
+in the final report. Never alter wording, phrasing, or facts.
 
 ### 2. Find the agent baseline
 
@@ -80,7 +82,7 @@ Marshall can veto misreadings.
 | Mistake | Reality |
 |---|---|
 | Publish by copying the file, harvest "later" | Later never comes. Harvest before or with the publish commit. |
-| "Fix" his typos or grammar while publishing | His text is final. A "typo" may be voice. Ask, don't touch. |
+| Leave typos in "to preserve voice" | A typo is never voice. Fix mechanical errors on sight; never touch wording or substance. |
 | Record a factual fix as a style rule | Content ≠ voice. Style doc gets style only. |
 | Append every observation as a new bullet | Duplicates rot the doc. Amend existing rules; use the watch list for maybes. |
 | Rewrite the style doc wholesale | Targeted edits only — the doc's structure and existing rules are themselves accumulated signal. |
