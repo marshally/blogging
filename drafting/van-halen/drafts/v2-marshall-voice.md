@@ -135,25 +135,25 @@ His replacement was Wolfgang, Eddie's son: the ultimate new guy, structurally in
 
 Three claims, and I'll commit to them:
 
-**1. Every team has one Shaper seat, and the real fights are over who sits in it.** The conflicts we narrate as personality clashes are usually structural contests over whose will shapes the work — and they end when the seat question is settled, one way or another. Niceness never settled one.
+**1. Every team has one Shaper seat, and the real fights are over who sits in it.** The conflicts we narrate as personality clashes are usually structural contests over whose will shapes the work, and they end when the seat question is settled, one way or another. Niceness never settled one.
 
 **2. Teams fail from uncovered and duplicated roles, not talent deficits.** Van Halen at every moment had a surplus of talent. What it never had was a **Monitor Evaluator**; what it twice lost was its **Coordinator**; what it eventually fired was its **Teamworker**. Each vacancy has an audible signature in the discography.[^nobodys-perfect]
 
-**3. There are two scoreboards, and your org chart reads only one of them.** Fans — like users, like promotion committees — score what's legible from the front of the stage. Practitioners score the craft that's only visible from inside. The gap between the scoreboards is largest for exactly the **Implementer** and **Teamworker** roles, which is why the Alexes go unlisted and the Anthonys get their contracts reduced.
+**3. There are two scoreboards, and your org chart reads only one of them.** Fans (like users, like promotion committees) score what's legible from the front of the stage. Practitioners score the craft that's only visible from inside. The gap between the scoreboards is largest for exactly the **Implementer** and **Teamworker** roles, which is why the Alexes go unlisted and the Anthonys get their contracts reduced.
 
-Is this lens the whole truth? Maybe! Also, maybe not. The most influential modern research on team composition — Anita Woolley's collective-intelligence studies, Google's Project Aristotle — found that *who* is on a team matters less than how the team interacts: turn-taking, social sensitivity, psychological safety.[^aristotle] But notice that even that research is, in a sense, a finding about the same thing: the qualities that make teams work are precisely the ones no scoreboard was measuring.
+Is this lens the whole truth? Maybe! Also, maybe not. The most influential modern research on team composition (Anita Woolley's collective-intelligence studies, Google's Project Aristotle) found that *who* is on a team matters less than how the team interacts: turn-taking, social sensitivity, psychological safety.[^aristotle] But notice that even that research is, in a sense, a finding about the same thing: the qualities that make teams work are precisely the ones no scoreboard was measuring.
 
 ## Coda: the fog
 
 I should tell you how the fireworks show ended.
 
-Karl had been there all day, of course — it's San Francisco in July. The fog actually dissipated a little for the show, which by Karl's standards counts as gracious hosting. From a mile back it didn't much matter: for the crowds on the beaches, the third-ever bridge shoot in city history must have been mostly a rumor — muffled thuds behind a curtain, the spectacle scoreboard reading approximately zero.
+Karl had been there all day, of course; it's San Francisco in July. The fog actually dissipated a little for the show, which by Karl's standards counts as gracious hosting. From a mile back it didn't much matter: for the crowds on the beaches, the third-ever bridge shoot in city history must have been mostly a rumor: muffled thuds behind a curtain, the spectacle scoreboard reading approximately zero.
 
 But we were at Fort Point, directly underneath, close enough that the low-level effects off the deck still lit the fog from inside, close enough to hear each shell leave the mortar and read the crew's choices in the timing. I've stood on the other side of shows like this. I knew what I was looking at, and it was beautiful in all the ways that are only legible up close.
 
 Which is the whole thing, really. The best work is often visible only to the people standing near enough to read it. That's true of drummers, of harmony singers, of the engineer who kept your on-call quiet for three years.
 
-The fog doesn't ruin the show. It just tells you which scoreboard you've been watching — and whether anyone in your organization is standing close enough to see who's really holding the seat. If nobody is, dear reader — you know the song.
+The fog doesn't ruin the show. It just tells you which scoreboard you've been watching, and whether anyone in your organization is standing close enough to see who's really holding the seat. If nobody is, dear reader — you know the song.
 
 [^furnham]: The caveat, for the record: Belbin's psychometric questionnaire has real academic critics — Furnham and colleagues took a torch to its statistics in the 90s. I'm using the model as a lens, not a diagnostic instrument.
 
