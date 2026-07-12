@@ -60,6 +60,8 @@
 - Noel Monk royalty account via Ultimate Classic Rock book-excerpt coverage of
   *Runnin' with the Devil* ("basically a wage earner", dated to the 1984 tour)
 - Chuck Klosterman, "Eddie Van Halen on Surviving Addiction…", Billboard, 2015-06-19
+- Billboard companion piece, 2015-06-19: Eddie on the "brown sound" being about Alex's
+  snare, not his guitar ("beating on a log") — used in [^brown-sound] footnote
 - Julia Rozovsky, "The five keys to a successful Google team", re:Work, 2015-11-17
   (original post via Wayback Machine)
 - Antony Jay, "Nobody's Perfect — But a Team Can Be", Observer Magazine, 1980
