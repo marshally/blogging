@@ -8,8 +8,8 @@ with the album *1984* — "Jump" landing on the first salvo.
 
 ## Status
 
-- **Current draft:** `drafts/v2-marshall-voice.md` (~3,355 body words + footnotes;
-  act-title epigraphs and "Interlude: 5150" added 2026-07-11)
+- **Current draft:** `drafts/v2-marshall-voice.md` (~3,330 body words + 14 footnotes;
+  act-title epigraphs and "Interlude: 5150" added 2026-07-11, footnote pass 2026-07-12)
 - **Target length:** ~3,500 words; footnotes are budget-free (see DECISIONS D12)
 - **Open items:** see "Open questions" below
 

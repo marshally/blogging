@@ -49,12 +49,33 @@
 - https://www.iheart.com/content/2022-02-17-watch-michael-anthony-sing-lead-vocals-on-two-roth-era-van-halen-hits/
 - https://faroutmagazine.co.uk/michael-anthony-the-real-secret-weapon-of-van-halen/
 
+## Sources added in the footnote pass (retrieved 2026-07-11/12)
+- Ted Templeman, Rolling Stone, 2020-10-09 ("The keyboards just hit me as wrong…
+  I was wrong because it was Number One, but I don't even listen to it")
+- Michael Anthony, Rolling Stone, 2007-09-04 ("I found out on the Internet")
+- Sammy Hagar, Attention Deficit Delirium interview, Oct 2011 (via Blabbermouth/UCR) —
+  "Mike on tape" accusation re: 2007–08 tour
+- Michael Anthony, Jeremy White Podcast, Mar 2021 (via Ultimate Guitar) — Roth solo
+  shows playing his recorded harmonies; "hit him up for a little compensation"
+- Noel Monk royalty account via Ultimate Classic Rock book-excerpt coverage of
+  *Runnin' with the Devil* ("basically a wage earner", dated to the 1984 tour)
+- Chuck Klosterman, "Eddie Van Halen on Surviving Addiction…", Billboard, 2015-06-19
+- Julia Rozovsky, "The five keys to a successful Google team", re:Work, 2015-11-17
+  (original post via Wayback Machine)
+- Antony Jay, "Nobody's Perfect — But a Team Can Be", Observer Magazine, 1980
+  (source of the tagline universally misattributed to Belbin)
+- Wikipedia, "Top of the World (Van Halen song)" — main riff carried over from the
+  closing riff of "Jump"
+
 ## Verification TODO before publish
 - [ ] Confirm 2004 tour reduced-terms reporting (find the specific interview/article)
-- [ ] Confirm "learned from the press" sourcing for Anthony's 2006 replacement
-- [ ] Confirm piped-in vocals claim beyond Know Your Bass Player (keep "reportedly" if single-source)
-- [ ] Pull exact Billboard 2015 article for link
-- [ ] Locate a reprint of the Roth 1996 open letter for link
+- [x] "Learned from the press": Anthony, Rolling Stone, 2007-09-04. Footnoted.
+- [x] Piped-in vocals: the accusation is Hagar's (Oct 2011, via Blabbermouth/UCR);
+  footnoted with attribution. No Wolfgang statement exists either way.
+- [x] Billboard 2015: Klosterman, 2015-06-19. Footnoted.
+- [x] Roth 1996 open letter: full text via Wayback capture of
+  mflwp.tripod.com/letter.htm, dated 1996-10-02 ("I would like to go on record with
+  the following: Eddie did it.")
 - [ ] Check act epigraphs against recordings: "Runnin' with the Devil" opening-verse
   wording (medium-high confidence only) and "How Many Say I" third line adjacency
   ("Don't always believe all you need is love" — words verified, placement not)

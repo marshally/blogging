@@ -98,3 +98,14 @@ flag on the Eddie "I hated that song" quote moved from body prose to footnote
 [^folklore], reclaiming ~75 body words. Footnotes are the designated home for
 provenance caveats, citations, and zero-cost texture; GFM footnote syntax, named
 labels (not numbers), definitions at end of file.
+
+## D13. Full footnote pass (2026-07-12)
+Fourteen footnotes applied: receipts for the riskiest Act III claims (Anthony
+"found out on the Internet" RS 2007; piped-vocals attributed to Hagar 2011; Monk
+"wage earner"), dueling Hagar/Eddie exit quotes (+ *A Different Kind of Truth*
+kicker), Klosterman Billboard 2015 + "dance music" quote, Furnham and Jehn caveats
+moved out of body, Rozovsky/Woolley receipts, Templeman "I don't even listen to it,"
+"I'll Wait" second synth front, "Top of the World" built on the "Jump" outro riff,
+and the Antony Jay "Nobody's perfect" misattribution flag. Body corrections: Anthony
+royalty squeeze re-dated late-90s → 1984 tour (per Monk); "nine words" → "eight
+words" (the Billboard quote is eight). Marshall will hand-edit and prune.
