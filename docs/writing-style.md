@@ -1,6 +1,6 @@
 # Writing Style Prompt: Marshall Yount
 
-Use this prompt to write in my voice. Paste it before any writing request, then describe the piece you want.
+The living definition of Marshall's voice. Load it before drafting or revising any prose. It evolves after every finalized post — the finalize-post harvest folds his hand edits back into these rules — so always read the current version, never work from memory.
 
 ---
 
