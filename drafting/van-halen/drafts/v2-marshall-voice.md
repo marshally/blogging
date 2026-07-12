@@ -88,8 +88,9 @@ the band's covers-heavy *Diver Down* album needed, and the riff was spent on a r
 of "Dancing in the Street." The architect's favorite abstraction, requisitioned for
 somebody else's feature.
 
-There's a quote about this episode that shows up in every telling: "I hated that song.
-I never wanted to do it. That was the reason I decided to build my own studio."[^folklore]
+There's a quote about this episode that shows up in every telling: "I fucking hated
+that song. I never wanted to do it. That was the reason I decided to build my own
+studio."[^folklore]
 
 The name is the best part. Eddie and engineer Donn Landee christened the studio 5150,
 after the California police code for an involuntary psychiatric hold — Landee had
@@ -187,9 +188,7 @@ The fog doesn't ruin the show. It just tells you which scoreboard you've been wa
     words are milder — "I wanted more control. I was always butting heads with Ted
     Templeman about what makes a good record" (Guitar World, 2014) — but the folk
     version keeps winning because it's truer to the shape of the grievance. That's how
-    apocrypha earn their keep. Also: the circulating version carries an intensifier
-    before "hated." I'm saving this piece's profanity budget for a lesson later that
-    earns it — restore Eddie's mentally.
+    apocrypha earn their keep.
 
 [^victory-riff]: A detail for the completists: "Top of the World," the Hagar era's
     triumphal closer, is built on the closing guitar figure of "Jump." The peaceful

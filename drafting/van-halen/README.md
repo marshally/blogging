@@ -37,8 +37,10 @@ The house-voice prompt lives at the repo root: `/docs/writing-style.md`.
    title); house style wants it circling the new one — consider a "jump" beat in the coda.
 2. **Subtitle.** Trimmed to kill redundancy with the new title: "Might as well jump:
    forty years of lineup drama, read as an engineering postmortem." Earning its place?
-3. **Profanity placement.** Currently at the Anthony firing ("fucking expensive way to
-   learn that"). Alternative: conclusion, "alignment"-style honesty moment. One use max.
+3. **Profanity placement.** Rule corrected 2026-07-12: impact-based, no count; quoted
+   speech exempt and never bowdlerized. Authorial use currently at the Anthony firing
+   ("fucking expensive way to learn that"); Eddie's folklore quote now runs verbatim
+   in the Interlude.
 4. **Final line.** v2 extends the kicker ("...standing close enough to see who's really
    holding the seat"); v1 ends cleaner two sentences earlier. Pick one.
 5. **Metaphor-count confession.** The piece runs three frames (fireworks/band/software),

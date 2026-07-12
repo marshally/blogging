@@ -119,3 +119,13 @@ line in section one). Two knock-ons: (1) the kicker still circles "the seat" —
 style wants it circling the title; candidate hand-edit is a closing "jump" beat.
 (2) D11's worry about "Jump" spoiling the Act I reveal is mooted from above — the
 title now primes the payoff instead of the header telegraphing it.
+
+## D15. Profanity rule corrected (2026-07-12)
+Marshall: the "at most once per piece" cap was an over-inference by the original
+style analysis, not his rule. Actual rule: authorial profanity sparing and only for
+great effect — an impact test, no quantitative limit; quoted speech fully exempt and
+never bowdlerized. Style doc updated in its own commit (d9084a2). Draft updated to
+match: Eddie's folklore quote restored to "I fucking hated that song"; the
+"profanity budget" joke removed from the folklore footnote. The Anthony-firing line
+stays on impact, not on quota. References to a "single strategic profanity" (D9) and
+"profanity budget" (D11, D12) are historical.
