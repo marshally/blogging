@@ -34,7 +34,8 @@ problem (infra engineer legible only to infra engineers) and the Anthony problem
   https://en.wikipedia.org/wiki/Alex_Van_Halen
 - Drummer-press cataloguing: Modern Drummer feature (Wurster, June 2012, "Of Sound and
   Vision"); DRUM! Magazine tributes. https://drummagazine.com/van-halen-drummer/
-- Craft-detail exhibit (USED IN POST): the swinging double-kick + ride-bell work at the
+- Craft-detail exhibit (REPLACED in post 2026-07-12 by the "Hot for Teacher" intro +
+  Drumeo documentary link; kept as spare): the swinging double-kick + ride-bell work at the
   end of "Girl Gone Bad" — cited in drummer-forum discussion as something you must
   "listen real hard" to catch; same threads note his absence from 100-best lists and
   attribute it to Eddie's shadow + frontman drama.

@@ -38,11 +38,16 @@ exhibit: "Girl Gone Bad" ride-bell/double-kick ending). Ranked by fit for the
 
 ## Fame-forward options (establish canon status, low invisibility)
 
-6. **"Hot for Teacher" intro.** Not just double bass: rudiments (hertas, paradiddles)
-   on Simmons pads before the double-kick shuffle. Gregg Bissonette's Drum Channel
-   breakdown identifies the rudiments, the Krupa/Cobham influences, and an audible
-   stick click proving it's a live human take. Drumeo lesson exists. DO NOT repeat
-   the "four bass drums" legend — unsubstantiated.
+6. **"Hot for Teacher" intro.** CHOSEN — now the exhibit in the Implementer entry
+   (2026-07-12). Not just double bass: rudiments (hertas, paradiddles) on Simmons pads
+   before the double-kick shuffle. Gregg Bissonette's Drum Channel breakdown identifies
+   the rudiments, the Krupa/Cobham influences, and an audible stick click proving it's
+   a live human take. DO NOT repeat the "four bass drums" legend — unsubstantiated.
+   **The video Marshall used in his research (linked in the post):** "Alex Van Halen
+   Fooled Everyone With This Drum Intro," Drumeo, 2026-06-05, 25:57, hosted by Brandon
+   Toews — documentary with numerous drummers interviewed on camera, incl. Wolfgang
+   Van Halen and Bissonette. https://www.youtube.com/watch?v=Rcmcf4kdMn4
+   (VHND write-up: https://www.vhnd.com/2026/06/19/alex-van-halen-hot-for-teacher-drum-intro/)
 7. **"I'm the One" — the locked-in double-kick shuffle with swing phrasing.**
    Wolfgang, Modern Drummer/Consequence 2025: "I don't think anybody on the planet
    has a more locked-in double-kick shuffle than Al did. Like on 'I'm the One,'

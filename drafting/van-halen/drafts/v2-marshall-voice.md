@@ -44,7 +44,7 @@ Belbin gives us the characters. Bales gives us the plot. Van Halen gives us the 
 
 **The Resource Investigator — David Lee Roth.** Outward-facing, magnetic, the band's interface to the world: showmanship, brand, deal energy. Belbin notes this role brings in opportunity and enthusiasm — and loses interest once the initial excitement fades. You know this person too: the founder-flavored PM or devrel star who returns from the conference with three partnerships and no follow-through plan. Scoreboards: adored by fans; his actual vocal chops perennially discounted by musicians.
 
-**The Implementer — Alex Van Halen.** Turns plans into reliable execution; disciplined; allergic to drama. Alex is the only member besides Eddie present in every lineup, across forty-plus years, without generating a single public conflict of his own. Among drummers he's canon — the craft lives in details like the swinging double-kick and ride-bell work buried at the end of "Girl Gone Bad," the kind of thing you have to lean in to hear. Among casual fans he barely registers on best-drummer lists. This is your SRE, your staff engineer whose pull requests are boring and essential. Scoreboards: low fan, high peer — the cleanest split in the band.
+**The Implementer — Alex Van Halen.** Turns plans into reliable execution; disciplined; allergic to drama. Alex is the only member besides Eddie present in every lineup, across forty-plus years, without generating a single public conflict of his own. Among drummers he's canon — they have spent four decades arguing about how he played the swung double-kick intro to "Hot for Teacher," and there's [a 26-minute documentary](https://www.youtube.com/watch?v=Rcmcf4kdMn4) of working drummers being interviewed about that one intro. Among casual fans he barely registers on best-drummer lists. This is your SRE, your staff engineer whose pull requests are boring and essential. Scoreboards: low fan, high peer — the cleanest split in the band.
 
 **The Teamworker — Michael Anthony.** Belbin's glue role: averts friction, supports others, morale infrastructure — and chronically under-recognized, because the contribution never shows up as attributable output. Anthony is respected by musicians not for bass virtuosity (his playing is praised as rock-solid, full stop) but for the high, bright backing harmonies so essential to the band's sound that writer after writer independently reached for the same epithet: *the secret weapon.* This is the glue person from Tanya Reilly's famous talk[^glue] — the engineer doing the reviews, the onboarding, the invisible cohesion work. Remember him. This story ends badly.
 
@@ -101,7 +101,7 @@ studio."[^folklore]
 The name is the best part. Eddie and engineer Donn Landee christened the studio 5150,
 after the California police code for an involuntary psychiatric hold — Landee had
 picked the number up off a scanner. Eddie named his declaration of independence after
-the code for being committed against your will. Some jokes complete themselves.
+the code for being committed against your will. Some jokes write themselves.
 
 And if you want to know how completely the fortress won: two years after *1984*, when
 the band needed a title for its first post-Roth album, they didn't reach for a lyric.
@@ -111,7 +111,7 @@ They named the album *5150*. The side branch had become main.
 
 > Only time will tell if we stand the test of time
 
-Sammy Hagar is often described as the easygoing alternative to Roth, which is hilarious to anyone who's read his memoir *Red* — Hagar is nobody's shrinking violet. The Hagar era wasn't harmonious because Hagar was agreeable. It was harmonious because he arrived *after the structural contest was decided*. He joined Eddie's band, on Eddie's terms, recording in Eddie's studio. However accomplished, he entered as an occupant of the frontman role, not a claimant to the Shaper seat.
+Sammy Hagar is often described as the easygoing alternative to Roth, which is hilarious to anyone who's read his memoir *Red* — Hagar is no shrinking violet. The Hagar era wasn't harmonious because Hagar was agreeable. It was harmonious because he arrived *after the structural contest was decided*. He joined Eddie's band, on Eddie's terms, recording in Eddie's studio. However accomplished, he entered as an occupant of the frontman role, not a claimant to the Shaper seat.
 
 **Sequence, not temperament, is the variable.** There is a world of difference between two co-founders fighting over technical direction and a decorated senior hire who joins after the architecture is settled. Same talent, same strong personality, completely different structural position — completely different outcome.
 
@@ -119,7 +119,7 @@ The outcome, for a decade, was remarkable: four consecutive #1 albums, more comm
 
 But look closely, and the era's stability had a second load-bearing element: manager Ed Leffler, whom Hagar's memoir credits as the neutral figure holding the whole configuration together — the in-house Coordinator the band otherwise never had. Then the causal chain runs like a fuse. Leffler died in 1993. He was replaced by Ray Danniels — Alex's former brother-in-law and, in Hagar's telling, aligned with the brothers rather than neutral. The chairperson's seat, refilled by a partisan. Within three years, the first genuine task conflicts — songs for the *Twister* soundtrack, a greatest-hits album Hagar opposed — escalated with nothing left to buffer them, and Hagar was out. (Hagar tells the exit one way in *Red*; the brothers told it another.[^fired-or-quit] To be honest, we'll never know exactly what happened — and the fact that no two members could ever agree is itself evidence of what the group had become without a Coordinator.)
 
-Every engineering org has run this experiment too: the beloved neutral manager leaves, the replacement comes from one side of a standing rivalry, and conflicts that used to be routine suddenly aren't.
+Every engineering org has run this experiment too: the beloved neutral manager leaves, the replacement comes from one side of a standing rivalry, and conflicts that used to get resolved become crises.
 
 *Summary: a settled Shaper seat bought a decade of output; the stability was underwritten by a neutral Coordinator; the Coordinator died, the seat went partisan, and the first unbuffered task conflict ended the era.*
 
