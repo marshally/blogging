@@ -58,7 +58,7 @@ First, look at the *empty* seats. The band never had a **Monitor Evaluator** —
 
 Second: I still haven't assigned one role.
 
-**Shaper** /ˈʃeɪpər/ *noun* — Belbin's driver role; the will that pushes the team through obstacles; the seat that decides *whose vision shapes the work*. See also: the reason your last reorg happened.
+**Shaper** — Belbin's driver role; the will that pushes the team through obstacles; the seat that decides *whose vision shapes the work*. See also: the reason your last reorg happened.
 
 Belbin flagged two **Shapers** on one team as one of his known combustible configurations. There's a reason that seat is still open. It's where all the trouble starts.
 
