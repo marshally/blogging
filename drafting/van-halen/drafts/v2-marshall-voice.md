@@ -71,7 +71,7 @@ The standard telling of classic-era Van Halen is "clashing egos." The framework 
 
 For the first decade, the contest had a referee. Producer Ted Templeman functioned as the band's external **Coordinator** and **Monitor Evaluator** — and, as his own 2020 memoir and Greg Renoff's *Van Halen Rising* document, he tended to side with Roth on creative direction: short songs, guitar-forward, no synthesizers.[^templeman] Every software team knows this configuration: the architect whose alignment silently determines which internal faction wins design reviews.
 
-Eddie kept losing the reviews. So he did what blocked **Plants** do. In 1983, he built 5150 Studios at his home — described in interview after interview as an explicit move to control recording. **The talented engineer, tired of being overridden during design reviews, exits the shared infrastructure and builds the thing on a side branch until it's a fait accompli.**
+Eddie kept getting overridden. So he did what blocked **Plants** do. In 1983, he built 5150 Studios at his home — described in interview after interview as an explicit move to control recording. **The talented engineer exits the shared infrastructure and builds the thing on a side branch until it's a fait accompli.**
 
 The fait accompli has a name, and if you've read this far you already know it. "Jump" was a synth riff Eddie said was rejected for years — resisted by exactly the Roth–Templeman alliance that controlled the old pipeline.[^illwait] Recorded at 5150, on Eddie's turf, it became the only #1 single the band ever had.
 
