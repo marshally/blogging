@@ -109,3 +109,13 @@ moved out of body, Rozovsky/Woolley receipts, Templeman "I don't even listen to 
 and the Antony Jay "Nobody's perfect" misattribution flag. Body corrections: Anthony
 royalty squeeze re-dated late-90s → 1984 tour (per Monk); "nine words" → "eight
 words" (the Billboard quote is eight). Marshall will hand-edit and prune.
+
+## D14. Title settled (2026-07-12)
+"Jump: What Van Halen can teach us about Team Dynamics" (Marshall's wording, verbatim).
+Replaces placeholder "Two Shapers, One Seat." Subtitle trimmed to avoid doubling
+"jump"/"teaches us about teams": "Might as well jump: forty years of lineup drama,
+read as an engineering postmortem" (echoes the "reads like an engineering postmortem"
+line in section one). Two knock-ons: (1) the kicker still circles "the seat" — house
+style wants it circling the title; candidate hand-edit is a closing "jump" beat.
+(2) D11's worry about "Jump" spoiling the Act I reveal is mooted from above — the
+title now primes the payoff instead of the header telegraphing it.

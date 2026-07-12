@@ -1,4 +1,4 @@
-# Two Shapers, One Seat
+# Jump: What Van Halen can teach us about Team Dynamics
 
 Blog post project: mapping Van Halen's lineup history onto software team dynamics,
 using Belbin's team roles (the cast) and Bales' task/social-emotional split (the plot).
@@ -32,8 +32,11 @@ The house-voice prompt lives at the repo root: `/docs/writing-style.md`.
 
 ## Open questions (as of 2026-07-11)
 
-1. **Title.** "Two Shapers, One Seat" is placeholder-quality. Kicker must circle back to it.
-2. **Subtitle.** Is "Might as well jump" earning its place or too cute?
+1. **Title.** ~~Placeholder~~ Settled 2026-07-12: "Jump: What Van Halen can teach us
+   about Team Dynamics." Open follow-up: the kicker still circles "the seat" (the old
+   title); house style wants it circling the new one — consider a "jump" beat in the coda.
+2. **Subtitle.** Trimmed to kill redundancy with the new title: "Might as well jump:
+   forty years of lineup drama, read as an engineering postmortem." Earning its place?
 3. **Profanity placement.** Currently at the Anthony firing ("fucking expensive way to
    learn that"). Alternative: conclusion, "alignment"-style honesty moment. One use max.
 4. **Final line.** v2 extends the kicker ("...standing close enough to see who's really

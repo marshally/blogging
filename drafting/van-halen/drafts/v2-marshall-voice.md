@@ -1,6 +1,6 @@
-# Two Shapers, One Seat
+# Jump: What Van Halen can teach us about Team Dynamics
 
-*Might as well jump: what forty years of Van Halen lineup drama teaches us about software teams*
+*Might as well jump: forty years of lineup drama, read as an engineering postmortem*
 
 ---
 
