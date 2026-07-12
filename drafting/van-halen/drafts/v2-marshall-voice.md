@@ -1,16 +1,20 @@
-# Jump: What Van Halen can teach us about Team Dynamics
+# Might as well jump
 
-*Might as well jump: forty years of lineup drama, read as an engineering postmortem*
+* What forty years of Van Halen drama teaches us about team dynamics*
+
+[insert masthead photo of fireworks]
 
 ---
 
 Three minutes to showtime, and I was fumbling with a Bluetooth speaker at the base of the Golden Gate Bridge.
 
-This past Fourth of July, San Francisco shot fireworks off the bridge itself — only the third time in the city's history that's happened. In a previous life I designed fireworks shows semi-professionally: pyrotechnics lead for Burning Man regionals, crew work on city-scale shoots. So there was no version of this where I watched from a beach a mile away. We hiked out to Fort Point to stand directly under the deck, close enough to feel the shells in our chests.
+This past Fourth of July (2026), San Francisco shot fireworks off the Golden Gate Bridge — only the third time in the city's history that's happened. In a previous life I designed fireworks shows semi-professionally, so I like to find the best viewing location and that usually means getting as close as possible to the action. Karl the Fog has a well deserved repuation as a 4th of July party crasher, so there was no version of this where I watched from a beach a mile away. We hiked out to Fort Point to stand directly under the deck, close enough to feel the shells in our chests.
+
+[insert map picture here]
 
 Which is how I found myself, at T-minus-three, wanting a soundtrack. No official audio reaches Fort Point, and a show that size deserves scoring. Scrolling my library, I remembered something: the album *1984* opens with a one-minute instrumental — that slow, swelling synth intro — before "Jump" detonates. If I timed it right, the swell would carry us through the countdown and the first salvo would land exactly on the first chord.
 
-Dear reader, I timed it right. The opening shells came off the bridge deck as the synth resolved, "Jump" kicked in, and for the next several minutes an album recorded in 1983 scored a fireworks show like it had been commissioned for it. The crowd around us started singing.
+Dear reader, I timed it right. The opening shells came off the bridge deck as the synth resolved, "Jump" kicked in, and for the next twenty minutes an album recorded in 1983 scored a fireworks show like it had been commissioned for it.
 
 I went home happy, fell down a Van Halen research hole, and came out the other side thinking about software teams.
 
@@ -18,7 +22,7 @@ Yes, this post is going to run a rock band, a fireworks show, and your engineeri
 
 ## What does a hair-metal band know about your org chart?
 
-Here's what struck me reading forty years of Van Halen history: every story reads like an engineering postmortem. Creative-control disputes. A brilliant founder consolidating power. A beloved manager dying and being replaced by a partisan. A high-profile mis-hire. A quiet contributor pushed out, and the product audibly degrading afterward. Change the nouns and it's any tech gossip board on a Tuesday.
+Here's what struck me reading forty years of Van Halen history: every story reads like an engineering postmortem. Creative-control disputes. A brilliant founder consolidating power. A beloved manager dying and being replaced by a partisan. A high-profile mis-hire. A quiet contributor pushed out, and the product audibly degrading afterward. Change the actors and the set and we could be gossiping about any software startup.
 
 But Van Halen offers something better than analogy: a natural experiment. The instrumental core of the band — Eddie and Alex Van Halen — stayed constant across every era, while the frontman role was recast three times. **Same codebase, three CEOs.** That's a rare controlled study in what happens to a team when you swap exactly one role and hold everything else fixed.
 
@@ -28,7 +32,7 @@ To read the experiment, I'm borrowing two frameworks from small-group research �
 
 **The plot** comes from Robert Bales, who spent the 1950s at Harvard coding thousands of hours of group interactions and produced one of the most replicated findings in the field: groups reliably split into a **task specialist** (who drives the work) and a **social-emotional specialist** (who holds the group together). These are almost never the same person, and **the group's fate hangs on whether the two cooperate.**
 
-**The cast** comes from Meredith Belbin, who studied management teams at Henley in the 70s and 80s and identified nine recurring team roles. His data kept supporting one unfashionable claim: **teams fail from uncovered roles and duplicated roles, not from talent deficits.** His famous "Apollo syndrome" finding showed that teams built entirely from the smartest individuals routinely lost to balanced ones. (May the ghost of Belbin forgive what I'm about to do to his taxonomy.)[^furnham]
+**The cast** comes from Meredith Belbin, who studied management teams at Henley in the 70s and 80s and identified nine recurring team roles. His data kept supporting one unfashionable claim: **teams fail from uncovered roles and duplicated roles, not from talent deficits.** His famous "Apollo syndrome" finding showed that teams built entirely from the smartest individuals routinely lost to balanced ones.[^furnham]
 
 Belbin gives us the characters. Bales gives us the plot. Van Halen gives us the data.
 
