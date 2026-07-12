@@ -129,3 +129,16 @@ match: Eddie's folklore quote restored to "I fucking hated that song"; the
 "profanity budget" joke removed from the folklore footnote. The Anthony-firing line
 stays on impact, not on quota. References to a "single strategic profanity" (D9) and
 "profanity budget" (D11, D12) are historical.
+
+## D16. Style harvest from Marshall's hand edits (2026-07-12)
+Marshall hand-edited the front third; Q&A produced eight style-guide rules, each in
+an isolated commit: (1) short evocative title + explainer subtitle (frequent, not
+required); (2) no résumé-flexing; (3) personal anecdotes reported, never embellished
+(the crowd-singing line was invented — cut); (4) concrete numbers in narrative too;
+(5) name real referents ("Hacker News", not "a tech gossip board"); (6) mock-guilt
+disclaimers are one-off coinages — never reuse "may the ghost of X forgive me";
+(7) plant the coda's image early, pay it off by name (Karl); (8) a typo is never
+voice — fix mechanical errors on sight (finalize-post skill updated to match).
+Draft changes: Hacker News line, coda rewritten to true fog timeline (present all
+day, dissipated slightly for the show), typo fixes. Also his: "hair-metal" →
+"heavy metal" in the section header.
