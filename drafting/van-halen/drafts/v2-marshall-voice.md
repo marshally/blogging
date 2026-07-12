@@ -93,7 +93,7 @@ There's a quote about this episode that shows up in every telling: "I fucking ha
 
 The name is the best part. Eddie and engineer Donn Landee christened the studio 5150, after the California police code for an involuntary psychiatric hold — Landee had picked the number up off a scanner. Eddie named his declaration of independence after the code for being committed against your will. Some jokes write themselves.
 
-And if you want to know how completely the fortress won: two years after *1984*, when the band needed a title for its first post-Roth album, they didn't reach for a lyric. They named the album *5150*. The side branch had become main.
+And if you want to know how completely the fortress won: two years after *1984*, the band gave its first post-Roth album the studio's name: *5150*. The side branch had become main.
 
 ## Act II: Why Can't This Be Love? (1985–1996)
 
