@@ -8,11 +8,11 @@
 
 Three minutes to showtime, and I was fumbling with a Bluetooth speaker at the base of the Golden Gate Bridge.
 
-This past Fourth of July (2026), San Francisco shot fireworks off the bridge itself — only the third time in the city's history that's happened. In a previous life I designed fireworks shows semi-professionally, so I like to find the best viewing location and that usually means getting as close as possible to the action. Karl the Fog has a well-deserved reputation as a Fourth of July party crasher, so there was no version of this where I watched from a beach a mile away. We hiked out to Fort Point to stand directly under the deck, close enough to feel the shells in our chests.
+This past Fourth of July (2026), San Francisco shot fireworks off the bridge itself, only the third time in the city's history that's happened. In a previous life I designed fireworks shows semi-professionally, so I like to find the best viewing location and that usually means getting as close as possible to the action. Karl the Fog has a well-deserved reputation as a Fourth of July party crasher, so there was no version of this where I watched from a beach a mile away. We hiked out to Fort Point to stand directly under the deck, close enough to feel the shells in our chests.
 
 [insert map picture here]
 
-Which is how I found myself, at T-minus-three, wanting a soundtrack. No official audio reaches Fort Point, and a show that size deserves scoring. Scrolling my library, I remembered something: the album *1984* opens with a one-minute instrumental — that slow, swelling synth intro — before "Jump" detonates. If I timed it right, the swell would carry us through the countdown and the first salvo would land exactly on the first chord.
+Which is how I found myself, at T-minus-three, wanting a soundtrack. No official audio reaches Fort Point, and a show that size deserves scoring. Scrolling my library, I remembered something: the album *1984* opens with a one-minute instrumental (that slow, swelling synth intro) before "Jump" detonates. If I timed it right, the swell would carry us through the countdown and the first salvo would land exactly on the first chord.
 
 Dear reader, I timed it right. The opening shells came off the bridge deck as the synth resolved, "Jump" kicked in, and for the next twenty minutes an album recorded in 1983 scored a fireworks show like it had been commissioned for it.
 
