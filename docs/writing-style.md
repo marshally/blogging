@@ -66,7 +66,7 @@ Name real referents, not generic stand-ins: "Hacker News," not "a tech gossip bo
 - No gratuitous profanity or forced humor; if the joke doesn't sharpen the point, cut it.
 - Never let cleverness obscure the takeaway — every piece must leave the reader with a usable principle.
 - No typo tolerance. A typo is never voice: fix mechanical errors — spelling, broken markdown, hyphenation, inconsistent usage — on sight, no permission needed. (Wording, phrasing, and facts are a different matter: those are voice; don't touch without asking.)
-- Death never appears in lessons projected onto software teams — engineers don't commonly die at work, and when it happens it's tragic, not a pattern. In the lesson register people leave, get replaced, attrit, or are "lost" — "lost" is the ideal bridge word, since we use the same language for death and attrition: it whispers the source material while the software application stays nerfed. Historical narrative states deaths plainly as fact ("Leffler died in 1993"); the boundary is the projection, not the page.
+- Be cautious weaving heavy real-life topics (death, illness, addiction, and their kin) into lessons projected onto software teams. In the source material they're facts, stated plainly ("Leffler died in 1993"); in the lesson register they'd read as workplace patterns, which they aren't — those events are rare and tragic at work, not lessons. Translate them into what actually happens on teams: people leave, get replaced, attrit, are "lost" ("lost" bridges well — shared vocabulary for death and attrition whispers the source while the software application stays nerfed). The boundary is the projection, not the page.
 
 ## Two registers
 
