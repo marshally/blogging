@@ -24,11 +24,11 @@ Yes, this post is going to run a rock band, a fireworks show, and your engineeri
 
 Here's what struck me reading forty years of Van Halen history: every story reads like an engineering postmortem. Creative-control disputes. A brilliant founder consolidating power. A beloved manager replaced by a partisan. A high-profile mis-hire. A quiet contributor pushed out, and the product audibly degrading afterward. Change the actors and the set and it's any Hacker News thread on a Tuesday.
 
-But Van Halen offers something better than analogy: a natural experiment. The instrumental core of the band — Eddie and Alex Van Halen — stayed constant across every era, while the frontman role was recast three times. **Same codebase, three CEOs.** That's a rare controlled study in what happens to a team when you swap exactly one role and hold everything else fixed.
+But Van Halen offers something better than analogy: a natural experiment. The instrumental core of the band (Eddie and Alex Van Halen) stayed constant across every era, while the frontman role was recast three times. **Same codebase, three CEOs.** That's a rare controlled study in what happens to a team when you swap exactly one role and hold everything else fixed.
 
 ## Let's (re)define some terms
 
-To read the experiment, I'm borrowing two frameworks from small-group research — one for the plot, one for the cast.
+To read the experiment, I'm borrowing two frameworks from small-group research: one for the plot, one for the cast.
 
 **The plot** comes from Robert Bales, who spent the 1950s at Harvard coding thousands of hours of group interactions and produced one of the most replicated findings in the field: groups reliably split into a **task specialist** (who drives the work) and a **social-emotional specialist** (who holds the group together). These are almost never the same person, and **the group's fate hangs on whether the two cooperate.**
 
