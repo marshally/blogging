@@ -32,9 +32,9 @@ The house-voice prompt lives at the repo root: `/docs/writing-style.md`.
 
 ## Open questions (as of 2026-07-11)
 
-1. **Title.** ~~Placeholder~~ Settled 2026-07-12: "Jump: What Van Halen can teach us
-   about Team Dynamics." Open follow-up: the kicker still circles "the seat" (the old
-   title); house style wants it circling the new one — consider a "jump" beat in the coda.
+1. **Title.** Settled 2026-07-12: "Might as well jump" (Marshall's hand retitle).
+   Kicker follow-up resolved: circles the title obliquely ("you know the song") —
+   see D20 for why the literal phrase is deliberately avoided.
 2. **Subtitle.** Trimmed to kill redundancy with the new title: "Might as well jump:
    forty years of lineup drama, read as an engineering postmortem." Earning its place?
 3. **Profanity placement.** Rule corrected 2026-07-12: impact-based, no count; quoted

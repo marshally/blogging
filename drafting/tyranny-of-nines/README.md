@@ -9,7 +9,7 @@ the architectural price of promising another nine.
 - **Current phase:** research and outline
 - **Current outline:** `outlines/outline-3k.md`
 - **Draft:** not started
-- **Target length:** approximately 3,000 words (provisional)
+- **Target length:** approximately 3,350 words (provisional; grew with the cost-of-the-next-nine section)
 - **Primary reader takeaway:** **ALL multiplies availability. ANY multiplies
   unavailability.**
 
@@ -32,16 +32,24 @@ before drafting or revising prose.
 
 ## Open questions
 
-1. What customer-visible operation should anchor the worked example?
-2. Was the original Twilio platform Multi-AZ? Multi-Region?
-3. Which ElastiCache engine and topology did it use?
-4. Was S3 synchronously required for the anchor operation, or could it degrade/fail
+Remaining questions are historical facts about the Twilio platform — unresolved but non-blocking, since D5 separates the anecdote from the present-day worked example.
+
+1. Was the original Twilio platform Multi-AZ? Multi-Region?
+2. Which ElastiCache engine and topology did it use?
+3. Was S3 synchronously required for the anchor operation, or could it degrade/fail
    independently?
-5. What customer SLA was under discussion, if remembered?
-6. Roughly when did the conversation occur? Current SLA figures will remain clearly
+4. What customer SLA was under discussion, if remembered?
+5. Roughly when did the conversation occur? Current SLA figures will remain clearly
    separated from the historical anecdote regardless.
-7. Should the financial `availability budget` frame serve as the piece's one extended
-   metaphor, or should the story carry the structure without an additional metaphor?
+
+One editorial question is open in the outline: which framing carries the cost-of-the-next-nine beat (candidates listed in outline section 7; Marshall picks).
+
+## Recently resolved (2026-07-12)
+
+- No extended metaphor; the teaching story carries the structure (D10).
+- The anchor operation is the database request, used consistently throughout (D11).
+- The reader makes the naive inventory multiplication before request paths break it (D12).
+- The next nine's price is engineering/ops brainpower, not a 2x hosting bill (D13).
 
 ## Resuming work with an AI assistant
 

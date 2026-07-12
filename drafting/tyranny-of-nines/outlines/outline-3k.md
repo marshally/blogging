@@ -21,11 +21,14 @@ Narrative turn: Sean changes the boundary. Paraphrase the remembered challenge r
 than fabricate a quote: suppose the application and team were perfect; what availability
 could the infrastructure underneath them support?
 
+Place the D2 disclosure here, one sentence: the lesson is real, but memory has compressed the exchange and the exact words are not recoverable.
+
 Loaded guns:
 
 - `perfect` returns when application reliability is added back to the model.
 - `inside out` becomes `outside in` in the conclusion.
 - The spreadsheet survives, but moves to the end of the calculation.
+- The spreadsheet's `rows` against the diagram's `arrows`, planting the kicker's arrows-between-boxes image in the opening.
 
 ## 2. What exactly are we promising? (~350 words)
 
@@ -46,11 +49,23 @@ Define availability for one customer operation before drawing architecture. A se
 does not have one meaningful composite availability until `available` and the unit of
 work are specified.
 
-## 3. What has to work? (~550 words)
+## 3. What has to work? (~600 words)
 
-Put the real service inventory on the page: ALB, EC2, ElastiCache, RDS, S3. Then reject
-the naive inventory multiplication. Membership in the architecture does not make a
-service a hard dependency of every request.
+Put the real service inventory on the page with its current SLA numbers, carefully labeled as a present-day worked example, not the historical Twilio contract:
+
+- Multi-AZ ALB: 99.99%
+- EC2 Region-Level, qualifying Multi-AZ deployment: 99.99%
+- Multi-AZ ElastiCache for Redis OSS/Valkey: 99.99%
+- Multi-AZ RDS: 99.95%
+- S3 Standard: 99.9%
+
+Invite the seductive mistake before correcting it (D12): the diagram lists five services, so multiply five numbers.
+
+```text
+0.9999 x 0.9999 x 0.9999 x 0.9995 x 0.999 = 99.820098%
+```
+
+Roughly 15 hours 46 minutes of theoretical annual unavailability. Let it sit as the answer for a beat — then break it: the method is wrong. Membership in the architecture does not make a service a hard dependency of every request.
 
 Draw candidate paths:
 
@@ -61,9 +76,7 @@ Object operation:  ALB -> EC2 -> S3 [and perhaps RDS]
 Cache miss:         ALB -> EC2 -> ElastiCache -> RDS
 ```
 
-The exact anchor path remains open pending Marshall's choice. Introduce hard versus soft
-dependencies. A required synchronous dependency belongs in the chain. A dependency the
-service can bypass, defer, cache, queue, or degrade around may not.
+Introduce hard versus soft dependencies. A required synchronous dependency belongs in the chain. A dependency the service can bypass, defer, cache, queue, or degrade around may not. The cache and S3 paths are contrast; the anchor operation for every later calculation is the database request (D11).
 
 First canonical statement:
 
@@ -75,33 +88,21 @@ Equation:
 A(ALL) = A1 x A2 x ... x An
 ```
 
-Use the current Multi-AZ ALB + Region-Level EC2 + Multi-AZ RDS example:
+Apply it to the anchor path:
 
 ```text
 99.99% x 99.99% x 99.95% = 99.930011%
 ```
 
-Each component looks better than the system. The arrows, not the boxes, create the
-tyranny.
+Each component looks better than the system. Dismantle the proverb: everyone knows a chain is only as strong as its weakest link. The math is crueler — a chain of components is *weaker* than its weakest link (`A(ALL) <= min(A_i)`, strictly less under independence). The arrows, not the boxes, create the tyranny.
 
-## 4. Why did the vendor numbers eat my budget? (~400 words)
+## 4. Why did the vendor numbers eat my budget? (~350 words)
 
-Show a compact current-SLA table, carefully labeled as a present-day worked example,
-not the historical Twilio contract:
+Convert the anchor path's 99.930011% into intuition: roughly 6 hours 8 minutes of theoretical annual unavailability, spent before the team's own software, deployments, and incidents consume anything.
 
-- EC2 Region-Level, qualifying Multi-AZ deployment: 99.99%
-- Multi-AZ ALB: 99.99%
-- Multi-AZ ElastiCache for Redis OSS/Valkey: 99.99%
-- Multi-AZ RDS: 99.95%
-- S3 Standard: 99.9%
+State the model's limits without derailing it: multiplying public SLAs is a rough engineering model, not a new contract AWS signed. AWS applies each SLA separately, the measurement units differ (S3 counts request error rates; RDS counts connection-failure minutes), and actual performance often exceeds the commitment.
 
-If all five were truly required in series, the theoretical product would be about
-99.820098%, or roughly 15 hours 46 minutes of expected annual unavailability. This is
-an intentionally suspicious result: it demonstrates why request paths matter and why
-public SLA multiplication is a rough engineering model, not a new contract AWS signed.
-
-Return to Marshall's spreadsheet. It was not wrong; it started too late. Supplier and
-architecture risk consume the budget before deployments, bugs, and recovery do.
+Return to Marshall's spreadsheet. It was not wrong; it started too late. Supplier and architecture risk consume the budget before deployments, bugs, and recovery do.
 
 Repeat in a different form:
 

@@ -105,6 +105,10 @@ Crossing a fault-domain boundary duplicates infrastructure and introduces new so
 data, deployment, testing, and organizational obligations. A higher SLA can force a
 qualitatively different system.
 
+### Editorial position on cost (D13)
+
+AWS's fundamentals guide says hot standby commonly doubles workload cost, but that claim describes one standby pattern in hosting-centric accounting. For this piece: a properly autoscaled multi-Region deployment does not cost 2x in hosting bills, and hosting is not where the real price lives. Multi-Region is much harder than 2x from an engineering and operations perspective, and engineer brainpower is generally much more expensive than hosting bills. Never let `2x` become the article's cost punchline; the punchline is the new class of engineering and operational obligation.
+
 ## Wording guardrails
 
 Prefer:

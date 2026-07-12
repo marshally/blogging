@@ -95,3 +95,25 @@ performance may be better. Preferred claim:
 
 Repeating the ALL/ANY lesson is a pedagogical feature. Each repetition must add a new
 representation or consequence rather than merely restating the same paragraph.
+
+## D10. The teaching story is the frame; no extended metaphor
+
+Resolves the open metaphor question. This piece uses no borrowed extended metaphor: the remembered teaching story (D1) carries the structure, and the mathematics is the star. The register is earnest — humor only where it sharpens the math, no irreverence quota. Not every piece requires an extended metaphor; `/docs/writing-style.md` now reflects this.
+
+## D11. The anchor operation is the database request
+
+The worked example anchors on the database operation:
+
+```text
+client -> ALB -> EC2 -> RDS
+```
+
+Use the same architecture in every calculation so the reader follows one system throughout: the serial product, the budget conversion, and the per-Region stack that gets duplicated in the multi-Region sections. The cache and S3 paths appear only as contrast when introducing hard versus soft dependencies; they are not the anchor, and their open historical questions stay open.
+
+## D12. Let the reader make the naive multiplication first
+
+Present the full service inventory with its SLA numbers and invite the seductive mistake — multiply everything — before request-path analysis breaks it. The naive five-service product (~99.82%) is the hook that motivates hard-versus-soft dependency analysis, not a callback after the lesson has been taught.
+
+## D13. The price of the next nine is brainpower, not hosting bills
+
+Multi-Region is much harder than 2x from an engineering and operations perspective, and a properly autoscaled multi-Region deployment does not cost 2x in hosting. Never use `hot standby ≈ 2x workload cost` as the punchline: engineer brainpower is generally much more expensive than hosting bills. The cost beat presents a step function — crossing a fault-domain boundary buys new classes of engineering and operational obligation, not a second copy of the same bill.

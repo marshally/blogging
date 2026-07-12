@@ -165,3 +165,11 @@ Coordinator, Monitor Evaluator, Teamworker, Implementer, Completer Finisher,
 Resource Investigator, Specialist) is bolded, body and footnotes alike, including
 plurals ("two **Shapers**"). Bales' lowercase "task specialist"/"social-emotional
 specialist" are not Belbin roles and stay unbolded. Maintain on any new prose.
+
+## D20. Kicker circles the title obliquely (2026-07-12)
+Final line: "If nobody is, dear reader — you know the song." Chosen over three
+variants that land on the literal words "might as well jump." Deciding factor: the
+coda is physically set at the Golden Gate Bridge, and ending on the imperative
+"jump" beside that bridge risks the darkest misreading. The oblique version also
+bookends the cold open's "Dear reader." DO NOT "improve" this to the literal
+phrase — the omission is deliberate.

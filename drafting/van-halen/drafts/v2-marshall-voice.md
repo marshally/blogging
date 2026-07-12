@@ -153,7 +153,7 @@ But we were at Fort Point, directly underneath, close enough that the low-level 
 
 Which is the whole thing, really. The best work is often visible only to the people standing near enough to read it. That's true of drummers, of harmony singers, of the engineer who kept your on-call quiet for three years.
 
-The fog doesn't ruin the show. It just tells you which scoreboard you've been watching — and whether anyone in your organization is standing close enough to see who's really holding the seat.
+The fog doesn't ruin the show. It just tells you which scoreboard you've been watching — and whether anyone in your organization is standing close enough to see who's really holding the seat. If nobody is, dear reader — you know the song.
 
 [^furnham]: The caveat, for the record: Belbin's psychometric questionnaire has real academic critics — Furnham and colleagues took a torch to its statistics in the 90s. I'm using the model as a lens, not a diagnostic instrument.
 
