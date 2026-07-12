@@ -16,20 +16,20 @@
 - The most important reader lesson is the distinction between `ALL` and `ANY`:
   required components multiply availability; redundant alternatives multiply
   unavailability.
+- The platform was Multi-AZ but not multi-Region at the time.
+- The ElastiCache deployment was Redis, Multi-AZ. (Dropped from the worked example per D14.)
+- The SLA conversations arose from the team adopting internal SLOs for the first time, in the tradition of the Google SRE book.
+- The conversation was probably in 2020; prose should hedge (`around 2020`).
 
 ## Unknown; do not invent
 
-- Date or approximate year.
 - Office, room, call, whiteboard, document, spreadsheet program, or other setting.
-- The immediate business trigger or customer.
-- The precise SLA target under discussion.
+- The precise SLO/SLA target numbers under discussion.
 - Exact downtime activities or estimates Marshall originally listed.
 - Sean's exact words, gestures, or order of questions.
 - The exact synchronous customer operation.
-- Whether ElastiCache was Redis or Memcached and whether it was Multi-AZ.
-- Whether RDS and the compute fleet were Multi-AZ.
-- Whether S3 was a hard dependency for the anchor request.
-- Whether the platform was single-Region or multi-Region at the time.
+- Per-service Multi-AZ topology details beyond `the platform was Multi-AZ` overall.
+- Anything more precise than `probably 2020` for the date.
 
 ## Safe narrative technique
 

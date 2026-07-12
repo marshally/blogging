@@ -88,6 +88,27 @@ This is the origin of the article's mnemonic:
 
 The full `ANY` computation always subtracts the product from one.
 
+## Rule 3: Soft dependencies and degraded modes
+
+If a dependency `S` is required only for full-fidelity service, and the operation still counts as successful when the system degrades around `S`'s failure, `S` is a soft dependency. With `f` = the probability the degraded path succeeds when `S` is down:
+
+```text
+A_op = A_hard_chain x [A_S + (1 - A_S) x f]
+```
+
+- `f = 0` (no working degraded mode): `S` multiplies in like any hard dependency.
+- `f = 1` (degradation always works and counts as success): the bracket equals 1 and `S` leaves the product entirely.
+
+Worked numbers with the anchor chain (0.999300109995) and S3 Standard (0.999):
+
+```text
+f = 0:   99.8300809885%  (~14 h 53 m/yr, 2.77 nines)
+f = 0.5: 99.8800459940%  (~10 h 30 m/yr, 2.92 nines)
+f = 1:   99.9300109995%  (~6 h 8 m/yr, 3.16 nines)
+```
+
+A full degraded mode returns essentially the dependency's whole downtime budget (S3's 99.9% allows about 8 h 46 m annually). The measurement caveat is load-bearing: the availability definition must count the degraded response as success — which is exactly why `available` must be defined per operation before any of this arithmetic starts.
+
 ## Correlation: why redundancy gains disappear
 
 Independence is the load-bearing assumption in the simple parallel formula.

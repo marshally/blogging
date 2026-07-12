@@ -7,12 +7,13 @@ about Twilio.
 ## Assumed component values
 
 ```text
-Multi-AZ ALB                         0.9999
+Multi-AZ ALB                        0.9999
 EC2 Region-Level                    0.9999
-Multi-AZ ElastiCache (Redis/Valkey) 0.9999
 Multi-AZ RDS                        0.9995
 S3 Standard                         0.9990
 ```
+
+ElastiCache (historically Redis, Multi-AZ) is dropped from the worked example per D14; nothing in the analysis requires it.
 
 ## Candidate operation 1: database request
 
@@ -31,58 +32,49 @@ All three must work:
 Approximate theoretical annual unavailability: 367.86 minutes, or about 6 hours 8
 minutes.
 
-## Candidate operation 2: cache hit
+## Candidate operation 2: object-serving request, S3 hard
 
 ```text
-client -> ALB -> EC2 -> ElastiCache
+client -> ALB -> EC2 -> RDS + S3 (all required)
 ```
 
 ```text
-0.9999 x 0.9999 x 0.9999
-= 0.999700029999
-= 99.9700029999%
+0.9999 x 0.9999 x 0.9995 x 0.999
+= 0.998300809885
+= 99.8300809885%
 ```
 
-Approximate theoretical annual unavailability: 157.66 minutes, or about 2 hours 38
-minutes.
+Approximate theoretical annual unavailability: 893.09 minutes, or about 14 hours 53 minutes. By construction this equals the naive inventory product below: naive multiplication is correct arithmetic only for an operation that hard-requires everything.
 
-This path is only valid if a cache hit does not synchronously require RDS.
+## Candidate operation 3: object-serving request with a degraded mode (D15)
 
-## Candidate operation 3: cache miss backed by RDS
+Let `f` be the probability the degraded path succeeds when S3 is down, with the degraded response counting as success under the operation's availability definition (see Rule 3 in `availability-math.md`):
 
 ```text
-client -> ALB -> EC2 -> ElastiCache -> RDS
+A = 0.999300109995 x [0.999 + 0.001 x f]
+
+f = 0:   99.8300809885%  (~14 h 53 m/yr, 2.77 nines)
+f = 0.5: 99.8800459940%  (~10 h 30 m/yr, 2.92 nines)
+f = 1:   99.9300109995%  (~6 h 8 m/yr, 3.16 nines)
 ```
 
-```text
-0.9999 x 0.9999 x 0.9999 x 0.9995
-= 0.9992001799840007
-= 99.9200179984%
-```
-
-Approximate theoretical annual unavailability: 420.39 minutes, or about 7 hours.
-
-Question for the draft: if ElastiCache is unavailable, can the application bypass it
-and use RDS directly? If so, ElastiCache is not a simple hard dependency and this path
-needs a conditional/degraded model instead of serial multiplication.
+At `f = 1` the degraded mode recovers about 525 minutes (~8 h 45 m) annually — essentially S3's entire downtime budget.
 
 ## Deliberately naive inventory calculation
 
-If every named AWS service were required for every operation:
+If every service in the worked example were required for every operation:
 
 ```text
-ALB x EC2 x ElastiCache x RDS x S3
+ALB x EC2 x RDS x S3
 
-0.9999 x 0.9999 x 0.9999 x 0.9995 x 0.999
-= 0.9982009798040167
-= 99.8200979804%
+0.9999 x 0.9999 x 0.9995 x 0.999
+= 0.998300809885
+= 99.8300809885%
 ```
 
-Approximate theoretical annual unavailability: 945.57 minutes, or about 15 hours 46
-minutes.
+Approximate theoretical annual unavailability: 893.09 minutes, or about 14 hours 53 minutes.
 
-Use this only to expose the mistake of multiplying an inventory. Follow it immediately
-with request-path analysis.
+Use this only to expose the mistake of multiplying an inventory. Follow it immediately with request-path analysis. It coincides with candidate operation 2 on purpose: the naive method is only right when everything really is hard.
 
 ## Simplified two-Region teaching calculation
 

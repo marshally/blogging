@@ -12,9 +12,11 @@ Primary sources retrieved 2026-07-12 unless otherwise noted.
   — Multi-AZ load balancer (99.99%), Single Load Balancer (99.9%), healthy-target and
   connectivity definitions. Last updated 2022-07-25.
 - [Amazon ElastiCache Service Level Agreement](https://aws.amazon.com/elasticache/sla/)
-  — current Serverless/Multi-AZ (99.99%), Cross-AZ/previous-generation Multi-AZ
-  (99.9%), and Single-AZ (99.5%) commitments; engine/topology distinctions. Last
-  updated 2024-10-16.
+  — Serverless and current-generation Multi-AZ (99.99%); Cross-AZ Memcached and
+  previous-generation Multi-AZ Redis OSS share the 99.9% tier; Single-AZ (99.5%).
+  Redis OSS qualifies for 99.99% only at v6.2+ created or engine-updated on/after
+  2023-01-13 with Multi-AZ enabled. Re-verified against the live page 2026-07-12.
+  Last updated 2024-10-16.
 - [Amazon RDS Service Level Agreement](https://aws.amazon.com/rds/sla/)
   — Multi-AZ DB instance/cluster (99.95%), Single DB instance (99.5%), one-minute
   connection-failure definition. Last updated 2024-01-22.
@@ -69,6 +71,12 @@ Primary sources retrieved 2026-07-12 unless otherwise noted.
 - AWS whitepaper, [Increasing dependency MTBF](https://docs.aws.amazon.com/whitepapers/latest/availability-and-beyond-improving-resilience/increasing-mtbf.html)
   — when a Regional service's designed availability does not support the workload goal,
   consider a multi-Region approach as a spare/isolated instantiation.
+
+## Story context
+
+- Google SRE book, [Service Level Objectives](https://sre.google/sre-book/service-level-objectives/)
+  — SLI/SLO/SLA definitions and the case for internal SLOs; the story's trigger was
+  the team adopting internal SLOs for the first time in this tradition (D16).
 
 ## Source-use cautions
 
