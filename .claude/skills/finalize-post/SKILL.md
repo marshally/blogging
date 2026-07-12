@@ -58,6 +58,11 @@ factual correction.
   qualifiers before punchlines"), then place it in the existing section of
   `docs/writing-style.md` it belongs to. Amend a near-matching rule rather than adding a
   duplicate; if an edit contradicts a documented rule, the edit wins — rewrite the rule.
+- Generalize to the principle, not the instance. The style doc holds general principles
+  only; the triggering edit becomes the rule's example, never its scope. An edit removing
+  "death" from a lesson implies a rule about heavy real-life topics; an edit cutting one
+  joke implies a rule about when that device earns its place. If the rule you drafted
+  only makes sense for this one post, you haven't found the rule yet.
 - Write rules, not narrative. Nothing like "in the Van Halen post he changed X".
 - **Unsure it generalizes?** Add it to an `## Emerging patterns (watch list)` section at
   the bottom of the doc. Promote to a rule when a later post confirms it; delete it when
