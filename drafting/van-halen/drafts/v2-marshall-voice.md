@@ -149,7 +149,7 @@ I should tell you how the fireworks show ended.
 
 Karl had been there all day, of course — it's San Francisco in July. The fog actually dissipated a little for the show, which by Karl's standards counts as gracious hosting. From a mile back it didn't much matter: for the crowds on the beaches, the third-ever bridge shoot in city history must have been mostly a rumor — muffled thuds behind a curtain, the spectacle scoreboard reading approximately zero.
 
-But we were at Fort Point, directly underneath, close enough that the low-level effects off the deck still lit the fog from inside, close enough to hear each shell leave the mortar and read the crew's choices in the timing. I've stood on the other side of shows like this. I knew what I was looking at, and it was beautiful — not despite being illegible from a distance, but in all the ways that are only legible up close.
+But we were at Fort Point, directly underneath, close enough that the low-level effects off the deck still lit the fog from inside, close enough to hear each shell leave the mortar and read the crew's choices in the timing. I've stood on the other side of shows like this. I knew what I was looking at, and it was beautiful in all the ways that are only legible up close.
 
 Which is the whole thing, really. The best work is often visible only to the people standing near enough to read it. That's true of drummers, of harmony singers, of the engineer who kept your on-call quiet for three years.
 
