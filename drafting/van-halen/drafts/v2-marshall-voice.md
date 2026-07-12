@@ -79,7 +79,7 @@ That's the song I cued up under the bridge. The track that scored the show begin
 
 Winning the war didn't save the team; it ended it. Once the contest was decided, the conflict migrated from *task* to *relationship* — and the research here is unambiguous[^jehn]: task conflict can fuel a team, relationship conflict kills it. Within a year of the band's commercial peak, Roth was gone.
 
-One more Act I detail that pays off later. Bales says every group needs a social-emotional pole. Roth held its outward face — the charisma aimed at the audience. But the *inward* face, the one aimed at the band itself, was quietly held the whole time by Michael Anthony. File that away.
+Bales says every group needs a social-emotional pole. Roth held its outward face — the charisma aimed at the audience. But the *inward* face, the one aimed at the band itself, was quietly held the whole time by Michael Anthony.
 
 *Summary: two **Shapers**, one seat; the referee sided with one claimant; the other built his own pipeline and shipped the winning artifact; victory converted task conflict into relationship conflict; the team fractured on schedule.*
 
