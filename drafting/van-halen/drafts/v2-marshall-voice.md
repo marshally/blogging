@@ -135,7 +135,7 @@ His replacement was Wolfgang, Eddie's son — the ultimate new guy, structurally
 
 Three claims, and I'll commit to them:
 
-**1. Every team has one Shaper seat, and the real fights are over who sits in it.** The conflicts we narrate as personality clashes are usually structural contests over whose will shapes the work — and they end when the seat question is settled, one way or another, not when anyone becomes nicer.
+**1. Every team has one Shaper seat, and the real fights are over who sits in it.** The conflicts we narrate as personality clashes are usually structural contests over whose will shapes the work — and they end when the seat question is settled, one way or another. Niceness never settled one.
 
 **2. Teams fail from uncovered and duplicated roles, not talent deficits.** Van Halen at every moment had a surplus of talent. What it never had was a **Monitor Evaluator**; what it twice lost was its **Coordinator**; what it eventually fired was its **Teamworker**. Each vacancy has an audible signature in the discography.[^nobodys-perfect]
 
