@@ -1,6 +1,6 @@
 # The Tyranny of Nines
 
-*A remembered lesson about availability math, vendor SLAs, and why the next nine costs more than the last one.*
+*Why the next nine costs more than the last one.*
 
 ## I had a spreadsheet
 
