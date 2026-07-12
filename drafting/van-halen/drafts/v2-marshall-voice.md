@@ -161,7 +161,7 @@ The fog doesn't ruin the show. It just tells you which scoreboard you've been wa
 
 [^glue]: Tanya Reilly, "Being Glue" — [noidea.dog/glue](https://www.noidea.dog/glue). "Glue work is the difference between a project that succeeds and one that fails." If you lead engineers and haven't read it, read it before you finish this one.
 
-[^templeman]: Templeman, asked about "Jump" thirty-six years later: "The keyboards just hit me as wrong… I was wrong because it was Number One, but I don't even listen to it" ([Rolling Stone, 2020](https://www.rollingstone.com/music/music-features/ted-templeman-producer-eddie-van-halen-interview-1073080/)). The reviewer conceding the verdict, still unable to look at the shipped feature.
+[^templeman]: Templeman, asked about "Jump" thirty-six years later: "The keyboards just hit me as wrong… I was wrong because it was Number One, but I don't even listen to it" ([Rolling Stone, 2020](https://www.rollingstone.com/music/music-features/ted-templeman-producer-eddie-van-halen-interview-1073080/)).
 
 [^illwait]: Nor was it a one-song war: Roth and Templeman also wanted ["I'll Wait"](https://en.wikipedia.org/wiki/I%27ll_Wait) — the album's other synth track — off *1984* entirely. It went to #13.
 
