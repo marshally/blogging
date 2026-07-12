@@ -109,7 +109,7 @@ But look closely, and the era's stability had a second load-bearing element: man
 
 Every engineering org has run this experiment too: the beloved neutral manager leaves, the replacement comes from one side of a standing rivalry, and conflicts that used to get resolved become crises.
 
-*Summary: a settled **Shaper** seat bought a decade of output; the stability was underwritten by a neutral **Coordinator**; the **Coordinator** died, the seat went partisan, and the first unbuffered task conflict ended the era.*
+*Summary: a settled **Shaper** seat bought a decade of output; the stability was underwritten by a neutral **Coordinator**; the org lost him, the seat went partisan, and the first unbuffered task conflict ended the era.*
 
 ## Act III: How Many Say I (1996–2020)
 
