@@ -142,3 +142,10 @@ voice — fix mechanical errors on sight (finalize-post skill updated to match).
 Draft changes: Hacker News line, coda rewritten to true fog timeline (present all
 day, dissipated slightly for the show), typo fixes. Also his: "hair-metal" →
 "heavy metal" in the section header.
+
+## D17. Cast sheet organized by role, not member (2026-07-12)
+"Meet the band" entries lead with the Belbin role ("The Plant — Eddie Van Halen"),
+one paragraph per role. Eddie's double-booking split into separate Plant and
+Completer Finisher paragraphs; the new CF paragraph adds the veto-power observation
+("That's going to matter"), foreshadowing Act III's role absorption. Hagar stays
+"Coordinator-adjacent" — the in-house Coordinator vacancy claim depends on it.
