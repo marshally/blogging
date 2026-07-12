@@ -149,3 +149,12 @@ one paragraph per role. Eddie's double-booking split into separate Plant and
 Completer Finisher paragraphs; the new CF paragraph adds the veto-power observation
 ("That's going to matter"), foreshadowing Act III's role absorption. Hagar stays
 "Coordinator-adjacent" — the in-house Coordinator vacancy claim depends on it.
+
+## D18. Alex exhibit: Hot for Teacher + Drumeo doc; sitewide link pass (2026-07-12)
+Implementer craft exhibit swapped from "Girl Gone Bad" to the "Hot for Teacher"
+intro, linking the Drumeo multi-drummer documentary from Marshall's own research
+("Alex Van Halen Fooled Everyone With This Drum Intro," June 2026). Girl Gone Bad
+kept as spare in research/alex-craft-details.md. All footnotes now carry canonical
+source links (see sources.md "Linking pass"). Alternate exhibits ranked in
+research/alex-craft-details.md — the "brown sound = Alex's snare" fact (Eddie,
+Billboard 2015) remains unused and is flagged there as a strong candidate.

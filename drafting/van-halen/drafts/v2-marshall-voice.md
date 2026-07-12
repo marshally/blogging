@@ -89,7 +89,7 @@ Before the next act, the fortress from Act I deserves its origin story.
 
 It starts, of all places, with a cover song. In 1982, Eddie was sitting on a Minimoog
 part he'd earmarked for something original — "I envisioned it being more like a Peter
-Gabriel song," he told Guitar World. Templeman heard it and decided it was exactly what
+Gabriel song," [he told Guitar World](https://www.vhnd.com/2014/01/02/eddie-van-halen-looks-back-on-van-halens-landmark-1984-album-and-the-creation-of-5150-studios/). Templeman heard it and decided it was exactly what
 the band's covers-heavy *Diver Down* album needed, and the riff was spent on a remake
 of "Dancing in the Street." The architect's favorite abstraction, requisitioned for
 somebody else's feature.
@@ -171,71 +171,71 @@ The fog doesn't ruin the show. It just tells you which scoreboard you've been wa
     academic critics — Furnham and colleagues took a torch to its statistics in the
     90s. I'm using the model as a lens, not a diagnostic instrument.
 
-[^glue]: Tanya Reilly, "Being Glue" — noidea.dog/glue. "Glue work is the difference
+[^glue]: Tanya Reilly, "Being Glue" — [noidea.dog/glue](https://www.noidea.dog/glue). "Glue work is the difference
     between a project that succeeds and one that fails." If you lead engineers and
     haven't read it, read it before you finish this one.
 
 [^templeman]: Templeman, asked about "Jump" thirty-six years later: "The keyboards
     just hit me as wrong… I was wrong because it was Number One, but I don't even
-    listen to it" (Rolling Stone, 2020). The reviewer conceding the verdict, still
+    listen to it" ([Rolling Stone, 2020](https://www.rollingstone.com/music/music-features/ted-templeman-producer-eddie-van-halen-interview-1073080/)). The reviewer conceding the verdict, still
     unable to look at the shipped feature.
 
-[^illwait]: Nor was it a one-song war: Roth and Templeman also wanted "I'll Wait" —
+[^illwait]: Nor was it a one-song war: Roth and Templeman also wanted ["I'll Wait"](https://en.wikipedia.org/wiki/I%27ll_Wait) —
     the album's other synth track — off *1984* entirely. It went to #13.
 
 [^jehn]: Exactly, if you want it: "Relationship conflict exists when there are
     interpersonal incompatibilities among group members… Task conflict exists when
     there are disagreements among group members about the content of the tasks being
-    performed" — Karen Jehn, *Administrative Science Quarterly* 40 (1995), p. 258.
+    performed" — Karen Jehn, [*Administrative Science Quarterly* 40 (1995), p. 258](https://www.jstor.org/stable/2393638).
     Van Halen ran the controlled experiment on both.
 
 [^folklore]: Confession: this quote is folklore. It appears in every retrospective and
     fan wiki, and nobody has ever pinned it to a dated interview. Eddie's documented
     words are milder — "I wanted more control. I was always butting heads with Ted
-    Templeman about what makes a good record" (Guitar World, 2014) — but the folk
+    Templeman about what makes a good record" ([Guitar World, 2014](https://www.vhnd.com/2014/01/02/eddie-van-halen-looks-back-on-van-halens-landmark-1984-album-and-the-creation-of-5150-studios/)) — but the folk
     version keeps winning because it's truer to the shape of the grievance. That's how
     apocrypha earn their keep.
 
-[^victory-riff]: A detail for the completists: "Top of the World," the Hagar era's
+[^victory-riff]: A detail for the completists: ["Top of the World,"](https://en.wikipedia.org/wiki/Top_of_the_World_(Van_Halen_song)) the Hagar era's
     triumphal closer, is built on the closing guitar figure of "Jump." The peaceful
     decade's victory lap runs, literally, on the riff that won the war.
 
-[^fired-or-quit]: The two accounts, verbatim. Hagar: "Oh, I was fired… It was Father's
-    Day, Sunday morning, 9 am." Eddie: "I didn't fire him. He just quit." Sixteen
+[^fired-or-quit]: The two accounts, verbatim. [Hagar](https://www.rollingstone.com/music/music-news/sammy-hagar-van-halen-reunion-eddie-van-halen-1234600146/): "Oh, I was fired… It was Father's
+    Day, Sunday morning, 9 am." [Eddie](https://ultimateclassicrock.com/sammy-hagar-splits-van-halen/): "I didn't fire him. He just quit." Sixteen
     years later, the band titled an album *A Different Kind of Truth*. They knew.
 
 [^wage-earner]: Noel Monk, the band's former manager, watched it happen on the 1984
     tour: "In all my years in the business, it was the most disgusting thing I ever
-    saw… From that moment on, Michael was basically a wage earner" (*Runnin' with the
-    Devil*, 2017). Caveat: Monk is a fired party with a perspective. So, eventually,
+    saw… From that moment on, Michael was basically a wage earner" ([*Runnin' with the
+    Devil*, 2017](https://ultimateclassicrock.com/van-halen-book-runnin-with-the-devil/)). Caveat: Monk is a fired party with a perspective. So, eventually,
     was everybody in this story.
 
-[^internet]: Michael Anthony, to Rolling Stone in 2007: "Probably like everybody else,
+[^internet]: Michael Anthony, to [Rolling Stone in 2007](https://www.rollingstone.com/music/news/fired-van-halen-bassist-i-found-out-on-the-internet-20070904): "Probably like everybody else,
     I found out on the Internet and through word of mouth." Then: "I'm not a spiteful
     person. At this point in my life, I don't need the drama." The Teamworker, to the
     end.
 
 [^tape]: The accusation is Sammy Hagar's, about the 2007–08 reunion tour: "Those vocal
     harmonies on the last tour were Mike on tape. Mike should've reamed them for it.
-    Wolfie don't sing like that, and Ed sure as hell don't" (2011). And in 2021, an
+    Wolfie don't sing like that, and Ed sure as hell don't" ([2011](https://blabbermouth.net/news/sammy-hagar-says-van-halen-used-tapes-of-michael-anthony-s-vocals)). And in [2021](https://www.ultimate-guitar.com/news/general_music_news/michael_anthony_talks_why_he_allowed_bass_to_be_non-existent_on_van_halen_album__struggle_he_had_with_eddie_reacts_to_roth_using_his_backing_vocals_live.html), an
     interviewer told Anthony that Roth's solo band had been playing his recorded
     harmonies live. His response: "I need to look Dave up and hit him up for a little
     compensation." Still the glue; still uncredited.
 
-[^billboard]: Chuck Klosterman, Billboard, June 19, 2015. The same interview holds
+[^billboard]: [Chuck Klosterman, Billboard, June 19, 2015](https://www.billboard.com/music/rock/eddie-van-halen-addiction-david-lee-roth-touring-6605231/). The same interview holds
     Eddie's summary of the 2012 reunion lineup: "It's hard, because there are four
     people in this band, and three of us like rock and roll. And one of us likes dance
     music."
 
 [^nobodys-perfect]: Belbin's framework comes with a famous tagline — "Nobody's
     perfect, but a team can be" — universally credited to Belbin himself. The wording
-    is actually the headline of Antony Jay's 1980 *Observer Magazine* piece about
+    is actually the headline of [Antony Jay's 1980 *Observer Magazine* piece](https://www.belbin.com/about/timeline) about
     Belbin's research; the concept is Belbin's, the words are a journalist's. (Jay
     went on to co-create *Yes Minister*.) There are two scoreboards even for taglines.
 
 [^aristotle]: Julia Rozovsky, who led Project Aristotle's analysis: "We were dead
     wrong. Who is on a team matters less than how the team members interact, structure
-    their work, and view their contributions" (Google re:Work, 2015). And Woolley et
-    al., *Science* (2010): a group's collective intelligence "is not strongly
+    their work, and view their contributions" ([Google re:Work, 2015](https://rework.withgoogle.com/intl/en/guides/understand-team-effectiveness)). And Woolley et
+    al., [*Science* (2010)](https://www.science.org/doi/10.1126/science.1193147): a group's collective intelligence "is not strongly
     correlated with the average or maximum individual intelligence of group members" —
     it tracks social sensitivity and equal conversational turn-taking instead.

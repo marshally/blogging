@@ -67,6 +67,18 @@
 - Wikipedia, "Top of the World (Van Halen song)" — main riff carried over from the
   closing riff of "Jump"
 
+## Linking pass (2026-07-12)
+Canonical URLs verified live and embedded in the draft's footnotes/body (Templeman RS
+2020, Klosterman Billboard 2015, Anthony RS 2007, Hagar tape accusation Blabbermouth
+2011, Anthony/Jeremy White via Ultimate Guitar 2021, Hagar "Father's Day" RS 2022,
+Eddie "he just quit" via UCR 2016, Monk excerpts UCR 2017, GW 2014 via VHND, JSTOR
+Jehn, Science DOI, re:Work, belbin.com timeline, noidea.dog/glue, Wikipedia pages).
+New source: **"Alex Van Halen Fooled Everyone With This Drum Intro," Drumeo,
+2026-06-05** (Brandon Toews; multi-drummer interview documentary incl. Wolfgang,
+Bissonette) — https://www.youtube.com/watch?v=Rcmcf4kdMn4 — now linked from the
+Implementer entry. Note: Ultimate Guitar and Science/JSTOR pages are bot-walled
+(403 to scrapers) but live for real browsers.
+
 ## Verification TODO before publish
 - [ ] Confirm 2004 tour reduced-terms reporting (find the specific interview/article)
 - [x] "Learned from the press": Anthony, Rolling Stone, 2007-09-04. Footnoted.
