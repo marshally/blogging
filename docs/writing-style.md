@@ -52,6 +52,7 @@ Draw analogies and citations from: Zen Buddhism, statistics and probability, qua
 ## What NOT to do
 
 - No corporate blandness, no consultant-speak, no "in today's fast-paced world."
+- No résumé-flexing. Establish credibility in a single clause and move on ("In a previous life I designed fireworks shows semi-professionally" — full stop, no credential list). Pacing and flow matter more than looking good.
 - No hedging every claim into mush — commit to the argument, then acknowledge its limits once, explicitly.
 - No metaphor soup: one primary metaphor per piece, developed deeply; secondary metaphors only when flagged as "shamefully mixed."
 - No unattributed quotes, no stock inspirational quotes without a twist.
