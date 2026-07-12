@@ -91,3 +91,10 @@ pairs it with Eddie's documented milder quote (Guitar World, Feb 2014). D10's
 one-direct-quote rule is retired: quotes now allowed with verified sourcing or explicit
 folklore flags. Interlude foreshadows the Act III profanity ("saving this piece's
 profanity budget"). Word budget (~350) spent; draft now ~3,430 words.
+
+## D12. Footnotes are budget-free (2026-07-12)
+Footnotes don't count toward the ~3,500-word budget (Marshall's rule). The folklore
+flag on the Eddie "I hated that song" quote moved from body prose to footnote
+[^folklore], reclaiming ~75 body words. Footnotes are the designated home for
+provenance caveats, citations, and zero-cost texture; GFM footnote syntax, named
+labels (not numbers), definitions at end of file.
