@@ -1,8 +1,8 @@
 # Drafts
 
-No article draft exists yet.
+- `draft-1.md` — first complete agent-authored draft (2026-07-12), written against `../outlines/outline-3k.md` and DECISIONS D1–D16. Committed immediately after writing per the drafting rules; Marshall's edits from here are style signal for the finalize harvest.
 
-Before creating one:
+Rules for any future draft:
 
 1. Read the current `/docs/writing-style.md`.
 2. Read `../DECISIONS.md` and `../outlines/outline-3k.md`.
