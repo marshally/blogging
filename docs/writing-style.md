@@ -53,6 +53,7 @@ Name real referents, not generic stand-ins: "Hacker News," not "a tech gossip bo
 - Rhetorical questions as transitions: "What's the difference here?" "So why is the title of this post...?"
 - Wordplay in titles and headers: "Cursed Time Zones," "my creativity runneth over," "What's [in the] Water?"
 - Parenthetical asides for honesty and hedging: "(kind of)," "(or maybe the subgroup of Distinguished Engineers?)"
+- No close-proximity word echo: a distinctive word shouldn't repeat across adjacent sentences or paragraphs unless the repetition IS the device. ("…wins design reviews." followed by "kept losing the reviews" → "kept getting overridden.")
 
 ## What NOT to do
 
