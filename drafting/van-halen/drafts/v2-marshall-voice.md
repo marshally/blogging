@@ -50,7 +50,7 @@ Belbin gives us the characters. Bales gives us the plot. Van Halen gives us the 
 
 **Coordinator-adjacent — Sammy Hagar.** An established star when he joined, collaborative with writing credits, a frontman who also played guitar — a product manager who could read code. Belbin's **Coordinator** is the chairperson: clarifies goals, pulls decisions out of the group, often not the most talented person in the room. Scoreboards: respected on both, worshipped on neither.
 
-**The Specialist — Wolfgang Van Halen.** Hired in 2006 for one defined slot: bass. We'll get to what that hire actually meant.
+**The Specialist — Wolfgang Van Halen.** Hired in 2006 for one defined slot: bass.
 
 Now, two observations about this cast sheet — and they're findings, not trivia.
 
