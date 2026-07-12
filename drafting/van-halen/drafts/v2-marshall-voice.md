@@ -22,7 +22,7 @@ Yes, this post is going to run a rock band, a fireworks show, and your engineeri
 
 ## What does a heavy metal band know about your org chart?
 
-Here's what struck me reading forty years of Van Halen history: every story reads like an engineering postmortem. Creative-control disputes. A brilliant founder consolidating power. A beloved manager replaced by a partisan. A high-profile mis-hire. A quiet contributor pushed out, and the product audibly degrading afterward. Change the actors and the set and you might find the same plot details in a Hacker News thread any given Tuesday.
+Here's what struck me reading forty years of Van Halen history: every story reads like an engineering postmortem. Creative-control disputes. A brilliant founder consolidating power. A beloved manager replaced by a partisan. A high-profile mis-hire. A quiet contributor pushed out, and the product audibly degrading afterward. Change the actors and the set and you and it's any Hacker News thread on a Tuesday.
 
 But Van Halen offers something better than analogy: a natural experiment. The instrumental core of the band — Eddie and Alex Van Halen — stayed constant across every era, while the frontman role was recast three times. **Same codebase, three CEOs.** That's a rare controlled study in what happens to a team when you swap exactly one role and hold everything else fixed.
 
