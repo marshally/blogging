@@ -20,7 +20,7 @@ I went home happy, fell down a Van Halen research hole, and came out the other s
 
 Yes, this post is going to run a rock band, a fireworks show, and your engineering org through the same blender. That's at least two metaphors past the legal limit, and the management apologizes for nothing.
 
-## What does a hair-metal band know about your org chart?
+## What does a heavy metal band know about your org chart?
 
 Here's what struck me reading forty years of Van Halen history: every story reads like an engineering postmortem. Creative-control disputes. A brilliant founder consolidating power. A beloved manager dying and being replaced by a partisan. A high-profile mis-hire. A quiet contributor pushed out, and the product audibly degrading afterward. Change the actors and the set and it's a Hacker News thread on a Tuesday.
 
