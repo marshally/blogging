@@ -23,6 +23,7 @@ Marshall Yount's blog-writing repo. Agents draft posts here; Marshall edits them
 2. **Commit every agent-authored draft immediately after writing it**, before Marshall touches it, with the `Co-Authored-By: Claude` trailer. This is load-bearing: the finalize workflow recovers Marshall's edits by diffing from the last agent-authored commit. An uncommitted agent draft destroys that signal.
 3. **Marshall's edits to a draft are style signal, not noise.** Never overwrite, revert, or "clean up" his changes to a draft. When revising a draft he has edited, preserve his wording everywhere your revision doesn't specifically need to change it.
 4. **Markdown paragraphs are single lines.** Never hard-wrap prose: each paragraph — including each footnote definition — is exactly one line in the markup. The only intentional in-paragraph line breaks are blockquote verse (lyric epigraphs).
+5. **Marshall owns the big framing.** The extended metaphor and the piece's framing are his choices, not the agent's. But if you spot a non-tech domain whose match to the argument is extremely strong — the domain's own mechanics map onto the thesis at multiple points, not one cute parallel — raise it with him as a suggestion. Check it out with him; never weave it in unprompted.
 
 ## Finalizing a post
 
