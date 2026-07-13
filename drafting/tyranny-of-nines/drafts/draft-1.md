@@ -48,9 +48,17 @@ That's roughly 14 hours and 53 minutes of expected unavailability per year, befo
 
 Now let me take it back, because the method is wrong. Multiplying the inventory assumes every service is a hard dependency of every request — that membership in the architecture diagram is the same thing as being required. It isn't. What matters is the request path: which components must all work for a given operation to succeed.
 
-```text
-database operation: client -> ALB -> EC2 -> RDS
-object operation:   client -> ALB -> EC2 -> RDS + S3
+```mermaid
+flowchart TB
+    subgraph db ["database operation"]
+        direction LR
+        c1([client]) --> a1[ALB] --> e1[EC2] --> r1[(RDS)]
+    end
+    subgraph obj ["object operation"]
+        direction LR
+        c2([client]) --> a2[ALB] --> e2[EC2] --> r2[(RDS)]
+        e2 --> s2[(S3)]
+    end
 ```
 
 A **hard dependency** is one the operation synchronously requires; it belongs in the chain. A **soft dependency** is one the service can bypass, defer, queue, or degrade around; it may not. (Hold that thought — S3 comes back in a few minutes.)
