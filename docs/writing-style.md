@@ -61,6 +61,7 @@ Name real referents, not generic stand-ins: "Hacker News," not "a tech gossip bo
 Readers actively screen prose for machine authorship. Before any draft goes out, audit it against the tells below — and calibrate against Marshall's published pre-AI corpus (the 2024 posts in `posts/`, originally yountlabs.com), not generic norms. Measure the device mix — punctuation, questions, sentence lengths — at the raw-text level; the signal is "off his baseline," not "unusual in general."
 
 - **Protect the human markers.** Never sand off what models don't produce: impact profanity, hyper-specific personal detail ("fumbling with a Bluetooth speaker at T-minus-three"), and epistemic self-sabotage (a footnote confessing its own quote is folklore). De-telling that removes these makes the prose more suspect, not less.
+- **Em-dash budget: a few high-impact prose dashes per piece, max.** Marshall's published baseline is zero, and dash density is the first thing hostile readers count. Keep a dash only where the pause is the effect (a closing beat, a load-bearing aside); uniform list-label dashes ("**The Plant — Eddie Van Halen.**") are formatting, not prose, and are exempt. Convert the rest to the corpus-native mix: colons for reveals and definitions, commas for light asides, parentheses for true parentheticals, sentence breaks for long compounds — varying the replacement so the conversion doesn't become its own tic. Never convert to semicolons (see the semicolon rule below).
 
 ## What NOT to do
 
