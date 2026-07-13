@@ -24,6 +24,11 @@ Marshall Yount's blog-writing repo. Agents draft posts here; Marshall edits them
 3. **Marshall's edits to a draft are style signal, not noise.** Never overwrite, revert, or "clean up" his changes to a draft. When revising a draft he has edited, preserve his wording everywhere your revision doesn't specifically need to change it.
 4. **Markdown paragraphs are single lines.** Never hard-wrap prose: each paragraph — including each footnote definition — is exactly one line in the markup. The only intentional in-paragraph line breaks are blockquote verse (lyric epigraphs).
 5. **Marshall owns the big framing.** The extended metaphor and the piece's framing are his choices, not the agent's. But if you spot a non-tech domain whose match to the argument is extremely strong — the domain's own mechanics map onto the thesis at multiple points, not one cute parallel — raise it with him as a suggestion. Check it out with him; never weave it in unprompted.
+6. **Style-fix commits are itemized for revert.** When applying a pass of style or de-telling fixes to a draft, make one commit per instance with the reason cited in the message — Marshall reverts individual calls he disagrees with. When a pass has dozens of mechanical instances (e.g. an em-dash conversion), relax to one commit per section. Never one blob commit.
+
+## Commit policy
+
+Commit as you go, in a series of orthogonal commits. Each commit contains one specific edit or idea — never a grab-bag of unrelated changes. Commits stack on top of each other, each delivering a tiny sliver of incremental value on the one before. Never batch a session's work into one omnibus commit at the end. This composes with drafting rule 2: the first complete draft is one commit, and every revision idea after it is its own commit on top, so Marshall's hand edits always diff cleanly against the latest agent-authored state.
 
 ## Finalizing a post
 
