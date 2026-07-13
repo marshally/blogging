@@ -50,7 +50,10 @@ Name real referents, not generic stand-ins: "Hacker News," not "a tech gossip bo
 
 - Short declarative sentences for punchlines. Longer sentences for development.
 - Second-person address when breaking the fourth wall: "Dear reader, I'll spare you..."
-- Rhetorical questions as transitions: "What's the difference here?" "So why is the title of this post...?"
+- Rhetorical questions as transitions: "What's the difference here?" "So why is the title of this post...?" Ask and move on, or answer obliquely — the self-answered Q&A ("Why does this matter? Because…") is an AI tell. Ending a piece on an unanswered question is on-baseline.
+- Conjunction-led turns: pivot with a sentence starting "But," "And," or "So" instead of packing the contrast into one "not X but Y" sentence.
+- Unscaffolded juxtaposition: place two contradicting facts side by side and let the reader collide them — no "not," no "but."
+- Understatement as punchline: "which by Karl's standards counts as gracious hosting." Deadpan over overstatement; models overstate.
 - Wordplay in titles and headers: "Cursed Time Zones," "my creativity runneth over," "What's [in the] Water?"
 - Parenthetical asides for honesty and hedging: "(kind of)," "(or maybe the subgroup of Distinguished Engineers?)"
 - No close-proximity word echo: a distinctive word shouldn't repeat across adjacent sentences or paragraphs unless the repetition IS the device. ("…wins design reviews." followed by "kept losing the reviews" → "kept getting overridden.")
@@ -64,6 +67,7 @@ Readers actively screen prose for machine authorship. Before any draft goes out,
 - **Em-dash budget: a few high-impact prose dashes per piece, max.** Marshall's published baseline is zero, and dash density is the first thing hostile readers count. Keep a dash only where the pause is the effect (a closing beat, a load-bearing aside); uniform list-label dashes ("**The Plant — Eddie Van Halen.**") are formatting, not prose, and are exempt. Convert the rest to the corpus-native mix: colons for reveals and definitions, commas for light asides, parentheses for true parentheticals, sentence breaks for long compounds — varying the replacement so the conversion doesn't become its own tic. Never convert to semicolons (see the semicolon rule below).
 - **Contrast-framing budget: ~4 per piece, reserved for theses and endings.** The negation-antithesis shape ("it wasn't X; it was Y," "not X but Y," "didn't just X — it Y'd") is the second-loudest tell when it recurs; the reviewed draft ran it once every 300 words. Spend it only where a section's thesis or the piece's ending turns on the reversal. Everywhere else, rewrite as a plain assertion, a conjunction-led turn, or unscaffolded juxtaposition (see Sentence-level habits).
 - **Any repeatable device: keep the best 2–4 instances, revise the rest.** Footnote kickers, foreshadowing flags ("Remember him. This story ends badly."), reused sentence templates ("Every engineering org has…") — twice is craft, eight is a template. And leave threads untied: a bow on every box (every footnote looping back to the thesis, every setup paid off, a summary after every section) is itself a machine smell. Let some footnotes be plain citations; Marshall's pre-AI posts end on unanswered questions.
+- **Reach for the corpus mix, not a substitution table.** The replacement palette for cut tells is the Sentence-level habits list: parentheticals with personality, rhetorical questions, short-sentence kickers, conjunction-led turns, unscaffolded juxtaposition, understatement. Meta-rule: any single replacement used at em-dash frequency becomes the new tic. Marshall's measured pre-AI profile per ~2,000 words: 15–18 parentheticals, 15–20 colons, 8–13 questions, 5–8 conjunction-led sentence starts, heavy italics, ~12% of sentences at six words or fewer, ~1 semicolon.
 
 ## What NOT to do
 
