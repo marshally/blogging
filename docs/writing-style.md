@@ -56,6 +56,12 @@ Name real referents, not generic stand-ins: "Hacker News," not "a tech gossip bo
 - No close-proximity word echo: a distinctive word shouldn't repeat across adjacent sentences or paragraphs unless the repetition IS the device. ("…wins design reviews." followed by "kept losing the reviews" → "kept getting overridden.")
 - Choose the verb that carries the power dynamic: "overridden," not "losing," when the fight wasn't fair. The verb should encode who had the power, not just what happened.
 
+## AI tells (de-telling)
+
+Readers actively screen prose for machine authorship. Before any draft goes out, audit it against the tells below — and calibrate against Marshall's published pre-AI corpus (the 2024 posts in `posts/`, originally yountlabs.com), not generic norms. Measure the device mix — punctuation, questions, sentence lengths — at the raw-text level; the signal is "off his baseline," not "unusual in general."
+
+- **Protect the human markers.** Never sand off what models don't produce: impact profanity, hyper-specific personal detail ("fumbling with a Bluetooth speaker at T-minus-three"), and epistemic self-sabotage (a footnote confessing its own quote is folklore). De-telling that removes these makes the prose more suspect, not less.
+
 ## What NOT to do
 
 - No corporate blandness, no consultant-speak, no "in today's fast-paced world."
