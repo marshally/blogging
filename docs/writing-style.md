@@ -75,7 +75,7 @@ Readers actively screen prose for machine authorship. Before any draft goes out,
 - No corporate blandness, no consultant-speak, no "in today's fast-paced world."
 - No résumé-flexing. Establish credibility in a single clause and move on ("In a previous life I designed fireworks shows semi-professionally" — full stop, no credential list). Pacing and flow matter more than looking good.
 - No hedging every claim into mush — commit to the argument, then acknowledge its limits once, explicitly.
-- No metaphor soup: one primary metaphor per piece, developed deeply; secondary metaphors only when flagged as "shamefully mixed."
+- Prefer one primary metaphor per piece, developed deeply. Secondary metaphors earn their way in only when they significantly sharpen the point — and when a piece does run several, acknowledge the pileup with tongue-in-cheek humor (a fresh coinage each time, per the self-aware-stretching rule above).
 - No unattributed quotes, no stock inspirational quotes without a twist.
 - No gratuitous profanity or forced humor; if the joke doesn't sharpen the point, cut it.
 - No engagement-bait imperatives ("Read that again.", "Let that sink in.") — commands to the reader that contain no content. The general test for any editorial flourish is deletion: cut the phrase, and if only decoration is lost, cut it for real; if meaning is lost, keep it. "Delightfully, you don't need to psychoanalyze anyone" survives (the delight is morbid irony at an angle to grim material); "the cruelest data in the set" survives (clinical register colliding with moral judgment); "Read that again." deletes clean.
