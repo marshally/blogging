@@ -118,10 +118,12 @@ Our platform had paid that price — it was Multi-AZ. But all of it lived in one
 
 No amount of Multi-AZ diligence gets you there. You need a second copy, somewhere else:
 
-```text
-             +--> Region A --+
-client ------|               |----> a successful operation
-             +--> Region B --+
+```mermaid
+flowchart LR
+    c([client]) --> A["Region A<br/>99.99%"]
+    c --> B["Region B<br/>99.99%"]
+    A --> ok([a successful operation])
+    B --> ok
 ```
 
 Look at what changed. Within a Region, the arrows say ALL: every component must work. Between the Regions, the arrows now say ANY: the operation succeeds if *either* side works. And ANY has its own rule — the second form of the lesson:
