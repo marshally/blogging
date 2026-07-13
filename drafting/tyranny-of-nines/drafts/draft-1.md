@@ -97,16 +97,16 @@ My spreadsheet wasn't wrong. It started too late. Supplier and architecture risk
 
 I promised S3 would come back. Take the object-serving version of the operation, where the response includes something stored in S3. If S3 is a hard dependency, all four services multiply, and we land exactly on the naive number from before: 99.830081%, our 14 hours and 53 minutes. That is not a coincidence; it's the definition. Multiplying the whole inventory is correct arithmetic for precisely one situation — an operation that hard-requires everything. My naive multiplication wasn't bad math. It was a correct answer to a question nobody had asked.
 
-But suppose the application has a degraded mode: when S3 is unavailable, the operation still succeeds without the object payload — and, critically, our availability definition counts that degraded response as success. Write `f` for the probability the degraded path actually works when called upon:
+But suppose the application has a degraded mode: when S3 is unavailable, the operation still succeeds without the object payload — and, critically, our availability definition counts that degraded response as success. Write $f$ for the probability the degraded path actually works when called upon:
 
-```text
-A = 0.99930011 × [0.999 + 0.001 × f]
+$$A = 0.99930011 \times \left[\,0.999 + 0.001 \times f\,\right]$$
 
-f = 0 (no degraded mode):         99.830081%   ≈ 2.77 nines
-f = 1 (degradation always works): 99.930011%   ≈ 3.16 nines
-```
+| | availability | nines |
+|---|---:|---:|
+| $f = 0$ — no degraded mode | 99.830081% | ≈ 2.77 |
+| $f = 1$ — degradation always works | 99.930011% | ≈ 3.16 |
 
-At `f = 1`, S3 drops out of the product entirely, and the operation gets back roughly 8 hours and 45 minutes a year — essentially S3's whole downtime budget, refunded. This is the first escape from the tyranny, and notice its nature: it is architectural, not contractual. Nobody renegotiated an SLA. We demoted a dependency instead of shrinking the promise.
+At $f = 1$, S3 drops out of the product entirely, and the operation gets back roughly 8 hours and 45 minutes a year — essentially S3's whole downtime budget, refunded. This is the first escape from the tyranny, and notice its nature: it is architectural, not contractual. Nobody renegotiated an SLA. We demoted a dependency instead of shrinking the promise.
 
 > **A dependency you can degrade around gives its failure chances back.**
 
@@ -196,7 +196,7 @@ Here is the procedure I wish I'd had before I opened the spreadsheet:
 
 1. Define the customer-visible operation and what counts as success — including whether degraded responses count.
 2. Draw only that operation's runtime dependencies. Not the org chart, not the inventory.
-3. Mark every relationship ALL, ANY, or soft — degradable, with an honest `f`.
+3. Mark every relationship ALL, ANY, or soft — degradable, with an honest $f$.
 4. Label each component with the SLA that matches its actual configuration. Multi-AZ RDS and a single RDS instance are different contracts.
 5. Compute serial and parallel groups from the inside out.
 6. Attack your independence assumptions: list what the "alternatives" share, because that is where parallel math goes to die.
