@@ -176,15 +176,11 @@ And the villain lurking behind the whole list is correlation. The parallel formu
 
 Here's the equation everyone writes first:
 
-```text
-Cost(next nine) = 2 × hosting
-```
+$$\text{Cost}(\text{next nine}) = 2 \times \text{hosting}$$
 
 It's wrong in both directions. A properly autoscaled active-active deployment doesn't double the hosting bill — the second Region carries real traffic, sized to demand. And the hosting bill was never the expensive part. The corrected equation looks more like:
 
-```text
-Cost(next nine) = ΔEngineering + ΔOperations + ΔNew failure modes
-```
+$$\text{Cost}(\text{next nine}) = \Delta\text{Engineering} + \Delta\text{Operations} + \Delta\text{New failure modes}$$
 
 Replication semantics, and the RPO conversation you've been avoiding. Deployments that roll one Region at a time. Failover drills that actually get run, against runbooks that actually get maintained. Capacity audits, so the surviving Region can absorb the dead one's load. An on-call rotation that has to reason about two of everything, plus the seam between them. Engineer brainpower is, in general, far more expensive than hosting — and this bill is denominated almost entirely in brainpower.
 
