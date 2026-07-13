@@ -156,9 +156,10 @@ No. But the way we didn't is instructive.
 
 Start with an honest accounting of what's inside each Region. The eight-nines calculation paralleled the compute number alone, but each Region contains the whole anchor stack — ALB, EC2, RDS — which multiplied out to 99.930011%. Parallel the path product, not the best box's SLA:
 
-```text
-A(regional stack) = 0.99930011
-A(either of two)  = 1 − (1 − 0.99930011)² = 0.99999951 = 99.999951%
+```mermaid
+flowchart LR
+    a["Region A stack<br/>ALB × EC2 × RDS<br/>99.930011%"] --> ok(["either works<br/>99.999951%"])
+    b["Region B stack<br/>ALB × EC2 × RDS<br/>99.930011%"] --> ok
 ```
 
 That's 15.45 seconds of theoretical unavailability a year — six and a half nines, not eight. Still astonishing. Still not real, because even the honest version assumes:
