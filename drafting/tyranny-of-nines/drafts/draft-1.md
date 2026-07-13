@@ -40,11 +40,16 @@ Here's a service inventory much like the one we ran: an Application Load Balance
 
 Four services, four numbers. The obvious move — the one I would have made — is to multiply them:
 
-```text
-0.9999 × 0.9999 × 0.9995 × 0.999 = 0.99830081 = 99.830081%
+```mermaid
+flowchart LR
+    alb["ALB<br/>99.99%"] --> x(("×"))
+    ec2["EC2<br/>99.99%"] --> x
+    rds["RDS<br/>99.95%"] --> x
+    s3["S3<br/>99.9%"] --> x
+    x --> total(["99.830081%<br/>≈ 14 h 53 m unavailable per year"])
 ```
 
-That's roughly 14 hours and 53 minutes of expected unavailability per year, before my team writes a single bug. Sit with that for a second, because every individual number up there looked so good.
+Fourteen hours and 53 minutes of expected unavailability per year, before my team writes a single bug. Sit with that for a second, because every individual number up there looked so good.
 
 Now let me take it back, because the method is wrong. Multiplying the inventory assumes every service is a hard dependency of every request — that membership in the architecture diagram is the same thing as being required. It isn't. What matters is the request path: which components must all work for a given operation to succeed.
 
