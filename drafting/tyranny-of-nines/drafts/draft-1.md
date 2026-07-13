@@ -78,8 +78,9 @@ A(ALL) = A₁ × A₂ × … × Aₙ
 
 For the database operation — our anchor from here on:
 
-```text
-0.9999 × 0.9999 × 0.9995 = 0.99930011 = 99.930011%
+```mermaid
+flowchart LR
+    alb["ALB<br/>99.99%"] --> ec2["EC2<br/>99.99%"] --> rds["RDS<br/>99.95%"] --> total(["delivered availability<br/>99.930011%"])
 ```
 
 Notice what just happened. Everyone knows a chain is only as strong as its weakest link. The arithmetic is crueler than the proverb: a chain of dependencies is *weaker* than its weakest link, because the product sits strictly below the smallest factor. Three components, each committed north of 99.9%, and the chain they form can't support even the weakest commitment among them. **The tyranny lives in the arrows, not the boxes.**
