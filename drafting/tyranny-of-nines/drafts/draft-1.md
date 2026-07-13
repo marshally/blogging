@@ -72,9 +72,7 @@ For the components that remain, here is the first form of the rule Sean's questi
 
 > **If every component must work, multiply their availabilities.**
 
-```text
-A(ALL) = A₁ × A₂ × … × Aₙ
-```
+$$A_{\text{ALL}} = A_1 \times A_2 \times \cdots \times A_n$$
 
 For the database operation — our anchor from here on:
 
@@ -136,15 +134,11 @@ Look at what changed. Within a Region, the arrows say ALL: every component must 
 
 > **If any independent alternative can work, multiply their unavailabilities — then subtract from one.**
 
-```text
-A(ANY) = 1 − [(1 − A₁) × (1 − A₂) × … × (1 − Aₙ)]
-```
+$$A_{\text{ANY}} = 1 - \left[(1 - A_1) \times (1 - A_2) \times \cdots \times (1 - A_n)\right]$$
 
 Run two idealized, independent, instantly interchangeable regional deployments, each at EC2's 99.99%:
 
-```text
-1 − (0.0001 × 0.0001) = 0.99999999 = 99.999999%
-```
+$$1 - (0.0001 \times 0.0001) = 0.99999999 = 99.999999\%$$
 
 Eight nines. The same four-nines number on each box, and the composite explodes upward instead of eroding downward — because the relationship between the boxes flipped. This is the whole lesson in one contrast, and it compresses to eight words:
 
