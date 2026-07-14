@@ -95,6 +95,10 @@ The war story hides a detail. [Templeman's account](https://en.wikipedia.org/wik
 
 Winning the war didn't save the team; it ended it. Once the contest was decided, the conflict migrated from *task* to *relationship*, and the research names this exact failure mode[^jehn]: task conflict can fuel a team, but only while enough trust keeps it from turning personal. Relationship conflict kills either way. The trust had been Templeman's job. The fait accompli won the argument by going around him. Within a year of the band's commercial peak, Roth was gone.
 
+![Black-and-white Warner Bros. publicity photo of the 1984-era lineup: Alex in a suit and sunglasses, Roth, Eddie in a dice-print shirt, Michael Anthony](../images/1984-promo.jpg)
+
+*The classic lineup in the* 1984 *album year: Alex, Roth, Eddie, Anthony. Months from the end. Warner Bros. publicity photo, public domain.*
+
 Bales says every group needs a social-emotional pole. Roth held its outward face, the charisma aimed at the audience. But the *inward* face, the one aimed at the band itself, was quietly held the whole time by Michael Anthony.
 
 *Summary: two **Shapers**, one seat; the referee sided with one claimant; the other built his own pipeline and shipped the winning artifact; victory converted task conflict into relationship conflict; the team fractured on schedule.*
