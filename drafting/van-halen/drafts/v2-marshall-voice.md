@@ -44,6 +44,10 @@ Belbin gives us the characters. Bales gives us the plot. Van Halen gives us the 
 
 ## Meet the band (you already work with them)
 
+![Van Halen onstage in 1978: Roth shirtless at the mic, Michael Anthony head down on bass, Eddie on guitar, Alex half-hidden behind the drums](../images/1978-billboard-ad.jpg)
+
+*The band in a Billboard ad, February 1978, the month the debut album broke: Roth, Anthony, Eddie, and (barely visible, as usual) Alex. Public domain.*
+
 **The Plant — Eddie Van Halen.** Belbin's **Plant** is the creative source, the generator of the ideas everyone else works within: brilliant, unorthodox, territorial. Eddie invented techniques (two-handed tapping) the way great engineers invent abstractions, and built his own gear and eventually his own studio the way they roll their own tooling. You know this person: the architect-founder whose framework everyone else lives inside. And here's the detail to file away: on the two scoreboards that matter, loved-by-fans and revered-by-practitioners, Eddie maxed *both*. That almost never happens, and it warps everything around it.
 
 **The Completer Finisher — also Eddie.** In the studio he doubled as Belbin's perfectionist: the role that won't let it ship broken. You know this person too: the engineer who blocks the release over the flaky test everyone else has learned to ignore. And note the double-booking: one person holding both the idea-generator seat and the quality-gate seat concentrates a lot of veto power in one chair.
