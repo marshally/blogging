@@ -15,10 +15,10 @@ Marshall's own July 4, 2026 photos are now in the repo (#36–37) and take the m
 
 | # | Name | Theme | License |
 |---|---|---|---|
-| 1 | Classic lineup promo, 1984 | Conflict (also 5150) | Public domain |
+| 1 | Classic lineup promo, 1984 | PLACED: Act I, at "Roth was gone" (`1984-promo.jpg`) | Public domain |
 | 2 | Roth and Eddie share a frame, 2007 | Conflict | CC BY 2.0 |
-| 3 | Hagar-era trio onstage, 2004 | Conflict (also Anthony) | CC BY-SA 2.0 |
-| 4 | Early lineup, Billboard ad, 1978 | Conflict | Public domain |
+| 3 | Hagar-era trio onstage, 2004 | PLACED: Act II (`2004-hagar-lineup.jpg`) | CC BY-SA 2.0 |
+| 4 | Early lineup, Billboard ad, 1978 | PLACED: top of "Meet the band" (`1978-billboard-ad.jpg`) | Public domain |
 | 5 | Full band performing "Jump," 2007 | Fireworks (also Conflict, Succession, Alex fallback) | CC BY 2.0 |
 | 6 | Eddie airborne, Los Angeles, 1984 | Fireworks | CC BY 2.0 |
 | 7 | Confetti finale, 2008 tour | Fireworks | CC BY-SA 2.0 |
@@ -45,8 +45,8 @@ Marshall's own July 4, 2026 photos are now in the repo (#36–37) and take the m
 | 28 | The original Frankenstrat (low-res) | Frankenstrat | Public domain |
 | 29 | "Super '78 Eruption" replica rig, the Met | Frankenstrat | CC BY 2.0 |
 | 30 | Vester clone, body close-up | Frankenstrat | CC BY 2.0 |
-| 31 | *1984* cover — NON-FREE fair use | Album art | Fair use (low-res) |
-| 32 | *5150* cover — NON-FREE fair use | Album art | Fair use (low-res) |
+| 31 | *1984* cover — fair use | PLACED: Act I, fait accompli (`cover-1984.jpg`) | Fair use (low-res) |
+| 32 | *5150* cover — fair use | PLACED: Interlude close (`cover-5150.jpg`) | Fair use (low-res) |
 | 33 | Wolfgang on bass, Montreal 2007 | Succession | CC BY 2.0 |
 | 34 | Eddie soloing, Montreal 2007 | Succession / Conflict | CC BY 2.0 |
 | 35 | Wolfgang on bass, Minneapolis 2012 | Succession | CC BY 2.0 |
@@ -55,6 +55,8 @@ Marshall's own July 4, 2026 photos are now in the repo (#36–37) and take the m
 | 38 | Map to Fort Point (Google Maps screenshot) | PLACED: beside #40 | Google Maps — keep attribution |
 | 39 | Masthead banner crop | PLACED: top of post | Own work |
 | 40 | Crowd walking to Fort Point in fog | PLACED: beside #38 | Own work |
+| 41 | Eddie live, Sacramento 2004 | PLACED: Act III close (`2004-eddie-live.jpg`) | CC BY 3.0 |
+| 42 | *Van Halen III* cover — fair use | PLACED: Act III, album paragraph (`cover-van-halen-iii.jpg`) | Fair use (low-res) |
 
 ---
 
@@ -417,7 +419,7 @@ A genuine tight macro of the red/black/white stripe scheme — on an unofficial 
 
 ## Album covers (non-free, editorial fair use)
 
-Both verified via the Wikipedia API as tagged non-free with a stated use rationale. Low-res use in commentary about the album is standard editorial practice, but it's a judgment call, not a license — flag for a deliberate decision before publishing.
+All verified via the Wikipedia API as tagged non-free with a stated use rationale. Low-res use in commentary about the album is standard editorial practice, but it's a judgment call, not a license. **Marshall made that call 2026-07-14 ("album photos … are fair use") — the covers below are cleared for this post.**
 
 ### 31. *1984* album cover — NON-FREE fair use
 
@@ -438,6 +440,17 @@ Atlas kneeling under the mirror-polished sphere (model: Rick Valente), 300×300p
 
 - **Image:** https://upload.wikimedia.org/wikipedia/en/1/12/VanHalen_5150_fcover.jpg
 - **Source:** English Wikipedia — https://en.wikipedia.org/wiki/File:VanHalen_5150_fcover.jpg
+- **Credit:** Warner Bros. Records
+- **License:** Non-free fair-use (Wikipedia low-res)
+
+### 42. *Van Halen III* cover — fair use
+
+![Van Halen III album cover — non-free](https://upload.wikimedia.org/wikipedia/en/b/bf/Van_Halen_-_Van_Halen_III.jpg)
+
+Sepia photo of a strongman taking a cannonball to the stomach, 300×294px. **Placed in the draft** (as `images/cover-van-halen-iii.jpg`) at Act III's *Van Halen III* paragraph — the album the post calls the sound of the **Monitor Evaluator** vacancy.
+
+- **Image:** https://upload.wikimedia.org/wikipedia/en/b/bf/Van_Halen_-_Van_Halen_III.jpg
+- **Source:** English Wikipedia — https://en.wikipedia.org/wiki/File:Van_Halen_-_Van_Halen_III.jpg
 - **Credit:** Warner Bros. Records
 - **License:** Non-free fair-use (Wikipedia low-res)
 
@@ -479,6 +492,17 @@ Wolfgang at 21, on his white/black-striped EVH bass, "A Different Kind of Truth"
 - **Source:** Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Wolfgang_Van_Halen_Different_Kind_of_Truth_2012.jpg
 - **Credit:** Joe Bielawa (via Flickr)
 - **License:** CC BY 2.0
+
+### 41. Eddie live, Sacramento 2004
+
+![Eddie live, Sacramento 2004](https://upload.wikimedia.org/wikipedia/commons/5/57/Edward_Van_Halen_live_2004-08-11.jpg)
+
+Eddie alone in heavy orange stage light, shirtless in camo pants on a sunburst guitar, Sacramento, August 11, 2004 (round-three addition, supplied by Marshall). License verified via the Commons API 2026-07-14. **Placed in the draft** (as `images/2004-eddie-live.jpg`) at the close of Act III, after "arranged exactly as he'd built it."
+
+- **Image:** https://upload.wikimedia.org/wikipedia/commons/5/57/Edward_Van_Halen_live_2004-08-11.jpg
+- **Source:** Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Edward_Van_Halen_live_2004-08-11.jpg
+- **Credit:** Commons user "Mogwai73" (own work)
+- **License:** CC BY 3.0
 
 ---
 
