@@ -50,9 +50,11 @@ Marshall's own July 4, 2026 photos are now in the repo (#36–37) and take the m
 | 33 | Wolfgang on bass, Montreal 2007 | Succession | CC BY 2.0 |
 | 34 | Eddie soloing, Montreal 2007 | Succession / Conflict | CC BY 2.0 |
 | 35 | Wolfgang on bass, Minneapolis 2012 | Succession | CC BY 2.0 |
-| 36 | Opening salvo at the south tower (Marshall's photo) | Masthead / opening | Own work |
-| 37 | Cascade lighting the fog (Marshall's photo) | Coda / fireworks | Own work |
-| 38 | Map to Fort Point (Google Maps screenshot) | Map placeholder | Google Maps — keep attribution |
+| 36 | Opening salvo at the south tower (Marshall's photo) | Opening / coda | Own work |
+| 37 | Cascade lighting the fog (Marshall's photo) | Source of masthead crop | Own work |
+| 38 | Map to Fort Point (Google Maps screenshot) | PLACED: beside #40 | Google Maps — keep attribution |
+| 39 | Masthead banner crop | PLACED: top of post | Own work |
+| 40 | Crowd walking to Fort Point in fog | PLACED: beside #38 | Own work |
 
 ---
 
@@ -506,10 +508,28 @@ A deck-length cascade of comets pouring off the roadway, the fog glowing pink an
 
 ![Map to Fort Point](../images/map-to-fort-point.png)
 
-Google Maps satellite view: the Fort Point National Historic Site pin directly under the bridge approach, with Crissy Field and the shoreline walk east of it — the hike route in one frame. Fills the `[insert map picture here]` placeholder.
+Google Maps satellite view: the Fort Point National Historic Site pin directly under the bridge approach, with Crissy Field and the shoreline walk east of it — the hike route in one frame. **Placed in the draft** beside #40, after the "hiked out to Fort Point" paragraph.
 
 - **File:** `images/map-to-fort-point.png` (3072×2075)
 - **License:** Google Maps screenshot — Google's geo guidelines permit editorial blog use provided the "© Google" attribution baked into the image stays visible (it's in the frame). If cleaner licensing is preferred, swap for the public-domain NPS map (#22).
+
+### 39. Masthead banner crop
+
+![Masthead banner crop](../images/masthead.png)
+
+Wide banner crop of #37 (the deck cascade lighting the fog), prepared by Marshall for the top of the post. **Placed in the draft** as the masthead, replacing the placeholder.
+
+- **File:** `images/masthead.png` (web-ready, ~1 MB)
+- **License:** Own work
+
+### 40. Crowd walking to Fort Point in fog
+
+![Crowd walking to Fort Point in fog](../images/foggy-bridge-with-crowd.png)
+
+Daytime, July 4: the crowd streaming down the path toward Fort Point, tents pitched, the bridge towers already swallowed by Karl — the "hiked out to Fort Point" scene with the fog's all-day presence established on camera. **Placed in the draft** beside the map (#38).
+
+- **File:** `images/foggy-bridge-with-crowd.png` (~1.2 MB)
+- **License:** Own work
 
 ---
 

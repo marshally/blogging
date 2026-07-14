@@ -2,7 +2,7 @@
 
 *What forty years of Van Halen drama teaches us about team dynamics*
 
-[insert masthead photo of fireworks]
+![Fireworks pouring off the Golden Gate Bridge deck, lighting the fog from inside](../images/masthead.png)
 
 ---
 
@@ -10,7 +10,7 @@ Three minutes to showtime, and I was fumbling with a Bluetooth speaker at the ba
 
 This past Fourth of July (2026), San Francisco shot fireworks off the bridge itself, only the third time in the city's history that's happened. In a previous life I designed fireworks shows semi-professionally, so I like to find the best viewing location and that usually means getting as close as possible to the action. Karl the Fog has a well-deserved reputation as a Fourth of July party crasher, so there was no version of this where I watched from a beach a mile away. We hiked out to Fort Point to stand directly under the deck, close enough to feel the shells in our chests.
 
-[insert map picture here]
+![The crowd walking out to Fort Point under a fog-topped Golden Gate Bridge](../images/foggy-bridge-with-crowd.png) ![Map: Fort Point National Historic Site, directly under the bridge's south anchorage](../images/map-to-fort-point.png)
 
 Which is how I found myself, at T-minus-three, wanting a soundtrack. No official audio reaches Fort Point, and a historic show deserves scoring. Scrolling my library, I remembered: Van Halen's *1984* opens with an instrumental (that slow, swelling synth intro) before "Jump" detonates. If I timed it right, the swell would carry us through the countdown and the first salvo would land when the song really kicks in.
 
