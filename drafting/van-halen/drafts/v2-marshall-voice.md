@@ -2,7 +2,7 @@
 
 *What forty years of Van Halen drama teaches us about team dynamics*
 
-![Fireworks pouring off the Golden Gate Bridge deck, lighting the fog from inside](../images/masthead.png)
+![Fireworks pouring off the Golden Gate Bridge deck, lighting the fog from inside](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/masthead.png)
 
 ---
 
@@ -12,7 +12,7 @@ This past Fourth of July (2026), San Francisco shot fireworks off the bridge its
 
 |  |  |
 | --- | --- |
-| ![The crowd walking out to Fort Point under a fog-topped Golden Gate Bridge](../images/foggy-bridge-with-crowd.png) | ![Map: Fort Point National Historic Site, directly under the bridge's south anchorage](../images/map-to-fort-point.png) |
+| ![The crowd walking out to Fort Point under a fog-topped Golden Gate Bridge](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/foggy-bridge-with-crowd.png) | ![Map: Fort Point National Historic Site, directly under the bridge's south anchorage](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/map-to-fort-point.png) |
 
 Which is how I found myself, at T-minus-three, wanting a soundtrack. No official audio reaches Fort Point, and a historic show deserves scoring. Scrolling my library, I remembered: Van Halen's [*1984*](https://en.wikipedia.org/wiki/1984_(Van_Halen_album)) opens with an instrumental (that slow, swelling synth intro) before ["Jump"](https://www.youtube.com/watch?v=SwYN7mTi6HM) detonates. If I timed it right, the swell would carry us through the countdown and the first salvo would land when the song really kicks in.
 
@@ -44,7 +44,7 @@ Belbin gives us the characters. Bales gives us the plot. Van Halen gives us the 
 
 ## Meet the band (you already work with them)
 
-![Van Halen onstage in 1978: Roth shirtless at the mic, Michael Anthony head down on bass, Eddie on guitar, Alex half-hidden behind the drums](../images/1978-billboard-ad.jpg)
+![Van Halen onstage in 1978: Roth shirtless at the mic, Michael Anthony head down on bass, Eddie on guitar, Alex half-hidden behind the drums](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/1978-billboard-ad.jpg)
 
 *The band in a Billboard ad, February 1978, the month the debut album broke: Roth, Anthony, Eddie, and (barely visible, as usual) Alex. Public domain.*
 
@@ -73,9 +73,13 @@ Second: I still haven't assigned one role.
 Belbin flagged two **Shapers** on one team as one of his known combustible configurations. There's a reason that seat is still open. It's where all the trouble starts.
 
 ## Act I: Runnin' with the Devil (1974–1985)
-
 > I live my life like there's no tomorrow  
 > And all I've got, I had to steal
+
+![Black-and-white Warner Bros. publicity photo of the 1984-era lineup: Alex in a suit and sunglasses, Roth, Eddie in a dice-print shirt, Michael Anthony](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/1984-promo.jpg)
+
+*The classic lineup in the* 1984 *album year: Alex, Roth, Eddie, Anthony. Months from the end. Warner Bros. publicity photo, public domain.*
+
 
 The standard telling of classic-era Van Halen is "clashing egos." The framework suggests something more precise: **Eddie and Roth were two claimants to a single Shaper seat.** This wasn't a personality conflict that happened to occur on a team; it was a structural conflict *about* the team: a standing contest over whose will shaped the work. Roth was never content to hold only the audience-facing pole. His creative fingerprints on the band's direction, and later a solo career launched on the conviction that he was a driving force in his own right, mark him as a **Shaper** claimant, not merely a frontman.
 
@@ -85,7 +89,7 @@ Eddie kept getting overridden. So he did what blocked **Plants** do. In 1983, he
 
 The fait accompli has a name, and if you've read this far you already know it. "Jump" was a synth riff [Eddie said](https://ultimateclassicrock.com/van-halen-1984-track-by-track/) was rejected for years, resisted by exactly the Roth–Templeman alliance that controlled the old pipeline.[^illwait] Recorded at 5150, on Eddie's turf, it became [the only #1 single](https://www.billboard.com/pro/forever-no-1-van-halens-jump/) the band ever had.
 
-![The 1984 album cover: a winged cherub holding a lit cigarette](../images/cover-1984.jpg)
+![The 1984 album cover: a winged cherub holding a lit cigarette](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/cover-1984.jpg)
 
 *The artifact in question. Cover art by Margo Nahas, © Warner Bros. Records; low-resolution reproduction for commentary (fair use).*
 
@@ -95,15 +99,15 @@ The war story hides a detail. [Templeman's account](https://en.wikipedia.org/wik
 
 Winning the war didn't save the team; it ended it. Once the contest was decided, the conflict migrated from *task* to *relationship*, and the research names this exact failure mode[^jehn]: task conflict can fuel a team, but only while enough trust keeps it from turning personal. Relationship conflict kills either way. The trust had been Templeman's job. The fait accompli won the argument by going around him. Within a year of the band's commercial peak, Roth was gone.
 
-![Black-and-white Warner Bros. publicity photo of the 1984-era lineup: Alex in a suit and sunglasses, Roth, Eddie in a dice-print shirt, Michael Anthony](../images/1984-promo.jpg)
-
-*The classic lineup in the* 1984 *album year: Alex, Roth, Eddie, Anthony. Months from the end. Warner Bros. publicity photo, public domain.*
-
 Bales says every group needs a social-emotional pole. Roth held its outward face, the charisma aimed at the audience. But the *inward* face, the one aimed at the band itself, was quietly held the whole time by Michael Anthony.
 
 *Summary: two **Shapers**, one seat; the referee sided with one claimant; the other built his own pipeline and shipped the winning artifact; victory converted task conflict into relationship conflict; the team fractured on schedule.*
 
 ## Interlude: 5150
+
+![The 5150 album cover: a muscled figure straining to hold a giant chrome sphere overhead](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/cover-5150.jpg)
+
+*One man, holding the whole thing up alone. © Warner Bros. Records (fair use).*
 
 Before the next act, the fortress from Act I deserves its origin story.
 
@@ -115,19 +119,15 @@ The name is the best part. Eddie and engineer Donn Landee christened the studio 
 
 And if you want to know how completely the fortress won: two years after *1984*, the band gave its first post-Roth album the studio's name: *5150*. The side branch had become main.
 
-![The 5150 album cover: a muscled figure straining to hold a giant chrome sphere overhead](../images/cover-5150.jpg)
-
-*One man, holding the whole thing up alone. © Warner Bros. Records (fair use).*
-
 ## Act II: Why Can't This Be Love? (1985–1996)
 
 > Only time will tell if we stand the test of time
 
-Sammy Hagar is often described as the easygoing alternative to Roth, which is hilarious to anyone who's read his memoir [*Red*](https://www.harpercollins.com/products/red-sammy-hagar): Hagar is no shrinking violet. The Hagar era wasn't harmonious because Hagar was agreeable. It was harmonious because he arrived *after the structural contest was decided*. He joined Eddie's band, on Eddie's terms, recording in Eddie's studio. However accomplished, he entered as an occupant of the frontman role, not a claimant to the **Shaper** seat.
-
-![Onstage in 2004: Michael Anthony on bass, Sammy Hagar singing in red, Eddie shirtless on guitar](../images/2004-hagar-lineup.jpg)
+![Onstage in 2004: Michael Anthony on bass, Sammy Hagar singing in red, Eddie shirtless on guitar](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/2004-hagar-lineup.jpg)
 
 *The settled configuration, onstage at the 2004 reunion: Anthony, Hagar, Eddie. Photo: bella lago, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/), via Wikimedia Commons.*
+
+Sammy Hagar is often described as the easygoing alternative to Roth, which is hilarious to anyone who's read his memoir [*Red*](https://www.harpercollins.com/products/red-sammy-hagar): Hagar is no shrinking violet. The Hagar era wasn't harmonious because Hagar was agreeable. It was harmonious because he arrived *after the structural contest was decided*. He joined Eddie's band, on Eddie's terms, recording in Eddie's studio. However accomplished, he entered as an occupant of the frontman role, not a claimant to the **Shaper** seat.
 
 **Sequence, not temperament, is the variable.** There is a world of difference between two co-founders fighting over technical direction and a decorated senior hire who joins after the architecture is settled. Same talent, same strong personality, completely different structural position — completely different outcome.
 
@@ -153,7 +153,7 @@ Gary Cherone (genuinely talented, hired from Extreme) lasted one album, because 
 
 And then there's [*Van Halen III*](https://en.wikipedia.org/wiki/Van_Halen_III), the band's worst-received album. Delightfully, you don't need to psychoanalyze anyone, because the liner notes make the argument. Eddie played bass on most of the record (Anthony appears on only three tracks). Eddie sang lead on one song. Eddie took a heavy hand in production. One member occupying the **Plant**, **Shaper**, and **Completer Finisher** roles, now absorbing pieces of the **Teamworker**'s and frontman's, with no **Monitor Evaluator** anywhere in the organization to kill any of it in review. I told you we'd hear what that vacancy sounds like. It sounds like *Van Halen III*.
 
-![The Van Halen III album cover: a sepia photograph of a strongman taking a cannonball to the stomach](../images/cover-van-halen-iii.jpg)
+![The Van Halen III album cover: a sepia photograph of a strongman taking a cannonball to the stomach](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/cover-van-halen-iii.jpg)
 
 *A man taking a cannonball to the gut. The reviews agreed. © Warner Bros. Records (fair use).*
 
@@ -161,7 +161,7 @@ The Anthony story completes in parallel, and it's the cruelest data in the set. 
 
 His replacement was Wolfgang, Eddie's son: the ultimate new guy, structurally incapable of contesting the **Shaper** seat, and by all accounts an excellent musician besides. The 2012–2015 reunion with Roth produced a real album and a tense armistice; the seat contest was never resolved, only rendered moot by Eddie's total structural victory. Eddie, in a [2015 Billboard interview](https://www.billboard.com/music/rock/eddie-van-halen-addiction-david-lee-roth-touring-6605231/), summarized the state of the twenty-year truce in eight words: "he does not want to be my friend."[^billboard] Eddie Van Halen died in October 2020, with the band's role structure — his studio, his son, his name on the marquee — arranged exactly as he'd built it.
 
-![Eddie Van Halen in orange stage light, shirtless in camo pants, playing a sunburst guitar](../images/2004-eddie-live.jpg)
+![Eddie Van Halen in orange stage light, shirtless in camo pants, playing a sunburst guitar](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/2004-eddie-live.jpg)
 
 *Eddie onstage in Sacramento, August 2004. Photo: Mogwai73, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), via Wikimedia Commons.*
 
