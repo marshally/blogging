@@ -101,7 +101,7 @@ And if you want to know how completely the fortress won: two years after *1984*,
 
 > Only time will tell if we stand the test of time
 
-Sammy Hagar is often described as the easygoing alternative to Roth, which is hilarious to anyone who's read his memoir *Red*: Hagar is no shrinking violet. The Hagar era wasn't harmonious because Hagar was agreeable. It was harmonious because he arrived *after the structural contest was decided*. He joined Eddie's band, on Eddie's terms, recording in Eddie's studio. However accomplished, he entered as an occupant of the frontman role, not a claimant to the **Shaper** seat.
+Sammy Hagar is often described as the easygoing alternative to Roth, which is hilarious to anyone who's read his memoir [*Red*](https://www.harpercollins.com/products/red-sammy-hagar): Hagar is no shrinking violet. The Hagar era wasn't harmonious because Hagar was agreeable. It was harmonious because he arrived *after the structural contest was decided*. He joined Eddie's band, on Eddie's terms, recording in Eddie's studio. However accomplished, he entered as an occupant of the frontman role, not a claimant to the **Shaper** seat.
 
 **Sequence, not temperament, is the variable.** There is a world of difference between two co-founders fighting over technical direction and a decorated senior hire who joins after the architecture is settled. Same talent, same strong personality, completely different structural position — completely different outcome.
 
