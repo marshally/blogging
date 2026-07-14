@@ -2,7 +2,7 @@
 
 Curated 2026-07-12 via parallel research agents (one per theme). Every entry below had its source page fetched and its license verified; direct image URLs were confirmed live. Images are listed once, under their primary theme, with cross-references where they serve more than one. Each entry embeds the image for preview.
 
-Marshall has his own photos of (a) the Golden Gate Bridge being swallowed by fog and (b) the July 4, 2026 fireworks — those take the masthead and coda slots; the GGB entries below (#8–9) are kept as alternates only.
+Marshall's own July 4, 2026 photos are now in the repo (#36–37) and take the masthead and coda slots; the GGB entries below (#8–9) are alternates only. His map screenshot (#38) fills the map placeholder, with the NPS map (#22) as the cleaner-licensing alternate.
 
 ## Licensing quick guide
 
@@ -50,6 +50,9 @@ Marshall has his own photos of (a) the Golden Gate Bridge being swallowed by fog
 | 33 | Wolfgang on bass, Montreal 2007 | Succession | CC BY 2.0 |
 | 34 | Eddie soloing, Montreal 2007 | Succession / Conflict | CC BY 2.0 |
 | 35 | Wolfgang on bass, Minneapolis 2012 | Succession | CC BY 2.0 |
+| 36 | Opening salvo at the south tower (Marshall's photo) | Masthead / opening | Own work |
+| 37 | Cascade lighting the fog (Marshall's photo) | Coda / fireworks | Own work |
+| 38 | Map to Fort Point (Google Maps screenshot) | Map placeholder | Google Maps — keep attribution |
 
 ---
 
@@ -474,6 +477,39 @@ Wolfgang at 21, on his white/black-striped EVH bass, "A Different Kind of Truth"
 - **Source:** Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Wolfgang_Van_Halen_Different_Kind_of_Truth_2012.jpg
 - **Credit:** Joe Bielawa (via Flickr)
 - **License:** CC BY 2.0
+
+---
+
+## Marshall's own photos (July 4, 2026, Fort Point)
+
+In `drafting/van-halen/images/`. Both fireworks shots are ~22 MB full-resolution PNGs — export downscaled web versions (JPEG/WebP) before publishing; don't serve these directly.
+
+### 36. Opening salvo at the south tower
+
+![Opening salvo at the south tower](../images/2026-07-04-opening-salvo.png)
+
+A single starburst breaking through the fog beside the south tower, the tower lit gold, a silhouetted watcher on the rocks in the foreground. This is the opening scene's beat — the first shells off the deck — and the natural masthead.
+
+- **File:** `images/2026-07-04-opening-salvo.png` (2116×1194)
+- **License:** Own work
+
+### 37. Cascade lighting the fog
+
+![Cascade lighting the fog](../images/2026-07-04-bright-colorful-bridge.png)
+
+A deck-length cascade of comets pouring off the roadway, the fog glowing pink and gold from inside, watcher silhouetted below. This is the coda's sentence — "the low-level effects off the deck still lit the fog from inside" — as a photograph.
+
+- **File:** `images/2026-07-04-bright-colorful-bridge.png` (3072×2061)
+- **License:** Own work
+
+### 38. Map to Fort Point
+
+![Map to Fort Point](../images/map-to-fort-point.png)
+
+Google Maps satellite view: the Fort Point National Historic Site pin directly under the bridge approach, with Crissy Field and the shoreline walk east of it — the hike route in one frame. Fills the `[insert map picture here]` placeholder.
+
+- **File:** `images/map-to-fort-point.png` (3072×2075)
+- **License:** Google Maps screenshot — Google's geo guidelines permit editorial blog use provided the "© Google" attribution baked into the image stays visible (it's in the frame). If cleaner licensing is preferred, swap for the public-domain NPS map (#22).
 
 ---
 
