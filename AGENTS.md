@@ -27,6 +27,15 @@ Marshall Yount's blog-writing repo. Agents draft posts here; Marshall edits them
 6. **Style-fix commits are itemized for revert.** When applying a pass of style or de-telling fixes to a draft, make one commit per instance with the reason cited in the message — Marshall reverts individual calls he disagrees with. When a pass has dozens of mechanical instances (e.g. an em-dash conversion), relax to one commit per section. Never one blob commit.
 7. **Claims trace to research.** Every factual claim, quote, and framework casting in an outline or draft must trace to an entry in the post's research files. A label with no research entry gets flagged "unsubstantiated" in the outline or logged in DECISIONS.md — never carried silently into a draft. Research files tier what they hold: verified (primary source), secondary, folklore (flagged as such), and a do-not-use ledger for caught fabrications and misattributed quotes, so a debunked quote can't re-enter the piece.
 
+## Images
+
+- Image files live in `drafting/<slug>/images/`.
+- Every image — sourced or Marshall's own — gets a ledger entry in `drafting/<slug>/research/images.md`: name, what it shows, direct URL, source page, photographer/source, and exact license, with non-free entries (fair use, unclear license) explicitly flagged. `drafting/van-halen/research/images.md` is the exemplar format.
+- Verify licenses by fetching the source page. Never invent or trust remembered URLs — verify each direct image URL exists.
+- Marshall's own photos are named `YYYY-MM-DD-description.png`; sanity-check the date against the event before committing.
+- Before placing an image, check its pixel dimensions and look for baked-in margins or whitespace.
+- Full-res photos (multi-MB) get downscaled derivatives before publish; the publish-time asset step in the `finalize-post` skill owns that conversion.
+
 ## Commit policy
 
 Commit as you go, in a series of orthogonal commits. Each commit contains one specific edit or idea — never a grab-bag of unrelated changes. Commits stack on top of each other, each delivering a tiny sliver of incremental value on the one before. Never batch a session's work into one omnibus commit at the end. This composes with drafting rule 2: the first complete draft is one commit, and every revision idea after it is its own commit on top, so Marshall's hand edits always diff cleanly against the latest agent-authored state.
