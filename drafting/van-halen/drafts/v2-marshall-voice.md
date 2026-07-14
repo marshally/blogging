@@ -161,6 +161,10 @@ The Anthony story completes in parallel, and it's the cruelest data in the set. 
 
 His replacement was Wolfgang, Eddie's son: the ultimate new guy, structurally incapable of contesting the **Shaper** seat, and by all accounts an excellent musician besides. The 2012–2015 reunion with Roth produced a real album and a tense armistice; the seat contest was never resolved, only rendered moot by Eddie's total structural victory. Eddie, in a [2015 Billboard interview](https://www.billboard.com/music/rock/eddie-van-halen-addiction-david-lee-roth-touring-6605231/), summarized the state of the twenty-year truce in eight words: "he does not want to be my friend."[^billboard] Eddie Van Halen died in October 2020, with the band's role structure — his studio, his son, his name on the marquee — arranged exactly as he'd built it.
 
+![Eddie Van Halen in orange stage light, shirtless in camo pants, playing a sunburst guitar](../images/2004-eddie-live.jpg)
+
+*Eddie onstage in Sacramento, August 2004. Photo: Mogwai73, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), via Wikimedia Commons.*
+
 *Summary: the contested seat reignited on contact; the mis-hire proved a role is a relationship; the liner notes documented one member absorbing four roles with no critic in the building; the glue person was fired and then synthesized; succession completed the structure.*
 
 ## So what?
