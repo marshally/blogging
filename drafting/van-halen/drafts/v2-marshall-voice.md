@@ -89,7 +89,7 @@ Bales says every group needs a social-emotional pole. Roth held its outward face
 
 Before the next act, the fortress from Act I deserves its origin story.
 
-It starts, of all places, with a cover song. In 1982, Eddie was sitting on a Minimoog part he'd earmarked for something original: "I envisioned it being more like a Peter Gabriel song," [he told Guitar World](https://www.vhnd.com/2014/01/02/eddie-van-halen-looks-back-on-van-halens-landmark-1984-album-and-the-creation-of-5150-studios/). Templeman heard it and decided it was exactly what the band's covers-heavy *Diver Down* album needed, and the riff was spent on a remake of "Dancing in the Street." The architect's favorite abstraction, requisitioned for somebody else's feature.
+It starts, of all places, with a cover song. In 1982, Eddie was sitting on a Minimoog part he'd earmarked for something original: "I envisioned it being more like a Peter Gabriel song," [he told Guitar World](https://www.vhnd.com/2014/01/02/eddie-van-halen-looks-back-on-van-halens-landmark-1984-album-and-the-creation-of-5150-studios/). Templeman heard it and decided it was exactly what the band's covers-heavy *Diver Down* album needed, and the riff was spent on a remake of ["Dancing in the Street."](https://www.youtube.com/watch?v=QIfotf13gzE) The architect's favorite abstraction, requisitioned for somebody else's feature.
 
 There's a quote about this episode that shows up in every telling: "I fucking hated that song. I never wanted to do it. That was the reason I decided to build my own studio."[^folklore]
 
