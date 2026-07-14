@@ -70,14 +70,27 @@ factual correction.
 
 ### 5. Publish
 
-Copy the draft verbatim to `posts/YYYY-MM-DD-<slug>.md` (today's date; slug is the
-drafting folder name, not the post title). Leave `drafting/<slug>/` in place as the
-archive.
+Copy the draft to `posts/YYYY-MM-DD-<slug>.md` (today's date; slug is the drafting
+folder name, not the post title). "Verbatim" applies to the prose; the asset
+references need work:
+
+- Enumerate every image reference in the draft (markdown images, video thumbnails).
+- Publish the referenced local assets where the `posts/` file can reach them
+  (default: `posts/images/<slug>/` unless the repo has grown another convention),
+  downscaling full-res originals first — honor any size notes in the post's
+  `research/images.md` (multi-MB photos never ship at source resolution).
+- Rewrite the draft's relative paths (`../images/…`) for the published file's
+  location.
+- After the copy, verify every image and thumbnail link in the published file
+  resolves. A post with broken images is not published.
+
+Leave `drafting/<slug>/` in place as the archive.
 
 ### 6. Commit and report
 
-Stage **only** what this workflow produced — the new `posts/` file and
-`docs/writing-style.md` — never `git add -A`; the tree may hold unrelated work. Commit
+Stage **only** what this workflow produced — the new `posts/` file, its published
+assets, and `docs/writing-style.md` — never `git add -A`; the tree may hold
+unrelated work. Commit
 them together (with the Claude trailer) and push. End with a report: where the post
 landed, and each style learning recorded — quoting the edit that motivated it so
 Marshall can veto misreadings.
@@ -87,6 +100,7 @@ Marshall can veto misreadings.
 | Mistake | Reality |
 |---|---|
 | Publish by copying the file, harvest "later" | Later never comes. Harvest before or with the publish commit. |
+| Copy the markdown, forget the images | The draft references `../images/` paths that don't resolve from `posts/`. Publish the assets, rewrite the paths, verify every link. |
 | Leave typos in "to preserve voice" | A typo is never voice. Fix mechanical errors on sight; never touch wording or substance. |
 | Record a factual fix as a style rule | Content ≠ voice. Style doc gets style only. |
 | Append every observation as a new bullet | Duplicates rot the doc. Amend existing rules; use the watch list for maybes. |
