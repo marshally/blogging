@@ -24,7 +24,7 @@ problem (infra engineer legible only to infra engineers) and the Anthony problem
 | Roth | Max | Contested | Vocal chops derided by musicians even at peak |
 | Alex | Low | High | Cleanest split; drummers' canon, absent from fan lists |
 | Anthony | Low | High (for glue) | Sharpest case; admired for harmonies/cohesion, not chops |
-| Hagar | Solid | Solid | Spectacular on neither; consistent with Coordinator-adjacency |
+| Hagar | Solid | Solid | Spectacular on neither; recast 2026-07-13 as second Resource Investigator (D21, see hagar-resource-investigator.md) |
 
 ## Evidence (web research, 2026-07-11)
 

@@ -173,3 +173,22 @@ coda is physically set at the Golden Gate Bridge, and ending on the imperative
 "jump" beside that bridge risks the darkest misreading. The oblique version also
 bookends the cold open's "Dear reader." DO NOT "improve" this to the literal
 phrase — the omission is deliberate.
+
+## D21. Hagar recast: Resource Investigator, not Coordinator-adjacent (2026-07-13)
+Marshall flagged "Coordinator-adjacent" as unsubstantiated. Research agreed:
+frameworks.md never assigned Hagar a role, the Coordinator function belonged to
+Leffler, and an adversarial search found no in-band chairperson evidence at all.
+Strong contemporaneous RI evidence instead (research/hagar-resource-investigator.md):
+Cabo Wabo cantina opened 1990 mid-tenure, tequila brand 1996, the 2004 reunion
+contract's Cabo Wabo shirt ban, the 2007 $80M Campari sale. New framing: the
+frontman seat attracted the same Belbin type twice; the two RIs never shared a
+lineup, so no duplicated-roles collision. Supersedes D17's "Hagar stays
+Coordinator-adjacent" note — the in-house Coordinator vacancy claim is STRONGER
+with no adjacent occupant. Belbin's Coordinator definition moved from Hagar's
+paragraph into the empty-seats observation. New footnote [^tattoo] (shirt-ban
+response, UCR link). Body delta roughly +30 words; displacement owed on the next
+editing pass. Cast-sheet graphic updated: RI card now reads "Roth, then Hagar"
+with both entity dots. Caveat from research: Hagar only half-fits the RI's
+"loses interest" weakness (restaurants yes, tequila no) — the draft casts the
+type without asserting the stereotype, and the weakness clause stays attached to
+Roth only.

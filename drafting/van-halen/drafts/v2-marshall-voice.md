@@ -48,13 +48,13 @@ Belbin gives us the characters. Bales gives us the plot. Van Halen gives us the 
 
 **The Teamworker — Michael Anthony.** Belbin's glue role: averts friction, supports others, morale infrastructure, and chronically under-recognized, because the contribution never shows up as attributable output. Musicians praise Anthony's bass playing as rock-solid, full stop; what they revere are the high, bright backing harmonies so essential to the band's sound that writer after writer independently reached for the same epithet: *the secret weapon.* This is the glue person from Tanya Reilly's famous talk[^glue]: the engineer doing the reviews, the onboarding, the invisible cohesion work. Remember him. This story ends badly.
 
-**Coordinator-adjacent — Sammy Hagar.** An established star when he joined, collaborative with writing credits, a frontman who also played guitar: a product manager who could read code. Belbin's **Coordinator** is the chairperson: clarifies goals, pulls decisions out of the group, often not the most talented person in the room. Scoreboards: respected on both, worshipped on neither.
+**The Resource Investigator, again — Sammy Hagar.** Note the seat: the frontman slot attracted the same Belbin type twice, in lineups a decade apart. Constitutionally outward-facing — mid-tenure he opened a cantina in Cabo and launched a tequila brand out of it, to his bandmates' standing irritation; the 2004 reunion contract literally banned Cabo Wabo shirts onstage.[^tattoo] Same archetype as Roth; what changed was when he arrived. Scoreboards: respected on both, worshipped on neither.
 
 **The Specialist — Wolfgang Van Halen.** Hired in 2006 for one defined slot: bass.
 
 Now, two observations about this cast sheet, and they're findings, not trivia.
 
-First, look at the *empty* seats. The band never had a **Monitor Evaluator**: Belbin's dispassionate internal critic, the person who kills bad ideas in design review. And it never had a stable in-house **Coordinator**; that role kept getting outsourced to producers and managers, with consequences each time the outsourced version disappeared. Keep the **Monitor Evaluator** vacancy in mind. In 1998, we're going to hear exactly what it sounds like.
+First, look at the *empty* seats. The band never had a **Monitor Evaluator**: Belbin's dispassionate internal critic, the person who kills bad ideas in design review. And it never had a stable in-house **Coordinator** — Belbin's chairperson, who clarifies goals and pulls decisions out of the group; that role kept getting outsourced to producers and managers, with consequences each time the outsourced version disappeared. Keep the **Monitor Evaluator** vacancy in mind. In 1998, we're going to hear exactly what it sounds like.
 
 Second: I still haven't assigned one role.
 
@@ -160,6 +160,8 @@ The fog doesn't ruin the show. It just tells you which scoreboard you've been wa
 [^brown-sound]: The cleanest split comes with a punchline. The most famous term in Van Halen lore (the "brown sound," the tone guitarists have spent careers chasing) was never about the guitar. Eddie, [Billboard, 2015](https://www.billboard.com/music/rock/eddie-van-halen-synesthesia-rumors-brown-sound-6605131/): "People took that whole 'brown sound' thing totally out of context. I was never talking about my guitar tone. I was talking about Alex's snare drum. I've always thought Alex's snare drum sounds like he's beating on a log." Misattributed for decades, from the invisible guy to the famous one. Two scoreboards, even for tone.
 
 [^glue]: Tanya Reilly, "Being Glue," [noidea.dog/glue](https://www.noidea.dog/glue). "Glue work is the difference between a project that succeeds and one that fails." If you lead engineers and haven't read it, read it before you finish this one.
+
+[^tattoo]: His response to the shirt ban: he tattooed the Cabo Wabo logo on his shoulder, where the contract couldn't reach and the jumbotron could ([Ultimate Classic Rock](https://ultimateclassicrock.com/sammy-hagar-van-halen-cabo-wabo-shirts-ban/)). The **Resource Investigator**, unmanageable by design.
 
 [^templeman]: Templeman, asked about "Jump" thirty-six years later: "The keyboards just hit me as wrong… I was wrong because it was Number One, but I don't even listen to it" ([Rolling Stone, 2020](https://www.rollingstone.com/music/music-features/ted-templeman-producer-eddie-van-halen-interview-1073080/)).
 

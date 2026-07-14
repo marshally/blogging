@@ -8,8 +8,9 @@ with the album *1984* — "Jump" landing on the first salvo.
 
 ## Status
 
-- **Current draft:** `drafts/v2-marshall-voice.md` (~3,520 body words + 15 budget-free
-  footnotes; at the ~3,500 target as of 2026-07-12 — new prose should displace old)
+- **Current draft:** `drafts/v2-marshall-voice.md` (~3,550 body words + 16 budget-free
+  footnotes; ~30 over the ~3,500 target after D21's Hagar recast — displacement owed;
+  new prose should displace old)
 - **Target length:** ~3,500 words; footnotes are budget-free (see DECISIONS D12)
 - **Open items:** see "Open questions" below
 

@@ -13,7 +13,8 @@ VACANT — a finding), Specialist (narrow deep expertise; Wolfgang at entry).
 Eddie's second role in the studio).
 **People:** Coordinator (chairperson; outsourced to Templeman then Leffler — a finding),
 Teamworker (glue; Michael Anthony), Resource Investigator (outward-facing opportunity
-energy; Roth).
+energy; Roth, then Hagar — recast from "Coordinator-adjacent" 2026-07-13 per D21;
+see hagar-resource-investigator.md).
 
 Key theses used: teams fail from uncovered and duplicated roles, not talent deficits;
 Apollo syndrome (all-star teams underperform balanced ones); two Shapers = known

@@ -11,6 +11,7 @@
     .dot-alex { fill: #1baf7a; }
     .dot-roth { fill: #eda100; }
     .dot-anthony { fill: #008300; }
+    .dot-hagar { fill: #4a3aa7; }
     .dot-wolf { fill: #e34948; }
     text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
     .title { font-size: 20px; font-weight: 600; }
@@ -29,6 +30,7 @@
       .dot-eddie { fill: #3987e5; }
       .dot-alex { fill: #199e70; }
       .dot-roth { fill: #c98500; }
+      .dot-hagar { fill: #9085e9; }
       .dot-wolf { fill: #e66767; }
     }
   </style>
@@ -58,14 +60,15 @@
     <text class="note ink2" x="340" y="197">Decided at 5150; reignited on every</text>
     <text class="note ink2" x="340" y="214">reunion. Where all the trouble starts.</text>
   </g>
-  <g><!-- Resource Investigator / Roth -->
+  <g><!-- Resource Investigator / Roth, then Hagar -->
     <rect class="card" x="612" y="92" width="276" height="150" rx="8"/>
     <text class="role muted" x="630" y="122">RESOURCE INVESTIGATOR</text>
     <circle class="dot-roth ring" cx="634" cy="145" r="4" stroke-width="2"/>
-    <text class="name ink" x="646" y="150">David Lee Roth</text>
+    <circle class="dot-hagar ring" cx="647" cy="145" r="4" stroke-width="2"/>
+    <text class="name ink" x="659" y="150">Roth, then Hagar</text>
     <text class="note ink2" x="630" y="180">The interface to the world: brand,</text>
-    <text class="note ink2" x="630" y="197">showmanship, deal energy — and</text>
-    <text class="note ink2" x="630" y="214">boredom once the excitement fades.</text>
+    <text class="note ink2" x="630" y="197">showmanship, deal energy. The seat</text>
+    <text class="note ink2" x="630" y="214">drew the same type twice.</text>
   </g>
 
   <!-- Row 2 -->
