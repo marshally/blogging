@@ -29,6 +29,7 @@ with the album *1984* — "Jump" landing on the first salvo.
 | `research/sources.md` | Bibliography: memoirs, primary documents, web sources |
 | `research/images.md` | Candidate images for article placement, with sources, licenses, and inline previews |
 | `research/hagar-resource-investigator.md` | Evidence for the D21 recast: Hagar as second Resource Investigator |
+| `research/jump-conflict.md` | The conflict behind "Jump": dated spine, both factions' quotes, commercial record, task-conflict literature |
 | `images/` | Custom graphics: cast-sheet.svg, two-scoreboards.svg (light/dark aware) |
 | `DECISIONS.md` | Decision log with rationale — read this first when resuming |
 
