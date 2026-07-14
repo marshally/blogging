@@ -167,13 +167,13 @@ The fog doesn't ruin the show. It just tells you which scoreboard you've been wa
 
 [^templeman]: Templeman, asked about "Jump" thirty-six years later: "The keyboards just hit me as wrong… I was wrong because it was Number One, but I don't even listen to it" ([Rolling Stone, 2020](https://www.rollingstone.com/music/music-features/ted-templeman-producer-eddie-van-halen-interview-1073080/)).
 
-[^illwait]: Nor was it a one-song war: Roth and Templeman also wanted ["I'll Wait"](https://en.wikipedia.org/wiki/I%27ll_Wait), the album's other synth track, off *1984* entirely. It went to #13.
+[^illwait]: Nor was it a one-song war: Roth and Templeman also wanted ["I'll Wait"](https://www.youtube.com/watch?v=A0tg8VCWlhQ), the album's other synth track, off *1984* entirely. It went to #13.
 
 [^jehn]: Exactly, if you want it: "Relationship conflict exists when there are interpersonal incompatibilities among group members… Task conflict exists when there are disagreements among group members about the content of the tasks being performed" (Karen Jehn, [*Administrative Science Quarterly* 40 (1995), p. 258](https://www.jstor.org/stable/2393638)).
 
 [^folklore]: Confession: this quote is folklore. It appears in every retrospective and fan wiki, and nobody has ever pinned it to a dated interview. Eddie's documented words are milder: "I wanted more control. I was always butting heads with Ted Templeman about what makes a good record" ([Guitar World, 2014](https://www.vhnd.com/2014/01/02/eddie-van-halen-looks-back-on-van-halens-landmark-1984-album-and-the-creation-of-5150-studios/)). But the folk version keeps winning because it's truer to the shape of the grievance. That's how apocrypha earn their keep.
 
-[^victory-riff]: A detail for the completists: ["Top of the World,"](https://en.wikipedia.org/wiki/Top_of_the_World_(Van_Halen_song)) the Hagar era's triumphal closer, is built on the closing guitar figure of "Jump." The peaceful decade's victory lap runs, literally, on the riff that won the war.
+[^victory-riff]: A detail for the completists: ["Top of the World,"](https://www.youtube.com/watch?v=JG0H4Zp9oqw) the Hagar era's triumphal closer, is built on the closing guitar figure of "Jump." The peaceful decade's victory lap runs, literally, on the riff that won the war.
 
 [^fired-or-quit]: The two accounts, verbatim. [Hagar](https://www.rollingstone.com/music/music-news/sammy-hagar-van-halen-reunion-eddie-van-halen-1234600146/): "Oh, I was fired… It was Father's Day, Sunday morning, 9 am." [Eddie](https://ultimateclassicrock.com/sammy-hagar-splits-van-halen/): "I didn't fire him. He just quit." Sixteen years later, the band titled an album *A Different Kind of Truth*. They knew.
 
