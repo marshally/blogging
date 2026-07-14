@@ -12,7 +12,7 @@ This past Fourth of July (2026), San Francisco shot fireworks off the bridge its
 
 [insert map picture here]
 
-Which is how I found myself, at T-minus-three, wanting a soundtrack. No official audio reaches Fort Point, and a show that size deserves scoring. Scrolling my library, I remembered something: the album *1984* opens with a one-minute instrumental (that slow, swelling synth intro) before "Jump" detonates. If I timed it right, the swell would carry us through the countdown and the first salvo would land exactly on the first chord.
+Which is how I found myself, at T-minus-three, wanting a soundtrack. No official audio reaches Fort Point, and a historic show deserves scoring. Scrolling my library, I remembered: Van Halen's *1984* opens with an instrumental (that slow, swelling synth intro) before "Jump" detonates. If I timed it right, the swell would carry us through the countdown and the first salvo would land when the song really kicks in.
 
 Dear reader, I timed it right. The opening shells came off the bridge deck as the synth resolved, "Jump" kicked in, and for the next twenty minutes an album recorded in 1983 scored a fireworks show like it had been commissioned for it.
 
@@ -75,7 +75,7 @@ Eddie kept getting overridden. So he did what blocked **Plants** do. In 1983, he
 
 The fait accompli has a name, and if you've read this far you already know it. "Jump" was a synth riff Eddie said was rejected for years, resisted by exactly the Roth–Templeman alliance that controlled the old pipeline.[^illwait] Recorded at 5150, on Eddie's turf, it became the only #1 single the band ever had.
 
-That's the song I cued up under the bridge. The track that scored the show beginning so perfectly wasn't just a good album opener: it was the decisive move in Van Halen's **Shaper** war, the artifact that proved the **Plant** could win outside the sanctioned process. I was soundtracking a fireworks show with a shipped side branch, and I didn't even know it.
+That's the song I cued up under the bridge. The track that scored the show beginning so perfectly wasn't just a good album opener: it was the decisive move in Van Halen's **Shaper** war, the artifact that proved the **Plant** could win outside the sanctioned process. I was soundtracking a fireworks show with a side branch that slipped into production, and I didn't even know it.
 
 Winning the war didn't save the team; it ended it. Once the contest was decided, the conflict migrated from *task* to *relationship*, and the research here is unambiguous[^jehn]: task conflict can fuel a team, relationship conflict kills it. Within a year of the band's commercial peak, Roth was gone.
 
@@ -103,7 +103,7 @@ Sammy Hagar is often described as the easygoing alternative to Roth, which is hi
 
 **Sequence, not temperament, is the variable.** There is a world of difference between two co-founders fighting over technical direction and a decorated senior hire who joins after the architecture is settled. Same talent, same strong personality, completely different structural position — completely different outcome.
 
-The outcome, for a decade, was remarkable: four consecutive #1 albums, more commercial success than the Roth era ever managed, and a legacy fans nonetheless rank below the original run.[^victory-riff] Whatever was lost with the friction, something was lost.
+The outcome, for a decade, was remarkable: four consecutive #1 albums, more commercial success than the Roth era ever managed, but leaving a legacy that fans nonetheless rank below the original run.[^victory-riff] Whatever was lost with the friction, something was lost.
 
 But look closely, and the era's stability had a second load-bearing element: manager Ed Leffler, whom Hagar's memoir credits as the neutral figure holding the whole configuration together: the in-house **Coordinator** the band otherwise never had. Then the causal chain runs like a fuse. Leffler died in 1993. He was replaced by Ray Danniels, Alex's former brother-in-law and, in Hagar's telling, aligned with the brothers rather than neutral. The chairperson's seat, refilled by a partisan. Within three years, the first genuine task conflicts (songs for the *Twister* soundtrack, a greatest-hits album Hagar opposed) escalated with nothing left to buffer them, and Hagar was out. (Hagar tells the exit one way in *Red*; the brothers told it another.[^fired-or-quit] To be honest, we'll never know exactly what happened, and the fact that no two members could ever agree is itself evidence of what the group had become without a **Coordinator**.)
 
@@ -137,7 +137,7 @@ Three claims, and I'll commit to them:
 
 **1. Every team has one Shaper seat, and the real fights are over who sits in it.** The conflicts we narrate as personality clashes are usually structural contests over whose will shapes the work, and they end when the seat question is settled, one way or another. Niceness never settled one.
 
-**2. Teams fail from uncovered and duplicated roles, not talent deficits.** Van Halen at every moment had a surplus of talent. What it never had was a **Monitor Evaluator**; what it twice lost was its **Coordinator**; what it eventually fired was its **Teamworker**. Each vacancy has an audible signature in the discography.[^nobodys-perfect]
+**2. Teams fail from uncovered and duplicated roles, not talent deficits.** Van Halen at every moment had a surplus of talent. What it never had was a **Monitor Evaluator**; what it twice lost was its **Coordinator**; what it eventually fired was its **Teamworker**. Each vacancy leaves an audible signature in the discography.[^nobodys-perfect]
 
 **3. There are two scoreboards, and your org chart reads only one of them.** Fans (like users, like promotion committees) score what's legible from the front of the stage. Practitioners score the craft that's only visible from inside. The gap between the scoreboards is largest for exactly the **Implementer** and **Teamworker** roles, which is why the Alexes go unlisted and the Anthonys get their contracts reduced.
 
