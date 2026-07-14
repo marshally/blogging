@@ -61,6 +61,7 @@ Name real referents, not generic stand-ins: "Hacker News," not "a tech gossip bo
 - Cut placeholder objects before a reveal-colon: "I remembered:" not "I remembered something:" — the colon already does the pointing.
 - Anchor an unfamiliar proper noun at first mention: "Van Halen's *1984*," not "the album *1984*," when the band hasn't been introduced yet (and the bare title could be Orwell). One possessive or orienting clause beats a reader stumble.
 - Borrowed jargon must be mechanically accurate: a practitioner reading the metaphor literally should find that it holds. "A side branch that slipped into production," not "a shipped side branch," when the story is a bypass — "shipped" implies a sanctioned release, which is the opposite of the point.
+- Current American usage beats schoolroom prescriptions: "a historic," not "an historic." When a taught rule has fallen out of favor in contemporary American English, write the current form (Marshall's explicit ruling, 2026-07).
 
 ## AI tells (de-telling)
 
@@ -96,8 +97,7 @@ One-off signature devices already used in published work — never reuse; coin f
 
 Single-instance signals from hand edits. Promote to a rule when a later post confirms; delete when contradicted.
 
-- Justify with established facts, not fresh attributes: "a show that size deserves scoring" → "an historic show deserves scoring" — the historicity was earned two paragraphs earlier; "that size" was a new unearned claim (Van Halen post, 2026-07).
-- Idiolect: "an historic," not "a historic" (Van Halen post, 2026-07).
+- Justify with established facts, not fresh attributes: "a show that size deserves scoring" → "a historic show deserves scoring" — the historicity was earned two paragraphs earlier; "that size" was a new unearned claim (Van Halen post, 2026-07).
 
 ## Two registers
 
