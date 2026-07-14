@@ -93,7 +93,7 @@ It starts, of all places, with a cover song. In 1982, Eddie was sitting on a Min
 
 There's a quote about this episode that shows up in every telling: "I fucking hated that song. I never wanted to do it. That was the reason I decided to build my own studio."[^folklore]
 
-The name is the best part. Eddie and engineer Donn Landee christened the studio 5150, after the California police code for an involuntary psychiatric hold (Landee had picked the number up off a scanner). Eddie named his declaration of independence after the code for being committed against your will. Some jokes write themselves.
+The name is the best part. Eddie and engineer Donn Landee christened the studio 5150, after [the California police code](https://en.wikipedia.org/wiki/5150_(involuntary_psychiatric_hold)) for an involuntary psychiatric hold (Landee had picked the number up off a scanner). Eddie named his declaration of independence after the code for being committed against your will. Some jokes write themselves.
 
 And if you want to know how completely the fortress won: two years after *1984*, the band gave its first post-Roth album the studio's name: *5150*. The side branch had become main.
 
