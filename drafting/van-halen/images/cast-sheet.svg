@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="608" viewBox="0 0 920 608" role="img" aria-label="Van Halen mapped to Belbin's nine team roles. The Shaper seat is contested between Eddie Van Halen and David Lee Roth; the Coordinator seat was never staffed in-house; the Monitor Evaluator seat was vacant from 1974 to 2020.">
+  <style>
+    .surface { fill: #fcfcfb; }
+    .card { fill: #ffffff; stroke: rgba(11,11,11,0.10); }
+    .card-vacant { fill: #fcfcfb; stroke: #c3c2b7; stroke-dasharray: 6 4; }
+    .ink { fill: #0b0b0b; }
+    .ink2 { fill: #52514e; }
+    .muted { fill: #898781; }
+    .ring { stroke: #ffffff; }
+    .dot-eddie { fill: #2a78d6; }
+    .dot-alex { fill: #1baf7a; }
+    .dot-roth { fill: #eda100; }
+    .dot-anthony { fill: #008300; }
+    .dot-wolf { fill: #e34948; }
+    text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+    .title { font-size: 20px; font-weight: 600; }
+    .subtitle { font-size: 12.5px; }
+    .role { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; }
+    .name { font-size: 16px; font-weight: 600; }
+    .name-vacant { font-size: 13px; font-weight: 600; letter-spacing: 0.06em; }
+    .note { font-size: 11.5px; }
+    @media (prefers-color-scheme: dark) {
+      .surface { fill: #1a1a19; }
+      .card { fill: #222221; stroke: rgba(255,255,255,0.10); }
+      .card-vacant { fill: #1a1a19; stroke: #383835; }
+      .ink { fill: #ffffff; }
+      .ink2 { fill: #c3c2b7; }
+      .ring { stroke: #222221; }
+      .dot-eddie { fill: #3987e5; }
+      .dot-alex { fill: #199e70; }
+      .dot-roth { fill: #c98500; }
+      .dot-wolf { fill: #e66767; }
+    }
+  </style>
+
+  <rect class="surface" x="0" y="0" width="920" height="608"/>
+
+  <text class="title ink" x="32" y="42">The cast sheet</text>
+  <text class="subtitle ink2" x="32" y="64">Van Halen, 1974–2020, mapped to Belbin's nine team roles. The middle column is the problem.</text>
+
+  <!-- Row 1 -->
+  <g><!-- Plant / Eddie -->
+    <rect class="card" x="32" y="92" width="276" height="150" rx="8"/>
+    <text class="role muted" x="50" y="122">PLANT</text>
+    <circle class="dot-eddie ring" cx="54" cy="145" r="4" stroke-width="2"/>
+    <text class="name ink" x="66" y="150">Eddie Van Halen</text>
+    <text class="note ink2" x="50" y="180">The creative source — generates the</text>
+    <text class="note ink2" x="50" y="197">ideas everyone else works within.</text>
+    <text class="note ink2" x="50" y="214">Maxed both scoreboards.</text>
+  </g>
+  <g><!-- Shaper / contested -->
+    <rect class="card" x="322" y="92" width="276" height="150" rx="8"/>
+    <text class="role muted" x="340" y="122">SHAPER — CONTESTED</text>
+    <circle class="dot-eddie ring" cx="344" cy="145" r="4" stroke-width="2"/>
+    <circle class="dot-roth ring" cx="357" cy="145" r="4" stroke-width="2"/>
+    <text class="name ink" x="369" y="150">Eddie vs. Roth</text>
+    <text class="note ink2" x="340" y="180">Two claimants, one seat, 1974–85.</text>
+    <text class="note ink2" x="340" y="197">Decided at 5150; reignited on every</text>
+    <text class="note ink2" x="340" y="214">reunion. Where all the trouble starts.</text>
+  </g>
+  <g><!-- Resource Investigator / Roth -->
+    <rect class="card" x="612" y="92" width="276" height="150" rx="8"/>
+    <text class="role muted" x="630" y="122">RESOURCE INVESTIGATOR</text>
+    <circle class="dot-roth ring" cx="634" cy="145" r="4" stroke-width="2"/>
+    <text class="name ink" x="646" y="150">David Lee Roth</text>
+    <text class="note ink2" x="630" y="180">The interface to the world: brand,</text>
+    <text class="note ink2" x="630" y="197">showmanship, deal energy — and</text>
+    <text class="note ink2" x="630" y="214">boredom once the excitement fades.</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g><!-- Completer Finisher / Eddie -->
+    <rect class="card" x="32" y="256" width="276" height="150" rx="8"/>
+    <text class="role muted" x="50" y="286">COMPLETER FINISHER</text>
+    <circle class="dot-eddie ring" cx="54" cy="309" r="4" stroke-width="2"/>
+    <text class="name ink" x="66" y="314">Eddie Van Halen</text>
+    <text class="note ink2" x="50" y="344">Won't let it ship broken. Note the</text>
+    <text class="note ink2" x="50" y="361">double-booking: the idea seat and the</text>
+    <text class="note ink2" x="50" y="378">veto seat, held by the same person.</text>
+  </g>
+  <g><!-- Coordinator / never staffed -->
+    <rect class="card-vacant" x="322" y="256" width="276" height="150" rx="8"/>
+    <text class="role muted" x="340" y="286">COORDINATOR</text>
+    <text class="name-vacant muted" x="340" y="314">NEVER STAFFED IN-HOUSE</text>
+    <text class="note ink2" x="340" y="344">Outsourced: Templeman → Leffler →</text>
+    <text class="note ink2" x="340" y="361">Danniels. An era ended at every</text>
+    <text class="note ink2" x="340" y="378">handoff.</text>
+  </g>
+  <g><!-- Implementer / Alex -->
+    <rect class="card" x="612" y="256" width="276" height="150" rx="8"/>
+    <text class="role muted" x="630" y="286">IMPLEMENTER</text>
+    <circle class="dot-alex ring" cx="634" cy="309" r="4" stroke-width="2"/>
+    <text class="name ink" x="646" y="314">Alex Van Halen</text>
+    <text class="note ink2" x="630" y="344">Boring, essential execution. In every</text>
+    <text class="note ink2" x="630" y="361">lineup for forty years; zero public</text>
+    <text class="note ink2" x="630" y="378">conflicts of his own.</text>
+  </g>
+
+  <!-- Row 3 -->
+  <g><!-- Teamworker / Anthony -->
+    <rect class="card" x="32" y="420" width="276" height="150" rx="8"/>
+    <text class="role muted" x="50" y="450">TEAMWORKER</text>
+    <circle class="dot-anthony ring" cx="54" cy="473" r="4" stroke-width="2"/>
+    <text class="name ink" x="66" y="478">Michael Anthony</text>
+    <text class="note ink2" x="50" y="508">The glue: harmonies and cohesion.</text>
+    <text class="note ink2" x="50" y="525">Fired 2006 — his vocals later piped</text>
+    <text class="note ink2" x="50" y="542">into the live shows on tape.</text>
+  </g>
+  <g><!-- Monitor Evaluator / vacant -->
+    <rect class="card-vacant" x="322" y="420" width="276" height="150" rx="8"/>
+    <text class="role muted" x="340" y="450">MONITOR EVALUATOR</text>
+    <text class="name-vacant muted" x="340" y="478">VACANT, 1974–2020</text>
+    <text class="note ink2" x="340" y="508">No internal critic to kill bad ideas</text>
+    <text class="note ink2" x="340" y="525">in review. For what the vacancy</text>
+    <text class="note ink2" x="340" y="542">sounds like, see Van Halen III.</text>
+  </g>
+  <g><!-- Specialist / Wolfgang -->
+    <rect class="card" x="612" y="420" width="276" height="150" rx="8"/>
+    <text class="role muted" x="630" y="450">SPECIALIST</text>
+    <circle class="dot-wolf ring" cx="634" cy="473" r="4" stroke-width="2"/>
+    <text class="name ink" x="646" y="478">Wolfgang Van Halen</text>
+    <text class="note ink2" x="630" y="508">Hired 2006 for one defined slot: bass.</text>
+    <text class="note ink2" x="630" y="525">Structurally incapable of contesting</text>
+    <text class="note ink2" x="630" y="542">the Shaper seat. That was the point.</text>
+  </g>
+</svg>

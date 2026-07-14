@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="600" viewBox="0 0 880 600" role="img" aria-label="Scatter plot of Van Halen members on two axes: fan love and peer admiration. Eddie Van Halen maxes both. David Lee Roth is high on fan love, contested among peers. Alex Van Halen and Michael Anthony are low on fan love but high on peer admiration. Sammy Hagar is solid on both.">
+  <style>
+    .surface { fill: #fcfcfb; }
+    .ink { fill: #0b0b0b; }
+    .ink2 { fill: #52514e; }
+    .muted { fill: #898781; }
+    .axis { stroke: #c3c2b7; }
+    .diag { stroke: #e1e0d9; }
+    .ring { stroke: #fcfcfb; }
+    .dot-eddie { fill: #2a78d6; }
+    .dot-alex { fill: #1baf7a; }
+    .dot-roth { fill: #eda100; }
+    .dot-anthony { fill: #008300; }
+    .dot-hagar { fill: #4a3aa7; }
+    text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+    .title { font-size: 18px; font-weight: 600; }
+    .subtitle { font-size: 12.5px; }
+    .name { font-size: 13px; font-weight: 600; }
+    .note { font-size: 11px; }
+    .axis-title { font-size: 12px; font-weight: 600; }
+    .axis-end { font-size: 10.5px; }
+    @media (prefers-color-scheme: dark) {
+      .surface { fill: #1a1a19; }
+      .ink { fill: #ffffff; }
+      .ink2 { fill: #c3c2b7; }
+      .axis { stroke: #383835; }
+      .diag { stroke: #2c2c2a; }
+      .ring { stroke: #1a1a19; }
+      .dot-eddie { fill: #3987e5; }
+      .dot-alex { fill: #199e70; }
+      .dot-roth { fill: #c98500; }
+      .dot-hagar { fill: #9085e9; }
+    }
+  </style>
+
+  <rect class="surface" x="0" y="0" width="880" height="600"/>
+
+  <text class="title ink" x="32" y="40">Two scoreboards, one band</text>
+  <text class="subtitle ink2" x="32" y="62">Fan love is scored from the front of the stage; peer admiration from up close. The gap is the story.</text>
+
+  <!-- diagonal reference: where the two scoreboards agree -->
+  <line class="diag" x1="76" y1="536" x2="836" y2="104" stroke-width="1"/>
+  <text class="note muted" transform="rotate(-29.6 320 396)" x="320" y="388" text-anchor="middle">the two scoreboards agree</text>
+
+  <!-- axes -->
+  <line class="axis" x1="76" y1="536" x2="836" y2="536" stroke-width="1"/>
+  <line class="axis" x1="76" y1="536" x2="76" y2="104" stroke-width="1"/>
+
+  <text class="axis-title ink2" x="456" y="580" text-anchor="middle">Fan scoreboard</text>
+  <text class="axis-end muted" x="76" y="556">overlooked</text>
+  <text class="axis-end muted" x="836" y="556" text-anchor="end">adored</text>
+
+  <text class="axis-title ink2" transform="rotate(-90 24 320)" x="24" y="320" text-anchor="middle">Peer scoreboard</text>
+  <text class="axis-end muted" x="70" y="533" text-anchor="end">overlooked</text>
+  <text class="axis-end muted" x="70" y="112" text-anchor="end">revered</text>
+
+  <!-- Alex (0.26, 0.86) -->
+  <circle class="dot-alex ring" cx="274" cy="164" r="7" stroke-width="2"/>
+  <text class="name ink" x="290" y="161">Alex Van Halen</text>
+  <text class="note ink2" x="290" y="177">the drummers&#8217; drummer</text>
+
+  <!-- Anthony (0.16, 0.76) -->
+  <circle class="dot-anthony ring" cx="198" cy="208" r="7" stroke-width="2"/>
+  <text class="name ink" x="214" y="205">Michael Anthony</text>
+  <text class="note ink2" x="214" y="221">the secret weapon &#8212; admired for the glue</text>
+
+  <!-- Eddie (0.94, 0.94) -->
+  <circle class="dot-eddie ring" cx="790" cy="130" r="7" stroke-width="2"/>
+  <text class="name ink" x="774" y="127" text-anchor="end">Eddie Van Halen</text>
+  <text class="note ink2" x="774" y="143" text-anchor="end">maxed both &#8212; no counterweight possible</text>
+
+  <!-- Hagar (0.60, 0.60) -->
+  <circle class="dot-hagar ring" cx="532" cy="277" r="7" stroke-width="2"/>
+  <text class="name ink" x="548" y="274">Sammy Hagar</text>
+  <text class="note ink2" x="548" y="290">respected on both, worshipped on neither</text>
+
+  <!-- Roth (0.90, 0.44) -->
+  <circle class="dot-roth ring" cx="760" cy="346" r="7" stroke-width="2"/>
+  <text class="name ink" x="744" y="343" text-anchor="end">David Lee Roth</text>
+  <text class="note ink2" x="744" y="359" text-anchor="end">adored out front, contested inside</text>
+</svg>
