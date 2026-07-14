@@ -95,6 +95,21 @@ them together (with the Claude trailer) and push. End with a report: where the p
 landed, and each style learning recorded — quoting the edit that motivated it so
 Marshall can veto misreadings.
 
+## Harvest-only mode
+
+Marshall sometimes asks for a mid-draft harvest ("harvest style learnings from my
+edits" — not publishing). Run steps 1–4 and 6, skipping publish: commit **only**
+`docs/writing-style.md` — never the draft, never anything in `posts/` — and leave
+Marshall's draft edits uncommitted in the working tree. State in the report that no
+publish happened.
+
+Repeated mid-draft harvests must not double-count edits already harvested. The
+baseline for a second harvest is the previous harvest point, not the last agent
+draft commit: find the last harvest commit (`git log -n 1 --format='%H' --
+docs/writing-style.md`, confirming from its message that it was a harvest), and
+diff the draft from its state at that commit. Diffing from the older agent baseline
+re-reads already-harvested edits as fresh signal.
+
 ## Common mistakes
 
 | Mistake | Reality |
