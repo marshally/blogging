@@ -26,6 +26,7 @@ with the album *1984* — "Jump" landing on the first salvo.
 | `research/timeline-evidence.md` | The historical episodes, framework readings, and software parallels |
 | `research/two-scoreboards.md` | Fan-love vs. peer-admiration layer, with web evidence |
 | `research/sources.md` | Bibliography: memoirs, primary documents, web sources |
+| `research/images.md` | Candidate images for article placement, with sources, licenses, and inline previews |
 | `DECISIONS.md` | Decision log with rationale — read this first when resuming |
 
 The house-voice prompt lives at the repo root: `/docs/writing-style.md`.
