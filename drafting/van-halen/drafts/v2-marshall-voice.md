@@ -145,6 +145,10 @@ Every engineering org has run this experiment too: the beloved neutral manager l
 > Slow to forgive, when you're holding a grudge  
 > Don't always believe all you need is love
 
+![The Van Halen III album cover: a sepia photograph of a strongman taking a cannonball to the stomach](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/cover-van-halen-iii.jpg)
+
+*A man taking a cannonball to the gut. The reviews agreed. © Warner Bros. Records (fair use).*
+
 What happened next is what happens when a role structure loses its counterweights one by one.
 
 The 1996 MTV Video Music Awards reunion with Roth collapsed within weeks, in dueling public accounts. Eleven years apart, and the two-**Shapers** problem reignited in *days*. **Structural problems don't age out; they wait.**
@@ -152,10 +156,6 @@ The 1996 MTV Video Music Awards reunion with Roth collapsed within weeks, in due
 Gary Cherone (genuinely talented, hired from Extreme) lasted one album, because **a role is a negotiated relationship with the specific people around it, not a seat you can staff from a resume.** By 1998 the frontman position had become so subordinate that it provided no counterweight at all. It's the classic mis-hire: impressive on paper, dead on arrival structurally.
 
 And then there's [*Van Halen III*](https://en.wikipedia.org/wiki/Van_Halen_III), the band's worst-received album. Delightfully, you don't need to psychoanalyze anyone, because the liner notes make the argument. Eddie played bass on most of the record (Anthony appears on only three tracks). Eddie sang lead on one song. Eddie took a heavy hand in production. One member occupying the **Plant**, **Shaper**, and **Completer Finisher** roles, now absorbing pieces of the **Teamworker**'s and frontman's, with no **Monitor Evaluator** anywhere in the organization to kill any of it in review. I told you we'd hear what that vacancy sounds like. It sounds like *Van Halen III*.
-
-![The Van Halen III album cover: a sepia photograph of a strongman taking a cannonball to the stomach](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/cover-van-halen-iii.jpg)
-
-*A man taking a cannonball to the gut. The reviews agreed. © Warner Bros. Records (fair use).*
 
 The Anthony story completes in parallel, and it's the cruelest data in the set. His songwriting and royalty position was cut back as early as the 1984 tour, at the band's commercial peak;[^wage-earner] he reportedly had to accept diminished terms just to participate in the 2004 reunion tour; in 2006 he was replaced outright, learning his status from the press.[^internet] The org chart had never been able to see what he did; Belbin could have predicted the contract terms. And then the punchline: on subsequent tours, recordings of his backing vocals were piped into the live shows, by Hagar's account.[^tape] The organization removed the glue person, discovered the glue was load-bearing, and had to build tooling to fake his output. Glue work is real work, and firing your glue person is a fucking expensive way to learn that. And per Act I: when Anthony left, the harmonies turned out to be the recoverable part. The inward-facing social pole the band had quietly depended on since 1974 walked out with him.
 
