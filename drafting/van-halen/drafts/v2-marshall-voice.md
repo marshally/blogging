@@ -81,7 +81,7 @@ The fait accompli has a name, and if you've read this far you already know it. "
 
 That's the song I cued up under the bridge. The track that scored the show beginning so perfectly wasn't just a good album opener: it was the decisive move in Van Halen's **Shaper** war, the artifact that proved the **Plant** could win outside the sanctioned process. I was soundtracking a fireworks show with a side branch that slipped into production, and I didn't even know it.
 
-Winning the war didn't save the team; it ended it. Once the contest was decided, the conflict migrated from *task* to *relationship*, and the research here is unambiguous[^jehn]: task conflict can fuel a team, relationship conflict kills it. Within a year of the band's commercial peak, Roth was gone.
+Winning the war didn't save the team; it ended it. Once the contest was decided, the conflict migrated from *task* to *relationship*, and the research names this exact failure mode[^jehn]: task conflict can fuel a team, but only while enough trust keeps it from turning personal. Relationship conflict kills either way. The trust had been Templeman's job. The fait accompli won the argument by going around him. Within a year of the band's commercial peak, Roth was gone.
 
 Bales says every group needs a social-emotional pole. Roth held its outward face, the charisma aimed at the audience. But the *inward* face, the one aimed at the band itself, was quietly held the whole time by Michael Anthony.
 
@@ -171,7 +171,7 @@ The fog doesn't ruin the show. It just tells you which scoreboard you've been wa
 
 [^illwait]: Nor was it a one-song war: Roth and Templeman also wanted ["I'll Wait"](https://www.youtube.com/watch?v=A0tg8VCWlhQ), the album's other synth track, off *1984* entirely. It went to #13.
 
-[^jehn]: Exactly, if you want it: "Relationship conflict exists when there are interpersonal incompatibilities among group members… Task conflict exists when there are disagreements among group members about the content of the tasks being performed" (Karen Jehn, [*Administrative Science Quarterly* 40 (1995), p. 258](https://www.jstor.org/stable/2393638)).
+[^jehn]: Exactly, if you want it: "Relationship conflict exists when there are interpersonal incompatibilities among group members… Task conflict exists when there are disagreements among group members about the content of the tasks being performed" (Karen Jehn, [*Administrative Science Quarterly* 40 (1995), p. 258](https://www.jstor.org/stable/2393638)). Full disclosure: the literature is messier than one clause can carry. A [2003 meta-analysis](https://doi.org/10.1037/0021-9010.88.4.741) found task conflict hurts team performance on average about as much as relationship conflict does. The benefit shows up only where trust keeps the two kinds decoupled ([Simons & Peterson, 2000](https://doi.org/10.1037/0021-9010.85.1.102): "trust is a key to gaining the benefits of task conflict without suffering the costs of relationship conflict").
 
 [^folklore]: Confession: this quote is folklore. It appears in every retrospective and fan wiki, and nobody has ever pinned it to a dated interview. Eddie's documented words are milder: "I wanted more control. I was always butting heads with Ted Templeman about what makes a good record" ([Guitar World, 2014](https://www.vhnd.com/2014/01/02/eddie-van-halen-looks-back-on-van-halens-landmark-1984-album-and-the-creation-of-5150-studios/)). But the folk version keeps winning because it's truer to the shape of the grievance. That's how apocrypha earn their keep.
 
