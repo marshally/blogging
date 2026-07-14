@@ -115,6 +115,10 @@ The name is the best part. Eddie and engineer Donn Landee christened the studio 
 
 And if you want to know how completely the fortress won: two years after *1984*, the band gave its first post-Roth album the studio's name: *5150*. The side branch had become main.
 
+![The 5150 album cover: a muscled figure straining to hold a giant chrome sphere overhead](../images/cover-5150.jpg)
+
+*One man, holding the whole thing up alone. © Warner Bros. Records (fair use).*
+
 ## Act II: Why Can't This Be Love? (1985–1996)
 
 > Only time will tell if we stand the test of time
