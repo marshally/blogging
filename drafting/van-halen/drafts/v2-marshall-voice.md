@@ -32,9 +32,9 @@ But Van Halen offers something better than analogy: a natural experiment. The in
 
 To read the experiment, I'm borrowing two frameworks from small-group research: one for the plot, one for the cast.
 
-**The plot** comes from Robert Bales, who spent the 1950s at Harvard coding thousands of hours of group interactions and produced one of the most replicated findings in the field: groups reliably split into a **task specialist** (who drives the work) and a **social-emotional specialist** (who holds the group together). These are almost never the same person, and **the group's fate hangs on whether the two cooperate.**
+**The plot** comes from [Robert Bales](https://en.wikipedia.org/wiki/Robert_Freed_Bales), who spent the 1950s at Harvard coding thousands of hours of group interactions and produced one of the most replicated findings in the field: groups reliably split into a **task specialist** (who drives the work) and a **social-emotional specialist** (who holds the group together). These are almost never the same person, and **the group's fate hangs on whether the two cooperate.**
 
-**The cast** comes from Meredith Belbin, who studied management teams at Henley in the 70s and 80s and identified nine recurring team roles. His data kept supporting one unfashionable claim: **teams fail from uncovered roles and duplicated roles, not from talent deficits.** His famous "Apollo syndrome" finding showed that teams built entirely from the smartest individuals routinely lost to balanced ones.[^furnham]
+**The cast** comes from [Meredith Belbin](https://en.wikipedia.org/wiki/Meredith_Belbin), who studied management teams at Henley in the 70s and 80s and identified nine recurring team roles. His data kept supporting one unfashionable claim: **teams fail from uncovered roles and duplicated roles, not from talent deficits.** His famous "Apollo syndrome" finding showed that teams built entirely from the smartest individuals routinely lost to balanced ones.[^furnham]
 
 Belbin gives us the characters. Bales gives us the plot. Van Halen gives us the data.
 
