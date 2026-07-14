@@ -16,7 +16,9 @@ This past Fourth of July (2026), San Francisco shot fireworks off the bridge its
 
 Which is how I found myself, at T-minus-three, wanting a soundtrack. No official audio reaches Fort Point, and a historic show deserves scoring. Scrolling my library, I remembered: Van Halen's [*1984*](https://en.wikipedia.org/wiki/1984_(Van_Halen_album)) opens with an instrumental (that slow, swelling synth intro) before ["Jump"](https://www.youtube.com/watch?v=SwYN7mTi6HM) detonates. If I timed it right, the swell would carry us through the countdown and the first salvo would land when the song really kicks in.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SwYN7mTi6HM" title="Van Halen - Jump (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Van Halen — "Jump" (official music video)](https://img.youtube.com/vi/SwYN7mTi6HM/maxresdefault.jpg)](https://www.youtube.com/watch?v=SwYN7mTi6HM)
+
+*▶ Van Halen — ["Jump" (official video)](https://www.youtube.com/watch?v=SwYN7mTi6HM)*
 
 Dear reader, I timed it right. The opening shells came off the bridge deck as the synth resolved, "Jump" kicked in, and for the next twenty minutes an album recorded in 1983 scored a fireworks show like it had been commissioned for it.
 
@@ -80,6 +82,8 @@ Eddie kept getting overridden. So he did what blocked **Plants** do. In 1983, he
 The fait accompli has a name, and if you've read this far you already know it. "Jump" was a synth riff [Eddie said](https://ultimateclassicrock.com/van-halen-1984-track-by-track/) was rejected for years, resisted by exactly the Roth–Templeman alliance that controlled the old pipeline.[^illwait] Recorded at 5150, on Eddie's turf, it became [the only #1 single](https://www.billboard.com/pro/forever-no-1-van-halens-jump/) the band ever had.
 
 That's the song I cued up under the bridge. The track that scored the show beginning so perfectly wasn't just a good album opener: it was the decisive move in Van Halen's **Shaper** war, the artifact that proved the **Plant** could win outside the sanctioned process. I was soundtracking a fireworks show with a side branch that slipped into production, and I didn't even know it.
+
+The war story hides a detail. [Templeman's account](https://en.wikipedia.org/wiki/Jump_%28Van_Halen_song%29) of the session: Eddie and engineer Donn Landee cut the track alone in the middle of the night, Roth wrote the lyric that afternoon in the back seat of his Mercury convertible, and Templeman produced the vocals and mixed the record that evening. The process was a bypass. The artifact is a synthesis.
 
 Winning the war didn't save the team; it ended it. Once the contest was decided, the conflict migrated from *task* to *relationship*, and the research names this exact failure mode[^jehn]: task conflict can fuel a team, but only while enough trust keeps it from turning personal. Relationship conflict kills either way. The trust had been Templeman's job. The fait accompli won the argument by going around him. Within a year of the band's commercial peak, Roth was gone.
 
