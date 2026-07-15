@@ -96,7 +96,7 @@ That's the song I cued up under the bridge. The track that scored the show begin
 
 The war story hides a detail. [Templeman's account](https://en.wikipedia.org/wiki/Jump_%28Van_Halen_song%29) of the session: Eddie and engineer Donn Landee cut the track alone in the middle of the night, Roth wrote the lyric that afternoon in the back seat of his Mercury convertible, and Templeman produced the vocals and mixed the record that evening. The process was a bypass. The artifact is a synthesis.
 
-Winning the war didn't save the team; it ended it. Once the contest was decided, the conflict migrated from *task* to *relationship*, and the research names this exact failure mode[^jehn]: task conflict can fuel a team, but only while enough trust keeps it from turning personal. Relationship conflict kills either way. The trust had been Templeman's job. The fait accompli won the argument by going around him. Within a year of the band's commercial peak, Roth was gone.
+"Jump" didn't end the team. It revealed which decision structure had won. The research names the danger in this configuration[^jehn]: task conflict can fuel a team, but only while enough trust keeps it from turning personal. Relationship conflict kills either way. The trust had been Templeman's job. The fait accompli settled the task dispute by going around the referee. It did nothing to repair the relationship. Within a year of the band's commercial peak, Roth was gone.
 
 Hagar is the useful control case.
 
