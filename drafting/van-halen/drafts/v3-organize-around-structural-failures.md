@@ -30,7 +30,7 @@ Yes, this post is going to run a rock band, a fireworks show, and your engineeri
 
 Here's what struck me reading forty years of Van Halen history: every story reads like an engineering postmortem. Creative-control disputes. A brilliant founder consolidating power. A beloved manager replaced by a partisan. A high-profile mis-hire. A quiet contributor pushed out, and the product audibly degrading afterward. Change the actors and the set and it's any Hacker News thread on a Tuesday.
 
-But Van Halen offers something better than analogy: a natural experiment. The instrumental core of the band (Eddie and Alex Van Halen) stayed constant across every era, while the frontman role was recast three times. **Same codebase, three CEOs.** For a rock band, that's enough experimental control to make Jim Collins proud: change one thing and watch what happens.
+But Van Halen offers something better than analogy: a natural experiment. The instrumental core of the band (Eddie and Alex Van Halen) stayed constant across every era, while the frontman role was recast three times. **Same backend, three front ends.** For a rock band, that's enough experimental control to make Jim Collins proud: change one thing and watch what happens.
 
 ## Let's (re)define some terms
 
