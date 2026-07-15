@@ -236,3 +236,7 @@ The edits Marshall kept from his pass are also deliberate: "searching for a soun
 ## D29. Hagar and Anthony share the high peer band (2026-07-15)
 
 The original scoreboard placed Anthony above Hagar on peer admiration. That ordering was an artifact of the thesis-driven research, not a supported head-to-head judgment. Anthony's contribution is less visible to fans, which creates the larger gap. It does not follow that musicians admire him more than Hagar. The graphic now places both in the same high peer band while keeping Hagar farther right on the fan axis. The argument is the distance between each member's two scores, not Anthony outranking Hagar.
+
+## D30. Preserve Hagar's position and lower Anthony's peer score (2026-07-15)
+
+D29 identified the ranking problem but moved the wrong point. Hagar returns to his original `0.60` fan and `0.60` peer coordinates. Anthony's peer score moves from `0.76` to `0.60`, even with Hagar, while his fan score remains `0.16`. The chart now makes the intended argument without inventing a head-to-head ranking: Anthony's larger gap comes from being overlooked by fans, not from being held in higher peer esteem. Labels and taglines move with their points.
