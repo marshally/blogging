@@ -74,9 +74,9 @@ Belbin flagged two **Shapers** on one team as one of his known combustible confi
 
 ## Finding 1: Multiple **Shapers**, one decision point
 
-### What happens when two people claim the same seat?
+### _What happens when two people claim the same seat?_
 
-**1. Teams can contain multiple** **Shapers**. **A consequential decision still needs one place where competing visions are finally resolved.** The conflicts we narrate as personality clashes are usually structural contests over whose will shapes the work, and they end when the seat question is settled, one way or another. Niceness never settled one.
+**Teams can contain multiple** **Shapers**. **A consequential decision still needs one place where competing visions are finally resolved.** The conflicts we narrate as personality clashes are usually structural contests over whose will shapes the work, and they end when the seat question is settled, one way or another. Niceness never settled one.
 
 ![Black-and-white Warner Bros. publicity photo of the 1984-era lineup: Alex in a suit and sunglasses, Roth, Eddie in a dice-print shirt, Michael Anthony](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/1984-promo.jpg)
 
@@ -102,7 +102,7 @@ The war story hides a detail. [Templeman's account](https://en.wikipedia.org/wik
 
 ## Finding 2: Sequence changes structural power
 
-### What changes when the seat is already settled?
+### _What changes when the seat is already settled?_
 
 Hagar is the useful counterexample to the personality explanation.
 
@@ -120,11 +120,11 @@ When Roth returned for the 1996 MTV Video Music Awards reunion, the two-**Shaper
 
 ## Finding 3: Talent cannot cover an empty role
 
-### What happens when the counterweights disappear?
+### _What happens when the counterweights disappear?_
 
 A settled **Shaper** seat explains why the Hagar era worked. It does not explain why it ended.
 
-**2. Teams fail from uncovered and duplicated roles, not talent deficits.** Van Halen at every moment had a surplus of talent. What it never had was a **Monitor Evaluator**; what it twice lost was its **Coordinator**. Each vacancy leaves an audible signature in the discography.[^nobodys-perfect]
+**Teams fail from uncovered and duplicated roles, not talent deficits.** Van Halen at every moment had a surplus of talent. What it never had was a **Monitor Evaluator**; what it twice lost was its **Coordinator**. Each vacancy leaves an audible signature in the discography.[^nobodys-perfect]
 
 The Hagar configuration held until its second load-bearing element disappeared: manager Ed Leffler, whom Hagar's memoir credits as the neutral figure holding the whole configuration together: the in-house **Coordinator** the band otherwise never had. Then the causal chain runs like a fuse. Leffler died in 1993. He was replaced by Ray Danniels, Alex's former brother-in-law and, in Hagar's telling, aligned with the brothers rather than neutral. The chairperson's seat, refilled by a partisan. Within three years, the first genuine task conflicts (songs for the *Twister* soundtrack, a greatest-hits album Hagar opposed) escalated with nothing left to buffer them, and Hagar was out. (Hagar tells the exit one way in *Red*; the brothers told it another.[^fired-or-quit] To be honest, we'll never know exactly what happened, and the fact that no two members could ever agree is itself evidence of what the group had become without a **Coordinator**.)
 
@@ -140,9 +140,9 @@ And then there's [*Van Halen III*](https://en.wikipedia.org/wiki/Van_Halen_III),
 
 ## Finding 4: Your org chart reads only one scoreboard
 
-### What happens when the organization cannot see a role?
+### _What happens when the organization cannot see a role?_
 
-**3. There are two scoreboards, and your org chart reads only one of them.** Fans (like users, like promotion committees) score what's legible from the front of the stage. Practitioners score the craft that's only visible from inside. The gap between the scoreboards is largest for exactly the **Implementer** and **Teamworker** roles, which is why the Alexes go unlisted and the Anthonys get their contracts reduced.
+**There are two scoreboards, and your org chart reads only one of them.** Fans (like users, like promotion committees) score what's legible from the front of the stage. Practitioners score the craft that's only visible from inside. The gap between the scoreboards is largest for exactly the **Implementer** and **Teamworker** roles, which is why the Alexes go unlisted and the Anthonys get their contracts reduced.
 
 Bales says every group needs a social-emotional pole. Roth held its outward face, the charisma aimed at the audience. But the *inward* face, the one aimed at the band itself, was quietly held the whole time by Michael Anthony.
 
