@@ -140,7 +140,7 @@ And then there's [*Van Halen III*](https://en.wikipedia.org/wiki/Van_Halen_III),
 
 ### _What happens when the organization cannot see a role?_
 
-**There are two scoreboards, and your org chart reads only one of them.** Fans (like users, like promotion committees) score what's legible from the front of the stage. Practitioners score the craft that's only visible from inside. The gap between the scoreboards is largest for exactly the **Implementer** and **Teamworker** roles, which is why the Alexes go unlisted and the Anthonys get their contracts reduced.
+Fans, like users and promotion committees, score what's legible from the front of the stage. Practitioners score the craft that's only visible from inside. The gap between the scoreboards is largest for exactly the **Implementer** and **Teamworker** roles, which is why the Alexes go unlisted and the Anthonys get their contracts reduced.
 
 Bales says every group needs a social-emotional pole. Roth held its outward face, the charisma aimed at the audience. But the *inward* face, the one aimed at the band itself, was quietly held the whole time by Michael Anthony.
 
