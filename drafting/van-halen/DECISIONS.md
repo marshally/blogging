@@ -240,3 +240,7 @@ The original scoreboard placed Anthony above Hagar on peer admiration. That orde
 ## D30. Preserve Hagar's position and lower Anthony's peer score (2026-07-15)
 
 D29 identified the ranking problem but moved the wrong point. Hagar returns to his original `0.60` fan and `0.60` peer coordinates. Anthony's peer score moves from `0.76` to `0.60`, even with Hagar, while his fan score remains `0.16`. The chart now makes the intended argument without inventing a head-to-head ranking: Anthony's larger gap comes from being overlooked by fans, not from being held in higher peer esteem. Labels and taglines move with their points.
+
+## D31. The post publishes to yountlabs.com (2026-07-15)
+
+Marshall directed that this piece goes to yountlabs.com, his WordPress tech blog, not marshally.wordpress.com. A WordPress draft of v3 was created via the WordPress.com MCP (post ID 60, slug `might-as-well-jump`): native Gutenberg footnotes for the fifteen notes, a YouTube embed block replacing the markdown thumbnail-link workaround for "Jump," a two-image gallery for the Fort Point pair, and images hotlinked from the public GitHub repo pending publish-time asset conversion.
