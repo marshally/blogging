@@ -86,18 +86,6 @@ For the first decade, the contest had a referee. Producer Ted Templeman function
 
 Eddie kept getting overridden. So he did what blocked **Plants** do. In 1983, he built 5150 Studios at his home, described in interview after interview as an explicit move to control recording. **The talented engineer exits the shared infrastructure and builds the thing on a side branch until it's a fait accompli.**
 
-The fortress deserves its origin story.
-
-![The 5150 album cover: a muscled figure straining to hold a giant chrome sphere overhead](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/cover-5150.jpg)
-
-*One man, holding the whole thing up alone. © Warner Bros. Records (fair use).*
-
-It starts, of all places, with a cover song. In 1982, Eddie was sitting on a Minimoog part he'd earmarked for something original: "I envisioned it being more like a Peter Gabriel song," [he told Guitar World](https://www.vhnd.com/2014/01/02/eddie-van-halen-looks-back-on-van-halens-landmark-1984-album-and-the-creation-of-5150-studios/). Templeman heard it and decided it was exactly what the band's covers-heavy *Diver Down* album needed, and the riff was spent on a remake of ["Dancing in the Street."](https://www.youtube.com/watch?v=QIfotf13gzE) The architect's favorite abstraction, requisitioned for somebody else's feature.
-
-There's a quote about this episode that shows up in every telling: "I fucking hated that song. I never wanted to do it. That was the reason I decided to build my own studio."[^folklore]
-
-The name is the best part. Eddie and engineer Donn Landee christened the studio 5150, after [the California police code](https://en.wikipedia.org/wiki/5150_(involuntary_psychiatric_hold)) for an involuntary psychiatric hold (Landee had picked the number up off a scanner). Eddie named his declaration of independence after the code for being committed against your will. Some jokes write themselves.
-
 The fait accompli has a name, and if you've read this far you already know it. "Jump" was a synth riff [Eddie said](https://ultimateclassicrock.com/van-halen-1984-track-by-track/) was rejected for years, resisted by exactly the Roth–Templeman alliance that controlled the old pipeline.[^illwait] Recorded at 5150, on Eddie's turf, it became [the only #1 single](https://www.billboard.com/pro/forever-no-1-van-halens-jump/) the band ever had.
 
 ![The 1984 album cover: a winged cherub holding a lit cigarette](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/cover-1984.jpg)
@@ -109,8 +97,6 @@ That's the song I cued up under the bridge. The track that scored the show begin
 The war story hides a detail. [Templeman's account](https://en.wikipedia.org/wiki/Jump_%28Van_Halen_song%29) of the session: Eddie and engineer Donn Landee cut the track alone in the middle of the night, Roth wrote the lyric that afternoon in the back seat of his Mercury convertible, and Templeman produced the vocals and mixed the record that evening. The process was a bypass. The artifact is a synthesis.
 
 Winning the war didn't save the team; it ended it. Once the contest was decided, the conflict migrated from *task* to *relationship*, and the research names this exact failure mode[^jehn]: task conflict can fuel a team, but only while enough trust keeps it from turning personal. Relationship conflict kills either way. The trust had been Templeman's job. The fait accompli won the argument by going around him. Within a year of the band's commercial peak, Roth was gone.
-
-And if you want to know how completely the fortress won: two years after *1984*, the band gave its first post-Roth album the studio's name: *5150*. The side branch had become main.
 
 Hagar is the useful control case.
 
@@ -181,8 +167,6 @@ The fog doesn't ruin the show. It just tells you which scoreboard you've been wa
 [^illwait]: Nor was it a one-song war: Roth and Templeman also wanted ["I'll Wait"](https://www.youtube.com/watch?v=A0tg8VCWlhQ), the album's other synth track, off *1984* entirely. It went to #13.
 
 [^jehn]: Exactly, if you want it: "Relationship conflict exists when there are interpersonal incompatibilities among group members… Task conflict exists when there are disagreements among group members about the content of the tasks being performed" (Karen Jehn, [*Administrative Science Quarterly* 40 (1995), p. 258](https://www.jstor.org/stable/2393638)). Full disclosure: the literature is messier than one clause can carry. A [2003 meta-analysis](https://doi.org/10.1037/0021-9010.88.4.741) found task conflict hurts team performance on average about as much as relationship conflict does. The benefit shows up only where trust keeps the two kinds decoupled ([Simons & Peterson, 2000](https://doi.org/10.1037/0021-9010.85.1.102): "trust is a key to gaining the benefits of task conflict without suffering the costs of relationship conflict").
-
-[^folklore]: Confession: this quote is folklore. It appears in every retrospective and fan wiki, and nobody has ever pinned it to a dated interview. Eddie's documented words are milder: "I wanted more control. I was always butting heads with Ted Templeman about what makes a good record" ([Guitar World, 2014](https://www.vhnd.com/2014/01/02/eddie-van-halen-looks-back-on-van-halens-landmark-1984-album-and-the-creation-of-5150-studios/)). But the folk version keeps winning because it's truer to the shape of the grievance. That's how apocrypha earn their keep.
 
 [^victory-riff]: A detail for the completists: ["Top of the World,"](https://www.youtube.com/watch?v=JG0H4Zp9oqw) the Hagar era's triumphal closer, is built on the closing guitar figure of "Jump." The peaceful decade's victory lap runs, literally, on the riff that won the war.
 
