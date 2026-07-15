@@ -100,6 +100,8 @@ The war story hides a detail. [Templeman's account](https://en.wikipedia.org/wik
 
 "Jump" didn't end the team. It revealed which decision structure had won. The research names the danger in this configuration[^jehn]: task conflict can fuel a team, but only while enough trust keeps it from turning personal. Relationship conflict kills either way. The trust had been Templeman's job. The fait accompli settled the task dispute by going around the referee. It did nothing to repair the relationship. Within a year of the band's commercial peak, Roth was gone.
 
+**The code can merge while the governance conflict stays open.**
+
 ## Finding 2: Arriving later changes the seat you can claim
 
 ### _What changes when you join after the architecture is already settled?_
