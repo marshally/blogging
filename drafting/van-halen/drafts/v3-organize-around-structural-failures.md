@@ -108,9 +108,9 @@ The war story hides a detail. [Templeman's account](https://en.wikipedia.org/wik
 
 *The settled configuration, onstage at the 2004 reunion: Anthony, Hagar, Eddie. Photo: bella lago, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/), via Wikimedia Commons.*
 
-Sammy Hagar is often described as the easygoing alternative to Roth, which is hilarious to anyone who's read his memoir [*Red*](https://www.harpercollins.com/products/red-sammy-hagar): Hagar is no shrinking violet. The Hagar era wasn't harmonious because Hagar was agreeable. He arrived *after the structural contest was decided*. He joined Eddie's band, on Eddie's terms, recording in Eddie's studio. However accomplished, he entered as an occupant of the frontman role, not a claimant to the **Shaper** seat.
+Sammy Hagar is often described as the easygoing alternative to Roth, which is hilarious to anyone who's read his memoir [*Red*](https://www.harpercollins.com/products/red-sammy-hagar): Hagar is no shrinking violet. The Hagar era opened with the structural contest already decided. He joined Eddie's band, on Eddie's terms, recording in Eddie's studio. However accomplished, he entered as an occupant of the frontman role. Eddie remained uncontested in the **Shaper** seat.
 
-There is a world of difference between two co-founders fighting over technical direction and a decorated senior hire who joins after the architecture is settled. Same talent, same strong personality, completely different structural position — completely different outcome.
+There is a world of difference between two co-founders fighting over technical direction and a decorated senior hire who joins after the architecture is settled. Same talent, same strong personality, completely different structural position. Completely different outcome.
 
 The outcome, for a decade, was remarkable: four consecutive #1 albums, more commercial success than the Roth era ever managed, but leaving a legacy that fans nonetheless rank below the original run.[^victory-riff] Whatever was lost with the friction, something was lost.
 
