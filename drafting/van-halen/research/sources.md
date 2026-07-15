@@ -17,6 +17,12 @@
   (the post's only direct quote); criticism of Roth's live performances.
 - *Van Halen III* liner notes/credits (1998) — Eddie on bass (Anthony on 3 tracks),
   Eddie lead vocal on "How Many Say I," Mike Post co-production.
+- Gary Cherone, VHND retrospective interview, January 17, 2013 — called *Van Halen III*
+  "really Eddie's baby," said the album needed more guidance, and contrasted its studio
+  process with becoming a band on tour.
+- Gary Cherone with Greg Prato, VHND interview, April 10, 2023 — described the album as
+  a studio production made while he was still getting to know the band and described the
+  subsequent writing process with Eddie.
 - Eddie Van Halen, Guitar World, Feb 2014 (Chris Gill; VHND repost 2014-01-02) —
   Minimoog riff "more like a Peter Gabriel song" spent on "Dancing in the Street";
   "I wanted more control. I was always butting heads with Ted Templeman about what

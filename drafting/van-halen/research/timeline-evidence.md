@@ -66,6 +66,10 @@ Hired from Extreme; one album; gone in ~two years. A role is a negotiated relati
 with specific people, not a seat staffed from a resume. By 1998 the frontman slot was so
 subordinate it provided no counterweight. Software parallel: the impressive mis-hire.
 
+Primary-source refinement: Cherone later described *Van Halen III* as a studio production made while he was still getting to know the others; only after touring did they become a band. In an earlier retrospective he called the album "really Eddie's baby" and said it needed more guidance.
+
+Framework reading: the band staffed frontman as though it were a **Specialist** slot — find a proven singer and insert him into the org chart — even though frontman was a negotiated relationship and potential counterweight. This is an interpretation of the structure, not a claim about anyone's motives, and it does not assign Cherone the **Specialist** role.
+
 ### Van Halen III (1998) — role absorption in the liner notes
 Verifiable credits: Eddie played bass on most tracks (Anthony on only three); Eddie sang
 lead on "How Many Say I"; co-produced with Mike Post, heavy Eddie involvement. One
