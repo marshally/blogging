@@ -72,20 +72,31 @@ Second: I still haven't assigned one role.
 
 Belbin flagged two **Shapers** on one team as one of his known combustible configurations. There's a reason that seat is still open. It's where all the trouble starts.
 
-## Act I: Runnin' with the Devil (1974–1985)
-> I live my life like there's no tomorrow  
-> And all I've got, I had to steal
+## What happens when two people claim the same seat?
+
+**1. Every team has one Shaper seat, and the real fights are over who sits in it.** The conflicts we narrate as personality clashes are usually structural contests over whose will shapes the work, and they end when the seat question is settled, one way or another. Niceness never settled one.
 
 ![Black-and-white Warner Bros. publicity photo of the 1984-era lineup: Alex in a suit and sunglasses, Roth, Eddie in a dice-print shirt, Michael Anthony](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/1984-promo.jpg)
 
 *The classic lineup in the* 1984 *album year: Alex, Roth, Eddie, Anthony. Months from the end. Warner Bros. publicity photo, public domain.*
-
 
 The standard telling of classic-era Van Halen is "clashing egos." The framework suggests something more precise: **Eddie and Roth were two claimants to a single Shaper seat.** This wasn't a personality conflict that happened to occur on a team; it was a structural conflict *about* the team: a standing contest over whose will shaped the work. Roth was never content to hold only the audience-facing pole. His creative fingerprints on the band's direction, and later a solo career launched on the conviction that he was a driving force in his own right, mark him as a **Shaper** claimant, not merely a frontman.
 
 For the first decade, the contest had a referee. Producer Ted Templeman functioned as the band's external **Coordinator** and **Monitor Evaluator**. As his own [2020 memoir](https://ecwpress.com/products/ted-templeman) and Greg Renoff's [*Van Halen Rising*](https://en.wikipedia.org/wiki/Van_Halen_Rising) document, he tended to side with Roth on creative direction: short songs, guitar-forward, no synthesizers.[^templeman] Every software team knows this configuration: the architect whose alignment silently determines which internal faction wins design reviews.
 
 Eddie kept getting overridden. So he did what blocked **Plants** do. In 1983, he built 5150 Studios at his home, described in interview after interview as an explicit move to control recording. **The talented engineer exits the shared infrastructure and builds the thing on a side branch until it's a fait accompli.**
+
+The fortress deserves its origin story.
+
+![The 5150 album cover: a muscled figure straining to hold a giant chrome sphere overhead](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/cover-5150.jpg)
+
+*One man, holding the whole thing up alone. © Warner Bros. Records (fair use).*
+
+It starts, of all places, with a cover song. In 1982, Eddie was sitting on a Minimoog part he'd earmarked for something original: "I envisioned it being more like a Peter Gabriel song," [he told Guitar World](https://www.vhnd.com/2014/01/02/eddie-van-halen-looks-back-on-van-halens-landmark-1984-album-and-the-creation-of-5150-studios/). Templeman heard it and decided it was exactly what the band's covers-heavy *Diver Down* album needed, and the riff was spent on a remake of ["Dancing in the Street."](https://www.youtube.com/watch?v=QIfotf13gzE) The architect's favorite abstraction, requisitioned for somebody else's feature.
+
+There's a quote about this episode that shows up in every telling: "I fucking hated that song. I never wanted to do it. That was the reason I decided to build my own studio."[^folklore]
+
+The name is the best part. Eddie and engineer Donn Landee christened the studio 5150, after [the California police code](https://en.wikipedia.org/wiki/5150_(involuntary_psychiatric_hold)) for an involuntary psychiatric hold (Landee had picked the number up off a scanner). Eddie named his declaration of independence after the code for being committed against your will. Some jokes write themselves.
 
 The fait accompli has a name, and if you've read this far you already know it. "Jump" was a synth riff [Eddie said](https://ultimateclassicrock.com/van-halen-1984-track-by-track/) was rejected for years, resisted by exactly the Roth–Templeman alliance that controlled the old pipeline.[^illwait] Recorded at 5150, on Eddie's turf, it became [the only #1 single](https://www.billboard.com/pro/forever-no-1-van-halens-jump/) the band ever had.
 
@@ -99,29 +110,9 @@ The war story hides a detail. [Templeman's account](https://en.wikipedia.org/wik
 
 Winning the war didn't save the team; it ended it. Once the contest was decided, the conflict migrated from *task* to *relationship*, and the research names this exact failure mode[^jehn]: task conflict can fuel a team, but only while enough trust keeps it from turning personal. Relationship conflict kills either way. The trust had been Templeman's job. The fait accompli won the argument by going around him. Within a year of the band's commercial peak, Roth was gone.
 
-Bales says every group needs a social-emotional pole. Roth held its outward face, the charisma aimed at the audience. But the *inward* face, the one aimed at the band itself, was quietly held the whole time by Michael Anthony.
-
-*Summary: two **Shapers**, one seat; the referee sided with one claimant; the other built his own pipeline and shipped the winning artifact; victory converted task conflict into relationship conflict; the team fractured on schedule.*
-
-## Interlude: 5150
-
-![The 5150 album cover: a muscled figure straining to hold a giant chrome sphere overhead](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/cover-5150.jpg)
-
-*One man, holding the whole thing up alone. © Warner Bros. Records (fair use).*
-
-Before the next act, the fortress from Act I deserves its origin story.
-
-It starts, of all places, with a cover song. In 1982, Eddie was sitting on a Minimoog part he'd earmarked for something original: "I envisioned it being more like a Peter Gabriel song," [he told Guitar World](https://www.vhnd.com/2014/01/02/eddie-van-halen-looks-back-on-van-halens-landmark-1984-album-and-the-creation-of-5150-studios/). Templeman heard it and decided it was exactly what the band's covers-heavy *Diver Down* album needed, and the riff was spent on a remake of ["Dancing in the Street."](https://www.youtube.com/watch?v=QIfotf13gzE) The architect's favorite abstraction, requisitioned for somebody else's feature.
-
-There's a quote about this episode that shows up in every telling: "I fucking hated that song. I never wanted to do it. That was the reason I decided to build my own studio."[^folklore]
-
-The name is the best part. Eddie and engineer Donn Landee christened the studio 5150, after [the California police code](https://en.wikipedia.org/wiki/5150_(involuntary_psychiatric_hold)) for an involuntary psychiatric hold (Landee had picked the number up off a scanner). Eddie named his declaration of independence after the code for being committed against your will. Some jokes write themselves.
-
 And if you want to know how completely the fortress won: two years after *1984*, the band gave its first post-Roth album the studio's name: *5150*. The side branch had become main.
 
-## Act II: Why Can't This Be Love? (1985–1996)
-
-> Only time will tell if we stand the test of time
+Hagar is the useful control case.
 
 ![Onstage in 2004: Michael Anthony on bass, Sammy Hagar singing in red, Eddie shirtless on guitar](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/2004-hagar-lineup.jpg)
 
@@ -133,51 +124,37 @@ Sammy Hagar is often described as the easygoing alternative to Roth, which is hi
 
 The outcome, for a decade, was remarkable: four consecutive #1 albums, more commercial success than the Roth era ever managed, but leaving a legacy that fans nonetheless rank below the original run.[^victory-riff] Whatever was lost with the friction, something was lost.
 
-But look closely, and the era's stability had a second load-bearing element: manager Ed Leffler, whom Hagar's memoir credits as the neutral figure holding the whole configuration together: the in-house **Coordinator** the band otherwise never had. Then the causal chain runs like a fuse. Leffler died in 1993. He was replaced by Ray Danniels, Alex's former brother-in-law and, in Hagar's telling, aligned with the brothers rather than neutral. The chairperson's seat, refilled by a partisan. Within three years, the first genuine task conflicts (songs for the *Twister* soundtrack, a greatest-hits album Hagar opposed) escalated with nothing left to buffer them, and Hagar was out. (Hagar tells the exit one way in *Red*; the brothers told it another.[^fired-or-quit] To be honest, we'll never know exactly what happened, and the fact that no two members could ever agree is itself evidence of what the group had become without a **Coordinator**.)
+That configuration held until the band's **Coordinator** disappeared. We'll get to that vacancy in a moment. For this section, the useful result is what happened when Roth returned.
+
+The 1996 MTV Video Music Awards reunion with Roth collapsed within weeks, in dueling public accounts. Eleven years apart, and the two-**Shapers** problem reignited in *days*. The 2012–2015 reunion produced a real album and a tense armistice; the seat contest was never resolved, only rendered moot by Eddie's total structural victory. Eddie, in a [2015 Billboard interview](https://www.billboard.com/music/rock/eddie-van-halen-addiction-david-lee-roth-touring-6605231/), summarized the state of the twenty-year truce in eight words: "he does not want to be my friend."[^billboard] **Structural problems don't age out; they wait.**
+
+## What happens when the counterweights disappear?
+
+**2. Teams fail from uncovered and duplicated roles, not talent deficits.** Van Halen at every moment had a surplus of talent. What it never had was a **Monitor Evaluator**; what it twice lost was its **Coordinator**. Each vacancy leaves an audible signature in the discography.[^nobodys-perfect]
+
+Look closely, and the Hagar era's stability had a second load-bearing element: manager Ed Leffler, whom Hagar's memoir credits as the neutral figure holding the whole configuration together: the in-house **Coordinator** the band otherwise never had. Then the causal chain runs like a fuse. Leffler died in 1993. He was replaced by Ray Danniels, Alex's former brother-in-law and, in Hagar's telling, aligned with the brothers rather than neutral. The chairperson's seat, refilled by a partisan. Within three years, the first genuine task conflicts (songs for the *Twister* soundtrack, a greatest-hits album Hagar opposed) escalated with nothing left to buffer them, and Hagar was out. (Hagar tells the exit one way in *Red*; the brothers told it another.[^fired-or-quit] To be honest, we'll never know exactly what happened, and the fact that no two members could ever agree is itself evidence of what the group had become without a **Coordinator**.)
 
 Every engineering org has run this experiment too: the beloved neutral manager leaves, the replacement comes from one side of a standing rivalry, and conflicts that used to get resolved become crises.
-
-*Summary: a settled **Shaper** seat bought a decade of output; the stability was underwritten by a neutral **Coordinator**; the org lost him, the seat went partisan, and the first unbuffered task conflict ended the era.*
-
-## Act III: How Many Say I (1996–2020)
-
-> Say live and let live, so quick to judge  
-> Slow to forgive, when you're holding a grudge  
-> Don't always believe all you need is love
 
 ![The Van Halen III album cover: a sepia photograph of a strongman taking a cannonball to the stomach](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/cover-van-halen-iii.jpg)
 
 *A man taking a cannonball to the gut. The reviews agreed. © Warner Bros. Records (fair use).*
 
-What happened next is what happens when a role structure loses its counterweights one by one.
-
-The 1996 MTV Video Music Awards reunion with Roth collapsed within weeks, in dueling public accounts. Eleven years apart, and the two-**Shapers** problem reignited in *days*. **Structural problems don't age out; they wait.**
-
 Gary Cherone (genuinely talented, hired from Extreme) lasted one album, because **a role is a negotiated relationship with the specific people around it, not a seat you can staff from a resume.** By 1998 the frontman position had become so subordinate that it provided no counterweight at all. It's the classic mis-hire: impressive on paper, dead on arrival structurally.
 
 And then there's [*Van Halen III*](https://en.wikipedia.org/wiki/Van_Halen_III), the band's worst-received album. Delightfully, you don't need to psychoanalyze anyone, because the liner notes make the argument. Eddie played bass on most of the record (Anthony appears on only three tracks). Eddie sang lead on one song. Eddie took a heavy hand in production. One member occupying the **Plant**, **Shaper**, and **Completer Finisher** roles, now absorbing pieces of the **Teamworker**'s and frontman's, with no **Monitor Evaluator** anywhere in the organization to kill any of it in review. I told you we'd hear what that vacancy sounds like. It sounds like *Van Halen III*.
 
-The Anthony story completes in parallel, and it's the cruelest data in the set. His songwriting and royalty position was cut back as early as the 1984 tour, at the band's commercial peak;[^wage-earner] he reportedly had to accept diminished terms just to participate in the 2004 reunion tour; in 2006 he was replaced outright, learning his status from the press.[^internet] The org chart had never been able to see what he did; Belbin could have predicted the contract terms. And then the punchline: on subsequent tours, recordings of his backing vocals were piped into the live shows, by Hagar's account.[^tape] The organization removed the glue person, discovered the glue was load-bearing, and had to build tooling to fake his output. Glue work is real work, and firing your glue person is a fucking expensive way to learn that. And per Act I: when Anthony left, the harmonies turned out to be the recoverable part. The inward-facing social pole the band had quietly depended on since 1974 walked out with him.
-
-Anthony's replacement was Wolfgang Van Halen, Eddie's son: the ultimate new guy, structurally incapable of contesting the **Shaper** seat, despite being a world class musician in his own right. The 2012–2015 reunion with Roth produced a real album and a tense armistice; the seat contest was never resolved, only rendered moot by Eddie's total structural victory. Eddie, in a [2015 Billboard interview](https://www.billboard.com/music/rock/eddie-van-halen-addiction-david-lee-roth-touring-6605231/), summarized the state of the twenty-year truce in eight words: "he does not want to be my friend."[^billboard] Eddie Van Halen died in October 2020, with the band's role structure — his studio, his son, his name on the marquee — arranged exactly as he'd built it.
-
-![Eddie Van Halen in orange stage light, shirtless in camo pants, playing a sunburst guitar](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/2004-eddie-live.jpg)
-
-*Eddie onstage in Sacramento, August 2004. Photo: Mogwai73, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), via Wikimedia Commons.*
-
-*Summary: the contested seat reignited on contact; the mis-hire proved a role is a relationship; the liner notes documented one member absorbing four roles with no critic in the building; the glue person was fired and then synthesized; succession completed the structure.*
-
-## So what?
-
-Three claims, and I'll commit to them:
-
-**1. Every team has one Shaper seat, and the real fights are over who sits in it.** The conflicts we narrate as personality clashes are usually structural contests over whose will shapes the work, and they end when the seat question is settled, one way or another. Niceness never settled one.
-
-**2. Teams fail from uncovered and duplicated roles, not talent deficits.** Van Halen at every moment had a surplus of talent. What it never had was a **Monitor Evaluator**; what it twice lost was its **Coordinator**; what it eventually fired was its **Teamworker**. Each vacancy leaves an audible signature in the discography.[^nobodys-perfect]
+## What happens when the organization cannot see a role?
 
 **3. There are two scoreboards, and your org chart reads only one of them.** Fans (like users, like promotion committees) score what's legible from the front of the stage. Practitioners score the craft that's only visible from inside. The gap between the scoreboards is largest for exactly the **Implementer** and **Teamworker** roles, which is why the Alexes go unlisted and the Anthonys get their contracts reduced.
 
-Is this lens the whole truth? Maybe! Also, maybe not. The most influential modern research on team composition (Anita Woolley's collective-intelligence studies, Google's Project Aristotle) found that *who* is on a team matters less than how the team interacts: turn-taking, social sensitivity, psychological safety.[^aristotle] But notice that even that research is, in a sense, a finding about the same thing: the qualities that make teams work are precisely the ones no scoreboard was measuring.
+Bales says every group needs a social-emotional pole. Roth held its outward face, the charisma aimed at the audience. But the *inward* face, the one aimed at the band itself, was quietly held the whole time by Michael Anthony.
+
+The Anthony story is the cruelest data in the set. His songwriting and royalty position was cut back as early as the 1984 tour, at the band's commercial peak;[^wage-earner] he reportedly had to accept diminished terms just to participate in the 2004 reunion tour; in 2006 he was replaced outright, learning his status from the press.[^internet] The org chart had never been able to see what he did; Belbin could have predicted the contract terms. And then the punchline: on subsequent tours, recordings of his backing vocals were piped into the live shows, by Hagar's account.[^tape] The organization removed the glue person, discovered the glue was load-bearing, and had to build tooling to fake his output. Glue work is real work, and firing your glue person is a fucking expensive way to learn that. The harmonies turned out to be the recoverable part. The inward-facing social pole the band had quietly depended on since 1974 walked out with him.
+
+## Is this lens the whole truth?
+
+Maybe! Also, maybe not. The most influential modern research on team composition (Anita Woolley's collective-intelligence studies, Google's Project Aristotle) found that *who* is on a team matters less than how the team interacts: turn-taking, social sensitivity, psychological safety.[^aristotle] But notice that even that research is, in a sense, a finding about the same thing: the qualities that make teams work are precisely the ones no scoreboard was measuring.
 
 ## Coda: the fog
 
