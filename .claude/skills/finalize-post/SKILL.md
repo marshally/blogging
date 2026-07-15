@@ -8,10 +8,10 @@ description: Use when Marshall approves a blog post draft as done — "finalize 
 ## Overview
 
 Finalizing does two jobs, and the second is the one that's easy to skip: publish the
-approved draft into `posts/`, and **harvest Marshall's edits as style signal** into
-`docs/writing-style.md`. Every change he made to the agent draft is information about
-his voice. Finalize time is the only moment that signal gets captured — publish without
-harvesting and it's gone.
+approved draft into `posts/`, and **harvest Marshall's edits and explicit collaborative
+decisions as style signal** into `docs/writing-style.md`. Direct hand edits and recorded
+choices are both information about his voice. Finalize time is when that signal gets
+promoted into house guidance — publish without harvesting and it's gone.
 
 ## Workflow
 
@@ -33,7 +33,7 @@ The last agent-authored commit that touched the draft (agent commits carry the
 git log -n 1 --format='%H %ad %s' --grep='Co-Authored-By: Claude' -- <draft-file>
 ```
 
-### 3. Extract Marshall's edits
+### 3. Extract Marshall's edits and recorded decisions
 
 ```bash
 git diff <baseline-sha> -- <draft-file>   # committed + uncommitted edits since baseline
@@ -47,6 +47,12 @@ notes, READMEs, unrelated work) are not — leave them out of the harvest and th
 - **Interleaved history** (an agent commit landed after Marshall started editing): the
   single diff misses earlier edits. Walk `git log -p --follow <draft-file>` and collect
   every change that is not part of an agent-authored commit.
+
+The post's `DECISIONS.md` is the second signal source. Collect every unresolved
+`Style signal candidate:` entry. These entries capture explicit user choices that an
+agent implemented and committed, so they are invisible to the draft baseline diff.
+Never treat an agent-authored commit by itself as Marshall's preference: the decision
+entry and its rationale are the attribution boundary.
 
 ### 4. Analyze the edits and update `docs/writing-style.md`
 
@@ -67,6 +73,10 @@ factual correction.
 - **Unsure it generalizes?** Add it to an `## Emerging patterns (watch list)` section at
   the bottom of the doc. Promote to a rule when a later post confirms it; delete it when
   contradicted.
+- After reviewing a decision candidate, replace its marker in `DECISIONS.md` with one of
+  `Style signal harvested:`, `Style signal watch-listed:`, or `Style signal rejected:`.
+  Add a short destination or reason. This state change prevents repeated harvests while
+  preserving the original decision and rationale.
 
 ### 5. Publish
 
@@ -89,7 +99,7 @@ Leave `drafting/<slug>/` in place as the archive.
 ### 6. Commit and report
 
 Stage **only** what this workflow produced — the new `posts/` file, its published
-assets, and `docs/writing-style.md` — never `git add -A`; the tree may hold
+assets, `docs/writing-style.md`, and `DECISIONS.md` when candidate markers changed — never `git add -A`; the tree may hold
 unrelated work. Commit
 them together (with the Claude trailer) and push. End with a report: where the post
 landed, and each style learning recorded — quoting the edit that motivated it so
@@ -100,8 +110,8 @@ Marshall can veto misreadings.
 Marshall sometimes asks for a mid-draft harvest ("harvest style learnings from my
 edits" — not publishing). Run steps 1–4 and 6, skipping publish: commit **only**
 `docs/writing-style.md` — never the draft, never anything in `posts/` — and leave
-Marshall's draft edits uncommitted in the working tree. State in the report that no
-publish happened.
+Marshall's draft edits uncommitted in the working tree. Commit `DECISIONS.md` only when
+candidate markers changed. State in the report that no publish happened.
 
 Repeated mid-draft harvests must not double-count edits already harvested. The
 baseline for a second harvest is the previous harvest point, not the last agent
