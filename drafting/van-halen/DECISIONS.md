@@ -224,3 +224,11 @@ The article exists to teach lessons for running software teams. Software paralle
 Marshall's ruling applies to future public essays, not only this post: use no em dashes and no semicolons. Replace them with the corpus-native mix of periods, commas, colons, and parentheses. Never fix one forbidden mark by converting it into the other.
 
 **Style signal harvested:** Supersedes the prior rare-use budgets in `docs/writing-style.md`.
+
+## D28. Approved refinements to the v3 opening and Shaper transition (2026-07-15)
+
+The opening bridge now says heavy metal bands and software teams can fail in suspiciously similar ways, preserving the humor while promising an operating lesson rather than generic drama. Anthony's bass is described as rock-solid rather than virtuosic, which draws the intended contrast with the harmonies without dismissing his playing. The cast-sheet transition says two things matter more than the assignments, replacing the self-congratulatory label "non-trivial." The extra Shaper foreshadowing was cut because the Finding 1 heading owns that reveal. The framework now offers a structural diagnosis rather than vaguely adding depth. The "Jump" paragraph distinguishes the bypassed process from the improved artifact: Roth and Templeman still supplied the lyric, vocal, and production that made the finished song a synthesis.
+
+The edits Marshall kept from his pass are also deliberate: "searching for a soundtrack," "one more role remains conspicuously open," repeating Hagar's name instead of using an ambiguous pronoun, and structural problems that "lie in wait."
+
+**Style signal candidate:** Name the kind of insight a framework contributes instead of praising it vaguely, and make a transition demonstrate why the next material matters instead of labeling it important.
