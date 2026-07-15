@@ -192,3 +192,35 @@ with both entity dots. Caveat from research: Hagar only half-fits the RI's
 "loses interest" weakness (restaurants yes, tequila no) — the draft casts the
 type without asserting the stereotype, and the weakness clause stays attached to
 Roth only.
+
+## D22. V3 organized around structural findings (2026-07-15)
+
+Proofreaders found the band-to-Belbin casting compelling but lost interest when the article replayed it through Act I/II/III. V3 keeps the original evidence and reorganizes it around four conclusions: contested **Shaper** governance, the structural power of arriving later, the failure of talent to cover empty roles, and the two scoreboards by which organizations value work. Chronology now serves the findings instead of controlling them. The standalone 5150 interlude was removed because it no longer advanced the tightly focused **Shaper** conflict.
+
+**Style signal candidate:** When readers value the analytical model more than the chronology, organize the body around conclusions and use time as evidence inside them.
+
+## D23. Contested and settled Shaper configurations are separate findings (2026-07-15)
+
+The Roth era and Hagar era answer different structural questions. Finding 1 covers a team with multiple **Shapers** and the need for one place where consequential decisions are resolved. Finding 2 covers what changes when a later arrival joins after the architecture and power structure are already settled. Hagar is a counterexample to the idea that frontman temperament alone caused the conflict. Roth's 1996 return shows that the old governance conflict remained available for reactivation.
+
+## D24. No member cleanly maps to Belbin's Specialist (2026-07-15)
+
+Specialized employment is not the same as Belbin **Specialist** behavior. The cast overview now says no member cleanly fills the role. Wolfgang's unsupported **Specialist** assignment was removed. Cherone provides the later payoff: he was hired into a narrowly defined frontman slot, but the organization needed structural counterweights rather than another specialized performer. The mis-hire was the job definition, not Cherone.
+
+## D25. Finding headings, questions, and openings have different jobs (2026-07-15)
+
+V3 keeps the question subheads because they create forward pull. The `Finding N` heading states the conclusion. The question opens the inquiry. The first paragraph begins evidence or development instead of stating the thesis a third time.
+
+**Style signal harvested:** Added to `docs/writing-style.md` under Structure and formatting.
+
+## D26. Software parallels must advance the operating lesson (2026-07-15)
+
+The article exists to teach lessons for running software teams. Software parallels are therefore judged across the whole draft by mechanical accuracy and causal value, not by analogy count. Keep a comparison when the roles and power mechanics match and it tells a software leader what to notice, decide, or avoid. Rewrite or cut generic, contradictory, multi-job, decorative, or post-landing explanations. Add a parallel when it makes an otherwise implicit causal mechanism operational.
+
+**Style signal harvested:** Added to `docs/writing-style.md` by extending the existing mechanical-accuracy rule.
+
+## D27. Public essays have zero em-dash and semicolon budgets (2026-07-15)
+
+Marshall's ruling applies to future public essays, not only this post: use no em dashes and no semicolons. Replace them with the corpus-native mix of periods, commas, colons, and parentheses. Never fix one forbidden mark by converting it into the other.
+
+**Style signal harvested:** Supersedes the prior rare-use budgets in `docs/writing-style.md`.

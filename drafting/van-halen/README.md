@@ -8,18 +8,17 @@ with the album *1984* — "Jump" landing on the first salvo.
 
 ## Status
 
-- **Current draft:** `drafts/v2-marshall-voice.md` (~3,550 body words + 16 budget-free
-  footnotes; ~30 over the ~3,500 target after D21's Hagar recast — displacement owed;
-  new prose should displace old)
+- **Current draft:** `drafts/v3-organize-around-structural-failures.md` (findings-based revision of v2)
 - **Target length:** ~3,500 words; footnotes are budget-free (see DECISIONS D12)
-- **Open items:** see "Open questions" below
+- **Open items:** final prose review and publication
 
 ## Repo map
 
 | Path | What it is |
 |---|---|
 | `drafts/v1-neutral-voice.md` | First full draft, neutral voice, ~2,900 words |
-| `drafts/v2-marshall-voice.md` | Current draft, house style applied per `/docs/writing-style.md` |
+| `drafts/v2-marshall-voice.md` | Prior chronological draft, preserved as the source for v3 |
+| `drafts/v3-organize-around-structural-failures.md` | Current draft, organized around four structural findings |
 | `outlines/outline-6k.md` | Full 6,000-word outline with all evidence and parallels |
 | `outlines/outline-3k.md` | Compressed 3,000-word outline |
 | `outlines/diff-and-restorations.md` | What the 3k cut, plus the 7 restorations that define the 3.5k target |
@@ -35,23 +34,14 @@ with the album *1984* — "Jump" landing on the first salvo.
 
 The house-voice prompt lives at the repo root: `/docs/writing-style.md`.
 
-## Open questions (as of 2026-07-11)
+## Current v3 structure (as of 2026-07-15)
 
-1. **Title.** Settled 2026-07-12: "Might as well jump" (Marshall's hand retitle).
-   Kicker follow-up resolved: circles the title obliquely ("you know the song") —
-   see D20 for why the literal phrase is deliberately avoided.
-2. **Subtitle.** Trimmed to kill redundancy with the new title: "Might as well jump:
-   forty years of lineup drama, read as an engineering postmortem." Earning its place?
-3. **Profanity placement.** Rule corrected 2026-07-12: impact-based, no count; quoted
-   speech exempt and never bowdlerized. Authorial use currently at the Anthony firing
-   ("fucking expensive way to learn that"); Eddie's folklore quote now runs verbatim
-   in the Interlude.
-4. **Final line.** v2 extends the kicker ("...standing close enough to see who's really
-   holding the seat"); v1 ends cleaner two sentences earlier. Pick one.
-5. **Metaphor-count confession.** The piece runs three frames (fireworks/band/software),
-   confessed early with mock-guilt per house style. If the confession line lands wrong,
-   cut it first.
-6. **Word budget.** ~~350 words available~~ Spent on "Interlude: 5150" (2026-07-11).
+1. **Finding 1:** Teams can contain multiple **Shapers**. Consequential decisions still need one place where competing visions are finally resolved.
+2. **Finding 2:** Arriving later changes the seat you can claim.
+3. **Finding 3:** Talent cannot cover an empty role.
+4. **Finding 4:** Your org chart reads only one scoreboard.
+
+The chronological Act I/II/III structure and standalone 5150 interlude remain in v2 as project history. V3 uses the band chronology as evidence inside the four findings rather than as the article's organizing spine.
 
 ## Resuming work with an AI assistant
 
