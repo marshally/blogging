@@ -160,13 +160,13 @@ Maybe! Also, maybe not. The most influential modern research on team composition
 
 I should tell you how the fireworks show ended.
 
-Karl had been there all day, of course; it's San Francisco in July. The fog actually dissipated a little for the show, which by Karl's standards counts as gracious hosting. From a mile back it didn't much matter: for the crowds on the beaches, the third-ever bridge shoot in city history must have been mostly a rumor: muffled thuds behind a curtain, the spectacle scoreboard reading approximately zero.
+Karl had been there all day, of course. It's San Francisco in July. The fog actually dissipated a little for the show, which by Karl's standards counts as gracious hosting. From a mile back it didn't much matter: for the crowds on the beaches, the third-ever bridge shoot in city history must have been mostly a rumor: muffled thuds behind a curtain, the spectacle scoreboard reading approximately zero.
 
 But we were at Fort Point, directly underneath, close enough that the low-level effects off the deck still lit the fog from inside, close enough to hear each shell leave the mortar and read the crew's choices in the timing. I've stood on the other side of shows like this. I knew what I was looking at, and it was beautiful in all the ways that are only legible up close.
 
 Which is the whole thing, really. The best work is often visible only to the people standing near enough to read it. That's true of drummers, of harmony singers, of the engineer who kept your on-call quiet for three years.
 
-The fog doesn't ruin the show. It just tells you which scoreboard you've been watching, and whether anyone in your organization is standing close enough to see who's really holding the seat. If nobody is, dear reader — you know the song.
+The fog doesn't ruin the show. It just tells you which scoreboard you've been watching, and whether anyone in your organization is standing close enough to see who's really holding the seat. If nobody is, dear reader, you know the song.
 
 [^furnham]: The caveat, for the record: Belbin's psychometric questionnaire has real academic critics: Furnham and colleagues took a torch to its statistics in the 90s. I'm using the model as a lens, not a diagnostic instrument.
 
