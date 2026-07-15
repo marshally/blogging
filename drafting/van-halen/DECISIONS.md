@@ -232,3 +232,7 @@ The opening bridge now says heavy metal bands and software teams can fail in sus
 The edits Marshall kept from his pass are also deliberate: "searching for a soundtrack," "one more role remains conspicuously open," repeating Hagar's name instead of using an ambiguous pronoun, and structural problems that "lie in wait."
 
 **Style signal candidate:** Name the kind of insight a framework contributes instead of praising it vaguely, and make a transition demonstrate why the next material matters instead of labeling it important.
+
+## D29. Hagar and Anthony share the high peer band (2026-07-15)
+
+The original scoreboard placed Anthony above Hagar on peer admiration. That ordering was an artifact of the thesis-driven research, not a supported head-to-head judgment. Anthony's contribution is less visible to fans, which creates the larger gap. It does not follow that musicians admire him more than Hagar. The graphic now places both in the same high peer band while keeping Hagar farther right on the fan axis. The argument is the distance between each member's two scores, not Anthony outranking Hagar.
