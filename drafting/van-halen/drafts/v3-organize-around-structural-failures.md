@@ -62,7 +62,7 @@ Belbin gives us the characters. Bales gives us the plot. Van Halen gives us the 
 
 **The Specialist: no clean casting.** Belbin's **Specialist** supplies narrow knowledge the team otherwise lacks. A rock band is full of specialized jobs. Belbin is describing a behavioral contribution. Nobody in Van Halen cleanly occupied the role.
 
-Now, two findings from this cast sheet.
+Now, two things in the cast sheet matter more than the assignments.
 
 First, look at the *empty* seats. The band never had a **Monitor Evaluator**: Belbin's dispassionate internal critic, the person who kills bad ideas in design review. And it never had a stable in-house **Coordinator**. Belbin's chairperson clarifies goals and pulls decisions out of the group. That role kept getting outsourced to producers and managers, with consequences each time the outsourced version disappeared. Keep the **Monitor Evaluator** vacancy in mind. In 1998, we're going to hear exactly what it sounds like.
 
