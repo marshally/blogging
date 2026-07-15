@@ -60,8 +60,6 @@ Belbin gives us the characters. Bales gives us the plot. Van Halen gives us the 
 
 **The Resource Investigator, again — Sammy Hagar.** Note the seat: the frontman slot attracted the same Belbin type twice, in lineups a decade apart. Constitutionally outward-facing — mid-tenure he opened a cantina in Cabo and launched a tequila brand out of it, to his bandmates' standing irritation; the 2004 reunion contract literally banned Cabo Wabo shirts onstage.[^tattoo] Same archetype as Roth; what changed was when he arrived. Scoreboards: respected on both, worshipped on neither.
 
-**The Specialist — Wolfgang Van Halen.** Hired in 2006 for one defined slot: bass.
-
 Now, two observations about this cast sheet, and they're findings, not trivia.
 
 First, look at the *empty* seats. The band never had a **Monitor Evaluator**: Belbin's dispassionate internal critic, the person who kills bad ideas in design review. And it never had a stable in-house **Coordinator** — Belbin's chairperson, who clarifies goals and pulls decisions out of the group; that role kept getting outsourced to producers and managers, with consequences each time the outsourced version disappeared. Keep the **Monitor Evaluator** vacancy in mind. In 1998, we're going to hear exactly what it sounds like.

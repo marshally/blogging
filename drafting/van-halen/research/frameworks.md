@@ -7,7 +7,7 @@ Meredith Belbin, *Management Teams: Why They Succeed or Fail* (1981), from studi
 management teams at Henley, 1970s–80s. Nine roles in three clusters:
 
 **Thinking:** Plant (creative source; Eddie), Monitor Evaluator (dispassionate critic;
-VACANT — a finding), Specialist (narrow deep expertise; Wolfgang at entry).
+VACANT — a finding), Specialist (narrow deep expertise; unassigned).
 **Action:** Shaper (the driver; THE CONTESTED SEAT — Eddie vs. Roth), Implementer
 (plans → reliable execution; Alex), Completer Finisher (end-of-pipeline perfectionist;
 Eddie's second role in the studio).
