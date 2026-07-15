@@ -98,6 +98,8 @@ The war story hides a detail. [Templeman's account](https://en.wikipedia.org/wik
 
 "Jump" didn't end the team. It revealed which decision structure had won. The research names the danger in this configuration[^jehn]: task conflict can fuel a team, but only while enough trust keeps it from turning personal. Relationship conflict kills either way. The trust had been Templeman's job. The fait accompli settled the task dispute by going around the referee. It did nothing to repair the relationship. Within a year of the band's commercial peak, Roth was gone.
 
+## What changes when the seat is already settled?
+
 Hagar is the useful counterexample to the personality explanation.
 
 ![Onstage in 2004: Michael Anthony on bass, Sammy Hagar singing in red, Eddie shirtless on guitar](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/2004-hagar-lineup.jpg)
@@ -113,6 +115,8 @@ The outcome, for a decade, was remarkable: four consecutive #1 albums, more comm
 When Roth returned for the 1996 MTV Video Music Awards reunion, the two-**Shapers** configuration collapsed again within weeks. The members explained it in dueling public accounts. **Structural problems don't age out; they wait.**
 
 ## What happens when the counterweights disappear?
+
+A settled **Shaper** seat explains why the Hagar era worked. It does not explain why it ended.
 
 **2. Teams fail from uncovered and duplicated roles, not talent deficits.** Van Halen at every moment had a surplus of talent. What it never had was a **Monitor Evaluator**; what it twice lost was its **Coordinator**. Each vacancy leaves an audible signature in the discography.[^nobodys-perfect]
 
