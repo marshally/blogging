@@ -22,7 +22,7 @@ Which is how I found myself, at T-minus-three, wanting a soundtrack. No official
 
 Dear reader, I timed it right. The opening shells came off the bridge deck as the synth resolved, "Jump" kicked in, and for the next twenty minutes an album recorded in 1983 scored a fireworks show like it had been commissioned for it.
 
-I went home happy, fell down a Van Halen research hole, and came out the other side thinking about software teams.
+I went home happy, fell down a Van Halen research hole, and came out the other side thinking about how heavy metal bands and software teams can fail in suspiciously similar ways.
 
 Yes, this post is going to run a rock band, a fireworks show, and your engineering org through the same blender. That's at least two metaphors past the legal limit, and the management apologizes for nothing.
 
