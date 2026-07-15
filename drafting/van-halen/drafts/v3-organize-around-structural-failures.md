@@ -134,7 +134,9 @@ Gary Cherone was genuinely talented and arrived with the résumé the opening ap
 
 But frontman had never been a detachable skill. It was a negotiated relationship with the specific people around it, and by 1998 that relationship had become so subordinate that it provided no counterweight at all. Cherone later said that *Van Halen III* was made while he was still getting to know the others; only after touring did they become a band.[^cherone-role] **The mis-hire wasn't Cherone. It was the job definition.**
 
-The liner notes of [*Van Halen III*](https://en.wikipedia.org/wiki/Van_Halen_III), the band's worst-received album, show what that job definition left uncovered. Delightfully, you don't need to psychoanalyze anyone, because the liner notes make the argument. Eddie played bass on most of the record (Anthony appears on only three tracks). Eddie sang lead on one song. Eddie took a heavy hand in production. One member occupying the **Plant**, **Shaper**, and **Completer Finisher** roles, now absorbing pieces of the **Teamworker**'s and frontman's, with no **Monitor Evaluator** anywhere in the organization to kill any of it in review. I told you we'd hear what that vacancy sounds like. It sounds like *Van Halen III*.
+The liner notes of [*Van Halen III*](https://en.wikipedia.org/wiki/Van_Halen_III), the band's worst-received album, show what that job definition left uncovered. Delightfully, you don't need to psychoanalyze anyone, because the liner notes make the argument. Eddie played bass on most of the record (Anthony appears on only three tracks). Eddie sang lead on one song. Eddie took a heavy hand in production. One member occupying the **Plant**, **Shaper**, and **Completer Finisher** roles, now absorbing pieces of the **Teamworker**'s and frontman's, with no **Monitor Evaluator** anywhere in the organization to kill any of it in review.
+
+I told you we'd hear what that vacancy sounds like. It sounds like *Van Halen III*.
 
 ## Finding 4: Your org chart reads only one scoreboard
 
