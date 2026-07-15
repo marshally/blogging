@@ -74,7 +74,7 @@ Belbin flagged two **Shapers** on one team as one of his known combustible confi
 
 ## What happens when two people claim the same seat?
 
-**1. Every team has one Shaper seat, and the real fights are over who sits in it.** The conflicts we narrate as personality clashes are usually structural contests over whose will shapes the work, and they end when the seat question is settled, one way or another. Niceness never settled one.
+**1. Teams can contain multiple** **Shapers**. **A consequential decision still needs one place where competing visions are finally resolved.** The conflicts we narrate as personality clashes are usually structural contests over whose will shapes the work, and they end when the seat question is settled, one way or another. Niceness never settled one.
 
 ![Black-and-white Warner Bros. publicity photo of the 1984-era lineup: Alex in a suit and sunglasses, Roth, Eddie in a dice-print shirt, Michael Anthony](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/1984-promo.jpg)
 
