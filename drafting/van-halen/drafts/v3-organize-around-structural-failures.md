@@ -72,7 +72,9 @@ Second: I still haven't assigned one role.
 
 Belbin flagged two **Shapers** on one team as one of his known combustible configurations. There's a reason that seat is still open. It's where all the trouble starts.
 
-## What happens when two people claim the same seat?
+## Finding 1: Multiple **Shapers**, one decision point
+
+### What happens when two people claim the same seat?
 
 **1. Teams can contain multiple** **Shapers**. **A consequential decision still needs one place where competing visions are finally resolved.** The conflicts we narrate as personality clashes are usually structural contests over whose will shapes the work, and they end when the seat question is settled, one way or another. Niceness never settled one.
 
@@ -98,7 +100,9 @@ The war story hides a detail. [Templeman's account](https://en.wikipedia.org/wik
 
 "Jump" didn't end the team. It revealed which decision structure had won. The research names the danger in this configuration[^jehn]: task conflict can fuel a team, but only while enough trust keeps it from turning personal. Relationship conflict kills either way. The trust had been Templeman's job. The fait accompli settled the task dispute by going around the referee. It did nothing to repair the relationship. Within a year of the band's commercial peak, Roth was gone.
 
-## What changes when the seat is already settled?
+## Finding 2: Sequence changes structural power
+
+### What changes when the seat is already settled?
 
 Hagar is the useful counterexample to the personality explanation.
 
@@ -114,7 +118,9 @@ The outcome, for a decade, was remarkable: four consecutive #1 albums, more comm
 
 When Roth returned for the 1996 MTV Video Music Awards reunion, the two-**Shapers** configuration collapsed again within weeks. The members explained it in dueling public accounts. **Structural problems don't age out; they wait.**
 
-## What happens when the counterweights disappear?
+## Finding 3: Talent cannot cover an empty role
+
+### What happens when the counterweights disappear?
 
 A settled **Shaper** seat explains why the Hagar era worked. It does not explain why it ended.
 
@@ -132,7 +138,9 @@ Gary Cherone (genuinely talented, hired from Extreme) lasted one album, because 
 
 And then there's [*Van Halen III*](https://en.wikipedia.org/wiki/Van_Halen_III), the band's worst-received album. Delightfully, you don't need to psychoanalyze anyone, because the liner notes make the argument. Eddie played bass on most of the record (Anthony appears on only three tracks). Eddie sang lead on one song. Eddie took a heavy hand in production. One member occupying the **Plant**, **Shaper**, and **Completer Finisher** roles, now absorbing pieces of the **Teamworker**'s and frontman's, with no **Monitor Evaluator** anywhere in the organization to kill any of it in review. I told you we'd hear what that vacancy sounds like. It sounds like *Van Halen III*.
 
-## What happens when the organization cannot see a role?
+## Finding 4: Your org chart reads only one scoreboard
+
+### What happens when the organization cannot see a role?
 
 **3. There are two scoreboards, and your org chart reads only one of them.** Fans (like users, like promotion committees) score what's legible from the front of the stage. Practitioners score the craft that's only visible from inside. The gap between the scoreboards is largest for exactly the **Implementer** and **Teamworker** roles, which is why the Alexes go unlisted and the Anthonys get their contracts reduced.
 
