@@ -132,7 +132,7 @@ Van Halen never lacked talent. What it never had was a **Monitor Evaluator**. It
 
 The Hagar era depended on manager Ed Leffler, whom Hagar's memoir credits as the neutral figure keeping the group together: the in-house **Coordinator** the band otherwise never had. Then the causal chain runs like a fuse. Leffler died in 1993. He was replaced by Ray Danniels, Alex's former brother-in-law and, in Hagar's telling, aligned with the brothers rather than neutral. The chairperson's seat, refilled by a partisan. Within three years, the first genuine task conflicts (songs for the *Twister* soundtrack, a greatest-hits album Hagar opposed) escalated with nothing left to buffer them, and Hagar was out. (Hagar tells the exit one way in *Red*; the brothers told it another.[^fired-or-quit] To be honest, we'll never know exactly what happened, and the fact that no two members could ever agree is itself evidence of what the group had become without a **Coordinator**.)
 
-Every engineering org has run this experiment too: the beloved neutral manager leaves, the replacement comes from one side of a standing rivalry, and conflicts that used to get resolved become crises.
+A neutral manager is part of the conflict-resolution system. Replace them with a partisan and the same disagreements become crises.
 
 ![The Van Halen III album cover: a sepia photograph of a strongman taking a cannonball to the stomach](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/cover-van-halen-iii.jpg)
 
