@@ -122,7 +122,7 @@ When Roth returned for the 1996 MTV Video Music Awards reunion, the two-**Shaper
 
 A settled **Shaper** seat explains why the Hagar era worked. It does not explain why it ended.
 
-**Teams fail from uncovered and duplicated roles, not talent deficits.** Van Halen at every moment had a surplus of talent. What it never had was a **Monitor Evaluator**; what it twice lost was its **Coordinator**. Each vacancy leaves an audible signature in the discography.[^nobodys-perfect]
+Van Halen never lacked talent. What it never had was a **Monitor Evaluator**; what it twice lost was its **Coordinator**. Each vacancy leaves an audible signature in the discography.[^nobodys-perfect]
 
 The Hagar configuration held until its second load-bearing element disappeared: manager Ed Leffler, whom Hagar's memoir credits as the neutral figure holding the whole configuration together: the in-house **Coordinator** the band otherwise never had. Then the causal chain runs like a fuse. Leffler died in 1993. He was replaced by Ray Danniels, Alex's former brother-in-law and, in Hagar's telling, aligned with the brothers rather than neutral. The chairperson's seat, refilled by a partisan. Within three years, the first genuine task conflicts (songs for the *Twister* soundtrack, a greatest-hits album Hagar opposed) escalated with nothing left to buffer them, and Hagar was out. (Hagar tells the exit one way in *Red*; the brothers told it another.[^fired-or-quit] To be honest, we'll never know exactly what happened, and the fact that no two members could ever agree is itself evidence of what the group had become without a **Coordinator**.)
 
