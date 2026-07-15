@@ -150,7 +150,7 @@ I told you we'd hear what that vacancy sounds like. It sounds like *Van Halen II
 
 ### _What happens when the organization cannot see a role?_
 
-Fans, like users and promotion committees, score what's legible from the front of the stage. Practitioners score the craft that's only visible from inside. The gap between the scoreboards is largest for exactly the **Implementer** and **Teamworker** roles, which is why the Alexes go unlisted and the Anthonys get their contracts reduced.
+Users and executives score what they can see: launches, demos, incident heroics. Practitioners also see the work that prevents the incident, unblocks the review, and keeps the team together. Promotion processes usually read the first scoreboard. That is why the Alexes go unlisted and the Anthonys get their contracts reduced.
 
 ![Two scoreboards comparing what fans and practitioners can see](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/two-scoreboards.svg)
 
