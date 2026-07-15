@@ -82,19 +82,19 @@ The conflicts we narrate as personality clashes are usually structural contests 
 
 *The classic lineup in the* 1984 *album year: Alex, Roth, Eddie, Anthony. Months from the end. Warner Bros. publicity photo, public domain.*
 
-The standard telling of classic-era Van Halen is "clashing egos." The framework suggests something more precise: **Eddie and Roth were two claimants to a single Shaper seat.** This wasn't a personality conflict that happened to occur on a team; it was a structural conflict *about* the team: a standing contest over whose will shaped the work. Roth was never content to hold only the audience-facing pole. His creative fingerprints on the band's direction, and later a solo career launched on the conviction that he was a driving force in his own right, mark him as a **Shaper** claimant, not merely a frontman.
+The standard telling of classic-era Van Halen is "clashing egos." The framework suggests something more precise: **Eddie and Roth were two claimants to a single Shaper seat.** This wasn't a personality conflict that happened to occur on a team; it was a structural conflict *about* the team: a standing contest over whose will shaped the work. Roth was never content to hold only the audience-facing pole. His creative fingerprints on the band's direction, and later a solo career launched on the conviction that he was a driving force in his own right, mark him as a **Shaper** claimant in addition to frontman.
 
 For the first decade, the contest had a referee. Producer Ted Templeman functioned as the band's external **Coordinator** and **Monitor Evaluator**. As his own [2020 memoir](https://ecwpress.com/products/ted-templeman) and Greg Renoff's [*Van Halen Rising*](https://en.wikipedia.org/wiki/Van_Halen_Rising) document, he tended to side with Roth on creative direction: short songs, guitar-forward, no synthesizers.[^templeman] Every software team knows this configuration: the architect whose alignment silently determines which internal faction wins design reviews.
 
 Eddie kept getting overridden. So he did what blocked **Plants** do. In 1983, he built 5150 Studios at his home, described in interview after interview as an explicit move to control recording. **The talented engineer exits the shared infrastructure and builds the thing on a side branch until it's a fait accompli.**
 
-The fait accompli has a name, and if you've read this far you already know it. "Jump" was a synth riff [Eddie said](https://ultimateclassicrock.com/van-halen-1984-track-by-track/) was rejected for years, resisted by exactly the Roth–Templeman alliance that controlled the old pipeline.[^illwait] Recorded at 5150, on Eddie's turf, it became [the only #1 single](https://www.billboard.com/pro/forever-no-1-van-halens-jump/) the band ever had.
+The fait accompli has a name: "Jump." [Eddie said](https://ultimateclassicrock.com/van-halen-1984-track-by-track/) the synth riff had been rejected for years by the Roth–Templeman alliance that controlled the old pipeline.[^illwait] Recorded at 5150, on Eddie's turf, it became [the only #1 single](https://www.billboard.com/pro/forever-no-1-van-halens-jump/) the band ever had.
 
 ![The 1984 album cover: a winged cherub holding a lit cigarette](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/cover-1984.jpg)
 
-*The artifact in question. Cover art by Margo Nahas, © Warner Bros. Records; low-resolution reproduction for commentary (fair use).*
+*The artifact in question. Cover art by Margo Nahas, © Warner Bros. Records. Low-resolution reproduction for commentary (fair use).*
 
-That's the song I cued up under the bridge. The track that scored the show beginning so perfectly wasn't just a good album opener: it was the decisive move in Van Halen's **Shaper** war, the artifact that proved the **Plant** could win outside the sanctioned process. I was soundtracking a fireworks show with a side branch that slipped into production, and I didn't even know it.
+That's the song I cued up under the bridge. The track that scored the show beginning so perfectly was the decisive move in Van Halen's **Shaper** war, the artifact that proved the **Plant** could win outside the sanctioned process. I was soundtracking a fireworks show with a side branch that slipped into production, and I didn't even know it.
 
 The war story hides a detail. [Templeman's account](https://en.wikipedia.org/wiki/Jump_%28Van_Halen_song%29) of the session: Eddie and engineer Donn Landee cut the track alone in the middle of the night, Roth wrote the lyric that afternoon in the back seat of his Mercury convertible, and Templeman produced the vocals and mixed the record that evening. The process was a bypass. The artifact is a synthesis.
 
