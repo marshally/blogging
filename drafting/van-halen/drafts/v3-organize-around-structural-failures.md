@@ -118,6 +118,8 @@ The outcome, for a decade, was remarkable: four consecutive #1 albums, more comm
 
 When Roth returned for the 1996 MTV Video Music Awards reunion, the two-**Shapers** configuration collapsed again within weeks. The members explained it in dueling public accounts. **Structural problems don't age out; they wait.**
 
+A boomerang co-founder brings the old governance conflict back with them.
+
 ## Finding 3: Talent cannot cover an empty role
 
 ### _What happens when the counterweights disappear?_
