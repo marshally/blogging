@@ -14,7 +14,7 @@ This past Fourth of July (2026), San Francisco shot fireworks off the bridge its
 | --- | --- |
 | ![The crowd walking out to Fort Point under a fog-topped Golden Gate Bridge](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/foggy-bridge-with-crowd.png) | ![Map: Fort Point National Historic Site, directly under the bridge's south anchorage](https://raw.githubusercontent.com/marshally/blogging/main/drafting/van-halen/images/map-to-fort-point.png) |
 
-Which is how I found myself, at T-minus-three, wanting a soundtrack. No official audio reaches Fort Point, and a historic show deserves scoring. Scrolling my library, I remembered: Van Halen's [*1984*](https://en.wikipedia.org/wiki/1984_(Van_Halen_album)) opens with an instrumental (that slow, swelling synth intro) before ["Jump"](https://www.youtube.com/watch?v=SwYN7mTi6HM) detonates. If I timed it right, the swell would carry us through the countdown and the first salvo would land when the song really kicks in.
+Which is how I found myself, at T-minus-three, searching for a soundtrack. No official audio reaches Fort Point, and a historic show deserves scoring. Scrolling my library, I remembered: Van Halen's [*1984*](https://en.wikipedia.org/wiki/1984_(Van_Halen_album)) opens with an instrumental (that slow, swelling synth intro) before ["Jump"](https://www.youtube.com/watch?v=SwYN7mTi6HM) detonates. If I timed it right, the swell would carry us through the countdown and the first salvo would land when the song really kicks in.
 
 [![Van Halen: "Jump" (official music video)](https://img.youtube.com/vi/SwYN7mTi6HM/maxresdefault.jpg)](https://www.youtube.com/watch?v=SwYN7mTi6HM)
 
@@ -66,7 +66,7 @@ Now, two things in the cast sheet matter more than the assignments.
 
 First, look at the *empty* seats. The band never had a **Monitor Evaluator**: Belbin's dispassionate internal critic, the person who kills bad ideas in design review. And it never had a stable in-house **Coordinator**. Belbin's chairperson clarifies goals and pulls decisions out of the group. That role kept getting outsourced to producers and managers, with consequences each time the outsourced version disappeared. Keep the **Monitor Evaluator** vacancy in mind. In 1998, we're going to hear exactly what it sounds like.
 
-Second: one role remains conspicuously open.
+Second: one more role remains conspicuously open.
 
 **Shaper**: Belbin's driver role, the will that pushes the team through obstacles, the seat that decides *whose vision shapes the work*. See also: the reason your last reorg happened.
 
@@ -110,13 +110,13 @@ The war story hides a detail. [Templeman's account](https://en.wikipedia.org/wik
 
 *The settled configuration, onstage at the 2004 reunion: Anthony, Hagar, Eddie. Photo: bella lago, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/), via Wikimedia Commons.*
 
-Sammy Hagar is often described as the easygoing alternative to Roth, which is hilarious to anyone who's read his memoir [*Red*](https://www.harpercollins.com/products/red-sammy-hagar): Hagar is no shrinking violet. The Hagar era opened with the structural contest already decided. He joined Eddie's band, on Eddie's terms, recording in Eddie's studio. However accomplished, he entered as an occupant of the frontman role. Eddie remained uncontested in the **Shaper** seat.
+Sammy Hagar is often described as the easygoing alternative to Roth, which is hilarious to anyone who's read his memoir [*Red*](https://www.harpercollins.com/products/red-sammy-hagar): Hagar is no shrinking violet. The Hagar era opened with the structural contest already decided. He joined Eddie's band, on Eddie's terms, recording in Eddie's studio. However accomplished, Hagar entered as an occupant of the frontman role. Eddie remained uncontested in the **Shaper** seat.
 
 There is a world of difference between two co-founders fighting over technical direction and a decorated senior hire who joins after the architecture is settled. Same talent, same strong personality, completely different structural position. Completely different outcome.
 
 The outcome, for a decade, was remarkable: four consecutive #1 albums, more commercial success than the Roth era ever managed, but leaving a legacy that fans nonetheless rank below the original run.[^victory-riff] Whatever was lost with the friction, something was lost.
 
-When Roth returned for the 1996 MTV Video Music Awards reunion, the two-**Shapers** configuration collapsed again within weeks. The members explained it in dueling public accounts. **Structural problems don't age out; they wait.**
+When Roth returned for the 1996 MTV Video Music Awards reunion, the two-**Shapers** configuration collapsed again within weeks. The members explained it in dueling public accounts. **Structural problems don't age out; they lie in wait.**
 
 A boomerang co-founder brings the old governance conflict back with them.
 
