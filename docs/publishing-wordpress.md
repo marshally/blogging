@@ -23,3 +23,14 @@ Notes:
 - Media serves from `yountlabs.wordpress.com/wp-content/uploads/...`, not `yountlabs.com` — use `source_url` exactly as returned.
 - Bulk manual uploads usually include extras and duplicates. Reconcile the library against the post's actual image list and report what is unused — never delete media on your own.
 - Hotlinking `raw.githubusercontent.com` URLs from this public repo works and is fine for a draft under review; verify each URL resolves (200, correct content type) before relying on it.
+
+## Markdown → Gutenberg conversion
+
+How the house draft conventions map to blocks (verified on a live post):
+
+- **Footnotes** (`[^name]`): the native Gutenberg footnotes block. Each in-text reference becomes `<sup data-fn="<id>" class="fn"><a href="#<id>" id="<id>-link">N</a></sup>`, a `<!-- wp:footnotes /-->` block goes at the end of the content, and the notes themselves are a JSON-encoded array in the post's `meta.footnotes` field (`[{"id":"<id>","content":"<html>"}, …]`, in reference order). IDs need only be unique HTML ids; the editor renumbers automatically and renders hover previews.
+- **YouTube thumbnail-link workaround** (an image linking to the video — a GitHub-markdown limitation): a real `core/embed` block, with the watch URL on its own line inside the wrapper div. Fold the separate caption line into the embed's `<figcaption>`.
+- **Side-by-side image tables**: a `core/gallery` block with nested `core/image` blocks.
+- **Italic caption paragraphs** under images: the image block's `<figcaption class="wp-element-caption">`. Drop the outer italics (figcaption styling covers it) and re-italicize the album/book titles that were reverse-italicized inside.
+- After **every** `posts.create`/`posts.update`, check `_content_warnings` in the response — WordPress strips unsupported markup silently, and the warnings list is the only signal.
+- For a targeted edit to an existing post, prefer `post-sections.list` then `post-sections.replace` (hash-guarded, one top-level block) over resending the full post content.
