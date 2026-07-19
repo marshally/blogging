@@ -49,3 +49,8 @@ When a draft contains both Marshall's unstaged prose and approved agent revision
 ## Finalizing a post
 
 When Marshall approves a draft ("finalize it", "ship it", "this is done"), use the repo-local `finalize-post` skill (`.claude/skills/finalize-post/SKILL.md`). It publishes the post to `posts/` **and** harvests his edits into `docs/writing-style.md` — never publish by hand-copying the file, or the style learnings are lost.
+
+## Publishing targets
+
+- Posts publish to **yountlabs.com** (WordPress.com). Always pass `wpcom_site: "yountlabs.com"` explicitly to site-scoped MCP tools — the account-level abilities that would enumerate sites (user-sites, profile) are disabled in Marshall's MCP settings, so site discovery fails.
+- `marshally.wordpress.com` is Marshall's personal blog, not a publish target: it is on the free WordPress.com plan, which blocks **all** MCP content operations.
