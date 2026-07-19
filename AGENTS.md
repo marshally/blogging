@@ -42,6 +42,8 @@ Marshall Yount's blog-writing repo. Agents draft posts here; Marshall edits them
 
 Commit as you go, in a series of orthogonal commits. Each commit contains one specific edit or idea — never a grab-bag of unrelated changes. Commits stack on top of each other, each delivering a tiny sliver of incremental value on the one before. Never batch a session's work into one omnibus commit at the end. This composes with drafting rule 2: the first complete draft is one commit, and every revision idea after it is its own commit on top, so Marshall's hand edits always diff cleanly against the latest agent-authored state.
 
+When a draft contains both Marshall's unstaged prose and approved agent revisions, preserve the authorship boundary at the hunk level. Stage only the approved agent-authored hunks and leave every unrelated Marshall-authored hunk unstaged. Use any safe hunk-selective method; generated zero-context patches require `git apply --cached --unidiff-zero`. Commit Marshall-authored prose only on explicit request, and do not add a Claude co-author trailer to a commit containing only Marshall's prose.
+
 ## Finalizing a post
 
 When Marshall approves a draft ("finalize it", "ship it", "this is done"), use the repo-local `finalize-post` skill (`.claude/skills/finalize-post/SKILL.md`). It publishes the post to `posts/` **and** harvests his edits into `docs/writing-style.md` — never publish by hand-copying the file, or the style learnings are lost.
