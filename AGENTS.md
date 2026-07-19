@@ -16,6 +16,7 @@ Marshall Yount's blog-writing repo. Agents draft posts here; Marshall edits them
 | Doc | When to load it |
 |---|---|
 | `docs/writing-style.md` | **Before drafting or revising any post prose.** This is the house-voice prompt; every draft must follow it. |
+| `docs/2026-posting-strategy.md` | Before distribution, syndication, platform adaptation, or publishing-system work. It records approved platform decisions; do not infer content pillars or posting cadence. |
 | `docs/wordpress-mcp.md` | When configuring, authenticating, or troubleshooting WordPress.com MCP access. |
 
 ## Drafting rules
