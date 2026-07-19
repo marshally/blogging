@@ -89,6 +89,9 @@ references need work:
   (default: `posts/images/<slug>/` unless the repo has grown another convention),
   downscaling full-res originals first — honor any size notes in the post's
   `research/images.md` (multi-MB photos never ship at source resolution).
+- SVG assets additionally get a rendered PNG derivative published alongside them —
+  WordPress.com, the cross-post target, rejects SVG uploads (`rsvg-convert` at 2x
+  display size renders it; PIL palette quantization compresses flat-color charts).
 - Rewrite the draft's relative paths (`../images/…`) for the published file's
   location.
 - After the copy, verify every image and thumbnail link in the published file

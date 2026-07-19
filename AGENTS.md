@@ -40,6 +40,7 @@ Marshall Yount's blog-writing repo. Agents draft posts here; Marshall edits them
 - Before placing an image, check its pixel dimensions and look for baked-in margins or whitespace.
 - When editing a custom SVG or chart, audit every axis and relative position for unintended comparative claims. Treat each plotted point and its attached name, tagline, leader, and annotations as one movable group. Render and visually inspect the complete asset at its intended display size before committing.
 - Full-res photos (multi-MB) get downscaled derivatives before publish; the publish-time asset step in the `finalize-post` skill owns that conversion.
+- WordPress.com rejects SVG uploads, so any SVG asset that will cross-post to WordPress needs a rendered PNG derivative (`rsvg-convert` renders at 2x display size; PIL palette quantization shrinks flat-color charts dramatically). The same finalize-post asset step owns this conversion.
 
 ## Commit policy
 
