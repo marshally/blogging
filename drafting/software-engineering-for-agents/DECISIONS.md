@@ -1,6 +1,6 @@
 # Decisions for software engineering for agents
 
-Recorded 2026-10-10 from Marshall's series proposal and follow-up answers. These are his explicit choices. The episode order, examples, and production suggestions in `README.md` remain proposals.
+Recorded 2026-10-10 from Marshall's series proposal and follow-up answers. These are his explicit choices. The seven-part sequence selected in D13 governs the current plan. Individual episode order, examples, and production suggestions remain proposals.
 
 ## D1. Central argument
 
@@ -49,6 +49,14 @@ Marshall asked for a brainstorm of many more possibilities, suggesting 50 or 100
 ## D12. Show authors beside source titles
 
 Marshall requested author names in the source-key table's “Starting point” column, exemplified by “The Pragmatic Programmer”, Dave Thomas and Andy Hunt. The table now includes full names and coauthors beside book titles, with edition qualifiers where needed to avoid ambiguous attribution.
+
+## D13. Organize the series in seven parts
+
+Marshall selected this order: (1) context efficient agent model, including narrowly focused adversarial reviews, (2) code architecture and design, (3) writing great code, (4) writing great tests, (5) molding architecture using refactoring, (6) measuring our quality with static code analysis, and (7) operations. This supersedes the earlier proposed alternating opening sequence.
+
+Within architecture and design, he named deep modules, the Unix philosophy of small composable utilities that do one thing well, and domain-driven design. His stated domain-language requirement is that words in code be unambiguous and strictly match how the team talks to customers. Within writing great code, he named TDD's red, green, refactor cycle and Tidy First: when a refactoring makes the implementation easier, do it first. Operations includes observability, resilience such as circuit breakers and feature flags, and deployments.
+
+The revision regroups all original 100 candidates under this sequence and adds 12 candidates to fill the newly explicit topics. Existing IDs are retained. These additions, their exact placement within each part, and the use of a recurring export example remain assistant proposals. The selected part order does not approve every candidate for production or establish a cadence.
 
 ## Research limits
 

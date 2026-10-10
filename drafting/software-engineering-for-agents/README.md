@@ -2,9 +2,9 @@
 
 Series planning brief, 2026-10-10. Marshall's argument: software-engineering fundamentals become more important when agents do the coding. Teach the agent operating model first, then connect individual engineering principles to concrete improvements in how agents understand, change, and verify software. Each lesson becomes one short post and one video. Later, assemble them into the course described in [D6](DECISIONS.md#d6-eventual-course).
 
-The audience proposed here is working developers who already use coding agents and want more reliable results. This brief uses an internal planning register. Episode order, examples, and exercises are suggestions for discussion. [DECISIONS.md](DECISIONS.md) records Marshall's actual selections.
+The audience proposed here is working developers who already use coding agents and want more reliable results. This brief uses an internal planning register. The seven-part sequence below follows Marshall's selected order. Individual lesson order, examples, and exercises remain suggestions for discussion. [DECISIONS.md](DECISIONS.md) records Marshall's actual selections.
 
-The [100-lesson brainstorm](lesson-ideas.md) expands the options across context, agent coordination, contracts, design, domain modeling, testing, legacy changes, review, reliability, and delivery. Its [source map](research/lesson-source-leads.md) identifies book and research leads for later development.
+The [112-lesson menu](lesson-ideas.md) groups the original 100 ideas and 12 additions under that sequence, retaining stable IDs for discussion. Its [source map](research/lesson-source-leads.md) identifies book and research leads for later development.
 
 ## The foundational model
 
@@ -44,27 +44,33 @@ For demonstrations, define the runtime's input, output, reasoning, and cached-to
 
 The proposed response to an approaching ceiling is to inspect scope, dependencies, repeated discovery, and failed attempts, then change the work plan. Keep the acceptance criteria intact. The targets are a design constraint to investigate, not evidence that every task should require that many tokens or that crossing the number causes failure ([A03](research/sources.md#a03-the-proposed-150000--250000-token-budget)).
 
-## Proposed opening sequence
+## Selected series sequence
 
-Alternate agent mechanics with the books that help explain them. Each row is one self-contained lesson. The agent applications are proposals, with research links identifying the underlying concepts and their evidence limits.
+Marshall selected this progression in [D13](DECISIONS.md#d13-organize-the-series-in-seven-parts). Each part contains multiple short posts and videos. The lesson menu supplies candidates, with the exact selection and order inside each part still open.
 
-| Order | Lesson | Source | Concrete teaching move |
-|---|---|---|---|
-| 1 | Give an agent a problem it can finish | [Focused-agent model](research/sources.md#a02-focused-ownership-with-explicit-handoffs) | Turn an open-ended request into an outcome, context map, budget, and acceptance check. Show who owns integration. |
-| 2 | Make context discoverable | [Progressive disclosure](research/sources.md#c03-progressive-disclosure-and-sufficient-context) | Show an index leading to a contract, then to the relevant implementation. |
-| 3 | Deep modules organize context at every level | [Ousterhout and composed abstractions](research/replaceable-modules.md#r01-ousterhouts-abstraction-supports-composition) | Show a compact public contract over composed internal domains, then follow one task into the relevant inner module. |
-| 4 | Write interface tests that leave room for replacement | [Metz on interfaces and tests](research/metz-interfaces-and-tests.md) | Preserve the outer behavioral contract while changing inner collaborators. Show which tests belong at each boundary. |
-| 5 | Package a skill behind a useful interface | [Skills and disclosure](research/sources.md#c06-skills-offer-a-concrete-disclosure-mechanism) | Show discovery metadata, task instructions, and supporting resources. Distinguish a reusable skill from the agent executing it. |
-| 6 | Divide work along independent changes | [Hunt and Thomas, The Pragmatic Programmer](research/book-skill-inventory.md#b02-hunt-and-thomas-and-orthogonality) | Compare a split by filenames with a split by responsibilities and dependencies. Full book treatment still needs verification. |
-| 7 | Give the agent a feedback loop | [Beck, Test Driven Development by Example](research/book-skill-inventory.md#b03-beck-and-incremental-tdd) | Demonstrate one behavior through a failing test, implementation, and a passing check. |
-| 8 | Find a seam before changing the system | [Feathers, Working Effectively with Legacy Code](research/book-skill-inventory.md#b04-feathers-and-seams) | Substitute one troublesome dependency to make the relevant behavior testable. |
-| 9 | Separate structural and behavioral changes | [Beck, Tidy First](research/book-skill-inventory.md#b05-beck-and-separating-kinds-of-change) | Make a useful preparation independently reviewable, then implement the feature. |
-| 10 | Give adversarial review a question to investigate | [Hendrickson, Explore It](research/book-skill-inventory.md#b06-hendrickson-and-exploratory-charters) | Ask a reviewer to investigate one risk and supply a reproducible counterexample. Keep access to requirements and context. |
-| 11 | Diagnose before patching | [Butcher, Debug It](research/book-skill-inventory.md#b07-butcher-and-experimental-debugging) | Show an observation, competing explanations, and an experiment that distinguishes them. |
+| Part | Focus | Core material |
+|---|---|---|
+| 1 | Context efficient agent model | Focused agents, sufficient context, progressive disclosure, task budgets, coordination, and narrowly focused adversarial reviews. |
+| 2 | Code architecture and design | Deep modules, human-reviewed seams and contracts, Unix utilities that do one thing well and compose, and domain language that unambiguously matches customer conversations. |
+| 3 | Writing great code | TDD through red, green, refactor. Tidy first when the refactoring makes the implementation easier. Small changes and effective feedback. |
+| 4 | Writing great tests | Public behavior, Metz's interface-testing guidance, trustworthy doubles, systematic cases, properties, and evidence that tests can detect faults. |
+| 5 | Molding architecture using refactoring | Characterization, seams, moving responsibilities, changing abstractions, and replacing internals while preserving contracts. |
+| 6 | Measuring our quality with static code analysis | Types, complexity, duplication, dependencies, lint rules, and security analysis. Interpret each result in terms of the property it checks. |
+| 7 | Operations | Observability, resilience, circuit breakers, feature flags and other operational controls, then deployments and recovery. |
 
-Later candidates from the same skill inventory: Fowler on named refactorings, Evans on shared domain language, and Majors, Fong-Jones, and Miranda on observability. Their proposed applications and outstanding source work are in [B09–B11](research/book-skill-inventory.md#secondary-leads-for-later-lessons). Expand the series by useful principles rather than requiring one episode per book.
+The [source map](research/lesson-source-leads.md) traces these topics to their research. [S01–S04](research/curriculum-additions.md) add the Unix, domain-language, static-analysis, and feature-flag sources. The examples remain proposed applications to agentic coding.
 
-## The first book lesson
+The proposed teaching distinction between parts 3–5 is the workflow for making a change, the quality of the tests supporting it, and the deliberate reshaping of architecture. Teach enough testing to make the first TDD cycle concrete. Return to assertions, boundaries, and test design in part 4, then use those tools to support architectural change in part 5.
+
+Present deep modules and Unix composition together. Explore a component's coherent responsibility, the capability its interface offers, and the cost of composing it with other components. Keep Marshall's recursive composition model: a deep module may contain smaller internal domains, and each relevant boundary should remain workable for its callers and maintainers. The proposed comparison should expose both information leakage and excessive fragmentation rather than prescribe a universal module size ([D7](DECISIONS.md#d7-deep-modules-use-recursive-composition), [S01](research/curriculum-additions.md#s01-unix-composition)).
+
+For domain-driven design, carry the customer's terms through the requirements, tests, and domain code. Resolve ambiguous meanings in conversation and make translations explicit at domain boundaries. Evans' reference supports shared language within a bounded context ([S02](research/curriculum-additions.md#s02-domain-language-shared-with-customers)).
+
+Static analysis supplies evidence about selected properties. Pair the score or finding with the code it describes and the reason to change it. Keep coverage, mutation results, operational telemetry, and change history identified as their own kinds of evidence ([S03](research/curriculum-additions.md#s03-static-analysis-and-its-evidence-limits)).
+
+## Deep modules as a recurring example
+
+The example below can introduce module design in part 2, return for detailed test design in part 4, and support implementation replacement in part 5. This reuse is a teaching proposal.
 
 Proposed example: an agent needs to add a records export. In one design, its caller must assemble authentication, pagination, and transport handling scattered across helpers. In the other, a records interface owns those mechanics and documents its ordering, completeness, and failure behavior. Walk through what the caller must learn in each version before it can implement the export. This is a hypothetical example, not a reported project result.
 
@@ -115,8 +121,8 @@ TikTok, YouTube, and LinkedIn are the selected video destinations ([D5](DECISION
 
 ## Build toward the course
 
-Keep a learning objective, source entry, before/after artifact, small exercise, and acceptance check with every lesson. The course can then group the material by what a learner can do: scope and supply context, design boundaries and handoffs, change behavior with feedback, and investigate results. Add the transitions and a worked end-to-end project when assembling it.
+Keep a learning objective, source entry, before/after artifact, small exercise, and acceptance check with every lesson. The course can use the same seven-part progression: direct agents, design the code, implement changes, write effective tests, reshape architecture, inspect static quality signals, and operate the result. Add the transitions and a worked end-to-end project when assembling it.
 
 For the eventual course exercise, have the learner take one change through task decomposition, context loading, implementation, review, and integration. Assess correctness and evidence alongside token use. The exercise tests how the principles work together. It also provides a place to show when delegation creates more work than it saves.
 
-Next editorial step: choose the opening lesson's concrete task and develop its post outline and video beats. The book shortlist and sequence above are ready for Marshall's revision.
+Next editorial step: choose the opening lesson's concrete task and develop its post outline and video beats. Use the selected seven-part sequence to choose from the lesson menu.
