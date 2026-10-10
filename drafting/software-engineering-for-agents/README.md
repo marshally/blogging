@@ -73,6 +73,16 @@ Then change the assignment: the agent must alter pagination itself. It opens the
 
 Depth describes how much useful capability an interface makes available relative to what callers must understand. File size is a separate concern. The teaching test is whether the caller can use the outer module without opening its internals, and whether a maintainer can change an inner domain without loading the entire outer implementation. This combines Ousterhout's abstractions with Marshall's agent workflow ([R01 and R06](research/replaceable-modules.md#r01-ousterhouts-abstraction-supports-composition)).
 
+### Replace the implementation and preserve the agreement
+
+Marshall's third benefit is the ability to rewrite internals that have become unworkable while retaining the contract expressed in interface tests ([D9](DECISIONS.md#d9-contracts-support-replaceable-implementations)). Continue the example by replacing the pagination implementation and running the same public-interface checks against both versions. The durable investment is the understood behavior and its verification. The implementation can change behind it.
+
+Chad Fowler explicitly connects his current regeneration model to earlier service replacement at Wunderlist in [Compile to Architecture](https://aicoding.leaflet.pub/3mgfsrk75ac2l). [The Phoenix Primitives](https://chadfowler.com/regenerative-software/3mjfruwwuck2d/) describes specifications, evaluations, context boundaries, and provenance surviving implementation replacement. His early talk and current essays provide the source lineage in [R02–R05](research/replaceable-modules.md#r02-phoenix-preserves-the-knowledge-needed-for-replacement). These ideas can be applied to module boundaries inside a process. Separate deployment is not a requirement of Marshall's proposed workflow.
+
+The assurance is as strong as the contract and the checks that express it. Failure behavior, side effects, state compatibility, and relevant operational limits need coverage when callers depend on them. Tests of individual modules also need checks of their interactions, a point Fowler makes in [The Regenerative Grain](https://chadfowler.com/regenerative-software/3mfai4nqg6224/) ([R04](research/replaceable-modules.md#r04-the-grain-must-preserve-coherent-behavior)). A proposed workflow consequence is to review a change to the contract as a separate design decision from an implementation change intended to preserve it. Weakening a test to accommodate a replacement would change the agreement being verified.
+
+This gives the deep-module material three possible short lessons: human review of the behavioral contract, composition as progressive disclosure, and replacing an implementation against retained expectations. Use them as a connected mini-series if the combined example is too large for one post and clip.
+
 ## One principle in two formats
 
 Proposed lesson pattern:
