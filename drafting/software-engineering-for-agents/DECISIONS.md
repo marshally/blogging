@@ -30,6 +30,10 @@ Later weave the pieces together into a course. Marshall's working title is “wh
 
 Marshall identified tension in the assistant's claim that focused agents can work with substantial deep modules. A single file containing 100,000 tokens is not the intended architecture. Deep modules can use composition to isolate internal domains of functionality, recurring at smaller boundaries, like Russian dolls. The model must keep both caller context and internal maintenance context workable. The number is his counterexample, not a newly selected universal file-size limit.
 
+## D8. Human steering centers on modules, seams, and contracts
+
+Marshall identifies two benefits of deep-module boundaries: humans can carefully review the interface tests as a contract, and calling agents can load the interface file to understand usage without loading internals. He anticipates substantial human steering over which modules exist, the seams where they communicate, and the behavior observed at those seams. Preserve this as a central architectural argument. The brief's concrete export-test examples illustrate the idea and are not requirements Marshall has chosen for a real component.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.

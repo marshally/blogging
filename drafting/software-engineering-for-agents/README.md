@@ -8,12 +8,16 @@ The audience proposed here is working developers who already use coding agents a
 
 **Give each agent one coherent outcome, enough context to achieve it, and a clear way to prove it is done.** That is the proposed operating rule for the series. A coordinator understands the overall objective and dependencies. Workers load the detail needed for their assignments and return useful results with evidence. The coordinator owns integration and the check that the combined result satisfies the original objective. This applies the context-management and delegation ideas in [C03–C05](research/sources.md#c03-progressive-disclosure-and-sufficient-context) using the proposed ownership model in [A02](research/sources.md#a02-focused-ownership-with-explicit-handoffs).
 
+Marshall anticipates humans doing much of the steering at module boundaries: which modules exist, where they communicate, and what behavior is observable at those seams. Humans carefully review the public-interface tests as an executable contract. A calling agent should be able to load the interface file and its behavioral documentation to use the component, without opening the implementation. That compact description must reflect the contract expressed in the tests ([D8](DECISIONS.md#d8-human-steering-centers-on-modules-seams-and-contracts), [R06](research/replaceable-modules.md#r06-recursive-modules-and-human-reviewed-behavioral-contracts)).
+
 ```mermaid
 flowchart TD
-    G[User goal and acceptance criteria] --> C[Coordinator owns scope and integration]
+    G[User goal and acceptance criteria] --> H[Humans steer modules, seams, and observable behavior]
+    H --> C[Coordinator owns task scope and integration]
+    H --> K[Indexed context and reviewed module contracts]
     C --> A[Agent A owns one outcome]
     C --> B[Agent B owns a separable outcome]
-    K[Indexed context and shared contracts] -. Load detail as needed .-> A
+    K -. Load detail as needed .-> A
     K -. Load detail as needed .-> B
     A --> E[Results, evidence, and unresolved dependencies]
     B --> E
@@ -24,7 +28,7 @@ flowchart TD
 
 This is a teaching model, not a fixed roster of agents. Keep tightly coupled work together. Parallelize work whose outputs can be reconciled. A researcher, implementer, or reviewer is a possible assignment, not a mandatory agent for every task. The evidence supports selective delegation and also documents coordination and token costs ([C05](research/sources.md#c05-multi-agent-gains-depend-on-task-structure-and-cost)).
 
-The proposed assignment contract contains the desired outcome, relevant shared constraints, owned scope, an initial context packet, pointers to deeper material, acceptance criteria, and the expected return format. A useful return contains the result or artifact, evidence, assumptions, unresolved dependencies, and locations for further detail. Any constraint that can invalidate the result belongs in the contract even when implementation detail stays behind a reference.
+The proposed assignment contract contains the desired outcome, relevant shared constraints, owned scope, an initial context packet, pointers to deeper material, acceptance criteria, and the expected return format. A useful return contains the result or artifact, evidence, assumptions, unresolved dependencies, and locations for further detail. Any constraint that can invalidate the result belongs in the contract even when implementation detail stays behind a reference. This delegation agreement is distinct from the module's behavioral contract, which persists across individual agent assignments.
 
 ### Progressive disclosure
 
@@ -60,6 +64,8 @@ Later candidates from the same skill inventory: Metz on dependency direction, Fo
 ## The first book lesson
 
 Proposed example: an agent needs to add a records export. In one design, its caller must assemble authentication, pagination, and transport handling scattered across helpers. In the other, a records interface owns those mechanics and documents its ordering, completeness, and failure behavior. Walk through what the caller must learn in each version before it can implement the export. This is a hypothetical example, not a reported project result.
+
+Begin with human review of tests at that public interface. In this example, the tests could express whether all matching records must appear exactly once, which ordering is promised, and what the caller observes after a later page fails. The interface file communicates those same obligations compactly. The caller's working context can then contain the public agreement without the authentication or pagination machinery. Reviewing whether those obligations are the right ones is part of the human design work ([R06](research/replaceable-modules.md#r06-recursive-modules-and-human-reviewed-behavioral-contracts)).
 
 Then change the assignment: the agent must alter pagination itself. It opens the pagination component and the contracts of its collaborators. Authentication and transport internals remain behind their own interfaces. This makes the disclosure rule concrete: the relevant detail depends on the task, and composition makes that detail independently accessible. Measure the paths inspected and actual run usage before claiming a token benefit. The book-to-agent connection is documented in [A01](research/sources.md#a01-engineering-fundamentals-as-context-design) and Marshall's clarification in [R06](research/replaceable-modules.md#r06-recursive-modules-and-human-reviewed-behavioral-contracts).
 
