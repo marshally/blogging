@@ -72,6 +72,12 @@ The added lesson candidate 113, its proposed comparison, and the suggestion to i
 
 Marshall asked for other content authors in agentic coding similar to Pocock and Horthy. The [further-author research](research/further-authors.md) collects primary starting points and explains their relevance to his series. The recommendations remain candidates. This request does not select them as influences or approve additional lessons.
 
+## D17. Weave contemporary authors through the lessons
+
+Marshall requested integrating the recommended authors into the lesson ideas as source leads where appropriate. Add Simon Willison, Birgitta Böckeler, Armin Ronacher, Giles Edwards-Alexander, Addy Osmani, Geoffrey Huntley, and Kent Beck's contemporary agent writing to relevant existing candidates, alongside Pocock, Horthy, and the book sources. This supersedes the candidate-only status recorded in D16 for their use as source leads. Preserve author names in the source-key table's starting points.
+
+The revision maps the researched material to existing lessons and labels useful counterpoints explicitly. It retains all 113 lesson IDs, titles, demonstrations, and the selected seven-part order. The individual mappings remain editorial applications. Selecting authors as source leads does not endorse every claim they make or approve all lessons for production.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.

@@ -1,6 +1,6 @@
-# Further authors to consider
+# Further authors and lesson source leads
 
-Checked: 2026-10-10. Status: researched candidates, not Marshall-selected influences. This is an internal research memo. Primary articles and author pages below were inspected. Recommendations and connections to the curriculum are editorial judgments. These sources do not establish Marshall's proposed cumulative token budgets as universal performance thresholds.
+Checked: 2026-10-10. Marshall subsequently requested weaving these authors through the lesson menu as source leads ([D17](../DECISIONS.md#d17-weave-contemporary-authors-through-the-lessons)). This is an internal research memo. Primary articles and author pages below were inspected. The [lesson mappings](lesson-source-leads.md#contemporary-authors-in-the-lesson-menu) are editorial applications, including explicit counterpoints. These sources do not establish Marshall's proposed cumulative token budgets as universal performance thresholds.
 
 ## Simon Willison
 

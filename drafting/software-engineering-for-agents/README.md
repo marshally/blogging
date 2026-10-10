@@ -84,7 +84,7 @@ Pocock offers particularly direct material for progressive disclosure, deep modu
 
 Horthy's work supplies the context-engineering and workflow side of the comparison, including research, planning, intentional compaction, and human ownership of the resulting code. Read the early material alongside his later revisions. Treat performance anecdotes as reported experience and examine each operational recommendation against a concrete task.
 
-The [further-author reading list](research/further-authors.md) answers Marshall's request for people to follow with comparable engineering depth. These are researched recommendations, not selected series influences. It includes Simon Willison's direct example of a short TDD instruction carrying a longer procedure and experiments that challenge assumptions about tests, refactoring, and agent coordination.
+The [further-author reading list](research/further-authors.md) now supplies source leads throughout the lesson menu at Marshall's request ([D17](DECISIONS.md#d17-weave-contemporary-authors-through-the-lessons)). Simon Willison, Birgitta Böckeler, Armin Ronacher, Giles Edwards-Alexander, Addy Osmani, Geoffrey Huntley, and Kent Beck's contemporary work join the book references. The [source map](research/lesson-source-leads.md#contemporary-authors-in-the-lesson-menu) explains the pairings and identifies counterpoints on TDD, delegation, prompting, and maintainability.
 
 ## Deep modules as a recurring example
 
