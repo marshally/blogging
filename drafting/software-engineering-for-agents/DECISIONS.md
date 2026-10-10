@@ -62,6 +62,12 @@ The revision regroups all original 100 candidates under this sequence and adds 1
 
 Marshall named Dex Horthy and Matt Pocock as additional influences and requested web searches for their writing and presentations on agentic coding. The research collects their own articles, repositories, recordings, and original event or interview pages, then maps selected material to the existing series. These influences complement the book sources. Their evolving recommendations are recorded as dated positions rather than treated as one fixed doctrine. This research does not change the selected seven-part order or Marshall's cumulative per-agent token targets.
 
+## D15. Named principles as compact guidance
+
+Marshall identified his favorite Pocock idea: a short phrase such as “deep modules (Ousterhout)” or “tracer bullets (The Pragmatic Programmer)” can trigger a model to work according to the reference material without spending substantial context on a detailed restatement. Make this a connection between the context-efficient agent model and the book-based lessons. The primary research in [P12](research/matt-pocock.md#p12-leading-words-as-compact-guidance) identifies Pocock's term, leading words, and records his explanation and examples. Neither Marshall's observation nor those sources establish a universal token saving or guarantee that a model applies a named concept correctly.
+
+The added lesson candidate 113, its proposed comparison, and the suggestion to include a short invocation and observable result in each book lesson are assistant proposals implementing this emphasis. They do not select a specific episode for production or change the seven-part order.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.

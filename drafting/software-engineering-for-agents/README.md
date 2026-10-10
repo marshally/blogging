@@ -4,7 +4,7 @@ Series planning brief, 2026-10-10. Marshall's argument: software-engineering fun
 
 The audience proposed here is working developers who already use coding agents and want more reliable results. This brief uses an internal planning register. The seven-part sequence below follows Marshall's selected order. Individual lesson order, examples, and exercises remain suggestions for discussion. [DECISIONS.md](DECISIONS.md) records Marshall's actual selections.
 
-The [112-lesson menu](lesson-ideas.md) groups the original 100 ideas and 12 additions under that sequence, retaining stable IDs for discussion. Its [source map](research/lesson-source-leads.md) identifies book and research leads for later development.
+The [113-lesson menu](lesson-ideas.md) groups the original 100 ideas and 13 additions under that sequence, retaining stable IDs for discussion. Its [source map](research/lesson-source-leads.md) identifies book and research leads for later development.
 
 ## The foundational model
 
@@ -36,6 +36,14 @@ The proposed assignment contract contains the desired outcome, relevant shared c
 
 Teach three levels: a small map of what exists and when to consult it, the selected task's instructions and contracts, then the source, examples, or tool results needed for the next decision. Important shared constraints arrive up front. Detailed investigation expands only as needed. The agent must be able to discover missing context and revisit its scope when a dependency appears. This is the practical application of [C03](research/sources.md#c03-progressive-disclosure-and-sufficient-context) and the skill-loading example in [C06](research/sources.md#c06-skills-offer-a-concrete-disclosure-mechanism).
 
+### Named principles as compact guidance
+
+Marshall's favorite Pocock idea connects the opening context model to the book lessons: a short reference such as *deep modules (John Ousterhout)* or *tracer bullets (The Pragmatic Programmer)* can cue an agent to apply a larger body of engineering knowledge. Pocock calls these **leading words**. His presentation and written explanation describe using recognizable concepts to convey direction compactly ([P12](research/matt-pocock.md#p12-leading-words-as-compact-guidance), [D15](DECISIONS.md#d15-named-principles-as-compact-guidance)).
+
+Proposed teaching pattern: explain the principle, give a short phrase that invokes it, and show the behavior the reader should look for. For example, ask for a tracer bullet through one complete customer operation, then inspect whether the result actually connects the relevant parts of the system. For deep modules, inspect whether a caller can use the interface without learning the implementation. These examples apply the concepts documented in [P03 and P06](research/matt-pocock.md).
+
+Combine the named principle with the task's constraints and acceptance criteria. Use progressive disclosure for project detail and unfamiliar or disputed meanings. The human still needs enough understanding to choose the concept and judge its application. Shorter guidance is a promising way to conserve input context. Any reduction in total tokens to finish the task remains a separate measurement ([P12](research/matt-pocock.md#p12-leading-words-as-compact-guidance)).
+
 ### The budget
 
 Marshall's targets are **under 150,000 total tokens per agent task where practical, with a ceiling below 250,000** ([D3](DECISIONS.md#d3-token-targets-and-accounting-scope)). These count cumulative work across calls. Active context occupancy is a separate measurement ([C07](research/sources.md#c07-capacity-occupancy-and-cumulative-usage-differ)).
@@ -50,7 +58,7 @@ Marshall selected this progression in [D13](DECISIONS.md#d13-organize-the-series
 
 | Part | Focus | Core material |
 |---|---|---|
-| 1 | Context efficient agent model | Focused agents, sufficient context, progressive disclosure, task budgets, coordination, and narrowly focused adversarial reviews. |
+| 1 | Context efficient agent model | Focused agents, sufficient context, progressive disclosure, named principles as compact guidance, task budgets, coordination, and narrowly focused adversarial reviews. |
 | 2 | Code architecture and design | Deep modules, human-reviewed seams and contracts, Unix utilities that do one thing well and compose, and domain language that unambiguously matches customer conversations. |
 | 3 | Writing great code | TDD through red, green, refactor. Tidy first when the refactoring makes the implementation easier. Small changes and effective feedback. |
 | 4 | Writing great tests | Public behavior, Metz's interface-testing guidance, trustworthy doubles, systematic cases, properties, and evidence that tests can detect faults. |
@@ -121,7 +129,8 @@ Proposed lesson pattern:
 1. Show a recognizable failure or a small before-example.
 2. Explain one principle and credit its source.
 3. Apply it to a specific agent task with an after-example.
-4. Give the reader one action to try and a way to check the result.
+4. For a book-based lesson, offer a compact phrase that invokes the principle and identify what its application should look like.
+5. Give the reader one action to try and a way to check the result.
 
 The short post carries the example, reasoning, and citations. The video teaches the same complete idea with one visible artifact, such as an interface, task brief, test failure, or review finding. A starting production target is 400–700 words and roughly 60–120 seconds, adjustable after a pilot. These are suggested editorial lengths, not platform limits or an approved cadence. Detailed scripts can wait until Marshall chooses the first lesson's example.
 
