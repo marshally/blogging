@@ -46,6 +46,10 @@ Marshall requested adding Sandi Metz's guidance on structuring public/private in
 
 Marshall asked for a brainstorm of many more possibilities, suggesting 50 or 100 lessons. The revision supplies 100 candidates spanning agent mechanics and software-engineering fundamentals, each with a small demonstration and source leads. This expands the menu. It does not select all 100 for production, approve their order, or establish a publishing cadence. Newly proposed book connections require primary verification before becoming publication claims.
 
+## D12. Show authors beside source titles
+
+Marshall requested author names in the source-key table's “Starting point” column, exemplified by “The Pragmatic Programmer”, Dave Thomas and Andy Hunt. The table now includes full names and coauthors beside book titles, with edition qualifiers where needed to avoid ambiguous attribution.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.
