@@ -62,7 +62,7 @@ The [Refactoring skill](../../../../agent-skills/plugins/marshally-software-engi
 
 ### B10: Evans and domain language
 
-The [Domain-Driven Design skill](../../../../agent-skills/plugins/marshally-software-engineering/skills/book-domain-driven-design/SKILL.md) supplies ubiquitous-language and bounded-context leads. Candidate lesson: prevent agents from assigning different meanings to the same domain word. Primary verification is pending. A bounded context in DDD is not an LLM context window.
+The [Domain-Driven Design skill](../../../../agent-skills/plugins/marshally-software-engineering/skills/book-domain-driven-design/SKILL.md) supplies ubiquitous-language and bounded-context leads. Candidate lesson: prevent agents from assigning different meanings to the same domain word. The later [S02 check](curriculum-additions.md#s02-domain-language-shared-with-customers) verifies shared language and bounded contexts against Evans' own reference. Other concept-specific verification remains pending. A bounded context in DDD is not an LLM context window.
 
 ### B11: Majors, Fong-Jones, and Miranda and observability
 

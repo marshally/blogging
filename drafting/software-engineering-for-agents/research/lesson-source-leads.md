@@ -1,6 +1,6 @@
 # Research leads for the lesson brainstorm
 
-Created 2026-10-10 for the 100-item [lesson menu](../lesson-ideas.md). This is a source map for ideation. The titles and demonstrations are proposals, not author quotations or approved lessons. Source keys mean “investigate this connection,” not “this author made this exact agentic-coding claim.”
+Created 2026-10-10 for the [lesson menu](../lesson-ideas.md). This is a source map for ideation. The titles and demonstrations are proposals, not author quotations or approved lessons. Source keys mean “investigate this connection,” not “this author made this exact agentic-coding claim.”
 
 ## Evidence status
 
@@ -25,7 +25,7 @@ The selected skill entrypoint introductions and concept/scorecard sections were 
 | EXPLORE | [“Explore It!”](book-skill-inventory.md#b06-hendrickson-and-exploratory-charters), Elisabeth Hendrickson | Primary support for exploratory charters. Agent-review applications are synthesis. |
 | DEBUG | [“Debug It!”](book-skill-inventory.md#b07-butcher-and-experimental-debugging), Paul Butcher | Primary support for experimental diagnosis. Other techniques need passage verification. |
 | OBSERVABILITY | [“Observability Engineering”](book-skill-inventory.md#b11-majors-fong-jones-and-miranda-and-observability), Charity Majors, Liz Fong-Jones, and George Miranda | Secondary skill lead. Agent-run telemetry application is synthesis. |
-| DDD | [“Domain-Driven Design”](../../../../agent-skills/plugins/marshally-software-engineering/skills/book-domain-driven-design/SKILL.md), Eric Evans | Secondary skill lead: domain language, model boundaries, entities, values, aggregates. |
+| DDD | [“Domain-Driven Design”](../../../../agent-skills/plugins/marshally-software-engineering/skills/book-domain-driven-design/SKILL.md), Eric Evans | Primary support for shared language and bounded contexts in [S02](curriculum-additions.md#s02-domain-language-shared-with-customers). Other skill concepts remain secondary leads. |
 | IDDD | [“Implementing Domain-Driven Design”](../../../../agent-skills/plugins/marshally-software-engineering/skills/book-implementing-domain-driven-design/SKILL.md), Vaughn Vernon | Secondary skill lead: consistency boundaries, events, integration, and application services. |
 | GOOS | [“Growing Object-Oriented Software, Guided by Tests”](../../../../agent-skills/plugins/marshally-software-engineering/skills/book-growing-object-oriented-software/SKILL.md), Steve Freeman and Nat Pryce | Secondary skill lead: interface discovery, feedback loops, collaborator boundaries, and walking skeletons. |
 | TESTING | [“Effective Software Testing”](../../../../agent-skills/plugins/marshally-software-engineering/skills/book-mauricio-aniche-effective-software-testing/SKILL.md), Mauricio Aniche | Secondary skill lead: specification-derived cases, partitions, properties, and testability. Mutation-testing attribution needs separate verification. |
@@ -39,6 +39,9 @@ The selected skill entrypoint introductions and concept/scorecard sections were 
 | CLEAN | [“Clean Code”](../../../../agent-skills/plugins/marshally-software-engineering/skills/book-clean-code/SKILL.md), Robert C. Martin | Secondary skill lead: names, abstraction levels, and design heuristics. Preserve disagreements with other authors. |
 | HARDPARTS | [“Software Architecture: The Hard Parts”](../../../../agent-skills/plugins/marshally-software-engineering/skills/book-software-architecture-the-hard-parts/SKILL.md), Neal Ford, Mark Richards, Pramod Sadalage, and Zhamak Dehghani | Secondary skill lead: decomposition tradeoffs, communication, data ownership, and coordination. |
 | ENTERPRISE | [“Patterns of Enterprise Application Architecture”](../../../../agent-skills/plugins/marshally-software-engineering/skills/book-patterns-of-enterprise-application-architecture/SKILL.md), Martin Fowler | Secondary skill lead: domain logic, persistence, layering, and complexity fit. |
+| UNIX | [“The Art of Unix Programming”](curriculum-additions.md#s01-unix-composition), Eric S. Raymond | Primary indexed excerpts on focused programs and composition. Full passage verification pending. |
+| STATIC | [Static-analysis tool documentation](curriculum-additions.md#s03-static-analysis-and-its-evidence-limits), SonarSource, TypeScript and ESLint contributors, Sander Verweij and contributors, and GitHub | Primary references for selected checks. Tool-specific examples and agent benefits remain proposals. |
+| FLAGS | [“Feature Toggles (aka Feature Flags)”](curriculum-additions.md#s04-feature-flags-and-progressive-exposure), Pete Hodgson | Primary support for toggle categories, operational controls, and progressive exposure. |
 
 ## Author and edition notes
 
