@@ -26,6 +26,10 @@ Each principle should fit a short blog post with a short video version for TikTo
 
 Later weave the pieces together into a course. Marshall's working title is “what the masters of software engineering can teach us about doing ai coding better”. Preserve that framing while the curriculum develops.
 
+## D7. Deep modules use recursive composition
+
+Marshall identified tension in the assistant's claim that focused agents can work with substantial deep modules. A single file containing 100,000 tokens is not the intended architecture. Deep modules can use composition to isolate internal domains of functionality, recurring at smaller boundaries, like Russian dolls. The model must keep both caller context and internal maintenance context workable. The number is his counterexample, not a newly selected universal file-size limit.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.
