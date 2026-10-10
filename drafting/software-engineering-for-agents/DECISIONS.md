@@ -58,6 +58,10 @@ Within architecture and design, he named deep modules, the Unix philosophy of sm
 
 The revision regroups all original 100 candidates under this sequence and adds 12 candidates to fill the newly explicit topics. Existing IDs are retained. These additions, their exact placement within each part, and the use of a recurring export example remain assistant proposals. The selected part order does not approve every candidate for production or establish a cadence.
 
+## D14. Add Dex Horthy and Matt Pocock as contemporary influences
+
+Marshall named Dex Horthy and Matt Pocock as additional influences and requested web searches for their writing and presentations on agentic coding. The research collects their own articles, repositories, recordings, and original event or interview pages, then maps selected material to the existing series. These influences complement the book sources. Their evolving recommendations are recorded as dated positions rather than treated as one fixed doctrine. This research does not change the selected seven-part order or Marshall's cumulative per-agent token targets.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.

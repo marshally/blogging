@@ -68,6 +68,14 @@ For domain-driven design, carry the customer's terms through the requirements, t
 
 Static analysis supplies evidence about selected properties. Pair the score or finding with the code it describes and the reason to change it. Keep coverage, mutation results, operational telemetry, and change history identified as their own kinds of evidence ([S03](research/curriculum-additions.md#s03-static-analysis-and-its-evidence-limits)).
 
+## Contemporary agentic-coding influences
+
+Marshall also named Dex Horthy and Matt Pocock as influences ([D14](DECISIONS.md#d14-add-dex-horthy-and-matt-pocock-as-contemporary-influences)). Their work provides current applications to compare with the books. The dedicated [Horthy research](research/dex-horthy.md) and [Pocock research](research/matt-pocock.md) record sources, dates, inspection limits, and candidate lesson mappings.
+
+Pocock offers particularly direct material for progressive disclosure, deep modules composed of smaller internal parts, domain vocabulary, vertical slices, behavior tests, and reviews with separate briefs. His [current workflow artifacts](research/matt-pocock.md#p10-the-current-skills-repository-as-an-implementation-artifact) also show why the series should name the version being discussed: the repository's TDD instructions now place refactoring differently from his earlier red–green–refactor presentation. Preserve Marshall's selected teaching sequence while examining that choice.
+
+Horthy's work supplies the context-engineering and workflow side of the comparison, including research, planning, intentional compaction, and human ownership of the resulting code. Read the early material alongside his later revisions. Treat performance anecdotes as reported experience and examine each operational recommendation against a concrete task.
+
 ## Deep modules as a recurring example
 
 The example below can introduce module design in part 2, return for detailed test design in part 4, and support implementation replacement in part 5. This reuse is a teaching proposal.

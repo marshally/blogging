@@ -14,6 +14,8 @@ The selected skill entrypoint introductions and concept/scorecard sections were 
 |---|---|---|
 | MODEL | [Series model and original applications](../DECISIONS.md), Marshall Yount (series framing), with agent-generated applications | Original proposals. Technical demonstrations and claims of improved outcomes remain unsubstantiated until tested. |
 | CONTEXT | [Context engineering, delegation, and skills](sources.md), Anthropic | Primary starting points C03–C07. Specific lesson applications are proposals. |
+| HORTHY | [Context engineering, agent workflows, and software factories](dex-horthy.md), Dex Horthy | Primary writings, talks, and workflow artifacts. Distinguish historical RPI guidance from later revisions and separate active context from cumulative usage. |
+| POCOCK | [Agentic engineering workflow, deep modules, TDD, and review](matt-pocock.md), Matt Pocock | Primary articles, presentation excerpts, and pinned skill source. Preserve differences between dated tutorials and current workflow instructions. |
 | OUSTERHOUT | [“A Philosophy of Software Design”](sources.md#c02-deep-modules-and-information-hiding), John Ousterhout | Primary support for depth and information hiding. Other concepts require passage verification. |
 | METZ | [Interfaces and testing](metz-interfaces-and-tests.md), Sandi Metz | Primary support for the scoped claims in M01–M03. Recursive agent applications are synthesis. |
 | PHOENIX | [Replaceable implementations](replaceable-modules.md), Chad Fowler | Primary support for the scoped claims R02–R04. No claim of guaranteed correctness. |
