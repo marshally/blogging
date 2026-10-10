@@ -48,11 +48,13 @@ Local lead: [Debug It skill](../../../../agent-skills/plugins/marshally-software
 
 Proposed application: require the debugging agent to state a hypothesis and a discriminating experiment before patching. Compare the evidence trail with a sequence of speculative edits. Any claim of better speed or lower token use needs measurements.
 
+### B08: Metz on interfaces and tests
+
+Local lead: [Practical Object-Oriented Design in Ruby skill](../../../../agent-skills/plugins/marshally-software-engineering/skills/book-practical-object-oriented-design-in-ruby/SKILL.md). Marshall selected public/private interfaces and their tests for the model. [The dedicated Metz ledger](metz-interfaces-and-tests.md) verifies the message-testing defaults and exceptions in her own slides, real/double interface checks in her POODR source examples, and request/implementation separation in *99 Bottles of OOP*, coauthored with Katrina Owen and TJ Stankus. Exact POODR chapter 4 wording remains unverified.
+
+Proposed application: preserve behavioral expectations at the chosen module boundary while allowing internal collaborators to change. Apply this at nested boundaries without making a child's interface public to every outer caller. Keep the source's testing defaults distinct from the series' human-reviewed agent workflow.
+
 ## Secondary leads for later lessons
-
-### B08: Metz and dependency direction
-
-The [Practical Object-Oriented Design in Ruby skill](../../../../agent-skills/plugins/marshally-software-engineering/skills/book-practical-object-oriented-design-in-ruby/SKILL.md) emphasizes messages, stable interfaces, and dependency direction. Candidate lesson: define what one agent needs from another through an explicit request and result contract. This is a proposed analogy, not an assertion that agents are objects. Primary book evidence for the selected principle is still needed.
 
 ### B09: Fowler and behavior-preserving refactoring
 

@@ -38,6 +38,10 @@ Marshall identifies two benefits of deep-module boundaries: humans can carefully
 
 Marshall's third benefit is that unworkable internals can be rewritten while preserving the contract expressed in tests. He connects this to Chad Fowler's early microservices writing and current Phoenix architecture. The research verifies the current connection and an earlier talk, while the precise early blog article remains unidentified. Preserve replaceability as part of the argument. Passing the selected tests supplies assurance about what they cover, not an assertion that they exhaust every behavior or interaction. Separate review of contract changes is an assistant proposal in the brief, not an additional approval policy selected by Marshall.
 
+## D10. Add Metz on public and private interfaces and testing
+
+Marshall requested adding Sandi Metz's guidance on structuring public/private interfaces and testing them to the module model. The revision incorporates verified teaching on requests versus implementation, message-based testing, and test-double compatibility. Applying those ideas recursively to agent work and deciding which tests survive an internal rewrite are the series' synthesis. The added lesson's exact placement and example remain proposals. Record Metz's testing guidance with its exceptions rather than converting it into a universal prohibition on private tests or doubles.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.
