@@ -42,6 +42,10 @@ Marshall's third benefit is that unworkable internals can be rewritten while pre
 
 Marshall requested adding Sandi Metz's guidance on structuring public/private interfaces and testing them to the module model. The revision incorporates verified teaching on requests versus implementation, message-based testing, and test-double compatibility. Applying those ideas recursively to agent work and deciding which tests survive an internal rewrite are the series' synthesis. The added lesson's exact placement and example remain proposals. Record Metz's testing guidance with its exceptions rather than converting it into a universal prohibition on private tests or doubles.
 
+## D11. Broaden the lesson menu
+
+Marshall asked for a brainstorm of many more possibilities, suggesting 50 or 100 lessons. The revision supplies 100 candidates spanning agent mechanics and software-engineering fundamentals, each with a small demonstration and source leads. This expands the menu. It does not select all 100 for production, approve their order, or establish a publishing cadence. Newly proposed book connections require primary verification before becoming publication claims.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.

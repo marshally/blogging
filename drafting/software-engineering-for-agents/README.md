@@ -4,6 +4,8 @@ Series planning brief, 2026-10-10. Marshall's argument: software-engineering fun
 
 The audience proposed here is working developers who already use coding agents and want more reliable results. This brief uses an internal planning register. Episode order, examples, and exercises are suggestions for discussion. [DECISIONS.md](DECISIONS.md) records Marshall's actual selections.
 
+The [100-lesson brainstorm](lesson-ideas.md) expands the options across context, agent coordination, contracts, design, domain modeling, testing, legacy changes, review, reliability, and delivery. Its [source map](research/lesson-source-leads.md) identifies book and research leads for later development.
+
 ## The foundational model
 
 **Give each agent one coherent outcome, enough context to achieve it, and a clear way to prove it is done.** That is the proposed operating rule for the series. A coordinator understands the overall objective and dependencies. Workers load the detail needed for their assignments and return useful results with evidence. The coordinator owns integration and the check that the combined result satisfies the original objective. This applies the context-management and delegation ideas in [C03–C05](research/sources.md#c03-progressive-disclosure-and-sufficient-context) using the proposed ownership model in [A02](research/sources.md#a02-focused-ownership-with-explicit-handoffs).
