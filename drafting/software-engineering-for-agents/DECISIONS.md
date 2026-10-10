@@ -68,6 +68,10 @@ Marshall identified his favorite Pocock idea: a short phrase such as “deep mod
 
 The added lesson candidate 113, its proposed comparison, and the suggestion to include a short invocation and observable result in each book lesson are assistant proposals implementing this emphasis. They do not select a specific episode for production or change the seven-part order.
 
+## D16. Recommend further authors to follow
+
+Marshall asked for other content authors in agentic coding similar to Pocock and Horthy. The [further-author research](research/further-authors.md) collects primary starting points and explains their relevance to his series. The recommendations remain candidates. This request does not select them as influences or approve additional lessons.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.

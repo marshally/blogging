@@ -84,6 +84,8 @@ Pocock offers particularly direct material for progressive disclosure, deep modu
 
 Horthy's work supplies the context-engineering and workflow side of the comparison, including research, planning, intentional compaction, and human ownership of the resulting code. Read the early material alongside his later revisions. Treat performance anecdotes as reported experience and examine each operational recommendation against a concrete task.
 
+The [further-author reading list](research/further-authors.md) answers Marshall's request for people to follow with comparable engineering depth. These are researched recommendations, not selected series influences. It includes Simon Willison's direct example of a short TDD instruction carrying a longer procedure and experiments that challenge assumptions about tests, refactoring, and agent coordination.
+
 ## Deep modules as a recurring example
 
 The example below can introduce module design in part 2, return for detailed test design in part 4, and support implementation replacement in part 5. This reuse is a teaching proposal.
