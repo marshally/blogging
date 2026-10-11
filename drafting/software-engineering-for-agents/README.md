@@ -1,4 +1,4 @@
-# Software engineering fundamentals for agentic coding
+# Standing on the Shoulders of Giants: A Software Engineering Primer for Agentic Coding
 
 Series planning brief, 2026-10-10. Marshall's argument: software-engineering fundamentals become more important when agents do the coding. Teach the agent operating model first, then connect individual engineering principles to concrete improvements in how agents understand, change, and verify software. Each lesson becomes one short post and one video. Later, assemble them into the course described in [D6](DECISIONS.md#d6-eventual-course).
 

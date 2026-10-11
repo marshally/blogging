@@ -24,7 +24,7 @@ Each principle should fit a short blog post with a short video version for TikTo
 
 ## D6. Eventual course
 
-Later weave the pieces together into a course. Marshall's working title is “what the masters of software engineering can teach us about doing ai coding better”. Preserve that framing while the curriculum develops.
+Later weave the pieces together into a course. Marshall's original working title was “what the masters of software engineering can teach us about doing ai coding better”. Preserve that framing while the curriculum develops. D19 records the selected title.
 
 ## D7. Deep modules use recursive composition
 
@@ -80,7 +80,11 @@ The revision maps the researched material to existing lessons and labels useful 
 
 ## D18. Naming preferences: giants and primer
 
-During title brainstorming for the series, book, or course, Marshall said he likes the concept of “standing on the shoulders of giants.” When exploring related expressions, he requested established English idioms rather than invented phrases. He subsequently said he likes “primer” as a term for the work. These are naming preferences, not approval of a complete title. The final title remains open.
+During title brainstorming for the series, book, or course, Marshall said he likes the concept of “standing on the shoulders of giants.” When exploring related expressions, he requested established English idioms rather than invented phrases. He subsequently said he likes “primer” as a term for the work. At this stage, these were naming preferences and the full title remained open. D19 records his subsequent selection.
+
+## D19. Selected title
+
+Marshall selected “Standing on the Shoulders of Giants: A Software Engineering Primer for Agentic Coding” as the full title. This supersedes the working title in D6 and resolves the naming question in D18. The planning brief now uses his exact wording.
 
 ## Research limits
 
