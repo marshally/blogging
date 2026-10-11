@@ -78,6 +78,10 @@ Marshall requested integrating the recommended authors into the lesson ideas as 
 
 The revision maps the researched material to existing lessons and labels useful counterpoints explicitly. It retains all 113 lesson IDs, titles, demonstrations, and the selected seven-part order. The individual mappings remain editorial applications. Selecting authors as source leads does not endorse every claim they make or approve all lessons for production.
 
+## D18. Naming preferences: giants and primer
+
+During title brainstorming for the series, book, or course, Marshall said he likes the concept of “standing on the shoulders of giants.” When exploring related expressions, he requested established English idioms rather than invented phrases. He subsequently said he likes “primer” as a term for the work. These are naming preferences, not approval of a complete title. The final title remains open.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.
