@@ -2,7 +2,11 @@
 
 Build an audience of developers using AI coding tools by showing how the lessons of great software engineers apply to agentic coding. Develop the material once, then adapt it into articles, videos, talks, a book, and a course.
 
-The opening is LinkedIn’s investment in video. The bet is that useful engineering lessons, sliced into hundreds of short videos with one topic apiece, can reach a receptive professional audience. A friend’s 45 short videos produced reported follower counts of 1,700 on LinkedIn, 1,600 on TikTok, and 700 on Instagram: encouraging evidence for trying this approach. [Research and context](research/marketing.md).
+The audience will be primarily monetized through consulting engagements. Any monies generated from content marketing are secondary.
+
+The strategic opening is LinkedIn’s investment in video. LinkedIn is pushing traffic to accounts that post videos and the audience of vibe coders is large and growing.
+
+The bet is that useful engineering lessons, sliced into hundreds of short videos with one topic apiece, can reach a receptive professional audience. A friend’s 45 short videos produced reported follower counts of 1,700 on LinkedIn, 1,600 on TikTok, and 700 on Instagram: encouraging evidence for trying this approach. [Research and context](research/marketing.md).
 
 1. **Write the articles.** Publish substantive blog posts that can later become book chapters.
 2. **Slice them into videos.** Turn each article into 2–10 short videos, each teaching one complete idea. Prioritize LinkedIn and adapt the clips for TikTok, Instagram, and YouTube.
