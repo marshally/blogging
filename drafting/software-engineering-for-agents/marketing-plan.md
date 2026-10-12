@@ -2,7 +2,9 @@
 
 Build an audience of developers using AI coding tools by showing how the lessons of great software engineers apply to agentic coding. Develop the material once, then adapt it into articles, videos, talks, a book, and a course.
 
-The audience will be primarily monetized through consulting engagements under the school of ["give 90% of what you know away for free, charge for the best 10%"](#appendix-a-giving-expertise-away-for-free). Any monies generated from content marketing are secondary.
+The audience will be primarily monetized through consulting engagements under the school of ["give 90% of what you know away for free, charge for the best 10%"](#appendix-a-giving-expertise-away-for-free).
+
+The second (higher lift) opportunity is to offer an online course. Successful online courses marketed to [employees with training budgets](#what-made-the-offer-valuable) can net creators [millions of dollars per year](#reported-financial-results) using [per seat pricing in the ballpark of $1k](#from-free-teaching-to-a-course-business).
 
 The strategic opening is LinkedIn’s investment in video. LinkedIn is pushing traffic to accounts that post videos and the audience of vibe coders is large and growing.
 
