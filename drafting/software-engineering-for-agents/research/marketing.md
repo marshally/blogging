@@ -65,3 +65,5 @@ Do not promise a LinkedIn algorithm boost, extrapolate the friend’s results in
 Do not identify any of M04–M06 as the originator of the remembered advice, treat the percentages as experimentally established, or recast Pulizzi’s ungated-content recommendation as a free/paid knowledge split.
 
 Do not present Total TypeScript’s cumulative sales as annual revenue or personal profit, add its pre-release sales to a later cumulative total, or treat a successful creator’s results as a forecast for the Primer. Do not imply current TypeScript-course revenue is still growing when Pocock reports a decline.
+
+**Unsubstantiated portions of the user-added course summary (2026-10-12):** M07–M10 support employer-funded training and cumulative multimillion-dollar sales. They do not establish the summary’s annual net-income claim. M08’s roughly $1,000 seat price applies to a live workshop; it does not establish a comparable price for the recorded course. The appendix links point to the relevant evidence and its limits while preserving Marshall’s wording.

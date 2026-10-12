@@ -65,6 +65,8 @@ The first commercial test was a live workshop. Joel Hooks’s [December 2022 lau
 
 The 2026 Pragmatic Engineer episode describes more than $2.5 million in total sales. These are cumulative business sales, not annual income or Pocock’s take-home earnings; the pre-release is part of the course’s sales history, not an additional amount to add to the later total. Pocock shared revenue with his publishing partner and incurred expenses. These are participant-reported figures, not audited accounts.
 
+**Scope of the evidence:** These sources do not establish millions in annual net creator income or a recorded-course seat price near $1,000. The $900–$1,200 prices above were for the live workshop.
+
 Pocock describes the outcome as life-changing: course sales could continue while he stepped away to spend time with his family. The [supplied interview transcript](research/mattpocock_interview_pragmatic_engineer.md) captures this account, with transcription-quality limits recorded in M07.
 
 ### What made the offer valuable

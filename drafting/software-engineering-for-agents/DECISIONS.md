@@ -110,6 +110,10 @@ On 2026-10-12, Marshall requested Appendix B on the large opportunity in online 
 
 On 2026-10-12, Marshall supplied `research/mattpocock_interview_pragmatic_engineer.md` for the Appendix B research and warned that the transcript is poor quality with many typos. Retain the raw transcript and record its limitations in M07. The appendix draws on clear passages about continuing course sales, family time and curriculum curation. Ambiguous wording and figures require verification against the recording before use.
 
+## D25. Link the course-opportunity summary to Appendix B
+
+On 2026-10-12, Marshall added a paragraph identifying online courses as a second, higher-lift opportunity and requested links to the appropriate appendix references. Preserve his wording and link the training-budget, sales and seat-pricing phrases to their respective Appendix B sections. The research ledger and appendix flag that the existing sources establish cumulative gross sales and live-workshop pricing, leaving annual net creator income and comparable recorded-course pricing unsubstantiated.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.
