@@ -13,8 +13,9 @@ The bet is that useful engineering lessons, sliced into hundreds of short videos
 3. **Build a speaking portfolio.** Use the published material, video examples, and audience response to pitch conference talks.
 4. **Self-publish the book.** Edit and assemble the articles into a coherent primer, using reader feedback to improve the material.
 5. **Pitch publishers.** Use the demonstrated audience and the self-published book’s performance to support a publishing proposal.
-6. **Build the course.** Organize the videos into a learning sequence, adding explanations and exercises where needed.
-7. **Optionally launch a podcast.** Interview authors whose work appears in the primer, exploring how their ideas apply to coding with agents.
+6. **Host live workshops.** Workshops are a “rowing” activity: they take less effort to assemble than a course, and live, interactive feedback can improve the material in real time.
+7. **Build the course.** Create the “sailing” opportunity: organize the videos into a learning sequence, adding explanations and exercises where needed.
+8. **Optionally launch a podcast.** Interview authors whose work appears in the primer, exploring how their ideas apply to coding with agents.
 
 Give interested viewers a clear path to the articles and email subscription. Track follower growth by platform, substantive engagement, subscribers, speaking opportunities, and interest in the book and course.
 

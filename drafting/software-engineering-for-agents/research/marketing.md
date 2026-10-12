@@ -20,6 +20,8 @@ LinkedIn’s [March 12, 2026 feed update](https://news.linkedin.com/2026/Improvi
 
 The plan’s subscriber path follows the existing [posting strategy](../../../docs/2026-posting-strategy.md#identity-and-conversion-paths). Measuring response, using feedback in revision, and adding course exercises are editorial recommendations implementing the direction. No posting cadence or numerical growth target has been selected.
 
+**User-selected workshop step, 2026-10-12.** Marshall placed live workshops immediately before building the course. His rationale is that a workshop takes less effort to assemble and provides live, interactive feedback for improving the material in real time. He describes workshops as “rowing” and an online course as a “sailing” opportunity. This is his framing and planning rationale; M09–M10 provide the related practitioner example of testing material through workshops before recording.
+
 ## M04. John Sonmez: Free and paid content
 
 **Verified primary evidence.** In [The McMethod Email Marketing Podcast, episode 106](https://www.dropdeadcopy.com/episode-106-john-sonmez-on-being-a-rockstar-in-your-niche-and-beyond/) (2015), the published interview transcript records Sonmez’s personal practice of giving away 90% of his work and charging for 10%, in a discussion of building credibility through content channels. His [own article on personal branding](https://simpleprogrammer.com/personal-brand-reputation/), under “Create Value For Others,” repeats the split. Supports the appendix’s quotation and attribution. This is a practitioner’s strategy, not a measured optimum for consulting businesses.
@@ -56,7 +58,7 @@ The passage beginning “Which is nuts” describes the financial result as life
 
 **Verified primary interview; self-reported results.** Cory House’s [“How to Create a Course with $2.5 Million in Sales with Matt Pocock”](https://www.youtube.com/watch?v=XDhqcOlCDf8), October 7, 2024, establishes when that milestone was reported. Video transcript: workshop testing, partners and support (**20:59–22:20**); mailing-list campaigns (**22:50–23:31**); problem/solution exercises (**37:00–40:53**). Neither this interview nor M07 independently audits the figures.
 
-**Editorial application of M07–M10.** A paid workshop testing demand for sequenced engineering exercises is a proposed experiment for the Primer, not a selected launch commitment. The connection between Pocock’s strategic-education emphasis and this curriculum is an inference. This case establishes that substantial sales are possible in a technical niche; it does not estimate the total course market, typical creator earnings or demand for this particular course.
+**Application of M07–M10.** Marshall selected live workshops before course production on 2026-10-12, as recorded in M03. Using a paid workshop to test demand for sequenced engineering exercises remains an editorial application of the case. The connection between Pocock’s strategic-education emphasis and this curriculum is an inference. This case establishes that substantial sales are possible in a technical niche; it does not estimate the total course market, typical creator earnings or demand for this particular course.
 
 ## Claims to avoid
 
