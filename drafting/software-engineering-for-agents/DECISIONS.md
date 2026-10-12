@@ -106,6 +106,10 @@ On 2026-10-12, Marshall specified that the plan will have multiple appendix sect
 
 On 2026-10-12, Marshall requested Appendix B on the large opportunity in online course sales, using Matt Pocock’s Pragmatic Engineer appearance and other accounts of how he entered courseware and its financial rewards. The appendix adds the origin story, reported sales milestones, workshop validation, publishing partnership and later change in demand. [Research entries M07–M10](research/marketing.md#m07-matt-pocock-on-the-pragmatic-engineer) distinguish primary testimony from audited financial evidence and the case’s implications from forecasts. Consulting remains the primary monetization objective in Marshall’s wording. Testing a paid workshop is an editorial suggestion, not an approved launch or revenue target.
 
+## D24. Supplied interview transcript and quality warning
+
+On 2026-10-12, Marshall supplied `research/mattpocock_interview_pragmatic_engineer.md` for the Appendix B research and warned that the transcript is poor quality with many typos. Retain the raw transcript and record its limitations in M07. The appendix draws on clear passages about continuing course sales, family time and curriculum curation. Ambiguous wording and figures require verification against the recording before use.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.
