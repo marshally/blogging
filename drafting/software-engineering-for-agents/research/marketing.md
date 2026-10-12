@@ -34,8 +34,28 @@ The plan’s subscriber path follows the existing [posting strategy](../../../do
 
 **Attribution limit across M04–M06.** These are verified occurrences of related advice. None has been established as the original source of Marshall’s remembered recommendation to give away 80–90% of one’s knowledge when marketing a consulting business.
 
+## M07. Matt Pocock on The Pragmatic Engineer
+
+**Verified primary interview; self-reported results.** Gergely Orosz’s [“AI Skills with Matt Pocock”](https://newsletter.pragmaticengineer.com/p/ai-skills-with-matt-pocock), September 17, 2026. Official audio transcript: teaching and Vercel (**12:43–15:06**); partnership and sales (**18:07–20:16**); AI and declining revenue (**22:59–24:09**); strategic education (**25:30–26:10**). Supports the appendix’s account. The [YouTube edition](https://www.youtube.com/watch?v=4DhcSPkEbwI) uses different timing. No net profit or quantified decline is established.
+
+## M08. Total TypeScript’s pre-release launch
+
+**Verified primary account; self-reported sales.** Joel Hooks, Pocock’s publishing partner, published [“$415k Pre-Release Launch of a Developer Education Product”](https://badass.dev/launch-of-a-developer-education-product) on December 17, 2022. He reports $415,000 gross sales and more than 1,200 learners for the first installment’s pre-release. An earlier live workshop sold all 30 seats at $1,200 list / $900 early-bird pricing. The discount mix is unspecified, so seat count times list price would not establish workshop revenue. This is early demand validation within an existing audience, not evidence that a new audience will convert similarly.
+
+## M09. Building the course with a publishing partner
+
+**Verified primary interview.** In [“How we Shipped Total Typescript with Matt Pocock”](https://badass.dev/creating-total-typescript-with-matt-pocock), August 14, 2023, Hooks and Pocock discuss testing topics through short videos, validating paid demand through workshops, serving experienced developers, and employer education budgets. The conversation describes complementary teaching, instructional design and commercial work. It supports the appendix’s account of the offer and partnership, not a claim that recordings alone produced the sales.
+
+## M10. Pocock’s 2024 course-business retrospective
+
+**Verified primary interview; self-reported results.** Cory House’s [“How to Create a Course with $2.5 Million in Sales with Matt Pocock”](https://www.youtube.com/watch?v=XDhqcOlCDf8), October 7, 2024, establishes when that milestone was reported. Video transcript: workshop testing, partners and support (**20:59–22:20**); mailing-list campaigns (**22:50–23:31**); problem/solution exercises (**37:00–40:53**). Neither this interview nor M07 independently audits the figures.
+
+**Editorial application of M07–M10.** A paid workshop testing demand for sequenced engineering exercises is a proposed experiment for the Primer, not a selected launch commitment. The connection between Pocock’s strategic-education emphasis and this curriculum is an inference. This case establishes that substantial sales are possible in a technical niche; it does not estimate the total course market, typical creator earnings or demand for this particular course.
+
 ## Claims to avoid
 
 Do not promise a LinkedIn algorithm boost, extrapolate the friend’s results into a follower forecast, add platform counts as unique people, or imply that an audience guarantees conference invitations or a publishing agreement.
 
 Do not identify any of M04–M06 as the originator of the remembered advice, treat the percentages as experimentally established, or recast Pulizzi’s ungated-content recommendation as a free/paid knowledge split.
+
+Do not present Total TypeScript’s cumulative sales as annual revenue or personal profit, add its pre-release sales to a later cumulative total, or treat a successful creator’s results as a forecast for the Primer. Do not imply current TypeScript-course revenue is still growing when Pocock reports a decline.

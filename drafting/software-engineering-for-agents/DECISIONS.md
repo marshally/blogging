@@ -102,6 +102,10 @@ On 2026-10-12, Marshall requested adding all three references from the attributi
 
 On 2026-10-12, Marshall specified that the plan will have multiple appendix sections and named the existing section “Appendix A: Giving Expertise Away for Free.” He added the phrase “give 90% of what you know away for free, charge for the best 10%” to the consulting paragraph and requested linking it to Appendix A and committing the change. Preserve his wording. The phrase is his summary of the approach, including “the best 10%,” rather than a verbatim quotation attributed to one of the appendix’s sources. This adds an explicit free-content principle to the plan after D21’s reference-only selection.
 
+## D23. Online-course opportunity appendix
+
+On 2026-10-12, Marshall requested Appendix B on the large opportunity in online course sales, using Matt Pocock’s Pragmatic Engineer appearance and other accounts of how he entered courseware and its financial rewards. The appendix adds the origin story, reported sales milestones, workshop validation, publishing partnership and later change in demand. [Research entries M07–M10](research/marketing.md#m07-matt-pocock-on-the-pragmatic-engineer) distinguish primary testimony from audited financial evidence and the case’s implications from forecasts. Consulting remains the primary monetization objective in Marshall’s wording. Testing a paid workshop is an editorial suggestion, not an approved launch or revenue target.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.

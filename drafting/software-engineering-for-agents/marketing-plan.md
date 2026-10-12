@@ -45,3 +45,32 @@ In a [May 7, 2013 interview with Adam Franklin](https://www.bluewiremedia.com.au
 > well over 90% of that content ungated, freely accessible content
 
 His percentage concerns access without registration forms. It supports broad distribution, but does not specify how much knowledge to reserve for paying clients.
+
+## Appendix B: The Opportunity in Online Course Sales
+
+Matt Pocock’s Total TypeScript demonstrates the financial upside of a focused course for working developers: millions of dollars in reported sales from teaching one programming language. It gives this plan a concrete example of how course revenue could become substantial while consulting remains the primary objective. Sources and limits are recorded in [marketing research, M07–M10](research/marketing.md#m07-matt-pocock-on-the-pragmatic-engineer).
+
+### From free teaching to a course business
+
+In [The Pragmatic Engineer’s September 17, 2026 interview](https://newsletter.pragmaticengineer.com/p/ai-skills-with-matt-pocock), Pocock describes returning to teaching after an earlier career teaching voice and singing. Short TypeScript tips attracted an audience. He worked three days a week for Vercel while developing the course, then left when sales took off.
+
+The first commercial test was a live workshop. Joel Hooks’s [December 2022 launch account](https://badass.dev/launch-of-a-developer-education-product) reports that all 30 seats sold, priced at $1,200 with a $900 early-bird offer. The workshop tested willingness to pay before the recorded product was complete.
+
+### Reported financial results
+
+| Milestone | Reported result | Source |
+|---|---|---|
+| December 2022 pre-release | $415,000 in gross sales; more than 1,200 learners | [Hooks’s launch account](https://badass.dev/launch-of-a-developer-education-product) |
+| October 2024 interview | $2.5 million in course sales | [Cory House’s interview with Pocock](https://www.youtube.com/watch?v=XDhqcOlCDf8) |
+
+The 2026 Pragmatic Engineer episode describes more than $2.5 million in total sales. These are cumulative business sales, not annual income or Pocock’s take-home earnings; the pre-release is part of the course’s sales history, not an additional amount to add to the later total. Pocock shared revenue with his publishing partner and incurred expenses. These are participant-reported figures, not audited accounts.
+
+### What made the offer valuable
+
+In [their August 2023 retrospective](https://badass.dev/creating-total-typescript-with-matt-pocock), Pocock and Hooks describe serving experienced developers with advanced material and recognizing employer training budgets as a buying opportunity. Their partnership combined teaching with instructional design and the business of selling courses.
+
+In the [2024 House interview](https://www.youtube.com/watch?v=XDhqcOlCDf8), Pocock explains that live workshops tested the material before recording. The course used short problem-and-solution videos, and his partners handled support and email campaigns. Free teaching attracted learners; the paid product offered an organized learning path.
+
+For the Primer, this suggests testing demand for a coherent sequence of practical exercises alongside the free articles and clips. A paid workshop could test that demand before investing in the full course. This is an application of the case, not a revenue forecast.
+
+Pocock also reports falling Total TypeScript revenue in the [2026 interview](https://newsletter.pragmaticengineer.com/p/ai-skills-with-matt-pocock), attributing it to AI reducing demand for readily available knowledge. His emphasis has shifted toward judgment and strategic work. That supports exploring the Primer’s engineering focus, while leaving buyers’ willingness to pay to be tested.
