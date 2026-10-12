@@ -1,6 +1,6 @@
 # Standing on the Shoulders of Giants: A Software Engineering Primer for Agentic Coding
 
-Series planning brief, 2026-10-10. Marshall's argument: software-engineering fundamentals become more important when agents do the coding. Teach the agent operating model first, then connect individual engineering principles to concrete improvements in how agents understand, change, and verify software. Each lesson becomes one short post and one video. Later, assemble them into the course described in [D6](DECISIONS.md#d6-eventual-course).
+Series planning brief, started 2026-10-10, marketing plan updated 2026-10-12. Marshall's argument: software-engineering fundamentals become more important when agents do the coding. Teach the agent operating model first, then connect individual engineering principles to concrete improvements in how agents understand, change, and verify software. Write articles that can become book chapters and derive 2–10 short videos from each. The [marketing plan](marketing-plan.md) connects this material to conference speaking, a self-published book, a publisher pitch, a course, and an optional author-interview podcast ([D20](DECISIONS.md#d20-marketing-plan-and-production-sequence)).
 
 The audience proposed here is working developers who already use coding agents and want more reliable results. This brief uses an internal planning register. The seven-part sequence below follows Marshall's selected order. Individual lesson order, examples, and exercises remain suggestions for discussion. [DECISIONS.md](DECISIONS.md) records Marshall's actual selections.
 
@@ -54,7 +54,7 @@ The proposed response to an approaching ceiling is to inspect scope, dependencie
 
 ## Selected series sequence
 
-Marshall selected this progression in [D13](DECISIONS.md#d13-organize-the-series-in-seven-parts). Each part contains multiple short posts and videos. The lesson menu supplies candidates, with the exact selection and order inside each part still open.
+Marshall selected this progression in [D13](DECISIONS.md#d13-organize-the-series-in-seven-parts). Each part contains articles and short videos. The lesson menu supplies candidates, with the exact selection and order inside each part still open.
 
 | Part | Focus | Core material |
 |---|---|---|
@@ -124,7 +124,7 @@ The assurance is as strong as the contract and the checks that express it. Failu
 
 This gives the deep-module material four possible short lessons: human review of the behavioral contract, composition as progressive disclosure, interface tests that leave room for change, and replacing an implementation against retained expectations. Use them as a connected mini-series if the combined example is too large for one post and clip.
 
-## One principle in two formats
+## Articles and short video lessons
 
 Proposed lesson pattern:
 
@@ -134,9 +134,9 @@ Proposed lesson pattern:
 4. For a book-based lesson, offer a compact phrase that invokes the principle and identify what its application should look like.
 5. Give the reader one action to try and a way to check the result.
 
-The short post carries the example, reasoning, and citations. The video teaches the same complete idea with one visible artifact, such as an interface, task brief, test failure, or review finding. A starting production target is 400–700 words and roughly 60–120 seconds, adjustable after a pilot. These are suggested editorial lengths, not platform limits or an approved cadence. Detailed scripts can wait until Marshall chooses the first lesson's example.
+Each article develops related principles with examples, reasoning, and citations, at enough depth to become a book chapter. Derive 2–10 short videos from it, with each clip teaching one complete idea through a visible artifact, such as an interface, task brief, test failure, or review finding. This replaces the earlier proposed one-post/one-video unit and 400–700-word article target. Exact article length, clip duration, and cadence remain open. Detailed scripts can wait until Marshall chooses the first article's subject and examples.
 
-TikTok, YouTube, and LinkedIn are the selected video destinations ([D5](DECISIONS.md#d5-post-and-video-unit)). Keep Yount Labs as the canonical written archive and give each platform a complete useful lesson, consistent with the [posting strategy](../../docs/2026-posting-strategy.md). This series adds video destinations without requiring changes to the site's general editorial cadence.
+The marketing plan prioritizes LinkedIn and adapts clips for TikTok, Instagram, and YouTube ([D20](DECISIONS.md#d20-marketing-plan-and-production-sequence)). Keep Yount Labs as the canonical written archive and give each platform a complete useful lesson, consistent with the [posting strategy](../../docs/2026-posting-strategy.md). Instagram now has a proposed role for this series. Account identity and handles remain open, and this plan does not set the site's general editorial cadence.
 
 ## Build toward the course
 
@@ -144,4 +144,4 @@ Keep a learning objective, source entry, before/after artifact, small exercise, 
 
 For the eventual course exercise, have the learner take one change through task decomposition, context loading, implementation, review, and integration. Assess correctness and evidence alongside token use. The exercise tests how the principles work together. It also provides a place to show when delegation creates more work than it saves.
 
-Next editorial step: choose the opening lesson's concrete task and develop its post outline and video beats. Use the selected seven-part sequence to choose from the lesson menu.
+Next editorial step: choose the opening article's subject and concrete examples, then develop its outline and 2–10 video topics. Use the selected seven-part sequence to choose from the lesson menu.

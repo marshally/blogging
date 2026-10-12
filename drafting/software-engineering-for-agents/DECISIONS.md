@@ -20,7 +20,7 @@ Present a concept from a book, then explain its importance for agentic coding. M
 
 ## D5. Post and video unit
 
-Each principle should fit a short blog post with a short video version for TikTok, YouTube, and LinkedIn. Exact length, recording style, and cadence are undecided. The platform selections apply to this series and extend the destinations described in the existing posting strategy.
+Each principle should fit a short blog post with a short video version for TikTok, YouTube, and LinkedIn. Exact length, recording style, and cadence are undecided. The platform selections apply to this series and extend the destinations described in the existing posting strategy. D20 subsequently replaces the one-to-one production model with 2–10 videos per article.
 
 ## D6. Eventual course
 
@@ -85,6 +85,14 @@ During title brainstorming for the series, book, or course, Marshall said he lik
 ## D19. Selected title
 
 Marshall selected “Standing on the Shoulders of Giants: A Software Engineering Primer for Agentic Coding” as the full title. This supersedes the working title in D6 and resolves the naming question in D18. The planning brief now uses his exact wording.
+
+## D20. Marketing plan and production sequence
+
+On 2026-10-12, Marshall requested a very short, concise marketing plan. Write blog articles that can become book chapters, derive 2–10 short videos per article, use the content to pursue conference speaking, assemble and self-publish the book, use the demonstrated audience to pitch publishers, assemble the videos into a course, and optionally interview featured authors in a podcast. He anticipates hundreds of small pieces, one per topic. This supersedes D5's one-post/one-video unit without changing the lesson IDs or seven-part curriculum.
+
+Marshall identified LinkedIn's push into short video as the opening and supplied a friend's results after 45 videos: 1,700 LinkedIn followers, 1,600 TikTok followers, and 700 Instagram followers. The [research note](research/marketing.md) preserves the report as an anecdote and distinguishes LinkedIn's verified investment in video from the hypothesis of better organic exposure.
+
+The [marketing plan](marketing-plan.md) uses “The Vibe Engineer’s Primer,” Marshall's current wording for the effort. This is a working label for the plan, not an explicit replacement of the full title selected in D19. The draft prioritizes LinkedIn and includes TikTok, Instagram, and YouTube from the channel discussion. Instagram is a proposed series-specific extension to the general posting strategy. Account identity, handles, cadence, and numerical targets remain undecided. The subscriber path, measurement choices, and suggestions for adapting the book and course are editorial recommendations.
 
 ## Research limits
 
