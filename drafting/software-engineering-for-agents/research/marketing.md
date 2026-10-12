@@ -20,6 +20,22 @@ LinkedIn’s [March 12, 2026 feed update](https://news.linkedin.com/2026/Improvi
 
 The plan’s subscriber path follows the existing [posting strategy](../../../docs/2026-posting-strategy.md#identity-and-conversion-paths). Measuring response, using feedback in revision, and adding course exercises are editorial recommendations implementing the direction. No posting cadence or numerical growth target has been selected.
 
+## M04. John Sonmez: Free and paid content
+
+**Verified primary evidence.** In [The McMethod Email Marketing Podcast, episode 106](https://www.dropdeadcopy.com/episode-106-john-sonmez-on-being-a-rockstar-in-your-niche-and-beyond/) (2015), the published interview transcript records Sonmez’s personal practice of giving away 90% of his work and charging for 10%, in a discussion of building credibility through content channels. His [own article on personal branding](https://simpleprogrammer.com/personal-brand-reputation/), under “Create Value For Others,” repeats the split. Supports the appendix’s quotation and attribution. This is a practitioner’s strategy, not a measured optimum for consulting businesses.
+
+## M05. Ramit Sethi: Quality of free material
+
+**Verified primary evidence.** [Being Boss, episode 57](https://beingboss.club/podcast/podcast-episode-57-i-will-teach-you-to-be-rich-ramit-sethi), dated February 2, 2016, provides a transcript with Sethi’s 90% statement at **59:24**. He follows it with his goal for free material to exceed the quality of competitors’ paid material and invites readers to evaluate his guides and emails. At **1:00:48**, he separately describes GrowthLab’s material as 98% free. Preserve the 90% quotation in its context rather than treating it as a fixed ratio across all his offerings.
+
+## M06. Joe Pulizzi: Ungated access
+
+**Verified primary evidence.** Adam Franklin’s [interview with Joe Pulizzi](https://www.bluewiremedia.com.au/how-to-do-content-marketing-like-the-godfather-joe-pulizzi/), posted May 7, 2013, includes the section “Give 90% away free.” Pulizzi recommends making well over 90% of content accessible without registration, arguing that forms limit sharing and discovery. Supports the appendix’s excerpt. The percentage concerns gating, not a division of knowledge into free and paid services.
+
+**Attribution limit across M04–M06.** These are verified occurrences of related advice. None has been established as the original source of Marshall’s remembered recommendation to give away 80–90% of one’s knowledge when marketing a consulting business.
+
 ## Claims to avoid
 
 Do not promise a LinkedIn algorithm boost, extrapolate the friend’s results into a follower forecast, add platform counts as unique people, or imply that an audience guarantees conference invitations or a publishing agreement.
+
+Do not identify any of M04–M06 as the originator of the remembered advice, treat the percentages as experimentally established, or recast Pulizzi’s ungated-content recommendation as a free/paid knowledge split.

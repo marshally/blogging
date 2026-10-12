@@ -17,3 +17,31 @@ The bet is that useful engineering lessons, sliced into hundreds of short videos
 7. **Optionally launch a podcast.** Interview authors whose work appears in the primer, exploring how their ideas apply to coding with agents.
 
 Give interested viewers a clear path to the articles and email subscription. Track follower growth by platform, substantive engagement, subscribers, speaking opportunities, and interest in the book and course.
+
+## Appendix: Giving expertise away for free
+
+Three references for sharing substantial free content to build an audience and a business. These are practitioner positions, not evidence that a particular percentage is optimal for consulting. The original source of the remembered “80–90% of your knowledge” advice remains unidentified. Verification and context are recorded in [marketing research, M04–M06](research/marketing.md#m04-john-sonmez-free-and-paid-content).
+
+### John Sonmez: 90% free, 10% paid
+
+In [The McMethod Email Marketing Podcast, episode 106](https://www.dropdeadcopy.com/episode-106-john-sonmez-on-being-a-rockstar-in-your-niche-and-beyond/) (2015), Sonmez discusses building a reputation through blogs, podcasts, and other content:
+
+> I give away 90% of what I do for free and I charge for 10% of it.
+
+He repeats the rule in [How to Build a Personal Brand and Reputation as a Software Developer](https://simpleprogrammer.com/personal-brand-reputation/). This is the clearest match for the free/paid split.
+
+### Ramit Sethi: Free material that earns trust
+
+On [Being Boss, episode 57](https://beingboss.club/podcast/podcast-episode-57-i-will-teach-you-to-be-rich-ramit-sethi) (February 2, 2016), at **59:24**, Sethi says:
+
+> Yeah, we give away 90% of our stuff.
+
+He explains that his goal is for the free material to outperform other people’s paid material, giving readers a chance to judge its value before buying.
+
+### Joe Pulizzi: Make content freely accessible
+
+In a [May 7, 2013 interview with Adam Franklin](https://www.bluewiremedia.com.au/how-to-do-content-marketing-like-the-godfather-joe-pulizzi/), under “Give 90% away free,” Pulizzi recommends:
+
+> well over 90% of that content ungated, freely accessible content
+
+His percentage concerns access without registration forms. It supports broad distribution, but does not specify how much knowledge to reserve for paying clients.
