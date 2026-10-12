@@ -2,7 +2,7 @@
 
 Build an audience of developers using AI coding tools by showing how the lessons of great software engineers apply to agentic coding. Develop the material once, then adapt it into articles, videos, talks, a book, and a course.
 
-The audience will be primarily monetized through consulting engagements. Any monies generated from content marketing are secondary.
+The audience will be primarily monetized through consulting engagements under the school of ["give 90% of what you know away for free, charge for the best 10%"](#appendix-a-giving-expertise-away-for-free). Any monies generated from content marketing are secondary.
 
 The strategic opening is LinkedIn’s investment in video. LinkedIn is pushing traffic to accounts that post videos and the audience of vibe coders is large and growing.
 
@@ -18,7 +18,7 @@ The bet is that useful engineering lessons, sliced into hundreds of short videos
 
 Give interested viewers a clear path to the articles and email subscription. Track follower growth by platform, substantive engagement, subscribers, speaking opportunities, and interest in the book and course.
 
-## Appendix: Giving expertise away for free
+## Appendix A: Giving Expertise Away for Free
 
 Three references for sharing substantial free content to build an audience and a business. These are practitioner positions, not evidence that a particular percentage is optimal for consulting. The original source of the remembered “80–90% of your knowledge” advice remains unidentified. Verification and context are recorded in [marketing research, M04–M06](research/marketing.md#m04-john-sonmez-free-and-paid-content).
 

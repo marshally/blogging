@@ -98,6 +98,10 @@ The [marketing plan](marketing-plan.md) uses “The Vibe Engineer’s Primer,”
 
 On 2026-10-12, Marshall requested adding all three references from the attribution search to an appendix in the marketing plan: John Sonmez’s 90% free / 10% paid approach, Ramit Sethi’s statement about giving away 90% of his material, and Joe Pulizzi’s recommendation for well over 90% ungated content. The appendix includes source links, short quotations, context, and Sethi’s timestamp. [Research entries M04–M06](research/marketing.md#m04-john-sonmez-free-and-paid-content) record the evidence and attribution limits. This selects the references for inclusion without establishing the original source of the remembered advice or adopting a numerical free/paid target for the plan.
 
+## D22. Lettered appendices and the free-content principle
+
+On 2026-10-12, Marshall specified that the plan will have multiple appendix sections and named the existing section “Appendix A: Giving Expertise Away for Free.” He added the phrase “give 90% of what you know away for free, charge for the best 10%” to the consulting paragraph and requested linking it to Appendix A and committing the change. Preserve his wording. The phrase is his summary of the approach, including “the best 10%,” rather than a verbatim quotation attributed to one of the appendix’s sources. This adds an explicit free-content principle to the plan after D21’s reference-only selection.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.
