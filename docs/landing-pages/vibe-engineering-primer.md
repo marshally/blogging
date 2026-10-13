@@ -15,6 +15,14 @@ This is the operating guide for the book's public landing page and signup list. 
 | Production signup list | D1 binding `DB`, table `subscribers` |
 | Local application source | `sites/vibe-engineering-primer/`, a separate Git checkout ignored by this blogging repo |
 
+## Conference QR code
+
+Open [wallpaper.png](https://vibeengineeringprimer.com/wallpaper.png) on the phone and save it to Photos. It is sized for Marshall's iPhone 15 Pro Max (1290 × 2796 pixels), with space above the artwork for the clock. Set it as a conference Lock Screen using **Settings → Wallpaper → Add New Wallpaper → Photos**. Apple's [wallpaper instructions](https://support.apple.com/en-us/102638) describe the setup and switching between saved Lock Screens. Keeping the image in Photos also gives an offline backup.
+
+Keep the entire white QR border visible when positioning the wallpaper. Before the conference, test the configured Lock Screen with another phone. Wake the screen and clear any notifications covering the code before showing it to someone.
+
+The QR contains exactly `https://vibeengineeringprimer.com/`. It opens the public landing page directly, with no QR-service account or intermediate tracking URL. Standalone copies are available as [PNG](https://vibeengineeringprimer.com/qr.png) and [SVG](https://vibeengineeringprimer.com/qr.svg). The repository masters and verification record are in the book's [image ledger](../../drafting/software-engineering-for-agents/research/images.md#conference-qr-code-and-iphone-wallpaper). The Site serves copies from `public/wallpaper.png`, `public/qr.png`, and `public/qr.svg`.
+
 ## Retrieve the signup list
 
 The public page accepts signups. The owner retrieves the records through authenticated Sites tools or its database viewer. There is no public subscriber-list endpoint or admin/download page on the landing site.
