@@ -24,89 +24,118 @@ No quotation in this file has been checked against its page. Before any of this 
 
 ## Part 1: How *Wool* worked
 
+Checked against the cited pages on 2026-10-13. Howey's own blog posts carry most of the timeline. The WSJ original (Alexandra Alter, ["Sci-Fi's Underground Hit"](https://www.wsj.com/articles/SB10001424127887324678604578340752088305668), 2013-03-07) is paywalled and was not read.
+
 ### W1. Before *Wool*
 
-**Lead, secondary.** Howey's first novel was *Molly Fyde and the Parsona Rescue* (2009). Sources disagree on whether a small press published it or he self-published it. [Wikipedia](https://en.wikipedia.org/wiki/Hugh_Howey); [College of Charleston](https://today.cofc.edu/2013/06/19/shattered-worlds/) (2013-06-19).
+**Secondary (strong).** Howey's first novel, *Molly Fyde and the Parsona Rescue*, came out from a small press, Norlights Press, in 2009: "Norlights Press, in Indiana, had released his YA novel Molly Fyde and the Parsona Rescue in 2009" ([Publishers Weekly](https://www.publishersweekly.com/pw/print/20120409/51416-self-made-bestseller-weighs-traditional-deals.html), 2012-04-06). He self-published his later books, including later editions of *Molly Fyde*.
 
 ### W2. The standalone first part
 
-**Lead, secondary.** Howey wrote the original *Wool*, about 12,000 words, on lunch breaks while working at a university bookstore. He released it in July 2011 as a standalone $0.99 Kindle short story through KDP, without promotion. [Writer's Digest](https://www.writersdigest.com/be-inspired/how-hugh-howey-turned-his-self-published-story-wool-into-a-success-a-book-deal); [Slate](https://slate.com/culture/2013/03/hugh-howey-and-wool-how-the-self-pubbed-sci-fi-writer-relates-to-fans.html) (March 2013). Confirm the exact release day.
+**Verified primary.** Howey uploaded the original *Wool* on 2011-07-30 ([Two Years Ago](https://hughhowey.com/two-years-ago/), 2013-07-28). "The first WOOL was around 11,000 words. … I priced it at the minimum and never figured it would sell more than a few copies" ([JanNoWriMo and Pricing Woes](https://hughhowey.com/jannowrimo-and-pricing-woes/), 2012-01-15). He didn't promote it: "No publicity, no option to buy a copy on my website, no tweets" ([Maybe I should finally mention WOOL](https://hughhowey.com/maybe-i-should-finally-mention-wool/), 2011-11-08). Publishers Weekly says he first released it "through multiple platforms", not only on Kindle.
+
+**Secondary.** He wrote it partly on lunch breaks while working at Appalachian State University's bookstore ([College of Charleston](https://today.cofc.edu/2013/06/19/shattered-worlds/), 2013-06-19).
 
 ### W3. Readers asked for more
 
-**Lead, secondary; primary if the book is checked.** By about late October 2011, *Wool* was on Amazon's Kindle science-fiction bestseller list and readers were emailing Howey for more. The author's note in *The Stranded* (*Wool* 5) reportedly says he never intended a series and wrote the next four parts because demand kept growing. [Slate](https://slate.com/culture/2013/03/hugh-howey-and-wool-how-the-self-pubbed-sci-fi-writer-relates-to-fans.html); [RealClearBooks](https://realclearbooks.com/2013/03/04/wooly_mammoth_5101.html) (2013-03-04).
+**Verified primary.** "By the end of October, the story had made it on the Kindle sci-fi best-seller list. Howey started to get emails from readers asking him for the rest of the story" ([Slate](https://www.slate.com/articles/arts/books/2013/03/hugh_howey_and_wool_how_the_self_pubbed_sci_fi_writer_relates_to_fans.html), 2013-03-01). Howey: "I thought the first book was all I was ever going to write" ([Charleston Magazine](https://mail.charlestonmag.com/node/30010), 2013-03-21). By November 2011, "I had over a thousand readers, and many of them were writing reviews and emails begging for the next entry. On November 1st … I started writing and outlining the rest of the series" ([Two Years Ago](https://hughhowey.com/two-years-ago/)).
+
+Only the first part was unplanned. Once he committed to continuing, he planned the serial on purpose: "Yes, I have a plan. A carefully constructed one" ([Wool 2 – Proper Gauge](https://hughhowey.com/wool-2-proper-gauge/), 2011-12-02).
 
 ### W4. Parts 2–5 and their cadence
 
-**Lead, secondary.** *Proper Gauge* (2), *Casting Off* (3), *Unraveling* (4) and *The Stranded* (5) came out between about October and December 2011, each longer than the one before. Writer's Digest reports about 3,000 copies of part 2 in a month and more than 10,000 a month for parts 3 and 4. [Writer's Digest](https://www.writersdigest.com/be-inspired/how-hugh-howey-turned-his-self-published-story-wool-into-a-success-a-book-deal). Exact release dates and per-part prices are unconfirmed; Howey's late-2011 blog archive or the Amazon listings should settle both.
+**Verified primary.** The four sequels came out over about eight weeks, each longer than the one before.
+
+| Part | Release | Length | Price |
+|---|---|---|---|
+| 1. *Wool* | 2011-07-30 | ~11,000 words | $0.99 |
+| 2. *Proper Gauge* | About 2011-11-30 | ~20,000 words | $0.99 |
+| 3. *Casting Off* | 2011-12-04 | ~30,000 words | $0.99 |
+| 4. *The Unraveling* | Just before Christmas 2011 | ~40,000 words | $0.99 |
+| 5. *The Stranded* | 2012-01-26 | 57,000+ words | $2.99 |
+
+Sources: [Two Years Ago](https://hughhowey.com/two-years-ago/); [JanNoWriMo and Pricing Woes](https://hughhowey.com/jannowrimo-and-pricing-woes/); [Wool 5 is go for launch](https://hughhowey.com/wool-5-is-go-for-launch/) (2012-01-22); [Number Five is ALIVE!!](https://hughhowey.com/number-five-is-alive/) (2012-01-26).
+
+The first part kept selling while the sequels came out: 1,018 copies in October 2011, "3,000 copies of Wool in November", and "10,000 copies of Wool. Thousands of copies of Wool 2" in December ([Two Years Ago](https://hughhowey.com/two-years-ago/)). Howey later named the escalation as a design choice: "It started short and slow, and then each sequel got a little longer while picking up the pace" ([A wild first week](https://hughhowey.com/a-wild-first-week-as-a-writer/), 2012-02-03).
 
 ### W5. The omnibus
 
-**Lead, secondary.** The *Wool Omnibus* (parts 1–5) came out in January 2012. It reportedly sold about 23,000 copies in its first month and spent two weeks on the New York Times e-book fiction list. Sources disagree on when that list run happened. [Writer's Digest](https://www.writersdigest.com/be-inspired/how-hugh-howey-turned-his-self-published-story-wool-into-a-success-a-book-deal).
+**Verified primary for date and price.** The *Wool Omnibus* (parts 1–5) went on sale on 2012-01-26, the same day as part 5, at $4.99 ([Let's do the math](https://hughhowey.com/lets-do-the-math/), 2012-01-26).
 
-### W6. Omnibus price
+**Secondary for sales.** It sold about 23,000 copies within a month ([College of Charleston](https://today.cofc.edu/2013/06/19/shattered-worlds/)). Its New York Times run came in summer 2012, not at launch. After a Gizmodo mention in July 2012, "The Omnibus went into the top 10 on all of Amazon and cracked the New York Times bestseller chart" ([Two Years Ago](https://hughhowey.com/two-years-ago/); also [Slate](https://www.slate.com/articles/arts/books/2013/03/hugh_howey_and_wool_how_the_self_pubbed_sci_fi_writer_relates_to_fans.html)). Writer's Digest and the College of Charleston put the list run at two weeks. Howey: "I watched as the five individual books slid down the rankings and the Omnibus rose up above them."
 
-**Folklore until fetched.** A Howey blog post reportedly says the omnibus launched at $4.99 and that he later raised it by $1; another source gives $5.99. Both may be right at different times. [The Loop](https://theloopnewspaper.com/story/2019/03/30/community/hugh-howey-and-his-novel-path-to-success/5181.html) (2019-03-30); the Howey post itself was not isolated.
+### W6. The pricing arithmetic
+
+**Verified primary.** The five parts cost $6.95 separately, and the omnibus cost $4.99, yet Howey earned the same either way. The four $0.99 parts paid 35% (35 cents each) and part 5 paid 70% ($2.09), while the $4.99 omnibus paid 70%: "$4.99 * .70 = $3.49 / Exact same amount of money to me" ([Let's do the math](https://hughhowey.com/lets-do-the-math/)). He later raised the omnibus to $5.99 "due to complaints from readers that my books were too cheap!" In July 2012 he made *Wool* 1 permanently free ([Two Years Ago](https://hughhowey.com/two-years-ago/)).
 
 ### W7. Income
 
-**Lead, secondary.** These figures come from different outlets and dates. Cite each with its source rather than as a steady rate.
+**Secondary**, except where Howey speaks for himself. These figures come from different outlets and dates. Cite each with its source rather than as a steady rate.
 
 | Period | Reported figure | Source |
 |---|---|---|
-| Jan–Mar 2012 | About $19,000, $50,000, then $70,000 a month from fiction | [Publishers Weekly](https://publishersweekly.com/pw/print/20120409/51416-self-made-bestseller-weighs-traditional-deals.html), 2012-04-09 |
-| Summer 2012 | 20,000–30,000 e-books and about $150,000 a month | [Writer's Digest](https://www.writersdigest.com/be-inspired/how-hugh-howey-turned-his-self-published-story-wool-into-a-success-a-book-deal) |
-| 2012 | About $120,000 a month, which a later interview frames as an average | WSJ (Alexandra Alter, March 2013), relayed by [CS Monitor](https://csmonitor.com/Books/chapter-and-verse/2013/0315/WOOL-Why-all-the-hype) and [Meet Innovators](https://meetinnovators.com/2013/08/12/hugh-howey-author-wool/) |
-| 2012 | More than $1 million from digital sales | [Charleston Magazine](https://mail.charlestonmag.com/node/30010) (weak) |
-
-The WSJ original was not located.
+| Jan–Mar 2012 | "$19,000 from his fiction in January, $50,000 in February, and $70,000 in March" | [Publishers Weekly](https://www.publishersweekly.com/pw/print/20120409/51416-self-made-bestseller-weighs-traditional-deals.html), 2012-04-06 |
+| Summer 2012 | "selling 20,000–30,000 digital copies of Wool a month … and making a monthly salary of $150,000 from e-book sales alone" | [Writer's Digest](https://www.writersdigest.com/be-inspired/how-hugh-howey-turned-his-self-published-story-wool-into-a-success-a-book-deal) |
+| 2012–13 | About $120,000 a month. Howey: "I had some months better than that, but that's about an average for the last year" | [Meet Innovators](https://meetinnovators.com/2013/08/12/hugh-howey-author-wool/), 2013-08-12 |
+| 2012 | "more than $1 million through digital sales of Wool in 2012" | [Charleston Magazine](https://mail.charlestonmag.com/node/30010), 2013-03-21 |
 
 ### W8. He repeated the pattern
 
-**Lead, secondary.** The *Shift* prequels came out as three parts (2012 to about January 2013) and then an omnibus, so Howey serialized again. *Dust* (2013) came out as a single novel. [SF Encyclopedia](https://sf-encyclopedia.com/entry/howey_hugh); [FantasticFiction](https://fantasticfiction.com/h/hugh-howey). The years given for the *Shift* parts conflict between sources. No source was found in which Howey regrets serializing.
+**Verified primary.** Howey serialized again with the *Shift* prequels. *First Shift* came out on 2012-04-14 ([Okay, here's the thing](https://hughhowey.com/okay-heres-the-thing/)) and *Second Shift* in the second half of 2012. *Third Shift* and the *Shift Omnibus* went up together in late January 2013 ([Book-Books](https://hughhowey.com/book-books/), 2013-01-28). He wrote *Dust* (2013) as a single novel, for the reader's sake: "In fairness to the reader, I think it's going to be nice to give them the entire work so they don't have to wait in between pieces" ([Slate](https://www.slate.com/articles/arts/books/2013/03/hugh_howey_and_wool_how_the_self_pubbed_sci_fi_writer_relates_to_fans.html)). That is the closest thing found to a reservation about serializing.
 
 ### W9. Film rights
 
-**Lead, secondary (strong).** In May 2012, 20th Century Fox acquired *Wool* with Ridley Scott's Scott Free and Steve Zaillian's Film Rites. The film was never made. [Publishers Weekly](https://publishersweekly.com/pw/by-topic/industry-news/page-to-screen/article/51934-hugh-howey-s-wool-nabbed-by-20th-century-fox.html) (May 2012).
+**Secondary (strong).** "Self-publishing success Hugh Howey has sold film rights to his science fiction series Wool to 20th Century Fox," partnering with Ridley and Tony Scott's Scott Free and Steve Zaillian's Film Rites ([Publishers Weekly](https://www.publishersweekly.com/pw/by-topic/industry-news/page-to-screen/article/51934-hugh-howey-s-wool-nabbed-by-20th-century-fox.html), 2012-05-14). Howey later described it as an option ([Meet Innovators](https://meetinnovators.com/2013/08/12/hugh-howey-author-wool/)). The film was never made.
 
 ### W10. The print-only deal
 
-**Lead, secondary.** Publishers Lunch reported in December 2012 that Simon & Schuster had bought US hardcover and paperback rights, with editions out in March 2013, while Howey kept the e-book. The WSJ put the deal at mid-six figures and reported that Howey had turned down several seven-figure offers that required e-book rights. Publishers Lunch called print-only deals rare, not unprecedented; Bella Andre's earlier deal with Mira was one. [Publishers Lunch](https://lunch.publishersmarketplace.com/2012/12/wool-author-makes-print-only-deal-with-simon-schuster/) (December 2012).
+**Secondary.** "Hugh Howey has made a print-only deal with Simon & Schuster, which will release his title in both hardcover and paperback editions simultaneously in March 2013 while Howey continues to control the ebook version." Print-only deals were "rare, though not singular"; Mira had licensed print-only rights from Bella Andre that September ([Publishers Lunch](https://lunch.publishersmarketplace.com/2012/12/wool-author-makes-print-only-deal-with-simon-schuster/), Michael Cader, 2012-12-12). Wikipedia, citing the WSJ, puts the deal at mid-six figures.
+
+**Verified primary.** Howey describes the deal as "a print-only deal that would revert even those rights after a set period of time. … All it took was walking away from a few 7-figure deals" ([Two Years Ago](https://hughhowey.com/two-years-ago/)).
 
 ### W11. Why keeping e-book rights mattered
 
-**Lead, secondary for the first claim; folklore for the second.** By the time of the S&S deal, the e-books were already earning Howey more than the advances on offer (W7, W10). The usual explanation is the royalty gap: KDP's 70% on e-books priced in the standard band, against roughly 25% of net on a traditional e-book contract. That comparison was not traced to a source in this session.
+**Verified primary.** "It's hard to think about giving up a 70% royalty for an 18% royalty" ([Publishers Weekly](https://www.publishersweekly.com/pw/print/20120409/51416-self-made-bestseller-weighs-traditional-deals.html), April 2012). Elsewhere: "You also make 70% of your ebook's price rather than 15%" ([A Question from Calvin](https://hughhowey.com/a-question-from-calvin/), 2012-08-19). His digital rights alone "were more lucrative than what I've been offered for my print rights and my digital rights" ([Meet Innovators](https://meetinnovators.com/2013/08/12/hugh-howey-author-wool/)). His percentages vary by source; cite his own wording rather than a standard contract rate.
 
 ### W12. Foreign rights and television
 
-**Lead, secondary.** UK rights went to Century (Random House UK). His agent, Kristin Nelson, had licensed the book in more than 18 territories by the time of the S&S deal. [Writers Write](https://www.writerswrite.com/self-published-sf-author-hugh-51420121).
+**Secondary.** UK rights went to Century, a Random House division, after a five-way auction at the London Book Fair ([Writers Write](https://www.writerswrite.com/self-published-sf-author-hugh-51420121), 2012-05-14). By December 2012, "agent Kristin Nelson and her sub-agents have already licensed the book in over 18 territories" ([Publishers Lunch](https://lunch.publishersmarketplace.com/2012/12/wool-author-makes-print-only-deal-with-simon-schuster/)).
 
-**Lead, primary source.** Apple TV+'s *Silo* premiered on 2023-05-05. Graham Yost created it, Rebecca Ferguson stars and Howey is an executive producer. It adapts *Wool*, *Shift* and *Dust*. [Apple press release](https://www.apple.com/tv-pr/news/2023/03/apple-tv-unearths-first-look-at-gripping-new-series-silo-and-sets-global-premiere-for-friday-may-5-2023) (March 2023).
+**Verified primary.** Apple TV+'s *Silo* premiered on 2023-05-05. Graham Yost created it and is showrunner, Rebecca Ferguson stars, and Howey is an executive producer. It is "based on Hugh Howey's New York Times bestselling trilogy" ([Apple press release](https://www.apple.com/tv-pr/news/2023/03/apple-tv-unearths-first-look-at-gripping-new-series-silo-and-sets-global-premiere-for-friday-may-5-2023/), 2023-03-06).
 
 ### W13. Later advocacy
 
-**Lead, primary source.** From February 2014, Howey published *Author Earnings* reports with a data partner, estimating self-published authors' share of Amazon sales from bestseller-list data. Critics disputed the method. [Goodreads mirror of a 2014 report](https://www.goodreads.com/author_blog_posts/6721292-author-earnings-3rd-quarter-report-making-an-iceberg-from-an-ice-cube).
+**Verified primary.** On 2014-02-11, Howey and a programmer partner launched AuthorEarnings.com with a first report estimating self-published authors' share of Amazon e-book sales from bestseller-list data ([AuthorEarnings.com](https://hughhowey.com/authorearnings-com/)). That domain now serves unrelated spam.
+
+**Secondary.** Critics disputed the method: "Many people have questioned the methodology in his previous reports" (James M. Jackson, [Goodreads](https://www.goodreads.com/author_blog_posts/6721292-author-earnings-3rd-quarter-report-making-an-iceberg-from-an-ice-cube), 2014-07-27).
 
 ### What transfers from *Wool*
 
 These are editorial readings of W1–W13, not findings.
 
 1. **A complete first installment.** *Wool* 1 worked on its own, and the series grew out of demand. For a primer, that means each released chapter teaches a whole idea, which the marketing plan already requires of each article and video.
-2. **Readers set the sequence.** Howey wrote the next parts in response to email and reviews. The primer's 113-lesson menu allows the same move: publish early chapters, watch which ideas draw the strongest response, and pick the next chapters accordingly.
-3. **Short gaps between installments.** The parts arrived roughly monthly or faster while attention was high. A counter-post by another author argues that serials fail when the gaps run long ([Goodreads](https://www.goodreads.com/author_blog_posts/4943661-the-verdict-is-in-serializing-your-novel-does-not-work); not by Howey).
-4. **The bundle captures readers who wait.** The omnibus sold more than the individual parts and at a higher price. Many readers prefer to wait for the whole thing.
-5. **The audience becomes leverage.** Howey negotiated from proven sales and kept the rights that earned the most.
+2. **Readers set the sequence.** Howey started the sequels in response to reader email and reviews. The primer's 113-lesson menu allows the same move: publish early chapters, watch which ideas draw the strongest response, and pick the next chapters accordingly.
+3. **Short gaps while attention is high.** Four sequels arrived in about eight weeks. Howey credited the serial with "reduced wait between reads" ([Let's do the math](https://hughhowey.com/lets-do-the-math/)), and later wrote *Dust* whole so readers wouldn't have to wait between pieces (W8). A skeptic, Claude Forthomme, argues instead that serials fail because readers feel short-changed by partial books, and calls *Wool* a "black swan". She explicitly rejects long gaps as the cause ([Goodreads](https://www.goodreads.com/author_blog_posts/4943661-the-verdict-is-in-serializing-your-novel-does-not-work), 2013-09-27).
+4. **The bundle captures readers who wait.** The omnibus overtook the individual parts (W5). Its price was set so Howey earned the same whichever way a reader bought (W6).
+5. **The first part became the free sample.** A year in, Howey made *Wool* 1 permanently free (W6). That is the free-first-installment model the primer's blog would start from.
+6. **The audience becomes leverage.** Howey negotiated from proven sales and kept the rights that earned the most (W10, W11).
 
 What doesn't transfer: fiction's cliffhangers, and the single fixed text. A book about agentic coding will need revision as tools change, and *Wool* never did.
 
 ### Myths and do-not-use
 
-- **"First self-published author offered a print-only deal by a major publisher."** Publishers Lunch says such deals were rare, with an earlier example (W10). Say "rare."
-- **"$150,000 a month" or "$120,000 a month" as a steady income.** The figures conflict, and one is an average (W7).
-- **"*Wool* was planned as a serial."** Every source says the first part was a standalone (W3).
-- **"Seven-figure Simon & Schuster deal."** The seven-figure offers were the ones he turned down (W10).
+- **"First self-published author offered a print-only deal by a major publisher."** Writer's Digest and the College of Charleston both say this. Publishers Lunch says such deals were rare, with an earlier example (W10). Say "rare."
+- **"$150,000 a month" or "$120,000 a month" as a steady income.** The figures come from different periods, and Howey calls $120,000 an average (W7).
+- **"*Wool* was planned as a serial."** The first part was a standalone. From part 2 on, the serial was deliberate (W3).
+- **"Seven-figure Simon & Schuster deal."** The seven-figure offers were the ones he walked away from (W10).
 - **"Ridley Scott made a *Wool* film."** It was optioned and never made; the adaptation is the Apple TV+ series (W9, W12).
-- **"Serializing your novel does not work" attributed to Howey.** It was written by another author.
+- **"Serializing your novel does not work" attributed to Howey.** Claude Forthomme wrote it.
+- **"12,000 words" for *Wool* 1.** Howey says around 11,000.
+- **"Parts 2–5 came out October–December 2011."** They ran from about 2011-11-30 to 2012-01-26 (W4).
+- **"Part 2 sold 3,000 a month; parts 3–4 sold 10,000."** Those were Howey's November and December 2011 sales of *Wool* 1 (W4).
+- **"Every installment cost 99 cents."** Part 5 was $2.99 (W4).
+- **SF Encyclopedia's dates for the *Shift* parts and The Loop's (2019) account of the Fox deal.** Both are wrong; don't cite either for dates.
+- **The author's note in *The Stranded*** as a source for the series being unplanned. Its only citation, RealClearBooks, is dead; use Howey's own posts (W3).
 
 ## Part 2: Serialized and early-access models for technical books
 
