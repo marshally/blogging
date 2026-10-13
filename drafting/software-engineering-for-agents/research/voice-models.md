@@ -9,9 +9,9 @@ Citations re-checked 2026-10-13 by loading each page. Some hosts (Bloomberg, Mac
 - **Verified.** A loaded page states the fact. Primary means the publisher, author, or original outlet. Secondary means Wikipedia or Open Library.
 - **Located, not loaded.** The canonical URL came from search results but the page could not be loaded. Re-fetch before citing in post prose.
 - **Unverified.** No loaded page settles the fact, or sources conflict. Do not cite until checked.
+- **Editorial reading.** All style characterizations are the agent's paraphrased reading of the authors' bodies of work. None are sourced claims. No quotations from any author have been verified, so this memo contains none. Do not add remembered quotes, especially popular Bourdain lines, without a primary source. Bourdain quotes are widely misattributed online.
 
 Open items and a ready-to-paste prompt for finishing them are in the [citation handoff](voice-models-handoff.md).
-- **Editorial reading.** All style characterizations are the agent's paraphrased reading of the authors' bodies of work. None are sourced claims. No quotations from any author have been verified, so this memo contains none. Do not add remembered quotes, especially popular Bourdain lines, without a primary source. Bourdain quotes are widely misattributed online.
 
 ## Anthony Bourdain
 
