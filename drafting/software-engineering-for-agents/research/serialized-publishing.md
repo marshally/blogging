@@ -2,17 +2,9 @@
 
 Checked 2026-10-13. Internal planning reference, not post prose. Marshall asked for research on publishing the primer chapter by chapter, the way Hugh Howey published *Wool* ([D32](../DECISIONS.md#d32-serialized-publishing-research)). This report explains how the *Wool* serial worked, sets it beside the serialized and early-access models used for technical books, records the platform rules that constrain each one, and closes with an editorial assessment of the options. Nothing here selects a publishing strategy.
 
-## Evidence status: read this first
+## Evidence status
 
-**No source page could be fetched in this session.** The environment's network policy refused every outbound connection (proxy `CONNECT` 403) to publishersweekly.com, hughhowey.com, kdp.amazon.com, leanpub.com, manning.com and every other host tried. Only web search worked. Every entry below therefore comes from search-result summaries of the cited pages, not from reading them.
-
-Under the repo's tiering, nothing here is **verified primary** yet. Entries are tiered as:
-
-- **Lead, primary source.** The cited page belongs to the originator (Howey, Amazon, Leanpub, the author), so a fetch will probably confirm it. Treat it as secondary until fetched.
-- **Lead, secondary.** Press or third-party reporting.
-- **Folklore.** Anecdote, a conflicting figure, or an inference not traced to any source.
-
-No quotation in this file has been checked against its page. Before any of this enters an outline, draft or the marketing plan, fetch the URL and re-tier the entry. To allow fetches, add the hosts under Network access in the cloud environment settings ([docs](https://code.claude.com/docs/en/cloud-environments#network-access)).
+The first pass ran without page access and relied on search summaries. With network access restored, every entry was then checked against its cited pages on 2026-10-13, and corrected where the pages disagreed. Entries are tiered as **verified primary** (the originator's own page, read), **secondary** (press or third-party reporting, read) or **folklore** (anecdote or unsourced). The few claims that still couldn't be read are marked unverified in place and listed under [Still unverified](#still-unverified). Quotations are verbatim from the fetched pages.
 
 ## Summary
 
@@ -298,24 +290,33 @@ This section is an editorial assessment for Marshall to accept or reject. It ass
 | Model | Precedent | What's paid | Fit with free blog chapters | Main risk |
 |---|---|---|---|---|
 | A. *Wool*-style KDP installments, then an omnibus | *Wool* (W2–W5), *Shift* (W8) | Each part at $0.99–$2.99, then the omnibus | Allowed outside Select (P3, P4) | Thin parts read as "too short" or duplicate the blog (P3); $0.99 earns about $0.35 (P2); each part must be labeled as part of a serial and can't point readers to the blog for the rest (P3, P5) |
-| B. Leanpub in-progress book | Geerling (T2), Manning and PragProg betas (T3, T4) | One growing book, updated free for every buyer | Allowed; sell on KDP outside Select once complete (P9) | Smaller storefront than Amazon; Geerling's sales moved to Amazon once a complete edition was listed there (T2) |
+| B. Leanpub in-progress book | Geerling (T2), Manning and PragProg betas (T3, T4) | One growing book, updated free for every buyer | Allowed; sell on KDP outside Select once complete (P9) | Smaller storefront than Amazon; Geerling's sales "exploded" once a complete edition was listed on Amazon (T2) |
 | C. Free site, paid packaged book and early edition | Larson (T6), Weir (T10), Evans (T9) | The edited, convenient edition | The blog is the free site | Paid value has to come from editing, ordering and format, because the text is free |
 | D. Paid newsletter early access | Beck (T7) | Subscription to drafts | Conflicts with the free-first principle in the marketing plan | Recurring obligation, and splits the audience between free and paid |
 
-**Assessment.** *Wool* shows the loop to copy: a complete first installment, quick follow-ups chosen from reader response, a bundle for readers who wait, and an audience that becomes negotiating leverage. Its specific mechanism, paid KDP parts with a fixed text, fits the primer less well than its loop. Two facts push toward model B or C, or a mix of the two:
+**Assessment.** *Wool* shows the loop to copy: a complete first installment, quick follow-ups chosen from reader response, a bundle for readers who wait, and an audience that becomes negotiating leverage. Its specific mechanism, paid KDP parts with a fixed text, fits the primer less well than its loop. Three facts push toward model B or C, or a mix of the two:
 
 1. **The chapters will be free on the blog.** Readers will pay for the edited, ordered, offline edition, not for access to the words (T6, T9, T10). Thin paid installments that repeat free posts are the weakest product, and KDP's content rules work against them (P3).
-2. **The subject changes fast.** Agent tooling will change during the writing. Leanpub is designed for a book that grows, delivering every revision to every buyer (T1). KDP now pushes revisions to earlier buyers too, but treats a large expansion as a possible new edition (P7). Kent Beck's follow-up book stalled partly because events overtook the material (T7 source, January 2026 post).
+2. **The subject changes fast.** Agent tooling will change during the writing. Leanpub is designed for a book that grows, delivering every revision to every buyer (T1). KDP now pushes revisions to earlier buyers too, but treats a large expansion as a possible new edition (P7). Kent Beck says the material for his follow-up book "was being overtaken by events" (T7).
+3. **Posts and chapters drift apart.** Orosz planned to release book drafts as newsletter issues; the issues grew deeper and more timely than chapters, and he says it delayed the book by two years (T8). Larson avoided this by outlining the whole book first and writing each post as a chapter (T16). The primer's seven-part outline already exists, so the discipline is to write each article to fit its chapter slot, and let anything newsier become a separate post.
 
-**One way to combine them, for discussion:** chapters go up free on yountlabs.com as articles. Each of the seven parts, once its chapters are written, is folded into a Leanpub in-progress edition, like Larson's paid early edition, at a low minimum price that rises as parts land. The early-edition releases serve as *Wool*'s installments: they set the cadence, gather feedback and build the buyer list. The complete edition then goes to KDP outside Select and to print. The publisher pitch follows the Howey pattern: lead with the demonstrated audience, and consider asking for print-only or limited rights, as Howey did (W10). That pitch rests on audience numbers this project doesn't have yet.
+**One way to combine them, for discussion:** chapters go up free on yountlabs.com as articles. Each of the seven parts, once its chapters are written, is folded into a Leanpub in-progress edition, like Larson's paid early edition, at a low minimum price that rises as parts land. The early-edition releases serve as *Wool*'s installments: they set the cadence, gather feedback and build the buyer list. The complete edition then goes to KDP outside Select and to print. The publisher pitch has two precedents. Larson's chapters ran as blog posts before Stripe Press bought the finished manuscript (T16). Howey led with demonstrated sales and kept the e-book rights with a print-only deal (W10, W11). Either way, read the contract for terms on free copies: Crown had Weir take his free version down (T10), and Orosz feared Manning's terms could stop him sharing drafts (T8). Keeping the blog chapters up may need to be negotiated. The pitch rests on audience numbers this project doesn't have yet.
 
 ## Open questions for Marshall
 
 1. Should paid editions follow each of the seven parts, or wait for the complete book?
-2. Should anything be held back from the blog for the paid edition (exercises, worked examples, a part-level synthesis)? MacGregor's advice (T15) and model C both favor some paid-only material, but it trades against the 90%-free principle in the marketing plan.
+2. Should anything be held back from the blog for the paid edition (exercises, worked examples, a part-level synthesis)? Larson kept only the foreword and ending off the site (T6). Some paid-only material strengthens model C, but it trades against the 90%-free principle in the marketing plan.
 3. Is KDP Select's reach worth pulling chapters down to 10% after the book ships? This report assumes not, since the free articles are the marketing.
-4. How often should installments come out? *Wool*'s parts arrived about monthly; no cadence has been selected for the primer.
+4. How often should installments come out? *Wool*'s four sequels arrived in about eight weeks (W4); no cadence has been selected for the primer.
 
-## Verification queue
+## Still unverified
 
-When network access allows, fetch in this order: the Publishers Weekly 2012 articles (W7, W9), Publishers Lunch (W10), the KDP Select, content-quality and update pages (P3, P4, P7), Leanpub's pricing page (P9), Larson's early-edition post (T6), Geerling's posts (T2), and Howey's late-2011 blog archive for the *Wool* 2–5 release dates and prices (W4, W6).
+These couldn't be read on 2026-10-13 and stay out of drafts until checked:
+
+- The WSJ article's text (Alter, 2013-03-07, paywalled), including its "mid-six figures" figure, which is cited here only through Wikipedia (W10).
+- Hilton & Wiley's full text: which category fell and by how much (T14).
+- Chip MacGregor's archived post on blogged material (T15).
+- When Kindle Serials ended (T12).
+- Amazon's own statement of the 2024-12-04 Kindle Vella cutoff (P13).
+- Whether Ghost's Starter plan supports paid subscriptions (P11).
+- KDP rights-verification emails for content found online (P3, folklore).
