@@ -181,61 +181,65 @@ What doesn't transfer: fiction's cliffhangers, and the single fixed text. A book
 
 ## Part 3: Platform rules that constrain a serial
 
-All entries are leads from official help pages unless marked otherwise. These pages change; refetch before relying on any figure.
+Each entry was checked against the platform's own page on 2026-10-13 and is verified primary unless marked otherwise. These pages change; refetch before relying on any figure.
 
 ### P1. KDP 70% band
 
-**Lead, primary source.** A KDP help page says the 70% band's maximum list price on Amazon.com rose from $9.99 to $12.99 effective 2026-07-07. The $2.99 minimum is unchanged. Delivery costs ($0.15/MB in the US) come out of 70% royalties. [KDP pricing FAQ](https://kdp.amazon.com/en_US/help/topic/A301WJ6XCJ8KW0); [eBook royalties](https://kdp.amazon.com/en_US/help/topic/G200644210). Third-party guides add two conditions to check on the royalties page: the e-book must be priced at least 20% below the print edition, and some marketplaces pay 70% only for books in KDP Select.
+**Verified primary.** "Effective July 7, 2026, the 70% royalty option price band is $2.99-$12.99 on Amazon.com, expanding from the previous range of $2.99-$9.99." The $9.99 cap had been in place since 2007. Delivery costs come out of 70% royalties, at $0.15/MB in the US. The list price must be "at least 20% below the list price on Amazon for any physical edition". Sales in Brazil, Japan, Mexico and India earn 70% only for books enrolled in KDP Select. [List price requirements](https://kdp.amazon.com/en_US/help/topic/G200634560); [Digital Book Pricing Page](https://kdp.amazon.com/en_US/help/topic/G200634500).
 
 ### P2. $0.99 installments earn 35%
 
-**Lead, primary source.** $0.99 is still allowed for files under 3 MB, at the 35% rate with no delivery fee, so a $0.99 installment earns about $0.35. [List price requirements](https://kdp.amazon.com/en_US/help/topic/G200634560). This matches the roughly $0.30 per copy reported for Weir (T10).
+**Verified primary.** $0.99 is the minimum list price at the 35% rate for files under 3 MB; the minimum rises to $1.99 at 3 MB and $2.99 at 10 MB, which matters for installments with images. KDP deducts no delivery cost at 35%. Amazon's own worked example gives $0.35 per $0.99 sale at 0% VAT. [List price requirements](https://kdp.amazon.com/en_US/help/topic/G200634560); [eBook royalties](https://kdp.amazon.com/en_US/help/topic/G200644210). This matches the roughly $0.30 per copy reported for Weir (T10).
 
 ### P3. Content freely available online
 
-**Lead, primary source.** KDP accepts content that is freely available on the web only from its copyright owner. Its content-quality guide also lists as disappointing content that is "too short", not significantly different from another book in the store, or that sends readers elsewhere for the full text. [Content guidelines](https://kdp.amazon.com/en_US/help/topic/G200672390); [content quality guide](https://kdp.amazon.com/en_US/help/topic/G200952510). Marshall can publish his own blog chapters on KDP. Short per-chapter installments, or an omnibus that only repeats them, are at risk under the "too short" and "not significantly different" items.
+**Verified primary.** KDP "will not accept content under copyright that is freely available on the web unless it's provided by the owner of the copyright" ([content guidelines](https://kdp.amazon.com/en_US/help/topic/G200672390)), so Marshall can publish his own blog chapters on KDP. The [content quality guide](https://kdp.amazon.com/en_US/help/topic/G200952510)'s list of disappointing content includes three more items that bear on a serial:
+
+- "Content that is either marketed as a subscription or redirects readers to an external source to obtain the full content". An installment can't send readers to the blog for the rest.
+- "Content that is not significantly different from content in another book available in the Kindle Store" and "Content that is too short". Thin per-chapter installments are at risk.
+- "Content that is excessively reused, recycled, or repeated within or across books". The same page's multi-work section allows collections of "content you've previously published in your catalog", so an omnibus of one's own installments is allowed if the reuse isn't excessive.
 
 **Folklore.** Authors widely report that KDP sends rights-verification emails when a book's text appears online. Keep proof of authorship ready.
 
 ### P4. KDP Select rules out free blog chapters
 
-**Lead, primary source.** While enrolled in KDP Select, a book's digital edition must be available only through KDP, which Amazon says covers "your website, blogs, etc." Up to 10% may appear elsewhere as a sample. Terms run in 90-day periods. [KDP Select](https://kdp.amazon.com/en_US/select). **Chapters that stay free on the blog rule out KDP Select and Kindle Unlimited**, unless the blog copies are cut to 10% or less. Selling on Leanpub at the same time would also breach Select.
+**Verified primary.** Enrolling in KDP Select means "you cannot distribute your book digitally anywhere else, including on your website, blogs, etc." ([KDP Select](https://kdp.amazon.com/en_US/select)). The Select terms also bar distributing "a book that is substantially similar" in digital format ([KDP terms](https://kdp.amazon.com/en_US/help/topic/G200627430)). Authors "may choose to make up to 10% of your book available on other sites as a sample" ([enrolling in Select](https://kdp.amazon.com/en_US/help/topic/GD9PMU58BV24QFZ7)). Terms run in 90-day periods. **Chapters that stay free on the blog rule out KDP Select and Kindle Unlimited**, unless the blog copies are cut to 10% or less. Selling on Leanpub at the same time would also breach Select.
 
-### P5. Series pages and box sets
+### P5. Series pages, box sets and serial labeling
 
-**Lead, primary source.** KDP series pages can be ordered or unordered, and a Kindle box set can be attached to a series. KDP offers no paperback box set. [Series help](https://kdp.amazon.com/en_US/help/topic/GMFKBUS43QQ5AJ5A).
+**Verified primary.** KDP series can be ordered or unordered ([reading order](https://kdp.amazon.com/en_US/help/topic/G29L44KLZ6RDYGDP)). A Kindle box set attaches to a series only "as related content", and KDP offers no paperback box set ([series help](https://kdp.amazon.com/en_US/help/topic/GMFKBUS43QQ5AJ5A)). KDP's [box set guidelines](https://kdp.amazon.com/en_US/help/topic/GD4TJFW4JEESLH4B) say it "encourages prioritizing individual titles linked to a series". They require a serialized release to say so in its description ("Episode 1," "Part 1 of 3") and to state that the work continues in later volumes. A box set of previously published titles should say so.
 
 ### P6. Pre-orders
 
-**Lead, primary source; conflicting.** Pre-orders are ebook-only, and the final file is due 72 hours before release. One page gives a one-year window; another gives 18 months for pre-orders created on or after 2026-09-02. [Pre-orders](https://kdp.amazon.com/en_US/help/topic/G201499380).
+**Verified primary.** Pre-orders are ebook-only and for new titles, with at most 10 active at a time. The final file is due 72 hours before release. A pre-order created on or after 2026-09-02 can be set up to 18 months out; earlier ones were limited to 12 months. [Pre-orders](https://kdp.amazon.com/en_US/help/topic/G201499380).
 
-### P7. Updates don't reach existing KDP buyers
+### P7. Updates reach existing KDP buyers
 
-**Lead, primary source.** Republishing an e-book serves the new file to new buyers only. KDP pushes updates to existing customers only for serious quality problems, and explicitly declines added or changed chapters. Significant changes count as a new edition. [Updating eBooks](https://kdp.amazon.com/en_US/help/topic/G200966010). On KDP, growing one book chapter by chapter strands early buyers. The KDP-native shape is separate installments plus a series page, as *Wool* did.
+**Verified primary.** "For customers who bought your eBook before the update, the new version is delivered automatically after they finish a reading session and close the book," keeping their highlights and notes. Readers who have turned off Automatic Book Update don't receive it. KDP still declines *manual* update requests for added chapters or "significant changes that warrant a new edition", and the page doesn't say whether automatic delivery covers added chapters. [eBook update customer notifications](https://kdp.amazon.com/en_US/help/topic/G200966010). Revisions to a KDP edition now mostly reach early buyers, but a large expansion may still belong in a new edition. Many older guides say the opposite; don't rely on them.
 
 ### P8. Print
 
-**Lead, primary source.** KDP paperbacks need at least 24 pages, and spine text needs 79 or more. [Print options](https://kdp.amazon.com/en_US/help/topic/G201857950). A short installment can technically be printed but makes a poor paperback, so in practice print means the collected edition. *Wool*'s print edition came only with the S&S deal (W10).
+**Verified primary.** KDP paperbacks need at least 24 pages, and spine text is printed only on books with "more than 79 pages". [Paperback submission guidelines](https://kdp.amazon.com/en_US/help/topic/G201857950). A short installment can technically be printed but makes a poor paperback, so in practice print means the collected edition. *Wool*'s print edition came only with the S&S deal (W10).
 
 ### P9. Leanpub royalties
 
-**Lead, primary source; terms conflict.** One Leanpub page gives 80% on every sale. Another gives 80% at $7.99 and above, and 80% minus $0.50 between $0.99 and $7.98. Leanpub authors may sell the same book anywhere else, including KDP outside Select. [About Leanpub](https://leanpub.com/about); [selling elsewhere](https://help.leanpub.com/en/articles/117414-can-i-sell-my-book-on-leanpub-and-on-amazon-or-on-other-self-publishing-platforms-at-the-same-time). The 2016 rate was 90% minus 50 cents; do not use it.
+**Verified primary.** "Leanpub's self-published authors earn 80% royalties on every sale of $7.99 and up, and 80% minus 50 cents on purchases below $7.99" ([About Leanpub](https://leanpub.com/about)). Since 2024 the minimum paid ebook price can be $0.99, or free; bundles start at $7.99 ([pricing article](https://help.leanpub.com/en/articles/10549058-leanpub-product-pricing-flexibility-to-enhance-your-book-marketing-opportunities-for-authors), 2025-02-13). A $0.99 sale earns about $0.29. Leanpub says it is "absolutely ok" to publish the same book on Leanpub and Amazon at once ([selling elsewhere](https://help.leanpub.com/en/articles/117414-can-i-sell-my-book-on-leanpub-and-on-amazon-or-on-other-self-publishing-platforms-at-the-same-time)), outside KDP Select (P4). The 2016 rate was 90% minus 50 cents; do not use it.
 
 ### P10. Gumroad and Payhip
 
-**Lead, primary source.** Gumroad charges 10% + $0.50 per direct sale, and 30% for sales through its Discover marketplace ([pricing](https://gumroad.com/pricing)). Payhip's free plan takes 5% per sale; its $29 and $99 monthly plans take 2% and 0%, with card processing on top ([pricing](https://payhip.com/pricing)).
+**Verified primary.** Gumroad charges 10% + $0.50 per direct sale and 30% for sales through its Discover marketplace, with no monthly fee ([pricing](https://gumroad.com/pricing)). Payhip's free plan takes 5% per sale; its $29 and $99 monthly plans take 2% and 0%, and PayPal and Stripe fees apply on every plan ([pricing](https://payhip.com/pricing)).
 
 ### P11. Substack and Ghost
 
-**Lead, secondary.** Substack takes 10% of paid subscriptions plus Stripe fees. Ghost charges a flat hosting fee and takes no revenue share. Neither sells a downloadable ebook natively. [Ghost comparison](https://ghost.org/vs/substack) (vendor marketing).
+**Verified primary.** "Substack keeps 10% of subscription revenue, and Stripe charges its own payment processing fees" ([Substack support](https://support.substack.com/hc/en-us/articles/360037607131)). Ghost charges no transaction fee; its Starter plan is $18 a month and Publisher $29 a month, billed yearly ([Ghost pricing](https://ghost.org/pricing/)). Ghost's comparison table appears to limit paid subscriptions to Publisher and above; confirm before relying on it. Both sell access to posts. Whether either can sell a downloadable ebook was not checked.
 
 ### P12. Other stores
 
-**Folklore until re-sourced.** Third-party guides give Kobo 70% at $2.99 and up and 45% below, Apple Books 70%, and Draft2Digital about 10% of retail. Re-source from the official author portals before use.
+**Verified primary.** Kobo pays 70% on original works priced at $2.99 and up, with no cap, and 45% below ([Kobo Writing Life](https://kobowritinglife.zendesk.com/hc/en-us/articles/360058976032-What-will-my-earnings-be)). Apple Books pays "70% royalties on every ebook, regardless of price" ([Apple Books for Authors](https://authors.apple.com/)). Draft2Digital keeps about 10% of retail as commission, so authors get about 60% at most stores. It also charges a $20 activation fee, plus $12 a year for accounts earning under $100 ([D2D FAQ](https://draft2digital.com/faq/); [royalty rates](https://draft2digital.com/blog/royalty-rates/)).
 
 ### P13. Kindle Vella closed
 
-**Lead, secondary.** Amazon announced on 2024-10-29 that it would phase out Kindle Vella, saying it hadn't caught on as hoped. The last day to publish or buy tokens was 2024-12-04, and the platform closed in February 2025. [GeekWire](https://www.geekwire.com/2024/amazon-to-shut-down-kindle-vella-serial-book-platform-saying-it-hasnt-caught-on-as-wed-hoped/) (2024-10-30). No Amazon replacement for serialized reading was found. Vella was fiction-only.
+**Verified primary for the closure; secondary for the December cutoff.** Amazon's FAQ says it wound down Kindle Vella "effective February 26, 2025" because it "didn't catch on as we'd hoped", and encourages authors to republish stories as ebooks ([Kindle Vella update FAQ](https://kdp.amazon.com/en_US/help/topic/GUJHP3574Z3DLPZD)). GeekWire reported the announcement on 2024-10-29 and relayed that no new episodes or tokens would be available after 2024-12-04 ([GeekWire](https://www.geekwire.com/2024/amazon-to-shut-down-kindle-vella-serial-book-platform-saying-it-hasnt-caught-on-as-wed-hoped/)). No Amazon replacement for serialized reading was found.
 
 ## Part 4: Options for the primer
 
