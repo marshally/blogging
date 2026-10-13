@@ -130,6 +130,10 @@ On 2026-10-13, Marshall requested documentation for the landing page, including 
 
 On 2026-10-13, Marshall requested forwarding `vibeprimer.com` and `vibeengineersprimer.com`, also registered through Hover, to `https://vibeengineeringprimer.com`. The implementation attaches both apex hostnames to the existing Site and uses permanent redirects that preserve paths and query parameters. Hover continues to manage DNS. Handling the redirect in the Site is an implementation choice to support HTTPS, which Hover's built-in forwarding does not support. The [operating guide](../../docs/landing-pages/vibe-engineering-primer.md#alternate-domains) records the hostname identities and validation status.
 
+## D30. Competitive analysis axes
+
+On 2026-10-13, Marshall requested a competitive analysis of books on vibe coding and related approaches, grouped by appeal to experienced programmers versus beginners on one axis and emphasis on fundamentals and references to the classics or masters on the other. The [competitive analysis](research/competitive-analysis.md) uses publisher and author evidence to distinguish audience, engineering substance, and explicit connections to established works. Its book placements and positioning recommendations are editorial judgments, not a newly selected audience, title, or marketing claim.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.
