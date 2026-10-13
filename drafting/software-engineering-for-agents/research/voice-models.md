@@ -4,17 +4,20 @@ Checked: 2026-10-13. Internal research memo, not post prose. Marshall named two 
 
 ## Evidence tiers in this memo
 
-- **Located via search, not loaded.** Direct page fetches failed in this session: DNS failures and proxy 403s on every host. Bibliographic facts below come from search-engine results pointing to the canonical URL, not from reading the page. Re-fetch before citing any of them in post prose.
-- **Unverified.** No authoritative page found. Do not cite until checked.
+Citations re-checked 2026-10-13 by loading each page. Some hosts (Bloomberg, Macmillan, pulitzer.org, bloomsbury.com) blocked automated fetches, and the Internet Archive was unreachable.
+
+- **Verified.** A loaded page states the fact. Primary means the publisher, author, or original outlet. Secondary means Wikipedia or Open Library.
+- **Located, not loaded.** The canonical URL came from search results but the page could not be loaded. Re-fetch before citing in post prose.
+- **Unverified.** No loaded page settles the fact, or sources conflict. Do not cite until checked.
 - **Editorial reading.** All style characterizations are the agent's paraphrased reading of the authors' bodies of work. None are sourced claims. No quotations from any author have been verified, so this memo contains none. Do not add remembered quotes, especially popular Bourdain lines, without a primary source. Bourdain quotes are widely misattributed online.
 
 ## Anthony Bourdain
 
 ### Bibliography
 
-- **Unverified: "Don't Eat Before Reading This," *The New Yorker*, 1999.** Secondary sources put it in the issue dated April 19, 1999. The New Yorker URL could not be reached or confirmed.
-- **Located, publisher page not loaded: *Kitchen Confidential*, Bloomsbury USA, 2000.** Library catalogs and booksellers agree on publisher and year.
-- **Located, publisher page not loaded: *A Cook's Tour*, Bloomsbury USA, 2001.** Same evidence as above.
+- **Verified primary: [“Don't Eat Before Reading This,” *The New Yorker*](https://www.newyorker.com/magazine/1999/04/19/dont-eat-before-reading-this), print issue of April 19, 1999.** Posted online April 12, 1999.
+- **Verified secondary: *Kitchen Confidential*, Bloomsbury, 2000.** [Wikipedia](https://en.wikipedia.org/wiki/Kitchen_Confidential) and Open Library agree on year and publisher. The specific imprint (Bloomsbury USA) is unverified.
+- **Verified secondary: *A Cook's Tour*, Bloomsbury, 2001.** [Wikipedia](https://en.wikipedia.org/wiki/A_Cook's_Tour_(book)) gives “Bloomsbury Press”; Open Library gives first publication 2001. The first-edition imprint is unverified.
 
 ### Style (editorial reading)
 
@@ -30,11 +33,11 @@ Truth through appetite. A meal or a place is the way in, and the real subject tu
 
 ### Bibliography
 
-- **Located, page not loaded: *Our Magnificent Bastard Tongue*.** [Penguin Random House page](https://www.penguinrandomhouse.com/books/302945/our-magnificent-bastard-tongue-by-john-mcwhorter/), Avery imprint. The page shows the 2009 paperback. The 2008 original date is unconfirmed.
-- **Located, page not loaded: *Words on the Move*, Henry Holt, September 6, 2016.** [Macmillan page](https://us.macmillan.com/books/9781627794732/wordsonthemove/).
-- **Located, page not loaded: *Nine Nasty Words*.** [Penguin Random House page](https://www.penguinrandomhouse.com/books/624619/nine-nasty-words-by-john-mcwhorter/), Avery. The page shows the 2023 paperback. The 2021 original date is unconfirmed.
-- **Unverified: *The Power of Babel*, 2001.** Catalogs disagree on the publisher.
-- **Located, page not loaded: *Lexicon Valley* podcast.** [Substack about page](https://lexiconvalley.substack.com/about). The show moved there from Slate.
+- **Verified primary: *Our Magnificent Bastard Tongue*, October 30, 2008.** [Penguin Random House page](https://www.penguinrandomhouse.com/books/302945/our-magnificent-bastard-tongue-by-john-mcwhorter/). The 2009 paperback is Avery. The original hardcover publisher is not stated.
+- **Verified secondary: *Words on the Move*, Henry Holt, 2016.** [Open Library record](https://openlibrary.org/isbn/9781627794732). The [Macmillan page](https://us.macmillan.com/books/9781627794732/wordsonthemove/) was blocked, so the September 6 on-sale date is unverified.
+- **Verified primary: *Nine Nasty Words*, May 4, 2021.** [Penguin Random House page](https://www.penguinrandomhouse.com/books/624619/nine-nasty-words-by-john-mcwhorter/). Avery is confirmed only for the 2023 paperback.
+- **Unverified: *The Power of Babel*.** Sources conflict: Open Library gives Times Books, 2001; [Wikipedia](https://en.wikipedia.org/wiki/The_Power_of_Babel) gives Henry Holt, 2002. Check the copyright page.
+- **Verified primary, with correction: *Lexicon Valley*.** The [Substack about page](https://lexiconvalley.substack.com/about) calls it “a podcast about language” whose archive “includes all of the John McWhorter episodes,” and says the show has moved to Booksmart Studios. It does not state that McWhorter currently hosts.
 
 ### Style (editorial reading)
 
@@ -54,22 +57,22 @@ These pairings are editorial judgments. Bibliographic status is noted for each e
 
 | Author | Work | Evidence | Why it fits (editorial) |
 |---|---|---|---|
-| Ellen Ullman | *Close to the Machine*; *Life in Code* | Located, not loaded: Picador pages for [*Close to the Machine*](https://us.macmillan.com/books/9781250002488/closetothemachine/) and [*Life in Code*](https://us.macmillan.com/books/9781250181695/lifeincode/). Original years (1997, 2017) unconfirmed. | Probably the closest match. Confessional, literary, and about what programming does to the people who do it. |
-| Tracy Kidder | *The Soul of a New Machine* | Located, not loaded: [Hachette page](https://www.hachettebookgroup.com/titles/tracy-kidder/the-soul-of-a-new-machine/9780316204552/) (Little, Brown, 1981) and the [1982 Pulitzer, General Nonfiction](https://www.pulitzer.org/prize-winners-by-year/1982). | A narrative about engineers building a computer that turns out to be about work, obsession, and burnout. |
-| James Mickens | "The Night Watch" | Located, not loaded: [USENIX *;login:* PDF](https://www.usenix.org/system/files/1311_05-08_mickens.pdf), November 2013. | Very funny about systems work, with a lot of sympathy for the people in the trenches. |
-| Charity Majors | Blog | Located, not loaded: [charity.wtf](https://charity.wtf/). | Opinionated, occasionally profane honesty about operations and engineering management. |
-| Fred Brooks | *The Mythical Man-Month* | Located, not loaded: [InformIT anniversary edition](https://www.informit.com/store/mythical-man-month-essays-on-software-engineering-anniversary-9780201835953) (Addison-Wesley, 1995). The 1975 original date comes only from that edition's description. | A gentler voice, but uses stories to get to human truths about building software. |
+| Ellen Ullman | *Close to the Machine*; *Life in Code* | Located, not loaded (Macmillan blocked fetches): Picador pages for [*Close to the Machine*](https://us.macmillan.com/books/9781250002488/closetothemachine/) and [*Life in Code*](https://us.macmillan.com/books/9781250181695/lifeincode/). Original years (1997, 2017) unverified. | Probably the closest match. Confessional, literary, and about what programming does to the people who do it. |
+| Tracy Kidder | *The Soul of a New Machine* | Verified primary: [Hachette page](https://www.hachettebookgroup.com/titles/tracy-kidder/the-soul-of-a-new-machine/9780316204552/) (Little, Brown; first published 1981; “won both the Pulitzer Prize and the National Book Award”). Prize year and category ([1982, General Nonfiction](https://www.pulitzer.org/prize-winners-by-year/1982)) unverified because pulitzer.org was blocked. | A narrative about engineers building a computer that turns out to be about work, obsession, and burnout. |
+| James Mickens | "The Night Watch" | Verified primary: [USENIX PDF](https://www.usenix.org/system/files/1311_05-08_mickens.pdf) confirms author, title, and November 2013. The PDF text does not name *;login:*. | Very funny about systems work, with a lot of sympathy for the people in the trenches. |
+| Charity Majors | Blog | Verified primary: [charity.wtf](https://charity.wtf/), bylined Charity Majors, posts through September 2026. | Opinionated, occasionally profane honesty about operations and engineering management. |
+| Fred Brooks | *The Mythical Man-Month* | Verified primary: [InformIT anniversary edition](https://www.informit.com/store/mythical-man-month-essays-on-software-engineering-anniversary-9780201835953), Addison-Wesley, published August 2, 1995 (copyright 1996). Its preface dates the original to 1975. | A gentler voice, but uses stories to get to human truths about building software. |
 
 ### Closer to McWhorter: playful teaching of complex topics
 
 | Author | Work | Evidence | Why it fits (editorial) |
 |---|---|---|---|
-| Julia Evans | Blog and zines | Located, not loaded: [jvns.ca](https://jvns.ca/). The wizardzines.com homepage is unconfirmed. | Pure curiosity about how things work, with the reader treated as a fellow learner. |
-| Paul Ford | "What Is Code?" | Located, not loaded: [Bloomberg Businessweek](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/), June 11, 2015. | Straddles both camps: funny, digressive, and generous to the confused reader. |
-| Matt Levine | *Money Stuff* | Located, not loaded: [Bloomberg newsletter page](https://www.bloomberg.com/account/newsletters/money-stuff). | Finance rather than tech, but close to McWhorter's register: absurd examples and running jokes over real rigor. |
-| Randall Munroe | *What If?*; *Thing Explainer* | Located, not loaded: [xkcd What If](https://xkcd.com/what-if/) and the [*Thing Explainer* announcement](https://blog.xkcd.com/2015/05/13/new-book-thing-explainer/) (Houghton Mifflin Harcourt, November 24, 2015). | Takes ridiculous premises seriously enough to teach the real engineering. |
-| Douglas Hofstadter | *Gödel, Escher, Bach* | Located, not loaded: [Hachette page](https://www.hachettebookgroup.com/titles/douglas-r-hofstadter/godel-escher-bach/9780465026562/) (Basic Books, 1979) and the [1980 Pulitzer, General Nonfiction](https://www.pulitzer.org/prize-winners-by-year/1980). | Playful to the point of showing off, with dialogues, puns, and strange examples. |
-| Bartosz Ciechanowski | Interactive essays | Located, not loaded: [ciechanow.ski](https://ciechanow.ski/). | Not funny in the same way, but the same move: start concrete, build up, and let the reader feel the "aha." |
+| Julia Evans | Blog and zines | Verified primary: [jvns.ca](https://jvns.ca/) and [Wizard Zines](https://wizardzines.com/) (“programming zines by Julia Evans”). | Pure curiosity about how things work, with the reader treated as a fellow learner. |
+| Paul Ford | "What Is Code?" | Located, not loaded (Bloomberg blocked fetches): [Bloomberg Businessweek](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/), June 11, 2015. | Straddles both camps: funny, digressive, and generous to the confused reader. |
+| Matt Levine | *Money Stuff* | Located, not loaded (Bloomberg blocked fetches): [Bloomberg newsletter page](https://www.bloomberg.com/account/newsletters/money-stuff). | Finance rather than tech, but close to McWhorter's register: absurd examples and running jokes over real rigor. |
+| Randall Munroe | *What If?*; *Thing Explainer* | Verified primary: [xkcd What If](https://xkcd.com/what-if/) lists the book (Houghton Mifflin Harcourt, September 2, 2014). The [*Thing Explainer* announcement](https://blog.xkcd.com/2015/05/13/new-book-thing-explainer/), posted May 13, 2015, gives Houghton Mifflin Harcourt on November 24. | Takes ridiculous premises seriously enough to teach the real engineering. |
+| Douglas Hofstadter | *Gödel, Escher, Bach* | Verified primary: [Hachette page](https://www.hachettebookgroup.com/titles/douglas-r-hofstadter/godel-escher-bach/9780465026562/) (Basic Books; “Winner of the Pulitzer Prize and National Book Award”). The 1979 original date and [1980 General Nonfiction](https://www.pulitzer.org/prize-winners-by-year/1980) prize are unverified because pulitzer.org was blocked. | Playful to the point of showing off, with dialogues, puns, and strange examples. |
+| Bartosz Ciechanowski | Interactive essays | Verified primary: [ciechanow.ski](https://ciechanow.ski/) hosts long-form articles with embedded interactive simulations. | Not funny in the same way, but the same move: start concrete, build up, and let the reader feel the "aha." |
 
 What the two styles share: generosity toward both the reader and the subject, a concrete specific before any thesis, and seriousness carried lightly. Ullman and Ford come closest to combining them.
 
