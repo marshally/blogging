@@ -152,6 +152,10 @@ Style signal candidate: Marshall admires narrative that reveals a deeper truth w
 
 On 2026-10-13, Marshall asked for research on publishing the primer chapter by chapter, like Hugh Howey's *Wool* series, written up as a research report. The [serialized-publishing report](research/serialized-publishing.md) covers how *Wool*'s serial worked, technical-book precedents, platform rules, and options for the primer. Marshall described this as a strategy to consider; it does not select a release model, pricing, platform, or cadence. The report's recommended Leanpub-plus-blog combination is an editorial suggestion. The first pass ran without page access; after network access was restored the same day, every entry was checked against its sources, and the report lists the few claims still unverified.
 
+## D34. Landing-page promise: speed and dependable systems
+
+On 2026-10-13, Marshall rejected “Think like an engineer” as too limited: he wants readers to learn to build robust, resilient systems and feel more confident in what they ship. He requested an acceleration benefit in the first line and “time-tested engineering practices” in the supporting sentence. He approved “Build faster with AI. Build systems you can trust.” and requested updating the live site, with “Learn time-tested engineering practices that turn AI-generated code into robust, resilient systems you can trust.” underneath. The implementation updates the hero and matching metadata. These are positioning statements, not quantified claims about speed or reliability.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.
