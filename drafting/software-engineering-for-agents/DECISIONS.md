@@ -122,6 +122,10 @@ On 2026-10-12, Marshall requested adding live workshops immediately before “Bu
 
 On 2026-10-13, Marshall requested a landing page for the book that collects email addresses for a mailing list and specified `vibeengineeringprimer.com`, purchased through Hover. Publish the page and connect that domain. The [landing-page record](landing-page.md) identifies the separate source checkout, hosting project, signup storage, and validation. The visual treatment, concept cover, and separate book-interest database are implementation choices. A delivery-service preference remains unanswered, so automated mail sending is not configured. This does not change the full title selected in D19 or authorize subscribing visitors to unrelated Yount Labs posts.
 
+## D28. Landing-page documentation and signup retrieval
+
+On 2026-10-13, Marshall requested documentation for the landing page, including how to retrieve its signup list, and asked where it belongs in this repository. The implementation places the [operating guide](../../docs/landing-pages/vibe-engineering-primer.md) under `docs/landing-pages/`, with links from the book's planning folder. This folder choice keeps ongoing site operations discoverable after the book leaves drafting. The guide documents CSV retrieval through the Sites tools, manual table inspection, source and hosting identities, and the current email-delivery limits. This request does not select an email provider or authorize a mailing.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.
