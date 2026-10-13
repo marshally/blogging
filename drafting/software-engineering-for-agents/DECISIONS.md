@@ -144,7 +144,7 @@ On 2026-10-13, Marshall requested separate subagent investigations into the soci
 
 ## D32. Serialized publishing research
 
-On 2026-10-13, Marshall asked for research on publishing the primer chapter by chapter, like Hugh Howey's *Wool* series, written up as a research report. The [serialized-publishing report](research/serialized-publishing.md) covers how *Wool*'s serial worked, technical-book precedents, platform rules, and options for the primer. Marshall described this as a strategy to consider; it does not select a release model, pricing, platform, or cadence. The report's recommended Leanpub-plus-blog combination is an editorial suggestion. No source page could be fetched during the research, so every entry is an unverified lead awaiting a fetch.
+On 2026-10-13, Marshall asked for research on publishing the primer chapter by chapter, like Hugh Howey's *Wool* series, written up as a research report. The [serialized-publishing report](research/serialized-publishing.md) covers how *Wool*'s serial worked, technical-book precedents, platform rules, and options for the primer. Marshall described this as a strategy to consider; it does not select a release model, pricing, platform, or cadence. The report's recommended Leanpub-plus-blog combination is an editorial suggestion. The first pass ran without page access; after network access was restored the same day, every entry was checked against its sources, and the report lists the few claims still unverified.
 
 ## Research limits
 
