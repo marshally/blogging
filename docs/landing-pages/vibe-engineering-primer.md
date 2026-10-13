@@ -59,8 +59,23 @@ Work on the application in its separate checkout, `sites/vibe-engineering-primer
 
 Hover's apex (`@`) A records point to `162.159.143.30` and `172.66.3.26`. Keep the ownership-verification TXT records associated with this Site. If the domain fails while the native hosting address works, inspect Hover DNS and refresh the existing custom-domain status through Sites. Preserve the existing Site and domain IDs when investigating.
 
+### Alternate domains
+
+Marshall selected `vibeprimer.com` and `vibeengineersprimer.com` as redirects to `https://vibeengineeringprimer.com`. Both apex hostnames are attached to the same Site. Their Hover DNS uses the same two apex A records as the primary domain, plus their own ownership-verification TXT records.
+
+| Alias | Sites custom-domain ID |
+|---|---|
+| `vibeprimer.com` | `appgdom_6ace4201e3b08191bf315a31423c0324` |
+| `vibeengineersprimer.com` | `appgdom_6ace4203371081918869c5106470eb7f` |
+
+The source checkout's `proxy.ts` redirects these exact hostnames with HTTP 308, retaining the path and query parameters. For example, `https://vibeprimer.com/privacy?utm_source=card` redirects to `https://vibeengineeringprimer.com/privacy?utm_source=card`. The canonical and native hosting addresses continue to serve the page. These entries configure the two requested apex hostnames, not wildcard or `www` aliases.
+
+Forwarding is handled by the Site so it can work over HTTPS. [Hover's built-in forwarding](https://support.hover.com/support/solutions/articles/201000064747-managing-domain-forwarding) supports HTTP only. In Hover, maintain these aliases under DNS. The redirect behavior is maintained in the Site source.
+
 ## Verification record
 
 On 2026-10-13, TypeScript and the production build passed. Desktop and 390px mobile layouts were inspected. Local checks covered persistence, validation failures, normalized duplicates, and cookie-authorized removal. A synthetic signup on the published native domain was verified in the live database and removed. The database was empty afterward. No mailing was sent. Initial published source commit: `66ff776d4695139efb9298a0bd08368eb692bc21`.
 
 At 2026-10-13 14:32 UTC, Sites reported the custom domain, provider, and SSL certificate as `active`. An HTTPS request to `https://vibeengineeringprimer.com` returned HTTP 200 with the landing page's expected title. This supersedes the earlier pending DNS/certificate status. The production `DB` binding and `subscribers` table were also confirmed through the database overview tool. No subscriber export was performed while writing this guide.
+
+On 2026-10-13, Site version 2 published the alias redirects from source commit `637e445b9101b4833949c98fd5f3bf663c7ae1c0`. TypeScript, the production build, and local HTTP checks passed for both alias roots, path/query preservation, and canonical/native hosts without redirect loops. Both sets of DNS changes were verified in Hover, and all four verification TXT records resolved publicly. At 14:42 UTC, public apex lookups still returned Hover's previous parking address and certificate validation was pending. A live redirect check remains necessary after propagation.

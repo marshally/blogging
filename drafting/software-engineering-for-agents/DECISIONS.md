@@ -126,6 +126,10 @@ On 2026-10-13, Marshall requested a landing page for the book that collects emai
 
 On 2026-10-13, Marshall requested documentation for the landing page, including how to retrieve its signup list, and asked where it belongs in this repository. The implementation places the [operating guide](../../docs/landing-pages/vibe-engineering-primer.md) under `docs/landing-pages/`, with links from the book's planning folder. This folder choice keeps ongoing site operations discoverable after the book leaves drafting. The guide documents CSV retrieval through the Sites tools, manual table inspection, source and hosting identities, and the current email-delivery limits. This request does not select an email provider or authorize a mailing.
 
+## D29. Alternate book domains
+
+On 2026-10-13, Marshall requested forwarding `vibeprimer.com` and `vibeengineersprimer.com`, also registered through Hover, to `https://vibeengineeringprimer.com`. The implementation attaches both apex hostnames to the existing Site and uses permanent redirects that preserve paths and query parameters. Hover continues to manage DNS. Handling the redirect in the Site is an implementation choice to support HTTPS, which Hover's built-in forwarding does not support. The [operating guide](../../docs/landing-pages/vibe-engineering-primer.md#alternate-domains) records the hostname identities and validation status.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.
