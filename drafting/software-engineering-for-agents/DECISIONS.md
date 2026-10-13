@@ -142,6 +142,12 @@ On 2026-10-13, Marshall requested a QR code for sharing the book's landing page 
 
 On 2026-10-13, Marshall requested separate subagent investigations into the social media and content marketing practices of the five closest competitors: Uberto Barbini, Peter Isberg, Gene Kim / Steve Yegge, Addy Osmani, and Tomasz Lelek / Artur Skowroński. The [comparison memo and five dossiers](research/competitor-marketing/README.md) examine public channels, dated content examples, content reuse, launch activity, and commercial paths. This selects the research subjects. Proposed experiments are editorial recommendations, not approved changes to the marketing plan or permission to publish.
 
+## D32. Voice models research
+
+On 2026-10-13, Marshall said he likes Anthony Bourdain's writing style (revealing deeper truth through gracious narrative) and John McWhorter's playful teaching of complex topics. He asked how to describe each style and which tech authors write in a similar way. He then asked for a research doc confined to this book's folder. The [voice-models memo](research/voice-models.md) records the style readings, comparable tech authors, and candidate moves for the primer. The candidate moves are unapproved suggestions, and `docs/writing-style.md` is unchanged.
+
+Style signal candidate: Marshall admires narrative that reveals a deeper truth without announcing it, and teaching that is playful and generous toward the reader.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.
