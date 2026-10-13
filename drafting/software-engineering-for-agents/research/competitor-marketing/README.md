@@ -2,7 +2,9 @@
 
 Research snapshot: **October 13, 2026**. Five separate investigations of the competitors Marshall selected in [D31](../../DECISIONS.md#d31-competitor-marketing-deep-dives). The priority window is July 16–October 13, supplemented by earlier launches and examples that establish content reuse. This extends the [book positioning analysis](../competitive-analysis.md) into public social activity, publishing, and commercial offers.
 
-**Barbini and Yegge provide the clearest models for the primer's consulting objective.** Barbini connects practical teaching with a specific team-training offer. Yegge gives readers an explicit route from technical writing to organizational help. Osmani supplies strong examples of reusable teaching, Lelek/Skowroński of serialized launch content and company distribution, and Isberg of inspectable tools connected to the book. These are comparisons of visible practices, not rankings of marketing effectiveness.
+**Lelek/Skowroński is the closest comparison for the primer's LinkedIn-led book marketing.** Within that pair, Skowroński drives the clearest observed campaign: recurring educational arguments, native slide documents, bilingual adaptations, and an explicit connection to the book. The [dossier](lelek-skowronski.md) traces this series and its newsletter connections. His inspected campaign emphasizes written posts and documents. Osmani supplies the clearer precedent for adapting a longer recording into a short video, which is closer to the primer's planned format.
+
+**Barbini and Yegge provide the clearest models for the consulting objective.** Barbini connects practical teaching with a specific team-training offer. Yegge gives readers an explicit route from technical writing to organizational help. Isberg provides inspectable tools connected to the book. These are comparisons of visible practices, not rankings of marketing effectiveness.
 
 ## Five different approaches
 
