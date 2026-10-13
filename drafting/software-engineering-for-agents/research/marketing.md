@@ -16,7 +16,9 @@ LinkedIn’s [March 12, 2026 feed update](https://news.linkedin.com/2026/Improvi
 
 ## M03. Strategy and production model
 
-**User-selected direction and hypothesis.** In the same request, Marshall proposed hundreds of short lessons, one per topic, derived at 2–10 videos per article. His sequence is articles, short videos, conference speaking, a self-published book, a publisher pitch supported by the audience, a course assembled from the videos, and an optional podcast interviewing featured authors. The professional audience’s receptiveness and the resulting opportunities remain hypotheses to test.
+**User-selected direction and hypothesis.** In the same request, Marshall proposed creating a curriculum based on classic software engineering texts, explaining how they apply to Vibe Engineering. There are dozens of books which can each become a blog post. Each blog post can be decomposed into 2-10 videos, yielding hundreds of short lessons.
+
+The sequence is articles, short videos, conference speaking, a self-published book, a publisher pitch supported by the audience, a course assembled from the videos, and an optional podcast interviewing featured authors. The professional audience’s receptiveness and the resulting opportunities remain hypotheses to test.
 
 The plan’s subscriber path follows the existing [posting strategy](../../../docs/2026-posting-strategy.md#identity-and-conversion-paths). Measuring response, using feedback in revision, and adding course exercises are editorial recommendations implementing the direction. No posting cadence or numerical growth target has been selected.
 
