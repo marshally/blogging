@@ -142,7 +142,13 @@ On 2026-10-13, Marshall requested a QR code for sharing the book's landing page 
 
 On 2026-10-13, Marshall requested separate subagent investigations into the social media and content marketing practices of the five closest competitors: Uberto Barbini, Peter Isberg, Gene Kim / Steve Yegge, Addy Osmani, and Tomasz Lelek / Artur Skowroński. The [comparison memo and five dossiers](research/competitor-marketing/README.md) examine public channels, dated content examples, content reuse, launch activity, and commercial paths. This selects the research subjects. Proposed experiments are editorial recommendations, not approved changes to the marketing plan or permission to publish.
 
-## D32. Serialized publishing research
+## D32. Voice models research
+
+On 2026-10-13, Marshall said he likes Anthony Bourdain's writing style (revealing deeper truth through gracious narrative) and John McWhorter's playful teaching of complex topics. He asked how to describe each style and which tech authors write in a similar way. He then asked for a research doc confined to this book's folder. The [voice-models memo](research/voice-models.md) records the style readings, comparable tech authors, and candidate moves for the primer. The candidate moves are unapproved suggestions, and `docs/writing-style.md` is unchanged.
+
+Style signal candidate: Marshall admires narrative that reveals a deeper truth without announcing it, and teaching that is playful and generous toward the reader.
+
+## D33. Serialized publishing research
 
 On 2026-10-13, Marshall asked for research on publishing the primer chapter by chapter, like Hugh Howey's *Wool* series, written up as a research report. The [serialized-publishing report](research/serialized-publishing.md) covers how *Wool*'s serial worked, technical-book precedents, platform rules, and options for the primer. Marshall described this as a strategy to consider; it does not select a release model, pricing, platform, or cadence. The report's recommended Leanpub-plus-blog combination is an editorial suggestion. The first pass ran without page access; after network access was restored the same day, every entry was checked against its sources, and the report lists the few claims still unverified.
 

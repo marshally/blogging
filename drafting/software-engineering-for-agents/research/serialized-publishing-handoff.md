@@ -6,7 +6,7 @@ Paste the prompt below into a new agent session on this repo. It closes the [Sti
 
 ## Prompt
 
-You are finishing the source verification for `drafting/software-engineering-for-agents/research/serialized-publishing.md`, a research report on publishing the primer chapter by chapter in the manner of Hugh Howey's *Wool* ([D32](../DECISIONS.md#d32-serialized-publishing-research)). Read `AGENTS.md` first; its rules on research tiers (rule 7), single-line paragraphs (rule 4) and orthogonal commits apply. Then read the report's "Evidence status" and "Still unverified" sections.
+You are finishing the source verification for `drafting/software-engineering-for-agents/research/serialized-publishing.md`, a research report on publishing the primer chapter by chapter in the manner of Hugh Howey's *Wool* ([D33](../DECISIONS.md#d33-serialized-publishing-research)). Read `AGENTS.md` first; its rules on research tiers (rule 7), single-line paragraphs (rule 4) and orthogonal commits apply. Then read the report's "Evidence status" and "Still unverified" sections.
 
 Every entry in the report has already been checked against its cited pages, except the seven items below. Your job is to try to read each source, then update the report.
 
@@ -40,7 +40,7 @@ Two optional checks, if time allows:
 - If a finding changes an argument in the Summary or Part 4, update that text too, in a separate commit.
 - Remove each resolved item from "Still unverified". For an item you tried but couldn't read, leave it in the list and add a note of what you tried and when.
 - Commit one item per commit, with a message naming the entry (for example `research: verify Hilton & Wiley full text (T14)`) and the repo's Claude co-author trailer.
-- When the list is empty, delete this handoff file in its own commit, and update D32's last sentence in `../DECISIONS.md` to say verification is complete.
+- When the list is empty, delete this handoff file in its own commit, and update D33's last sentence in `../DECISIONS.md` to say verification is complete.
 
 ### Done when
 

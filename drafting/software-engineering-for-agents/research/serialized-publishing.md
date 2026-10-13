@@ -1,6 +1,6 @@
 # Serialized publishing: the *Wool* model and its fit for the primer
 
-Checked 2026-10-13. Internal planning reference, not post prose. Marshall asked for research on publishing the primer chapter by chapter, the way Hugh Howey published *Wool* ([D32](../DECISIONS.md#d32-serialized-publishing-research)). This report explains how the *Wool* serial worked, sets it beside the serialized and early-access models used for technical books, records the platform rules that constrain each one, and closes with an editorial assessment of the options. Nothing here selects a publishing strategy.
+Checked 2026-10-13. Internal planning reference, not post prose. Marshall asked for research on publishing the primer chapter by chapter, the way Hugh Howey published *Wool* ([D33](../DECISIONS.md#d33-serialized-publishing-research)). This report explains how the *Wool* serial worked, sets it beside the serialized and early-access models used for technical books, records the platform rules that constrain each one, and closes with an editorial assessment of the options. Nothing here selects a publishing strategy.
 
 ## Evidence status
 
