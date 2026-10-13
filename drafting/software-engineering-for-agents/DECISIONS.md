@@ -138,6 +138,10 @@ On 2026-10-13, Marshall requested a competitive analysis of books on vibe coding
 
 On 2026-10-13, Marshall requested a QR code for sharing the book's landing page at a conference, suggested using it as his phone wallpaper, and identified his phone as an iPhone 15 Pro Max. The implementation creates a lock-screen wallpaper at 1290 × 2796 pixels, plus standalone PNG and SVG QR assets, pointing directly to `https://vibeengineeringprimer.com/`. The [image ledger](research/images.md#conference-qr-code-and-iphone-wallpaper) records the assets and verification. Hosting downloadable copies on the existing Site is an implementation choice for convenient phone access. Installing the wallpaper remains a phone-side step.
 
+## D31. Competitor marketing deep dives
+
+On 2026-10-13, Marshall requested separate subagent investigations into the social media and content marketing practices of the five closest competitors: Uberto Barbini, Peter Isberg, Gene Kim / Steve Yegge, Addy Osmani, and Tomasz Lelek / Artur Skowroński. The [comparison memo and five dossiers](research/competitor-marketing/README.md) examine public channels, dated content examples, content reuse, launch activity, and commercial paths. This selects the research subjects. Proposed experiments are editorial recommendations, not approved changes to the marketing plan or permission to publish.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.

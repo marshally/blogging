@@ -4,6 +4,8 @@ Checked: 2026-10-13. Internal research memo answering [D30](../DECISIONS.md#d30-
 
 **Experienced programmers who want engineering fundamentals already have substantial choices. Several competing books explicitly apply established masters to AI-assisted coding.** The promising distinction for Marshall is the particular curriculum and teaching format: a broad selection of named principles, each connected to an agent failure, an instruction, and an observable check. That is a positioning proposal to test, not an established market gap.
 
+Companion research: [social media and content marketing of the five closest competitors](competitor-marketing/README.md).
+
 ## What the axes mean
 
 **Horizontal: programming experience assumed.** Separate people who have never programmed from early-career programmers who already read code, and from experienced developers, architects, and technical leads. Being new to AI tools does not make someone a programming novice. Publisher statements about intended readers establish the marketed audience, not who actually buys the book.
