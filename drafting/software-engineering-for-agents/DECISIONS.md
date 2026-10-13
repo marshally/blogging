@@ -148,6 +148,10 @@ On 2026-10-13, Marshall said he likes Anthony Bourdain's writing style (revealin
 
 Style signal candidate: Marshall admires narrative that reveals a deeper truth without announcing it, and teaching that is playful and generous toward the reader.
 
+## D33. Serialized publishing research
+
+On 2026-10-13, Marshall asked for research on publishing the primer chapter by chapter, like Hugh Howey's *Wool* series, written up as a research report. The [serialized-publishing report](research/serialized-publishing.md) covers how *Wool*'s serial worked, technical-book precedents, platform rules, and options for the primer. Marshall described this as a strategy to consider; it does not select a release model, pricing, platform, or cadence. The report's recommended Leanpub-plus-blog combination is an editorial suggestion. The first pass ran without page access; after network access was restored the same day, every entry was checked against its sources, and the report lists the few claims still unverified.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.
