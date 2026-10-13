@@ -118,6 +118,10 @@ On 2026-10-12, Marshall added a paragraph identifying online courses as a second
 
 On 2026-10-12, Marshall requested adding live workshops immediately before “Build the course” in the numbered marketing sequence. He described the course as a “sailing” opportunity and workshops as a “rowing” activity, with less effort to assemble and live, interactive feedback that can improve the material in real time. Add workshops as step 6 and renumber the course and optional podcast to 7 and 8. This selects the workshop step previously left as an editorial suggestion in D23; specific pricing and a launch date remain open.
 
+## D27. Book landing page and domain
+
+On 2026-10-13, Marshall requested a landing page for the book that collects email addresses for a mailing list and specified `vibeengineeringprimer.com`, purchased through Hover. Publish the page and connect that domain. The [landing-page record](landing-page.md) identifies the separate source checkout, hosting project, signup storage, and validation. The visual treatment, concept cover, and separate book-interest database are implementation choices. A delivery-service preference remains unanswered, so automated mail sending is not configured. This does not change the full title selected in D19 or authorize subscribing visitors to unrelated Yount Labs posts.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.
