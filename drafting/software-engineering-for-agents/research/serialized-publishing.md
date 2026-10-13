@@ -312,7 +312,7 @@ This section is an editorial assessment for Marshall to accept or reject. It ass
 
 ## Still unverified
 
-These couldn't be read on 2026-10-13 and stay out of drafts until checked:
+These couldn't be read on 2026-10-13 and stay out of drafts until checked. The [handoff prompt](serialized-publishing-handoff.md) covers finishing them.
 
 - The WSJ article's text (Alter, 2013-03-07, paywalled), including its "mid-six figures" figure, which is cited here only through Wikipedia (W10).
 - Hilton & Wiley's full text: which category fell and by how much (T14).
