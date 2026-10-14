@@ -40,7 +40,7 @@ def pub(c):
 def scope(**kw):
  d=dict(book_scope=None,book_ids=[],book_format=None,geography=None,marketplace=None,category=None,language=None,audience_type=None,content_kind=None,content_format=None,rating_scale_max=None,currency=None,notes=None);d.update(kw);return d
 
-def derive():
+def derive(check=False):
  tables=read_tables(Q);entities={r['entity_id']:r for r in tables['entities']};contents={r['content_id']:r for r in tables['content']};observations=tables['observations'];coverage=tables['coverage'];relations=tables['relationships'];captures={r['capture_id']:r for r in tables['captures']};metrics={r['metric_id']:r for r in json.loads((Q/'metric-definitions.json').read_text())['metrics']}
  script_hash=digest(pathlib.Path(__file__));start,end=stamp(START),stamp(END);days=(end-start).total_seconds()/86400
  old={}
@@ -68,8 +68,11 @@ def derive():
   if subject not in entities or entities[subject]['entity_type']!='account' or cov['requested_start']!=START:continue
   if not cov['content_kinds']:continue
   capset=set(cov['capture_ids'])
-  items=[c for c in contents.values() if c['account_id']==subject and c['content_kind'] in cov['content_kinds'] and (not cov['content_formats'] or c['format'] in cov['content_formats']) and pub(c) is not None and start<=pub(c)<end and any(e['capture_id'] in capset for e in c['evidence'])]
   complete=cov['status']=='complete_public_window';qual='exact' if complete else 'lower_bound'
+  # Census discovery pages and an item's detail response can be different
+  # captures. Complete coverage declares the whole account/filter/window;
+  # emit() includes both discovery and detail captures in the lineage.
+  items=[c for c in contents.values() if c['account_id']==subject and c['content_kind'] in cov['content_kinds'] and (not cov['content_formats'] or c['format'] in cov['content_formats']) and pub(c) is not None and start<=pub(c)<end and (complete or any(e['capture_id'] in capset for e in c['evidence']))]
   for kind in cov['content_kinds']:
    selected=sorted([c for c in items if c['content_kind']==kind],key=lambda x:x['content_id'])
    # A blocked feed with no collected items does not supply an informative zero.
@@ -122,6 +125,11 @@ def derive():
   for r in rels:
    a,b=contents[original],contents[r['from_id']];lag=reuse_lag_days(a,b)
    if lag is not None:emit(b['content_id'],'reuse_lag_days',lag,items=[a,b],rels=[r],note='Publication difference using matching '+a['published_at']['precision']+' precision. Day-only sources produce calendar-day difference, not invented hours.',period='unspecified')
- out=Q/'derived-metrics.jsonl';out.write_text(''.join(canonical(r)+'\n' for r in sorted(result,key=lambda x:x['observation_id'])),encoding='utf-8')
- print(f'Wrote {len(result)} derived observations; script SHA256 {script_hash}')
-if __name__=='__main__':derive()
+ out=Q/'derived-metrics.jsonl';serialized=''.join(canonical(r)+'\n' for r in sorted(result,key=lambda x:x['observation_id']))
+ if check:
+  assert out.read_text(encoding='utf-8')==serialized, 'Derived values, populations, lineage, or script hash differ from recomputation'
+  print(f'Recomputation matches all {len(result)} derived observations')
+ else:
+  out.write_text(serialized,encoding='utf-8')
+  print(f'Wrote {len(result)} derived observations; script SHA256 {script_hash}')
+if __name__=='__main__':derive(check='--check' in sys.argv)

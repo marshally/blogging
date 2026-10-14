@@ -5,8 +5,9 @@ sys.dont_write_bytecode = True
 from validate import Q,TABLES,KEYS,canonical,validate
 
 def main():
- p=argparse.ArgumentParser();p.add_argument('--check-only',action='store_true');a=p.parse_args()
- shards=sorted(x for x in (Q/'workers').iterdir() if x.is_dir()) if (Q/'workers').exists() else []
+ p=argparse.ArgumentParser();p.add_argument('--check-only',action='store_true');p.add_argument('--workers',nargs='+');a=p.parse_args()
+ shards=sorted(x for x in (Q/'workers').iterdir() if x.is_dir() and (a.workers is None or x.name in a.workers)) if (Q/'workers').exists() else []
+ if a.workers:assert {x.name for x in shards}==set(a.workers), 'Unknown selected shard'
  # All shards are checked before the first root mutation. The combined context
  # permits explicit shared persons/publishers without duplicating their records.
  tables,locations,stats,warnings=validate([Q]+shards)
@@ -20,7 +21,8 @@ def main():
  for name,rows in tables.items():
   path=Q/(name+'.jsonl');temporary=path.with_suffix('.tmp')
   temporary.write_text(''.join(canonical(rows[k])+'\n' for k in sorted(rows)),encoding='utf-8');temporary.replace(path)
- _,_,stats,warnings=validate([Q],strict_sort=True);print(json.dumps(stats,sort_keys=True))
+ _,_,stats,warnings=validate([Q],strict_sort=True,replay_derived=False);print(json.dumps(stats,sort_keys=True))
+ print('Collected records and archive validated. Run derive.py then validate.py to refresh and replay calculations.')
  for w in warnings:print('REVIEW: '+w)
 if __name__=='__main__':
  try:main()

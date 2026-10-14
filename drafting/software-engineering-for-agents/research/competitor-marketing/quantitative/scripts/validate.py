@@ -3,7 +3,7 @@
 Requires: jsonschema, beautifulsoup4, lxml; pypdf for PDF locators.
 Usage: python scripts/validate.py [dataset-or-shard] [--context ROOT]
 """
-import argparse,datetime as dt,hashlib,html,json,pathlib,re,sys,uuid
+import argparse,datetime as dt,hashlib,html,json,pathlib,re,subprocess,sys,uuid
 from collections import Counter
 from jsonschema import Draft202012Validator,FormatChecker
 Q=pathlib.Path(__file__).resolve().parents[1]
@@ -47,7 +47,31 @@ def pointer(value,p):
   k=part.replace('~1','/').replace('~0','~');value=value[int(k)] if isinstance(value,list) else value[k]
  return value
 
-def validate(roots,configuration=Q,strict_sort=False):
+def x_literal(text,locator):
+ """Read a scalar at an X hydration symbol without executing source JavaScript."""
+ m=re.fullmatch(r'inline hydration \$R\["tsr"\]\[(\d+)\]\.([A-Za-z_]+)',locator)
+ if not m:return None
+ starts=list(re.finditer(r'\$R\['+re.escape(m[1])+r'\]=\{',text))
+ assert len(starts)==1,'Nonunique hydration symbol '+m[1]
+ start=starts[0].end()-1;depth=0;quote=None;escape=False;end=None
+ for i in range(start,len(text)):
+  char=text[i]
+  if quote:
+   if escape:escape=False
+   elif char=='\\':escape=True
+   elif char==quote:quote=None
+  elif char in ('"',"'"):quote=char
+  elif char=='{':depth+=1
+  elif char=='}':
+   depth-=1
+   if depth==0:end=i+1;break
+ assert end is not None,'Unclosed hydration literal'
+ body=text[start:end]
+ matches=re.findall(r'(?:[,{])'+re.escape(m[2])+r':("(?:[^"\\]|\\.)*"|-?\d+(?:\.\d+)?)\s*(?=[,}])',body)
+ assert len(matches)==1,'Missing or ambiguous hydration scalar '+m[2]
+ return json.loads(matches[0])
+
+def validate(roots,configuration=Q,strict_sort=False,replay_derived=True):
  schema=load_json(configuration/'data-contract.schema.json');registry=load_json(configuration/'metric-definitions.json');run=load_json(configuration/'run.json')
  Draft202012Validator.check_schema(schema)
  validators={name:Draft202012Validator({'$schema':schema['$schema'],'$defs':schema['$defs'],'$ref':'#/$defs/'+name},format_checker=FormatChecker()) for name in schema['$defs']}
@@ -94,7 +118,7 @@ def validate(roots,configuration=Q,strict_sort=False):
    artifacts[(cap['capture_id'],a['sha256'])]=a;artifact_bytes[a['sha256']]=b
   for a in cap['artifacts']:
    if a['derived_from_sha256']:assert any(x['sha256']==a['derived_from_sha256'] for x in cap['artifacts']) or a['derived_from_sha256'] in artifact_bytes,'Unresolved derived artifact'
- def evcheck(e):
+ def evcheck(e,strict_excerpt=False):
   fk(e['capture_id'],captures);key=(e['capture_id'],e['artifact_sha256']);assert key in artifacts,'Evidence object not in capture'
   a=artifacts[key];b=artifact_bytes[e['artifact_sha256']];typ=e['locator_type'];loc=e['locator'];text=b.decode(a['text_encoding'] or 'utf-8',errors='replace');target=text
   if typ=='json_pointer':target=pointer(json.loads(text),loc);target=canonical(target) if not isinstance(target,str) else target
@@ -111,6 +135,7 @@ def validate(roots,configuration=Q,strict_sort=False):
    import io
    from pypdf import PdfReader
    pages=PdfReader(io.BytesIO(b)).pages;m=re.fullmatch(r'(?:page\s*)?(\d+)',loc);assert m and 1<=int(m[1])<=len(pages),'PDF page locator';target=pages[int(m[1])-1].extract_text()
+  elif typ=='other' and loc.startswith('inline hydration '):x_literal(text,loc)
   elif typ not in ('full_document',):warnings.add(f'Manual locator review: {e["capture_id"]} {typ} {loc}')
   if e['excerpt']:
    norm=lambda s:' '.join(html.unescape(str(s)).split())
@@ -118,7 +143,12 @@ def validate(roots,configuration=Q,strict_sort=False):
    if 'html' in a['media_type']:
     from bs4 import BeautifulSoup
     candidates.append(norm(BeautifulSoup(target,'html.parser').get_text(' ',strip=True)))
-   assert any(excerpt in t for t in candidates),f'Excerpt missing at {e["capture_id"]} {typ} {loc}: {excerpt[:100]}'
+   if not any(excerpt in t for t in candidates):
+    # A document-wide locator can accompany an interpretive label. It must be
+    # reviewed against the archived document, not silently called a literal
+    # excerpt match. Structured/localized locators remain strict.
+    if typ=='full_document' and not strict_excerpt:warnings.add(f'Manual nonliteral excerpt review: {e["capture_id"]}: {excerpt[:100]}')
+    else:raise AssertionError(f'Excerpt missing at {e["capture_id"]} {typ} {loc}: {excerpt[:100]}')
   elif typ=='full_document':warnings.add(f'Manual full-document evidence review: {e["capture_id"]}')
   return a
  for table in tables.values():
@@ -131,6 +161,11 @@ def validate(roots,configuration=Q,strict_sort=False):
   if c['account_id']:fk(c['account_id'],entities);assert entities[c['account_id']]['entity_type']=='account'
   for id in c['owner_ids']:fk(id,entities)
   assert c['content_id']=='content:'+c['platform']+':'+hashlib.sha256(c['url'].encode()).hexdigest(),'Content canonical hash mismatch'
+  for e in c['evidence']:
+   if e['locator_type']=='other' and e['locator'].endswith('.created_at_ms'):
+    a=artifacts[(e['capture_id'],e['artifact_sha256'])];raw=artifact_bytes[a['sha256']].decode(a['text_encoding'] or 'utf-8');milliseconds=x_literal(raw,e['locator'])
+    expected=dt.datetime.fromtimestamp(milliseconds/1000,dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+    assert c['published_at']=={'value':expected,'precision':'second'},'Hydration publication time mismatch'
  seen_urls={}
  for c in content.values():
   key=(c['platform'],c['url']);assert key not in seen_urls or seen_urls[key]==c['content_id'],'Identity collision';seen_urls[key]=c['content_id']
@@ -152,6 +187,14 @@ def validate(roots,configuration=Q,strict_sort=False):
    assert c['sampling_method']=='census' and c['pagination_exhausted'] is True and not c['known_gaps'] and c['capture_ids'],'Unsupported complete census'
    assert (c['requested_start'],c['requested_end'])==(START,END),'Complete census window'
    assert c['sampling_detail'],'Census boundary explanation missing'
+   population=[]
+   for item in content.values():
+    t=item['published_at']
+    if item['account_id']!=c['subject_id'] or item['content_kind'] not in c['content_kinds'] or (c['content_formats'] and item['format'] not in c['content_formats']):continue
+    if not t or t['precision'] not in ('day','second'):continue
+    when=stamp(t['value']+'T00:00:00Z' if t['precision']=='day' else t['value'])
+    if stamp(START)<=when<stamp(END):population.append(item['content_id'])
+   assert c['records_collected']==len(set(population)),f'Census population mismatch {c["coverage_id"]}: declared {c["records_collected"]}, records {len(set(population))}'
  for table in ('observations','derived-metrics'):
   for o in tables[table].values():
    fk(o['subject_id']);assert o['metric_id'] in metrics,'Unknown metric';m=metrics[o['metric_id']];typ=subjects[o['subject_id']].get('entity_type','content')
@@ -175,7 +218,7 @@ def validate(roots,configuration=Q,strict_sort=False):
    if o['metric_id'].startswith('book_'):
     assert sc['book_scope'] is not None and sc['book_format'] is not None,'Book scope missing'
     assert sc['notes'],'Book missing-scope explanation required'
-   if o['metric_id']=='offer_price':assert sc['currency'] and sc['notes'],'Price terms missing'
+   if o['metric_id']=='offer_price' and q!='unknown':assert sc['currency'] and sc['notes'],'Price terms missing'
    if o['metric_id']=='book_average_rating':assert sc['rating_scale_max'] is not None and sc['rating_scale_max']>0,'Rating scale missing'
    if o['metric_id']=='book_sales_rank':assert sc['marketplace'] and sc['notes'] and (sc['category'] or 'unknown' in sc['notes'].lower()),'Rank scope missing'
    if o['metric_id'] in ('book_publication_date','author_first_publication_date') and v is not None:
@@ -199,12 +242,19 @@ def validate(roots,configuration=Q,strict_sort=False):
     supporting=[e for e in o['evidence'] if artifacts[(e['capture_id'],e['artifact_sha256'])]['representation']=='original_response' and captures[e['capture_id']]['status'] in ('complete','partial')]
     assert supporting,'Accepted observation without supporting archived original'
     for e in supporting:
+     evcheck(e,strict_excerpt=True)
      if e['locator_type']=='json_pointer':
       a=artifacts[(e['capture_id'],e['artifact_sha256'])];val=pointer(json.loads(artifact_bytes[a['sha256']]),e['locator'])
       if isinstance(val,(int,float)) and isinstance(v,(int,float)):assert val==v,'JSON counter/value mismatch'
+     elif e['locator_type']=='other' and e['locator'].startswith('inline hydration '):
+      a=artifacts[(e['capture_id'],e['artifact_sha256'])];val=x_literal(artifact_bytes[a['sha256']].decode(a['text_encoding'] or 'utf-8'),e['locator'])
+      if isinstance(v,(int,float)):assert float(val)==v,'Hydration counter/value mismatch'
     total['archive_backed_observations']+=1
    if o['evidence_class']=='unavailable':total['unavailable_observations']+=1
  total.update({k:len(v) for k,v in tables.items()});total['archive_objects']=len(artifact_bytes);total['manual_locator_warnings']=len(warnings)
+ if replay_derived and len(roots)==1 and roots[0].resolve()==Q and tables['derived-metrics']:
+  replay=subprocess.run([sys.executable,str(Q/'scripts/derive.py'),'--check'],capture_output=True,text=True)
+  assert replay.returncode==0,'Derived replay failed: '+replay.stdout+replay.stderr
  return tables,locations,dict(total),sorted(warnings)
 
 def main():
