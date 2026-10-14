@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate shards with shared foreign-key context, then merge without fact changes."""
 import argparse,json,pathlib,shutil,sys
+sys.dont_write_bytecode = True
 from validate import Q,TABLES,KEYS,canonical,validate
 
 def main():

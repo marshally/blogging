@@ -7,6 +7,7 @@ recorded unavailable observations, not invented derived zeros.
 """
 import datetime as dt,hashlib,json,math,pathlib,statistics,sys,uuid
 from collections import defaultdict
+sys.dont_write_bytecode = True
 from validate import Q,START,END,canonical,digest,read_tables,stamp,validate
 KINDS={'original_posts_per_week':'original_post','uploads_per_week':'video_upload','podcast_episodes_per_week':'podcast_episode','articles_per_week':'article','reposts_per_week':'repost','replies_per_week':'reply','quote_posts_per_week':'quote_post','newsletter_issues_per_week':'newsletter_issue'}
 
