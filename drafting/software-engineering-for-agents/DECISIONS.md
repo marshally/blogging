@@ -156,6 +156,10 @@ On 2026-10-13, Marshall asked for research on publishing the primer chapter by c
 
 On 2026-10-13, Marshall rejected “Think like an engineer” as too limited: he wants readers to learn to build robust, resilient systems and feel more confident in what they ship. He requested an acceleration benefit in the first line and “time-tested engineering practices” in the supporting sentence. He approved “Build faster with AI. Build systems you can trust.” and requested updating the live site, with “Learn time-tested engineering practices that turn AI-generated code into robust, resilient systems you can trust.” underneath. The implementation updates the hero and matching metadata. These are positioning statements, not quantified claims about speed or reliability.
 
+## D35. Auditable quantitative competitor research
+
+On 2026-10-14, Marshall requested the next quantitative research pass across the five selected competitor groups and seven authors: book sales, platform audiences, posting rates, and additional public signals where feasible. He specified a fixed July 16–October 13 UTC baseline, platform/source-family workstreams, immutable archived originals, a versioned schema and metric registry, canonical JSONL tables, explicit missing values, reproducible calculations, and an independent evidence audit. The [quantitative comparison](research/competitor-marketing/quantitative/README.md) implements that research contract. Coauthored titles are counted once, and personal, publisher, employer, and host audiences remain separate. This authorizes research and local commits, not changes to the title, audience, marketing plan, external accounts, publication, or pushing. The existing duplicate D31 headings are preserved.
+
 ## Research limits
 
 The mappings from book principles to agent workflows are proposed applications. Quantified effects on token use, correctness, or speed remain unsubstantiated until demonstrated. The source ledgers distinguish verified primary evidence, secondary skill summaries, and unsupported claims. No additional general voice or workflow preference has been inferred from this conversation.
