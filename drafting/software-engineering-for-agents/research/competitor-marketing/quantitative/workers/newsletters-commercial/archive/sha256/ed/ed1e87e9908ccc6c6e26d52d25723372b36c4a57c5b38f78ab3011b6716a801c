@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services — Steve Yegge</title>
+  <meta name="description" content="What Steve Yegge offers organizations making the AI-native pivot: keynotes and company-wide talks, bespoke meetings with leaders and skeptics, and Vibe Coding workshops with Gene Kim.">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://yegge.ai/services.html">
+  <link rel="alternate" type="application/atom+xml" title="Steve Yegge — essays" href="/feed.xml">
+  <meta property="og:site_name" content="yegge.ai">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Services — Steve Yegge">
+  <meta property="og:description" content="What Steve Yegge offers organizations making the AI-native pivot: keynotes and company-wide talks, bespoke meetings with leaders and skeptics, and Vibe Coding workshops with Gene Kim.">
+  <meta property="og:url" content="https://yegge.ai/services.html">
+  <meta property="og:image" content="https://yegge.ai/images/og-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Services — Steve Yegge">
+  <meta name="twitter:description" content="What Steve Yegge offers organizations making the AI-native pivot: keynotes and company-wide talks, bespoke meetings with leaders and skeptics, and Vibe Coding workshops with Gene Kim.">
+  <meta name="twitter:image" content="https://yegge.ai/images/og-card.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Cardo:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem('theme') !== 'light')
+          document.documentElement.setAttribute('data-theme', 'dark');
+      } catch (e) { /* localStorage blocked — default to dark */
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+  
+  
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ebdb66d0808941fb94041c4f2320eb00"}'></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="/index.html" class="nav-logo">yegge<span>.ai</span></a>
+      <ul class="nav-links">
+        <li><a href="/bio.html">About</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/atlas.html">Atlas</a></li>
+        <li><a href="/friends.html">Friends</a></li>
+        <li><a href="/search.html" class="nav-search" aria-label="Search the archive">Search</a></li>
+        <li><a href="/cdn-cgi/l/email-protection#2d48434a4c4a48404843595e6d4a45425e59595f4c4e46034e4240" class="nav-cta">Get in touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <main id="main" tabindex="-1" data-pagefind-body>
+  <div class="page-header history-header">
+    <figure class="history-header-mark">
+      <span class="ghosttrack-mark ghosttrack-mark--resume">
+        <img src="images/ghosttrack/lp-mark.svg" alt="Ghost Track" class="ghosttrack-lp">
+        <span class="ghosttrack-wordmark-text">Ghost Track</span>
+      </span>
+    </figure>
+    <p class="section-label">What Steve offers</p>
+    <h1>Services</h1>
+    <p>
+      Steve offers single- and multi-day engagements with C-suite leaders and
+      technology teams. The goal is to do one rare thing: get an organization
+      excited to change, and pointed in the same direction once the energy
+      lands. Few people can stand in front of a company, win over its skeptics,
+      and send everyone back to work aligned.
+    </p>
+  </div>
+
+  <!-- ── Why it works ─────────────────────────────────────── -->
+  <div class="section">
+    <p class="section-label">Why it works</p>
+    <h2 class="section-title">Depth teams can feel, tailored to your org.</h2>
+    <figure class="why-figure">
+      <img src="images/engagements/etls/workshop-01.jpg?v=1791821702273" alt="Steve Yegge on stage at the Enterprise Technology Leadership Summit, Las Vegas, October 2025">
+      <figcaption>Enterprise Technology Leadership Summit &middot; Las Vegas, Oct 2025</figcaption>
+    </figure>
+    <p class="book-prose">
+      Steve has been writing code for forty years and giving talks for most of
+      them, across very different engineering cultures: Amazon, Google, and
+      Grab. He can take a technical discussion to any level, with anyone in the
+      building. That depth is what makes the talks land. Audiences trust him
+      because he is still shipping code and working at the frontier of agentic
+      development. It is also why he connects with junior engineers and interns,
+      the people whose buy-in decides whether a rollout sticks.
+    </p>
+    <p class="book-prose">
+      The method is the same every time. Steve studies where your organization
+      is, which doesn't take long, because AI adoption is still early almost
+      everywhere. Then he tailors the whole engagement toward directional
+      alignment and converting the skeptics. He gets people excited about the
+      creativity wave coming, and balances it with sobering, specific stories of
+      how badly things go when AI is rolled out carelessly. Teams leave bought
+      into AI literacy and experimentation, and clear-eyed about being
+      deliberate in how they adopt it. That mix of enthusiasm and caution is why
+      the energy doesn't wear off.
+    </p>
+  </div>
+
+  <div class="section service-list">
+
+    <div class="service-detail">
+      <div class="service-detail-grid">
+        <div class="service-detail-text">
+          <h2><span class="service-num">1</span> Keynotes and Talks</h2>
+          <p>
+            Audiences love Steve's talks, and tell him how genuine they feel.
+            He comes in with a message to get across, and no matter which
+            twists and turns he takes with the room, the message always lands
+            and entertains. He can make an audience laugh and inspire them to
+            think deeply in the same hour.
+          </p>
+          <p>
+            Steve's keynotes are in high demand, in part because of his
+            influential writing, and in part because he is recognized as being
+            personally at the technological frontier of agentic coding, with his
+            inventions of Beads and Gas Town. Popular keynote topics include
+            <em>The 8 Levels of Agentic Adoption</em>,
+            <em>What It Actually Means to Be AI-Native</em>,
+            <em>Vibe Coding and the Future of Software Engineering</em>, and
+            <em>Gas City and Dark Factory Orchestration</em>. He can also build a
+            custom talk around your conference or company theme.
+          </p>
+          <p>
+            He also gives company-wide talks, because the first hurdle every
+            company faces today is cultural alignment. If an organization doesn't
+            want AI, it will fight any attempt to introduce it, and much of that
+            resistance stems from fear and misconception. Steve paints a vivid,
+            exciting picture of the new kinds of collaboration emerging, the new
+            roles for junior developers, and how company culture can make or
+            break the effort, giving everyone a common grounding and a mental
+            framework for thinking about AI safely and sensibly. He draws on
+            personal experience and on themes from his book <em>Vibe Coding</em>,
+            co-authored with Gene Kim.
+          </p>
+          <p>
+            These full-org sessions are often attended by thousands (to the
+            surprise of the IT departments), with rich Q&amp;A at the end.
+          </p>
+          <p class="service-more">
+            <a href="talks.html">Watch recent talks &rarr;</a>
+          </p>
+        </div>
+        <div class="service-photo">
+          <figure class="service-photo-item">
+            <div class="service-photo-img">
+              <img src="images/photos/stevey-etls-2025.jpg" alt="Steve Yegge keynoting at the IT Revolution Enterprise Technology Leadership Summit, Las Vegas, 2025">
+            </div>
+            <figcaption>Steve at ETLS</figcaption>
+          </figure>
+          <figure class="service-photo-item">
+            <div class="service-photo-img">
+              <img src="images/talks/oscon-data-2011.png" alt="Steve Yegge on the main stage at OSCON Data 2011, speaking to a large conference audience">
+            </div>
+            <figcaption>Steve at OSCON</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-detail">
+      <div class="service-detail-grid">
+        <div class="service-detail-text">
+          <h2><span class="service-num">2</span> Bespoke Meetings</h2>
+          <p>
+            Steve runs small, off-the-record sessions tailored to whichever
+            audience you put in the room: leadership teams, principal engineers
+            and researchers, early adopters, and skeptics. Fireside-style Q&amp;A
+            is great for making people feel heard: real questions, and low-key,
+            honest, non-prepared answers. He isn't afraid of hard questions; he
+            loves it when people challenge him, and he learns as much from each
+            company he visits as they do from him. So bring your toughest
+            questions.
+          </p>
+          <p>
+            Steve can stand toe to toe with the most senior engineers and
+            researchers in the world, have direct technical discussions at any
+            level, and speak to the state of the art in their domains. He has
+            deep empathy for the difficulties they face, from AI slop to skills
+            atrophy to 10x the security vulnerabilities, and he has actionable
+            feedback for just about every camp a staff or principal engineer can
+            find themselves in. A lot of his credibility comes from the fact that
+            he isn't selling anything. He has been a principal himself, he uses
+            AI with his own hands, and he compares notes with hundreds of people
+            across the industry. Sometimes an outside confirmation is all it
+            takes to get past a roadblock.
+          </p>
+          <p>
+            And nearly every organization has skeptics, and converting them is
+            what Steve is most often brought in to do. As Annie Vella,
+            Distinguished Engineer at Westpac NZ, once eloquently observed,
+            "Principal Engineers at an organization cast a long shadow": if your
+            senior technical contributors are AI skeptics, they have an outsized
+            impact on adoption by everyone more junior. But skeptics don't have
+            to be engineers; business leaders, the C-suite, even CEOs and boards
+            of directors can be anti-AI or apathetic, and they may have very
+            good, legitimate reasons. Steve meets them directly and has a frank,
+            specific conversation about what's real, what's overblown, where
+            their instincts are 100% on point, and what they need to start paying
+            attention to. At one recent engagement, a team's most outspoken AI
+            skeptic came up afterward and said, in so many words, "Okay, fine —
+            I'm interested." They nearly always come away realizing he isn't
+            advocating for anything crazy. Caution is his byword!
+          </p>
+        </div>
+        <div class="service-photo">
+          <figure class="service-photo-item">
+            <div class="service-photo-img">
+              <img src="images/services/skeptics.jpg" alt="Steve Yegge in a standing conversation with a small group of engineers — a frank, working-session discussion with technical skeptics">
+            </div>
+            <figcaption class="is-prose">Steve chats with skeptics at Seattle AI House, May 2026.</figcaption>
+          </figure>
+          <figure class="service-photo-item">
+            <div class="service-photo-img">
+              <img src="images/services/virtuslab-panel.jpg" alt="Steve Yegge on the AI-in-DevEx panel at SPHERE.IT 2025 in Krakow, hosted by VirtusLab">
+            </div>
+            <figcaption class="is-prose">Fireside chat with Steve in Krakow with VirtusLab.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-detail">
+      <div class="service-detail-grid">
+        <div class="service-detail-text">
+          <h2><span class="service-num">3</span> Vibe Coding Workshops &amp; Masterclasses</h2>
+          <p>
+            Working with coding agents, effectively and efficiently, is the most
+            important foundational literacy skill for civilization over the next
+            few years.
+          </p>
+          <p>
+            Steve offers workshops in partnership with his co-author Gene Kim and
+            Gene's company, IT Revolution. The two have been running vibe coding
+            workshops since early 2025. Their book is now being taught at
+            FAANG-class companies, and they've taught the course at conferences,
+            banks, research labs and more. Steve has a proven, data-backed
+            program that can guide your employees through the foundational levels
+            of AI literacy in just a few sessions, and you can roll it out to
+            your whole company by training the trainers.
+          </p>
+          <p>
+            The backbone of these workshops is Steve's 8-level AI adoption
+            framework, first revealed in his Gas Town launch post, which took the
+            world by storm. Everyone could find themselves easily on the chart
+            and see how they were pushing into the next level, so it went viral
+            on its own, independent from Gas Town. It gives teams a shared
+            vocabulary, a clear sense of where they stand, and a concrete picture
+            of what the next level looks like for them specifically, with tips,
+            techniques, and mental models for students at every level.
+          </p>
+        </div>
+        <div class="service-photo">
+          <figure class="service-photo-item">
+            <div class="service-photo-img">
+              <img src="images/services/steve-and-gene.png" alt="Steve Yegge and Gene Kim — co-authors of Vibe Coding (IT Revolution, 2025)">
+            </div>
+            <figcaption>Steve and Gene, Vibe Coding teachers</figcaption>
+          </figure>
+          <figure class="service-photo-item">
+            <div class="service-photo-img">
+              <img src="images/services/eight-levels.jpg" alt="The 8 Levels of Agentic Adoption — a figure-by-figure visual progression from autocomplete to multi-agent orchestration">
+            </div>
+            <figcaption class="is-prose">Simple to advanced masterclasses on agents and factories.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── In the room: workshop photos ────── -->
+  <div class="section workshops">
+    <p class="section-label" style="text-align:center;">In the room</p>
+    <p class="section-sub" style="text-align:center; max-width:640px; margin:0 auto 28px;">
+      Recent engagements — workshops, fireside chats, full-org sessions.
+    </p>
+    <div class="workshops-grid">
+      <figure class="workshop-photo">
+        <div class="workshop-photo-img">
+          <img src="images/workshops/arkana.jpg" alt="Workshop with Arkana Labs engineering team">
+        </div>
+        <figcaption>Arkana Labs &middot; with Gene Kim</figcaption>
+      </figure>
+      <figure class="workshop-photo">
+        <div class="workshop-photo-img">
+          <img src="images/workshops/etls.jpg" alt="ETLS Las Vegas workshop, October 2024">
+        </div>
+        <figcaption>ETLS Las Vegas &middot; 2025</figcaption>
+      </figure>
+    </div>
+    <p class="workshops-more">
+      <a href="engagements.html">See more from recent engagements &rarr;</a>
+    </p>
+  </div>
+
+  <!-- ── Customers ──────────────────────────────────────── -->
+  <div class="customers">
+    <p class="customers-label">Happy to provide references at</p>
+    <div class="customer-list">
+      <span class="customer-name">Arkana Labs</span>
+    </div>
+  </div>
+
+  <!-- ── Testimonial: Owen Parker, CTO Arkana Labs ──────── -->
+  <div class="section testimonial">
+    <figure class="press-pull press-pull--testimonial">
+      <blockquote>
+        Having you at Arkana gave our engineering team a massive boost
+        and the energy hasn't worn off. Truly appreciate you making the trip.
+      </blockquote>
+      <figcaption>— Owen Parker &middot; CTO, Arkana Labs</figcaption>
+    </figure>
+  </div>
+
+  <!-- ── For CIOs: audience-entry pointer ────────────────── -->
+  <div class="section" style="text-align:center;">
+    <p class="section-label" style="text-align:center;">For CIOs and heads of engineering</p>
+    <p class="section-sub" style="margin:0 auto 24px; text-align:center; max-width:640px;">
+      If you're trying to figure out where to start &mdash; skeptical board,
+      eager team, stuck-in-pilot &mdash; the
+      <a href="cio.html">For CIOs page</a> sorts the engagement options
+      by archetype rather than by service type.
+    </p>
+  </div>
+
+  <!-- ── CTA ────────────────────────────────────────────── -->
+  <div class="section" style="text-align:center;">
+    <p class="section-label" style="text-align:center;">Next step</p>
+    <h2 class="section-title" style="margin:0 auto 16px; text-align:center; max-width:560px;">
+      Bring this to your organization.
+    </h2>
+    <p class="section-sub" style="margin:0 auto 36px; text-align:center;">
+      Steve takes on a small number of engagements at a time, and the best ones
+      start with a short, direct conversation rather than a service menu. Tell
+      us where your organization is, whether that's a skeptical board, an eager
+      team, or a pilot that has stalled, and what you're trying to accomplish.
+    </p>
+    <a href="/cdn-cgi/l/email-protection#482d262f292f2d252d263c3b082f20273b3c3c3a292b23662b2725" class="btn-primary">Book an engagement</a>
+  </div>
+</main>
+
+  <footer>
+    <div class="footer-inner">
+      
+      <a href="/index.html" class="footer-logo">yegge<span>.ai</span></a>
+      <ul class="footer-links">
+        <li><a href="/bio.html">About</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/engagements.html">Engagements</a></li>
+        <li><a href="/atlas.html">Atlas</a></li>
+        <li><a href="/friends.html">Friends</a></li>
+        <li><a href="/cdn-cgi/l/email-protection#0b6e656c6a6c6e666e657f784b6c6364787f7f796a686025686466">Contact</a></li>
+      </ul>
+      <p class="footer-copy">&copy; 2004&ndash;2026 Steve Yegge. All rights reserved. &middot; <a href="/colophon.html">Colophon</a> &middot; <a href="/feed.xml">RSS</a></p>
+      <button type="button" class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">&#9790; Dark</button>
+    </div>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    (function () {
+      var btn = document.querySelector('[data-theme-toggle]');
+      if (!btn) return;
+      var sync = function () {
+        var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+        btn.innerHTML = dark ? '☀ Light' : '☾ Dark';
+      };
+      sync();
+      btn.addEventListener('click', function () {
+        var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+        if (dark) {
+          document.documentElement.removeAttribute('data-theme');
+          try { localStorage.setItem('theme', 'light'); } catch (e) {}
+        } else {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          try { localStorage.setItem('theme', 'dark'); } catch (e) {}
+        }
+        sync();
+      });
+    })();
+  </script>
+  <script src="/lightbox.js" defer></script>
+
+</body>
+</html>
