@@ -38,7 +38,7 @@
   "run_id": "quant-2026-10-14",
   "schema_sha256": "2c072806a2a91cb65ddb7d3b0160e1df39e028aea70e4691924e68f92a03830a",
   "schema_version": "1.0",
-  "status": "collecting",
+  "status": "complete",
   "timezone": "UTC",
   "window_end": "2026-10-14T00:00:00Z",
   "window_start": "2026-07-16T00:00:00Z",

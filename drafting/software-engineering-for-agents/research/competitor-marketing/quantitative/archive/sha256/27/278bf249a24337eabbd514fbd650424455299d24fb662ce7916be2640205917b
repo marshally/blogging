@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stevey&#39;s Tech Talk — Steve Yegge</title>
+  <meta name="description" content="Stevey&#39;s Tech Talk was a 55-episode video series Steve Yegge recorded during Covid (2020–2022). This is the curated shelf: the handful of episodes worth a read, why the rest didn&#39;t make the cut, and the one screencast kept for the video.">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://yegge.ai/stt.html">
+  <link rel="alternate" type="application/atom+xml" title="Steve Yegge — essays" href="/feed.xml">
+  <meta property="og:site_name" content="yegge.ai">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Stevey&#39;s Tech Talk — Steve Yegge">
+  <meta property="og:description" content="Stevey&#39;s Tech Talk was a 55-episode video series Steve Yegge recorded during Covid (2020–2022). This is the curated shelf: the handful of episodes worth a read, why the rest didn&#39;t make the cut, and the one screencast kept for the video.">
+  <meta property="og:url" content="https://yegge.ai/stt.html">
+  <meta property="og:image" content="https://yegge.ai/images/og-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Stevey&#39;s Tech Talk — Steve Yegge">
+  <meta name="twitter:description" content="Stevey&#39;s Tech Talk was a 55-episode video series Steve Yegge recorded during Covid (2020–2022). This is the curated shelf: the handful of episodes worth a read, why the rest didn&#39;t make the cut, and the one screencast kept for the video.">
+  <meta name="twitter:image" content="https://yegge.ai/images/og-card.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Cardo:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem('theme') !== 'light')
+          document.documentElement.setAttribute('data-theme', 'dark');
+      } catch (e) { /* localStorage blocked — default to dark */
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+  
+  
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ebdb66d0808941fb94041c4f2320eb00"}'></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="/index.html" class="nav-logo">yegge<span>.ai</span></a>
+      <ul class="nav-links">
+        <li><a href="/bio.html">About</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/atlas.html">Atlas</a></li>
+        <li><a href="/friends.html">Friends</a></li>
+        <li><a href="/search.html" class="nav-search" aria-label="Search the archive">Search</a></li>
+        <li><a href="/cdn-cgi/l/email-protection#5d38333a3c3a38303833292e1d3a35322e29292f3c3e36733e3230" class="nav-cta">Get in touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <main id="main" tabindex="-1" data-pagefind-body>
+  <div class="page-header stt-head">
+    <div class="stt-head-text">
+      <p class="section-label">Atlas · Stevey's Tech Talk</p>
+      <h1>Stevey's Tech Talk</h1>
+      <p>
+        <em>Stevey's Tech Talk</em> was a video series I recorded during the Covid years
+        (2020–2022). Fifty-five episodes — mostly me talking to a
+        camera about programming, big-tech culture, languages, and whatever else was on my
+        mind, plus a handful of guest interviews and a couple of Emacs screencasts. It was a
+        learning period for me, and most of the STT content was meh. But there were a few
+        good nuggets buried in there, so I've transcribed and edited the best ones.
+      </p>
+    </div>
+    <figure class="stt-hero">
+      <img src="/images/stt-hero.png" width="1280" height="720"
+           alt="Stevey's Tech Talk title card — a neon-lit news-desk stage with lines of code glowing on the screens behind it, and the show's speech-bubble logo above the desk.">
+    </figure>
+  </div>
+
+  
+  <div class="section">
+    <h2 class="section-title">How I chose</h2>
+    <div class="book-prose">
+      <p>
+        Candidly, I did not go back and listen to them all yet. I had AI agents read
+        every episode, looking for the ones that covered stuff not in my essays,
+        and then we took the subset that flowed well and told cool stories.
+        And after some heavy cutting, they wound up being pretty good reads.
+      </p>
+      <p>
+        The episodes that survived the cutting floor are mostly back-stories for the essays:
+        How I bombed my own Google interview. How the Platforms Rant leaked. What three
+        years running engineering at Grab in Southeast Asia were actually like.
+        I also kept my interview with Jeff Atwood, where we talk about the Stack
+        Overflow origin story and his new work on Discourse.
+      </p>
+      <p>
+        The Guided Tour of Emacs, episode 39, was my most-watched episode of all time.
+        People commented on being surprised at how "fluent" I was. It is fun to watch,
+        especially towards the end, where I'll perform very complex Emacs operations
+        in real time, super fast, on the first try, while narrating everything I'm doing.
+        It's clear I've lived in Emacs for decades, and it's fun to watch me use it. And
+        because I narrate every move, it turns out to read just fine, too &mdash; the
+        transcript's below if you'd rather follow along in text. And if you're wondering
+        why my head in the video is the size of a regulation basketball, read about the
+        <a href="/elephant.html">Elephant in the Room</a>.
+      </p>
+      <p>
+        As for the rest of the series, I may eventually turn up other episodes that
+        are worth transcribing. But I tended to meander so much that they would likely
+        need heavy editing. I think this set we chose is a good representation of my
+        work on the show.
+      </p>
+    </div>
+  </div>
+
+  
+  <div class="section book-section--alt">
+    <ul class="tx-list">
+      <li class="tx-row">
+        <span class="tx-row-ep">E12</span>
+        <div class="tx-row-main">
+          <a class="tx-row-title" href="/transcripts/12-how-writing-a-computer-game-got-me-jobs-at-amazon-and-google/">How writing a computer game got me jobs at Amazon and Google</a><p class="tx-row-blurb">How writing a video game (Wyvern) got me hired at both Amazon and Google — including the part I&#39;m not proud of, about a brilliant self-taught programmer I drove away.</p>
+        </div>
+        <div class="tx-row-meta">
+          <a class="tx-row-read" href="/transcripts/12-how-writing-a-computer-game-got-me-jobs-at-amazon-and-google/">Read &rarr;</a>
+        </div>
+      </li>
+      <li class="tx-row">
+        <span class="tx-row-ep">E27</span>
+        <div class="tx-row-main">
+          <a class="tx-row-title" href="/transcripts/30-my-embarrassing-google-interview/">My Embarrassing Google Interview</a><p class="tx-row-blurb">The full story of how I bombed my own Google interview and got hired anyway. A complete arc, and one I tell better out loud than I ever have in print — the cleanest of the bunch, and the pilot for the edited version.</p>
+        </div>
+        <div class="tx-row-meta">
+          <a class="tx-row-read" href="/transcripts/30-my-embarrassing-google-interview/">Read &rarr;</a>
+        </div>
+      </li>
+      <li class="tx-row">
+        <span class="tx-row-ep">E28</span>
+        <div class="tx-row-main">
+          <a class="tx-row-title" href="/transcripts/28-the-story-behind-my-platforms-rant/">The story behind my Platforms Rant</a><p class="tx-row-blurb">How the Platforms Rant actually got out: drunk, wrong browser tab, no undo, and a phone call from Sweden forty minutes later. The backstory the rant itself never tells.</p>
+        </div>
+        <div class="tx-row-meta">
+          <a class="tx-row-read" href="/transcripts/28-the-story-behind-my-platforms-rant/">Read &rarr;</a>
+        </div>
+      </li>
+      <li class="tx-row">
+        <span class="tx-row-ep">E29</span>
+        <div class="tx-row-main">
+          <a class="tx-row-title" href="/transcripts/29-my-grab-adventure-part-1/">My Grab Adventure, Part 1</a><p class="tx-row-blurb">Three years running engineering in Southeast Asia — the unbanked cash economy, motorbike loans, warehouses full of fake rides. None of this is in any essay; it only exists here.</p>
+        </div>
+        <div class="tx-row-meta">
+          <a class="tx-row-read" href="/transcripts/29-my-grab-adventure-part-1/">Read &rarr;</a>
+        </div>
+      </li>
+      <li class="tx-row tx-row--feature">
+        <span class="tx-row-ep">E39</span>
+        <div class="tx-row-main"><span class="tx-tag">Screencast &middot; video</span>
+          <a class="tx-row-title" href="/transcripts/40-a-guided-tour-of-emacs/">A guided tour of Emacs</a><p class="tx-row-blurb">A screen-share tour of my Emacs setup, and my most-watched episode ever. Watch it for the keystrokes flying in real time, or read the transcript — narrated the whole way through, it turns out to read just fine on its own.</p>
+        </div>
+        <div class="tx-row-meta">
+          <a class="tx-row-watch" href="https://www.youtube.com/watch?v=lkIicfzPBys" target="_blank" rel="noopener">&#9654; Watch</a><a class="tx-row-read" href="/transcripts/40-a-guided-tour-of-emacs/">Read &rarr;</a>
+        </div>
+      </li>
+      <li class="tx-row tx-row--feature">
+        <span class="tx-row-ep">E50</span>
+        <div class="tx-row-main"><span class="tx-tag">Guest interview</span>
+          <a class="tx-row-title" href="/transcripts/51-jeff-atwood-stack-overflow-cofounder/">Jeff Atwood (Stack Overflow cofounder)</a><p class="tx-row-blurb">A long conversation with Jeff Atwood — who cofounded Stack Overflow and Discourse — on the origin of Stack Overflow, owning your own community software, and a standing bet with John Carmack about self-driving cars.</p>
+        </div>
+        <div class="tx-row-meta">
+          <a class="tx-row-read" href="/transcripts/51-jeff-atwood-stack-overflow-cofounder/">Read &rarr;</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  
+  <aside class="stt-signoff">
+    <img class="stt-neon" src="/images/stt-neon.png" width="500" height="400"
+         alt="Stevey's Tech Talk — the show's neon speech-bubble sign.">
+    <p class="stt-signoff-cap">On the air, 2020&ndash;2022.</p>
+  </aside>
+</main>
+
+  <footer>
+    <div class="footer-inner">
+      
+      <p class="footer-circleback">AI transformation is a cultural problem. Steve helps engineering orgs get it right. <a href="/services.html">Services &rarr;</a></p>
+      <a href="/index.html" class="footer-logo">yegge<span>.ai</span></a>
+      <ul class="footer-links">
+        <li><a href="/bio.html">About</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/engagements.html">Engagements</a></li>
+        <li><a href="/atlas.html">Atlas</a></li>
+        <li><a href="/friends.html">Friends</a></li>
+        <li><a href="/cdn-cgi/l/email-protection#187d767f797f7d757d766c6b587f70776b6c6c6a797b73367b7775">Contact</a></li>
+      </ul>
+      <p class="footer-copy">&copy; 2004&ndash;2026 Steve Yegge. All rights reserved. &middot; <a href="/colophon.html">Colophon</a> &middot; <a href="/feed.xml">RSS</a></p>
+      <button type="button" class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">&#9790; Dark</button>
+    </div>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    (function () {
+      var btn = document.querySelector('[data-theme-toggle]');
+      if (!btn) return;
+      var sync = function () {
+        var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+        btn.innerHTML = dark ? '☀ Light' : '☾ Dark';
+      };
+      sync();
+      btn.addEventListener('click', function () {
+        var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+        if (dark) {
+          document.documentElement.removeAttribute('data-theme');
+          try { localStorage.setItem('theme', 'light'); } catch (e) {}
+        } else {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          try { localStorage.setItem('theme', 'dark'); } catch (e) {}
+        }
+        sync();
+      });
+    })();
+  </script>
+  <script src="/lightbox.js" defer></script>
+
+</body>
+</html>

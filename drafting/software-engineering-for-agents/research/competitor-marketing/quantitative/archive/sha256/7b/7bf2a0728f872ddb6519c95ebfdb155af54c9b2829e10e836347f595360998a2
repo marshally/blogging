@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Not Found — Steve Yegge</title>
+  <meta name="description" content="That page isn&#39;t here — but the archive is. Start from the Atlas.">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://yegge.ai/404.html">
+  <link rel="alternate" type="application/atom+xml" title="Steve Yegge — essays" href="/feed.xml">
+  <meta property="og:site_name" content="yegge.ai">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Not Found — Steve Yegge">
+  <meta property="og:description" content="That page isn&#39;t here — but the archive is. Start from the Atlas.">
+  <meta property="og:url" content="https://yegge.ai/404.html">
+  <meta property="og:image" content="https://yegge.ai/images/og-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Not Found — Steve Yegge">
+  <meta name="twitter:description" content="That page isn&#39;t here — but the archive is. Start from the Atlas.">
+  <meta name="twitter:image" content="https://yegge.ai/images/og-card.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Cardo:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem('theme') !== 'light')
+          document.documentElement.setAttribute('data-theme', 'dark');
+      } catch (e) { /* localStorage blocked — default to dark */
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+  
+  
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ebdb66d0808941fb94041c4f2320eb00"}'></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="/index.html" class="nav-logo">yegge<span>.ai</span></a>
+      <ul class="nav-links">
+        <li><a href="/bio.html">About</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/atlas.html">Atlas</a></li>
+        <li><a href="/friends.html">Friends</a></li>
+        <li><a href="/search.html" class="nav-search" aria-label="Search the archive">Search</a></li>
+        <li><a href="/cdn-cgi/l/email-protection#20454e474147454d454e54536047484f5354545241434b0e434f4d" class="nav-cta">Get in touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <main id="main" tabindex="-1" data-pagefind-body>
+  <div class="page-header">
+    <p class="section-label">404 · Off the map</p>
+    <h1>This page isn't in the logbook.</h1>
+    <p>
+      The link may be old, or the entry may have moved as the archive gets
+      re-typeset. Nothing is lost &mdash; it's just somewhere else now.
+    </p>
+  </div>
+
+  <section class="section book-section">
+    <div class="book-section-inner">
+      <div class="book-prose">
+        <p>Good places to pick up the trail:</p>
+        <ul>
+          <li><a href="/atlas.html">The Atlas</a> &mdash; a walk through 20+ years of work.</li>
+          <li><a href="/bibliography.html">The bibliography</a> &mdash; every essay, talk, and book in one place.</li>
+          <li><a href="/index.html">The front door</a>.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer>
+    <div class="footer-inner">
+      
+      <p class="footer-circleback">AI transformation is a cultural problem. Steve helps engineering orgs get it right. <a href="/services.html">Services &rarr;</a></p>
+      <a href="/index.html" class="footer-logo">yegge<span>.ai</span></a>
+      <ul class="footer-links">
+        <li><a href="/bio.html">About</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/engagements.html">Engagements</a></li>
+        <li><a href="/atlas.html">Atlas</a></li>
+        <li><a href="/friends.html">Friends</a></li>
+        <li><a href="/cdn-cgi/l/email-protection#5a3f343d3b3d3f373f342e291a3d3235292e2e283b393174393537">Contact</a></li>
+      </ul>
+      <p class="footer-copy">&copy; 2004&ndash;2026 Steve Yegge. All rights reserved. &middot; <a href="/colophon.html">Colophon</a> &middot; <a href="/feed.xml">RSS</a></p>
+      <button type="button" class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">&#9790; Dark</button>
+    </div>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    (function () {
+      var btn = document.querySelector('[data-theme-toggle]');
+      if (!btn) return;
+      var sync = function () {
+        var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+        btn.innerHTML = dark ? '☀ Light' : '☾ Dark';
+      };
+      sync();
+      btn.addEventListener('click', function () {
+        var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+        if (dark) {
+          document.documentElement.removeAttribute('data-theme');
+          try { localStorage.setItem('theme', 'light'); } catch (e) {}
+        } else {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          try { localStorage.setItem('theme', 'dark'); } catch (e) {}
+        }
+        sync();
+      });
+    })();
+  </script>
+  <script src="/lightbox.js" defer></script>
+
+</body>
+</html>
