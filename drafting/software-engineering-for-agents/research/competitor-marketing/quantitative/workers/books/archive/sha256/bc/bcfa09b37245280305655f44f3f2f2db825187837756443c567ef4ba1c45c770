@@ -1,0 +1,2570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Beyond Vibe Coding - A Guide To AI-Assisted Development</title>
+
+    <meta name="description" content="Master AI-assisted development with Beyond Vibe Coding by Addy Osmani. Learn practical strategies for integrating AI into your development workflow, from prompt engineering to multi-agent systems." />
+    <meta name="keywords" content="AI development, vibe coding, AI-assisted programming, software engineering, Addy Osmani, O'Reilly, GitHub Copilot, Cursor, Bolt, Lovable, Cline, AI coding tools, AI coding" />
+    <meta property="og:title" content="Beyond Vibe Coding - A Guide To AI-Assisted Development" />
+    <meta property="og:description" content="Transform your development workflow with AI. Learn from Google Chrome's Engineering Leader how to master AI-assisted development and build better software." />
+    <meta property="og:image" content="https://learning.oreilly.com/library/cover/9798341634749/750w/" />
+    <meta property="og:type" content="website" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Beyond" />
+    <link rel="manifest" href="/site.webmanifest" />
+  <script type="module" crossorigin src="/index.js"></script>
+  <link rel="stylesheet" crossorigin href="/index.css">
+</head>
+<body>
+  <!-- Header inclusive of solid-color block, navbar -->
+  <div class="header-container">
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <!-- <h1>Beyond Vibe Coding</h1> -->
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#introduction">Intro</a></li>
+                <li><a href="#spectrum">Spectrum</a></li>
+                <li><a href="#principles">Principles</a></li>
+                <li><a href="#advanced">Advanced</a></li>
+                <li><a href="#production">Production</a></li>
+                <li><a href="#future">Future</a></li>
+                 <li><a href="https://www.amazon.com/Beyond-Vibe-Coding-Leveraging-AI-Assisted/dp/B0F6S5425Y">Buy</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+        <header class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Beyond Vibe Coding</h1>
+                <p class="hero-subtitle">A practical guide to AI-assisted development</p>
+
+ <!--cta-->
+                <div class="cta-buttons">
+                    <a href="https://www.amazon.com/Beyond-Vibe-Coding-Leveraging-AI-Assisted/dp/B0F6S5425Y" class="cta-button" target="_blank" rel="noopener noreferrer">Buy the Book</a>
+                </div>
+ <!--end cta-->
+
+            </div>
+        </header></div>
+    <div class="hero-image"></div>
+    <main class="main-content">
+
+                 <p class="hero-description">
+                    Master the complete spectrum from <strong>rapid prototyping</strong> to production-ready <strong>AI-assisted</strong> engineering.<br> 
+                    Learn advanced techniques, best practices, and future-proof your development workflow.
+                </p>
+
+        <section id="introduction" class="section">
+            <div class="container">
+
+                <section class="about-section">
+                  <div class="about-avatar">
+                    <img src="avatar2.jpg" alt="Addy Osmani">
+                  </div>
+                  <div class="about-text">
+                    <p>
+                      By <strong><a style="color:#238BE6" href="https://addyosmani.com" target="_blank">Addy Osmani</a></strong>, an Engineering Leader at Google focused on AI and Developer Experience. 
+                      He brings 25 years of software engineering experience to his writing. 
+                    </p>
+                  </div>
+                </section>
+
+                <h2 class="section-title">AI-Assisted coding is a spectrum.</h2>
+
+                
+                <div class="content-grid">
+                    <div class="content-main">
+                        <h3>What is Vibe Coding?</h3>
+                        <p class="lead">
+                            "Vibe coding" is a playful approach to development that relies on high-level prompting. 
+                            You give broad instructions, accept AI suggestions, and focus on the overall "vibe" of the project 
+                            rather than implementation details.
+                        </p>
+                        
+                        <div class="callout callout-info">
+                            <h4>The Andrej Karpathy Vision</h4>
+                            <p>
+                                Karpathy describes a future where developers interact with AI conversationally, 
+                                focusing on intent rather than implementation: "I just see stuff, say stuff, run stuff, 
+                                and copy paste stuff, and it mostly works."
+                            </p>
+                        </div>
+
+                         <img src="vibe-chart.webp" width="100%" alt="AI-Assisted Development Spectrum" class="spectrum-image">
+
+                        <h3>Here's a reality check: The 70% Problem</h3>
+                        <p>
+                            While vibe coding enables rapid progress (getting 70% of the way to a functional app quickly), 
+                            the final 30% becomes extremely challenging without deep engineering knowledge:
+                        </p>
+
+                        <ul class="feature-list">
+                            <li><strong>Two steps back pattern</strong> is where fixing one bug introduces others</li>
+                            <li><strong>Hidden costs</strong> is where requires expertise to ensure maintainability</li>
+                            <li><strong>Diminishing returns</strong> is where AI tools help experienced developers more than beginners</li>
+                            <li><strong>Security vulnerabilities</strong> is where "Vibe coding is fun until you start leaking database credentials"</li>
+                        </ul>
+
+                        <div class="callout callout-warning">
+                            <h4>Important: Vibe Coding ≠ Low Quality</h4>
+                            <p>
+                                Vibe coding was never meant to describe all AI-assisted coding. It's a specific approach 
+                                where you don't read the AI's code before running it. There's much more to consider 
+                                beyond the prototype for production systems.
+                            </p>
+                        </div>
+
+                        <h3>What is AI-Assisted Engineering?</h3>
+                        <p>This goes beyond vibe coding. AI-assisted engineering is a more structured approach that combines the creativity of vibe coding with the rigor of traditional engineering practices. It involves specs, rigor and emphasizes collaboration between human developers and AI tools, ensuring that the final product is not only functional but also maintainable and secure.</p>
+                    </div>
+                    
+                    <div class="content-sidebar">
+                        <div class="sidebar-card">
+                            <h4>Want to learn even more?</h4>
+                            <div class="growth-stats">
+                                <div class="book-showcase">
+                                    <a href="https://www.amazon.com/Beyond-Vibe-Coding-Leveraging-AI-Assisted/dp/B0F6S5425Y" target="_blank" rel="noopener noreferrer">
+                                        <img src="book.webp" alt="Beyond Vibe Coding by O'Reilly" class="book-cover">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="spectrum" class="section">
+            <div class="container">
+                <h2 class="section-title">The AI-Assisted development spectrum</h2>
+
+                <p class="lead">
+                    AI-assisted development is a spectrum that ranges from simple vibe coding to complex, production-ready engineering. 
+                    Understanding this spectrum helps you choose the right tools and techniques for your project.
+                </p>
+
+                <!--slideshow-->
+                <div class="ai-slideshow-container" id="ai-slideshow">
+
+  <div class="ai-slideshow-slide ai-slideshow-active">
+    <img src="1.svg" alt="Slide 1" loading="lazy">
+    <div class="ai-slideshow-caption">
+      Here's the full overview of where AI can improve the developer experience. <br>
+      This spans design, inner, submit, and outer loops - highlighting every point where AI can meaningfully reduce toil.
+    </div>
+  </div>
+
+  <div class="ai-slideshow-slide">
+    <img src="2.svg" alt="Slide 2" loading="lazy">
+    <div class="ai-slideshow-caption">
+      This is the baseline development loop without AI interventions. <br>
+      It's useful as a reference to compare where AI automation and intelligence can be added to accelerate velocity.
+    </div>
+  </div>
+
+  <div class="ai-slideshow-slide">
+    <img src="3.svg" alt="Slide 3" loading="lazy">
+    <div class="ai-slideshow-caption">
+      This view highlights where AI is most useful during the early design phases. <br>
+      Think chatbots for support and AI triage tools that streamline planning and investigation workflows.
+    </div>
+  </div>
+
+  <div class="ai-slideshow-slide">
+    <img src="4.svg" alt="Slide 4" loading="lazy">
+    <div class="ai-slideshow-caption">
+      Here, the focus is on the inner development loop - coding, testing, and debugging. <br>
+      AI helps with faster code generation, automated tests, and catching errors before submission.
+    </div>
+  </div>
+
+  <div class="ai-slideshow-slide">
+    <img src="5.svg" alt="Slide 5" loading="lazy">
+    <div class="ai-slideshow-caption">
+      This is the complete AI-assisted journey: design, code, review, and performance improvements. <br>
+      Each opportunity where AI lifts developer productivity is fully mapped out.
+    </div>
+  </div>
+
+</div>
+
+<div class="ai-slideshow-nav">
+  <button onclick="aiSlideshowChange(-1)">Previous</button>
+  <button onclick="aiSlideshowChange(1)">Next</button>
+</div>
+
+<script>
+  const aiSlides = document.querySelectorAll('.ai-slideshow-slide');
+  let aiCurrentSlide = 0;
+
+  function aiSlideshowChange(direction) {
+    aiSlides[aiCurrentSlide].classList.remove('ai-slideshow-active');
+    aiCurrentSlide = (aiCurrentSlide + direction + aiSlides.length) % aiSlides.length;
+    aiSlides[aiCurrentSlide].classList.add('ai-slideshow-active');
+  }
+</script>
+                <!--end slideshow-->
+
+                <!-- start screenshots -->
+<section class="features-section">
+  <div class="feature">
+    <h3>Autocomplete</h3>
+    <div class="feature-image" data-bg-src="copilot.gif"></div>
+    <p>
+      AI editor predicts your next code edits across lines, letting you accept suggestions with the Tab key.
+    </p>
+  </div>
+  <div class="feature">
+    <h3>Chatbot</h3>
+    <div class="feature-image" style="background-position-x: -26px; background-image: url('cline.png');"></div>
+    <p>
+      You can ask natural-language questions about your codebase and get context-aware answers in the editor.
+    </p>
+  </div>
+  <div class="feature">
+    <h3>Agent</h3>
+    <div class="feature-image" data-bg-src="claudecode.png"></div>
+    <p>
+      An Agent mode handles multi-step tasks autonomously, staying in the loop and executing changes for you.
+    </p>
+  </div>
+</section>
+                <!-- end -->
+
+                <div class="paradigm-framework">
+                    <h3>A Two-dimensional framework</h3>
+                    <p>
+                        Understanding AI-assisted development requires a simple but powerful framework with two dimensions:
+                        People (technical proficiency) and AI (level of abstraction).
+                    </p>
+                    
+                    <div class="paradigm-matrix">
+                        <div class="matrix-header">
+                            <div class="axis-label y-axis">Higher AI Abstraction</div>
+                            <div class="quadrant democratized">
+                                <h4>Democratized Software Development</h4>
+                                <p>Non-technical people building with advanced AI</p>
+                                <div class="tools">Tools: Bolt, Lovable, v0</div>
+                            </div>
+                            <div class="quadrant transformed">
+                                <h4>Transformed Software Development</h4>
+                                <p>Technical people with AI augmentation</p>
+                                <div class="tools">Tools: Cursor, GitHub Copilot, Jules</div>
+                            </div>
+                        </div>
+                        <div class="matrix-body">
+                            <div class="axis-label y-axis-bottom">Lower AI Abstraction</div>
+                            <div class="quadrant basic">
+                                <h4>Basic Assistance</h4>
+                                <p>Non-technical people with limited AI</p>
+                                <div class="tools">Tools: Basic templates, Zapier</div>
+                            </div>
+                            <div class="quadrant enhanced">
+                                <h4>Enhanced Software Development</h4>
+                                <p>Technical people with AI assistance</p>
+                                <div class="tools">Tools: AI Autocomplete</div>
+                            </div>
+                        </div>
+                        <div class="matrix-footer">
+                            <div class="axis-label x-axis">Non-Technical ← People → Technical</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="paradigm-details">
+                    <div class="paradigm-card">
+                        <h4>Enhancing developer capabilities</h4>
+                        <p>
+                            AI extends existing developer capabilities without radical transformation. 
+                            Developers maintain expertise to evaluate AI outputs.
+                        </p>
+                        <ul>
+                            <li>Code completion and suggestions</li>
+                            <li>Developers can validate quality</li>
+                            <li>Familiar workflow patterns</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="paradigm-card">
+                        <h4>Transforming software development</h4>
+                        <p>
+                            Technical people harness AI for categorically different outcomes. 
+                            Development workflows and time allocation shift significantly.
+                        </p>
+                        <ul>
+                            <li>AI brings its own expertise</li>
+                            <li>Stochastic vs deterministic outcomes</li>
+                            <li>Requires new trust models</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="paradigm-card">
+                        <h4>Democratizing who can build software</h4>
+                        <p>
+                            Non-technical people build software using intuitive, advanced AI. 
+                            Technology must meet high trust and safety standards.
+                        </p>
+                        <ul>
+                            <li>Intuitive and user-friendly</li>
+                            <li>High bar for trust and safety</li>
+                            <li>Enables new conceptual capabilities</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="principles" class="section">
+            <div class="container">
+                <h2 class="section-title">Principles & best practices</h2>
+                
+                <div class="principles-grid">
+                    <div class="principle-card">
+                        <div class="principle-icon">🎯</div>
+                        <h3>Context is Everything</h3>
+                        <p>
+                            The quality of AI output is directly proportional to the quality and relevance 
+                            of the context you provide. Without good context, AI produces incorrect, 
+                            irrelevant, or inefficient code.
+                        </p>
+                        
+                        <h4>What to Include:</h4>
+                        <ul>
+                            <li>Relevant code files and snippets</li>
+                            <li>Design documents and schemas</li>
+                            <li>Error messages and logs</li>
+                            <li>Examples of desired output</li>
+                            <li>Constraints and requirements</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="principle-card">
+                        <h3>The Three Pillars of Trust</h3>
+                        <div class="trust-pillars">
+                            <div class="pillar">
+                                <h4>1. Familiarity</h4>
+                                <p>
+                                    How familiar you are with AI tools and the task influences expectations. 
+                                    As familiarity increases, mental models develop and trust builds.
+                                </p>
+                            </div>
+                            <div class="pillar">
+                                <h4>2. Trust</h4>
+                                <p>
+                                    Earned over time through reliable delivery. Includes both ability 
+                                    (competence) and reliability (consistency).
+                                </p>
+                            </div>
+                            <div class="pillar">
+                                <h4>3. Control</h4>
+                                <p>
+                                    Desired level of control varies with trust and task complexity. 
+                                    Higher trust enables more indirect interaction.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="best-practices">
+                    <h3>Essential best practices</h3>
+                    
+                    <div class="practice-section">
+                        <h4>1. Don't code first - plan first</h4>
+                        <div class="code-example">
+                            <div class="code-header">
+                                <span class="code-title">Better prompting trategy</span>
+                            </div>
+                            <pre><code>❌ Bad: "Build me a todo app"
+
+✅ Good: "Give me a few options for a todo app architecture, 
+starting with the simplest first. Don't code yet - just 
+outline the approach and ask me which direction to take."
+
+🚀 Best: A mini-PRD or SPEC.md - Define the problem, outline the user journey, and specify the desired outcomes.
+
+</code></pre>
+                        </div>
+                        <p>
+                            9 out of 10 times, AI will suggest a complicated approach that you should 
+                            ask it to simplify. Always request the plan before implementation.
+                        </p>
+<!-- start screenshots -->
+<section class="features-section plan-first">
+  <div class="feature">
+    <h3>Use a Plan Mode</h3>
+    <div class="feature-image" style="background-image:url('cline-plan.png');"></div>
+    <p>
+      Use a Plan Mode to get AI to generate a plan before coding. This helps you understand the architecture and approach before diving into implementation. Pictured is Cline.
+    </p>
+  </div>
+
+  <div class="feature">
+    <h3>Enhance Prompt</h3>
+    <div class="feature-image" style="background-position-x: -140px;" data-bg-src="bolt-enhance.gif"></div>
+    <p>
+      Many tools support an "Enhance" prompt to turn a rough idea into a structured spec,
+      iterate on the plan, then build from that plan. Pictured is Bolt.
+    </p>
+  </div>
+
+  <div class="feature">
+    <h3>Write out a SPEC or mini-PRD.</h3>
+    <div class="feature-image" data-bg-src="mini-spec.png"></div>
+    <p>
+      Writing out a SPEC.md or mini-PRD helps clarify requirements and expectations.
+    </p>
+  </div>
+</section>
+<!-- end -->
+
+                    </div>
+
+                    <div class="practice-section">
+                        <h4>2. Provide the right documentation</h4>
+                        <div class="documentation-tips">
+                            <div class="tip">
+                                <h5>Check for knowledge cutoff</h5>
+                                <p>
+                                    Ask "Which Tailwind version are you familiar with?" before starting. 
+                                    Many models only know v3 but v4 was released in 2025.
+                                </p>
+                            </div>
+                            <div class="tip">
+                                <h5>Include relevant documentation</h5>
+                                <p>
+                                    When using specific APIs or frameworks, paste the relevant documentation 
+                                    directly into the AI's context window.
+                                </p>
+                            </div>
+                            <div class="tip">
+                                <h5>Set global rules</h5>
+                                <div class="code-example">
+                                    <pre><code>// Example system prompt
+Always follow these guidelines:
+1. Define the data model before writing code
+2. Start with mock data instead of a database
+3. Create a component library and split code into multiple files
+4. Centralize state management
+5. Batch implementation into smaller chunks
+6. Double-check you're changing the correct files
+7. Ask follow-up questions if requirements are unclear</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="practice-section">
+                        <h4>3. Visual context is pretty powerful</h4>
+                        <p>
+                            Include screenshots when asking AI to create designs or fix bugs. 
+                            A picture is worth a thousand words and can enable "one-shot" solutions.
+                        </p>
+
+                         <!-- start screenshots -->
+<section class="features-section">
+  <div class="feature">
+    <h3>Import from Figma</h3>
+    <div class="feature-image" style="background-position-x: -26px; background-image: url('v0-figma.png');"></div>
+    <p>
+      Import Figma designs directly into your AI-Coding tool. This allows for seamless integration of design and code.
+    </p>
+  </div>
+    <div class="feature">
+    <h3>Attach an Image</h3>
+    <div class="feature-image" style="background-image: url('bolt-screenshots.png');"></div>
+    <p>
+      Attach mocks, screenshots or designs to your prompts. This helps AI understand the visual context and generate more relevant code.
+    </p>
+  </div>
+  <div class="feature">
+    <h3>Browser Screenshots</h3>
+    <div class="feature-image" style="background-image: url('cline-browser.jpg');"></div>
+    <p>
+      Pull in live browser screenshots and context to provide real-time context for your prompts.
+    </p>
+  </div>
+</section>
+                <!-- end -->
+                    </div>
+
+                    <div class="practice-section">
+                        <h4>4. Test ruthlessly after every change</h4>
+                        <div class="callout callout-danger">
+                            <h5>Critical: No matter what you do, you'll hit situations where AI breaks your app</h5>
+                            <ul>
+                                <li>Test in localhost after each update</li>
+                                <li>Open browser console (Cmd+Option+J on Mac) to check for errors</li>
+                                <li>Small, incremental testing prevents nightmare debugging sessions</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="practice-section">
+                        <h4>5. Create instructions before debugging</h4>
+                        <div class="code-example">
+                            <div class="code-header">
+                                <span class="code-title">Debugging communication</span>
+                            </div>
+                            <pre><code>❌ Bad: "The button doesn't work"
+
+✅ Good: "I want the Save button to store the form data 
+and then redirect to the dashboard page. Currently it's 
+not saving and shows this error: [paste error]"</code></pre>
+                        </div>
+                        <p>
+                            Explicitly state what you're trying to accomplish. This specificity 
+                            helps AI understand your intention, not just the symptom.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Prompt Engineering Section -->
+    <section id="prompt-engineering" class="section">
+      <div class="container">
+        <h2 class="section-title">🎯 Prompt Engineering tips</h2>
+        <div class="content-grid">
+          <div class="content-main">
+            <h3>Mastering the art of prompting</h3>
+            <p class="lead">
+              Prompt engineering is the discipline of crafting precise, effective instructions for AI models. 
+              It's the difference between getting generic responses and receiving tailored, production-ready solutions.
+            </p>
+            
+            <div class="prompt-framework">
+              <h3>Foundational principles</h3>
+              
+              <div class="principles-grid">
+                <div class="principle-card">
+                  <span class="principle-icon">🎯</span>
+                  <h4>Provide enough context - garbage in is garbage out</h4>
+                  <p>Always assume the AI knows little about your project. Include notes on architecture, libraries, code snippets, and exact error messages.</p>
+                  <div class="code-example">
+                    <div class="code-header">
+                      <span class="code-title">❌ Poor context</span>
+                    </div>
+                    <pre><code>Why is my code not working?</code></pre>
+                  </div>
+                  <div class="code-example">
+                    <div class="code-header">
+                      <span class="code-title">✅ Rich context</span>
+                    </div>
+                    <pre><code>This JavaScript function using React hooks is expected to update the user's profile when the form is submitted, but instead it's throwing "Cannot read property 'name' of undefined". Here's the code:
+
+```javascript
+const updateProfile = (userData) => {
+  setUser(userData.name);
+};
+```
+
+Error occurs on line 2. Using React 18.2.0.</code></pre>
+                  </div>
+                </div>
+
+                <div class="principle-card">
+                  <span class="principle-icon">🔍</span>
+                  <h4>Try to be specific about your goal</h4>
+                  <p>Vague questions yield vague answers. Specify the problem precisely with expected vs. actual behavior.</p>
+                  <ul>
+                    <li>State the expected behavior clearly</li>
+                    <li>Describe the current (incorrect) behavior</li>
+                    <li>Include relevant constraints or requirements</li>
+                    <li>Specify the desired output format</li>
+                  </ul>
+                </div>
+
+                <div class="principle-card">
+                  <span class="principle-icon">🧩</span>
+                  <h4>Break down complex tasks</h4>
+                  <p>Divide large, multi-step problems into smaller, iterative chunks for more focused and manageable responses.</p>
+                  <div class="task-breakdown">
+                    <h5>Example: Building a user authentication system</h5>
+                    <ol>
+                      <li>First: "Design the database schema for user authentication"</li>
+                      <li>Then: "Create the user registration endpoint"</li>
+                      <li>Next: "Implement password hashing and validation"</li>
+                      <li>Finally: "Add JWT token generation and verification"</li>
+                    </ol>
+                  </div>
+                </div>
+
+                <div class="principle-card">
+                  <span class="principle-icon">📝</span>
+                  <h4>Include examples of inputs and outputs</h4>
+                  <p>Use "few-shot prompting" with concrete examples to reduce ambiguity and clarify intent.</p>
+                  <div class="code-example">
+                    <div class="code-header">
+                      <span class="code-title">Example Template</span>
+                    </div>
+                    <pre><code>Create a function that formats currency values.
+
+Examples:
+- formatCurrency(2.5) should return "$2.50"
+- formatCurrency(1000) should return "$1,000.00"
+- formatCurrency(0.99) should return "$0.99"</code></pre>
+                  </div>
+                </div>
+
+                <div class="principle-card">
+                  <span class="principle-icon">🎭</span>
+                  <h4>Leverage roles and personas</h4>
+                  <p>Ask the AI to "act as" a specific persona to influence tone, style, and depth of responses.</p>
+                  <div class="persona-examples">
+                    <h5>Effective personas:</h5>
+                    <ul>
+                      <li><strong>Senior React Developer:</strong> "Act as a senior React developer and review my code for potential bugs"</li>
+                      <li><strong>Performance expert:</strong> "You are a JavaScript performance expert. Optimize the following function"</li>
+                      <li><strong>Security auditor:</strong> "Review this authentication code as a security expert"</li>
+                      <li><strong>Code mentor:</strong> "Act like an experienced Python developer mentoring a junior"</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="principle-card">
+                  <span class="principle-icon">🔄</span>
+                  <h4>Iterate and refine your prompts</h4>
+                  <p>Prompt engineering is interactive. Review responses and provide corrective feedback or follow-up questions.</p>
+                  <div class="iteration-tips">
+                    <h5>Refinement Strategies:</h5>
+                    <ul>
+                      <li>"That's a good start, but can you try again without using recursion?"</li>
+                      <li>"Can you explain why you chose this approach over alternatives?"</li>
+                      <li>"Please add error handling and input validation"</li>
+                      <li>"Make this more performant for large datasets"</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="scenario-strategies">
+              <h3>Scenario-specific strategies for effective prompting</h3>
+
+              <div class="strategy-grid">
+                <div class="strategy">
+                  <h4>🐛 Debugging code</h4>
+                  <ul>
+                    <li><strong>Describe symptoms clearly:</strong> Explain what the code should do, what it's actually doing, and include exact error messages</li>
+                    <li><strong>Request line-by-line analysis:</strong> "Walk through this function line by line and track the value of the `total` variable"</li>
+                    <li><strong>Isolate with minimal examples:</strong> Reproduce bugs in small, self-contained snippets</li>
+                    <li><strong>Use code review persona:</strong> "Act as a meticulous code reviewer and point out mistakes"</li>
+                  </ul>
+                </div>
+
+                <div class="strategy">
+                  <h4>🔧 Refactoring and optimization</h4>
+                  <ul>
+                    <li><strong>State explicit goals:</strong> "Refactor this function to improve readability and reduce code duplication"</li>
+                    <li><strong>Request explanations:</strong> Ask for both refactored code and explanations of changes made</li>
+                    <li><strong>Use expert mentor persona:</strong> "Act like an experienced developer mentoring a junior"</li>
+                    <li><strong>Specify constraints:</strong> "Optimize for speed on large inputs while maintaining readability"</li>
+                  </ul>
+                </div>
+
+                <div class="strategy">
+                  <h4>⚡ Implementing new features</h4>
+                  <ul>
+                    <li><strong>Start high-level:</strong> Describe the feature in plain language to get a step-by-step plan</li>
+                    <li><strong>Provide reference code:</strong> Include examples of similar existing components for consistency</li>
+                    <li><strong>Use inline comments:</strong> Write `// TODO:` comments describing needed code</li>
+                    <li><strong>Define with usage examples:</strong> Show how the feature should be used and what it should return</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="advanced-techniques">
+              <br>
+              <h3>Advanced prompting techniques</h3>
+              
+              <div class="technique-card">
+                <h4>Chain of thought prompting</h4>
+                <p>Guide the AI through step-by-step reasoning for complex problems.</p>
+                <div class="code-example">
+                  <div class="code-header">
+                    <span class="code-title">Chain of Thought Example</span>
+                  </div>
+                  <pre><code>Optimize this database query step by step:
+
+1. First, analyze the current query and identify performance bottlenecks
+2. Then, suggest specific index optimizations
+3. Next, rewrite the query using more efficient joins
+4. Finally, explain the expected performance improvement
+
+Current query: [paste query here]</code></pre>
+                </div>
+              </div>
+
+              <div class="technique-card">
+                <h4>Constraint-based prompting</h4>
+                <p>Set clear boundaries and requirements to guide the AI's output.</p>
+                <div class="constraint-examples">
+                  <h5>Effective constraints:</h5>
+                  <ul>
+                    <li><strong>Technology stack:</strong> "Use only vanilla JavaScript, no external libraries"</li>
+                    <li><strong>Performance:</strong> "Solution must handle 10,000+ items efficiently"</li>
+                    <li><strong>Compatibility:</strong> "Must work in Internet Explorer 11"</li>
+                    <li><strong>Code style:</strong> "Follow Google's JavaScript style guide"</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="technique-card">
+                <h4>Multi-Step validation</h4>
+                <p>Build verification steps into your prompts to catch errors early.</p>
+                <div class="code-example">
+                  <div class="code-header">
+                    <span class="code-title">Validation template</span>
+                  </div>
+                  <pre><code>Create a user registration function that:
+1. Validates email format
+2. Checks password strength
+3. Handles duplicate users gracefully
+
+After writing the function:
+1. Test it with valid inputs
+2. Test it with invalid inputs
+3. Verify error messages are user-friendly
+4. Check that it follows our existing code patterns</code></pre>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-sidebar">
+
+            <!-- <div class="sidebar-card">
+              <h4>Quick Reference: Prompt Templates</h4>
+              <div class="template-list">
+                <div class="template-item">
+                  <h5>Bug Fix Template</h5>
+                  <code>
+                    Context: [language/framework]<br>
+                    Expected: [behavior]<br>
+                    Actual: [behavior]<br>
+                    Error: [exact message]<br>
+                    Code: [snippet]
+                  </code>
+                </div>
+                <div class="template-item">
+                  <h5>Feature Request Template</h5>
+                  <code>
+                    Goal: [what you want to build]<br>
+                    Context: [existing codebase info]<br>
+                    Constraints: [requirements/limits]<br>
+                    Example: [usage example]
+                  </code>
+                </div>
+                <div class="template-item">
+                  <h5>Code Review Template</h5>
+                  <code>
+                    Act as: [expert persona]<br>
+                    Review for: [specific concerns]<br>
+                    Focus on: [areas of interest]<br>
+                    Code: [snippet to review]
+                  </code>
+                </div>
+              </div>
+            </div> -->
+
+            <div class="sidebar-card">
+              <h4>Common pitfalls to avoid</h4>
+              <ul class="pitfall-list">
+                <li><strong>Vague requirements:</strong> "Make it better" → "Improve performance by reducing API calls"</li>
+                <li><strong>Missing context:</strong> Include relevant code, not just the problematic line</li>
+                <li><strong>Overwhelming complexity:</strong> Break large tasks into smaller steps</li>
+                <li><strong>No examples:</strong> Always provide input/output examples when possible</li>
+                <li><strong>Ignoring constraints:</strong> Specify technical limitations upfront</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Context Engineering Section -->
+    <section id="context-engineering" class="section">
+      <div class="container">
+        <h2 class="section-title">🔧 Context Engineering</h2>
+        <div class="content-grid">
+
+          
+          <div class="content-main">
+            <div class="technique-card">
+            <h3>Building information environments for AI</h3>
+            <p class="lead">
+              Context engineering moves beyond crafting clever prompts to constructing complete "information environments" 
+              for AI models. Think of it as building a system that assembles the right information at the right time.
+            </p>
+
+            <div class="paradigm-shift">
+              <h3>The paradigm shift: From prompts to information systems</h3>
+              <div class="shift-comparison">
+                <div class="old-approach">
+                  <h4>❌ Traditional Prompting</h4>
+                  <ul>
+                    <li>Static, one-size-fits-all prompts</li>
+                    <li>Limited context awareness</li>
+                    <li>Trial-and-error approach</li>
+                    <li>Inconsistent results</li>
+                  </ul>
+                </div>
+                <div class="new-approach">
+                  <h4>✅ Context Engineering</h4>
+                  <ul>
+                    <li>Dynamic information assembly</li>
+                    <li>Rich, relevant context</li>
+                    <li>Systematic methodology</li>
+                    <li>Predictable, high-quality outputs</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <div class="core-principles">
+              <h3>Core principles of Context Engineering</h3>
+              
+              <div class="principle-grid">
+                <div class="principle-card">
+                  <span class="principle-icon">🎯</span>
+                  <h4>Be precise and specific</h4>
+                  <p>Vague requests lead to vague answers. The more detailed and clear your instructions, the better the output.</p>
+                  <div class="precision-examples">
+                    <h5>Precision in practice:</h5>
+                    <ul>
+                      <li>Include exact version numbers of frameworks</li>
+                      <li>Specify coding standards and conventions</li>
+                      <li>Define success criteria clearly</li>
+                      <li>Provide complete error messages and stack traces</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="principle-card">
+                  <span class="principle-icon">⚡</span>
+                  <h4>Dynamic information assembly</h4>
+                  <p>Context should be assembled dynamically for each request, pulling in different information based on the query or conversation history.</p>
+                  <div class="dynamic-strategies">
+                    <h5>Dynamic assembly strategies:</h5>
+                    <ul>
+                      <li>Query-specific code retrieval</li>
+                      <li>Conversation history summarization</li>
+                      <li>Contextual documentation fetching</li>
+                      <li>Adaptive information filtering</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="principle-card">
+                  <span class="principle-icon">🖥️</span>
+                  <h4>Think like an Operating System</h4>
+                  <p>Consider the AI model as a CPU and its context window as RAM. Load the necessary information into working memory for each specific task.</p>
+                  <div class="os-analogy">
+                    <h5>Memory management principles:</h5>
+                    <ul>
+                      <li><strong>Load on demand:</strong> Bring in information as needed</li>
+                      <li><strong>Cache frequently used:</strong> Keep common patterns accessible</li>
+                      <li><strong>Garbage collection:</strong> Remove outdated context</li>
+                      <li><strong>Priority scheduling:</strong> Most relevant information first</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="practical-strategies">
+              <h3>Practical context engineering strategies</h3>
+
+              <div class="strategy-sections">
+                <div class="strategy-section">
+
+                  <div class="technique-card">
+                  <h4>💻 For coding and technical tasks</h4>
+                  <div class="strategy-grid">
+                    <div class="strategy-item">
+                      <h5>Relevant code context</h5>
+                      <p>Share specific files, folders, or code snippets central to the request.</p>
+                      <div class="code-example">
+                        <div class="code-header">
+                          <span class="code-title">Context Assembly Example</span>
+                        </div>
+                        <pre><code>
+// Current file: user-service.js
+// Related files: user-model.js, auth-middleware.js
+// Database schema: users table structure
+// Error log: [full stack trace]
+// Goal: Fix user authentication bug</code></pre>
+                      </div>
+                    </div>
+
+                    <div class="strategy-item">
+                      <h5>Complete error information</h5>
+                      <p>Always provide full error messages, stack traces, and relevant log entries.</p>
+                      <ul>
+                        <li>Full stack trace, not just the error message</li>
+                        <li>Browser console errors for frontend issues</li>
+                        <li>Server logs for backend problems</li>
+                        <li>Network request/response details</li>
+                      </ul>
+                    </div>
+
+                    <div class="strategy-item">
+                      <h5>Database schemas</h5>
+                      <p>For database-related tasks, include schema information to help generate accurate data interaction code.</p>
+                      <div class="schema-example">
+                        <h6>Include schema details:</h6>
+                        <ul>
+                          <li>Table structures and relationships</li>
+                          <li>Column types and constraints</li>
+                          <li>Indexes and foreign keys</li>
+                          <li>Sample data for context</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div class="strategy-item">
+                      <h5>PR feedback integration</h5>
+                      <p>Use comments and discussions from pull requests as rich context for prompts.</p>
+                      <div class="pr-context">
+                        <h6>Valuable PR Context:</h6>
+                        <ul>
+                          <li>Reviewer comments and suggestions</li>
+                          <li>Discussion threads and decisions</li>
+                          <li>Code change rationale</li>
+                          <li>Testing feedback and requirements</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+                <div class="strategy-section">
+
+                  <h4>📚 Some general best practices</h4>
+                  <div class="technique-card">
+                  <div class="best-practices-grid">
+                    <div class="practice">
+                      <h5>Design documents</h5>
+                      <p>Include relevant sections from design documents to provide broader project context.</p>
+                    </div>
+                    <div class="practice">
+                      <h5>Examples and templates</h5>
+                      <p>Show the AI examples of desired output format or style using "few-shot" prompting.</p>
+                    </div>
+                    <div class="practice">
+                      <h5>Clear constraints</h5>
+                      <p>List requirements like libraries to use, coding patterns to follow, or things to avoid.</p>
+                    </div>
+                    <div class="practice">
+                      <h5>External knowledge</h5>
+                      <p>For domain-specific tasks, retrieve information from wikis or API documentation.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              </div>
+            </div>
+
+            <div class="advanced-patterns">
+              <br>
+              <h3>Advanced context engineering patterns</h3>
+
+              <div class="pattern-cards">
+                <div class="pattern-card">
+                  <h4>🔍 Retrieval-Augmented Generation (RAG)</h4>
+                  <p>When tasks require knowledge beyond the model's training data, fetch relevant information from external sources.</p>
+                  <div class="rag-workflow">
+                    <h5>RAG implementation steps:</h5>
+                    <ol>
+                      <li><strong>Query analysis:</strong> Understand what information is needed</li>
+                      <li><strong>Information retrieval:</strong> Fetch relevant documents or data</li>
+                      <li><strong>Context assembly:</strong> Combine retrieved info with the prompt</li>
+                      <li><strong>Response generation:</strong> Generate grounded, factual responses</li>
+                    </ol>
+                  </div>
+                </div>
+
+                <div class="pattern-card">
+                  <h4>🧠 Memory Management</h4>
+                  <p>For long-running tasks, use conversation summarization or external "memory" storage.</p>
+                  <div class="memory-strategies">
+                    <h5>Memory management techniques:</h5>
+                    <ul>
+                      <li><strong>Conversation summarization:</strong> Compress long conversations into key points</li>
+                      <li><strong>Fact extraction:</strong> Store important facts in external memory</li>
+                      <li><strong>Context rotation:</strong> Cycle out old information for new</li>
+                      <li><strong>Hierarchical memory:</strong> Organize information by importance and recency</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="pattern-card">
+                  <h4>🛠️ Tool integration</h4>
+                  <p>Instruct the model on when and how to use external tools, then feed tool outputs back into context.</p>
+                  <div class="tool-integration-flow">
+                    <h5>Tool integration workflow:</h5>
+                    <ol>
+                      <li>Define available tools and their capabilities</li>
+                      <li>Provide clear usage instructions</li>
+                      <li>Execute tool calls based on AI decisions</li>
+                      <li>Feed tool outputs back into the conversation</li>
+                      <li>Continue with enriched context</li>
+                    </ol>
+                  </div>
+                </div>
+
+                <div class="pattern-card">
+                  <h4>📋 Information formatting</h4>
+                  <p>Structure information in a way that's easy for the AI to parse and understand.</p>
+                  <div class="formatting-guidelines">
+                    <h5>Effective formatting techniques:</h5>
+                    <ul>
+                      <li><strong>Clear headings:</strong> Use descriptive section headers</li>
+                      <li><strong>Bullet points:</strong> Break down complex information</li>
+                      <li><strong>Labeled sections:</strong> "Relevant documentation:", "Error logs:", etc.</li>
+                      <li><strong>Code blocks:</strong> Properly formatted code with syntax highlighting</li>
+                      <li><strong>Structured data:</strong> Use tables, lists, and hierarchies</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="challenge-solutions">
+              <br>
+              <br>
+              <h3>Addressing Context Engineering Challenges</h3>
+              
+              <div class="technique-card">
+              <div class="challenge-grid">
+                <div class="challenge">
+                  <h4>🔄 Context Rot</h4>
+                  <p><strong>Problem:</strong> As conversations get longer, context becomes cluttered with irrelevant or outdated information.</p>
+                  <div class="solution">
+                    <h5>Solutions:</h5>
+                    <ul>
+                      <li>Periodically summarize and refresh context</li>
+                      <li>Remove outdated information systematically</li>
+                      <li>Implement context pruning strategies</li>
+                      <li>Use conversation checkpoints</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="challenge">
+                  <br>
+                  <h4>📏 Context window limits to keep in mind</h4>
+                  <p><strong>Problem:</strong> AI models have finite context windows that can be exceeded with large codebases or long conversations.</p>
+                  <div class="solution">
+                    <h5>Solutions:</h5>
+                    <ul>
+                      <li>Implement intelligent context selection</li>
+                      <li>Use hierarchical information organization</li>
+                      <li>Employ context compression techniques</li>
+                      <li>Break large tasks into smaller chunks</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="challenge">
+                  <br>
+                  <h4>🎯 Systematic approach</h4>
+                  <p><strong>Problem:</strong> Moving away from trial-and-error to develop consistent methodologies.</p>
+                  <div class="solution">
+                    <h5>Solutions:</h5>
+                    <ul>
+                      <li>Create context templates for common scenarios</li>
+                      <li>Establish information inclusion criteria</li>
+                      <li>Measure and optimize context effectiveness</li>
+                      <li>Build reusable context engineering patterns</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="content-sidebar">
+            <div class="sidebar-card">
+              <h4>Context Engineering checklist</h4>
+              <div class="checklist">
+                <label>
+                  <input type="checkbox">
+                  Include all relevant code files and snippets
+                </label>
+                <label>
+                  <input type="checkbox">
+                  Provide complete error messages and stack traces
+                </label>
+                <label>
+                  <input type="checkbox">
+                  Add database schemas for data-related tasks
+                </label>
+                <label>
+                  <input type="checkbox">
+                  Include design documents and requirements
+                </label>
+                <label>
+                  <input type="checkbox">
+                  Specify constraints and coding standards
+                </label>
+                <label>
+                  <input type="checkbox">
+                  Provide examples of desired output
+                </label>
+                <label>
+                  <input type="checkbox">
+                  Structure information with clear headings
+                </label>
+                <label>
+                  <input type="checkbox">
+                  Remove outdated or irrelevant context
+                </label>
+              </div>
+            </div>
+
+            <!-- <div class="sidebar-card">
+              <h4>Context Templates</h4>
+              <div class="template-examples">
+                <div class="template">
+                  <h5>Bug Investigation Template</h5>
+                  <div class="template-content">
+                    <code>
+                      ## Context<br>
+                      - Language/Framework: [details]<br>
+                      - Relevant Files: [list]<br>
+                      - Database Schema: [if applicable]<br><br>
+                      ## Problem<br>
+                      - Expected Behavior: [description]<br>
+                      - Actual Behavior: [description]<br>
+                      - Error Messages: [full traces]<br><br>
+                      ## Code<br>
+                      [relevant code snippets]
+                    </code>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- <div class="sidebar-card">
+              <h4>Information Hierarchy</h4>
+              <div class="hierarchy-guide">
+                <h5>Priority Order:</h5>
+                <ol>
+                  <li><strong>Immediate Context:</strong> Current code and errors</li>
+                  <li><strong>Related Code:</strong> Dependencies and related files</li>
+                  <li><strong>Documentation:</strong> Relevant specs and guides</li>
+                  <li><strong>Historical Context:</strong> Previous discussions and decisions</li>
+                  <li><strong>Environmental Info:</strong> System specs and configurations</li>
+                </ol>
+              </div>
+            </div> -->
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLI Agents & Orchestrators Section -->
+    <section id="cli-orchestrators" class="section">
+      <div class="container">
+        <h2 class="section-title">🖥️ CLI Agents & orchestrators</h2>
+
+        
+        <!-- start screenshots -->
+  <section class="features-section">
+    <div class="feature">
+      <h3>Claude Code</h3>
+      <div class="feature-image" style="background-image: url('claudecode.png');"></div>
+      <p>
+        An agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows through natural language commands.
+      </p>
+    </div>
+    <div class="feature">
+      <h3>Gemini CLI</h3>
+      <div class="feature-image" data-bg-src="geminicli.png"></div>
+      <p>
+        An open-source AI agent that brings Gemini 2.5 Pro directly into your terminal with generous free usage limits.  Built with extensibility in mind, supporting MCP servers and tools for media generation, web search, and enterprise collaboration workflows.
+      </p>
+    </div>
+
+    <div class="feature">
+      <h3>Amp Code</h3>
+      <div class="feature-image" style="background-size:contain;" data-bg-src="ampcode.png"></div>
+      <p>
+        An agentic coding tool engineered to maximize what's possible with today's frontier models - autonomous reasoning, comprehensive code editing, and complex task execution with no token constraints. 
+      </p>
+    </div>
+  </section>
+  <!-- end -->
+<!-- end ai-cli-tools -->
+
+        <div class="content-grid">
+    
+          <div class="content-main">
+            <h3>Mastering Command-line AI and multi-agent systems</h3>
+
+            <p class="lead">
+              CLI coding agents and orchestrators represent the cutting edge of AI-assisted development, 
+              transforming terminals into powerful development environments and enabling teams of AI agents 
+              to work collaboratively on complex projects.
+            </p>
+
+            <div class="agent-types">
+              <h3>Understanding agent types</h3>
+              <div class="agent-comparison">
+                <div class="agent-type">
+                  <h4>🖥️ CLI Coding agents</h4>
+                  <p>Single AI agents that work directly in your terminal, transforming command-line interfaces into primary development environments.</p>
+                  <div class="agent-examples">
+                    <h5>Popular CLI Agents:</h5>
+                    <ul>
+                      <li><strong>Gemini CLI:</strong> Google's command-line AI assistant</li>
+                      <li><strong>Claude Code:</strong> Anthropic's terminal-based coding agent</li>
+                      <li><strong>Aider:</strong> AI pair programming in your terminal</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="agent-type">
+                  <br>
+                  <h4>🎭 Multi-Agent orchestrators</h4>
+                  <p>Systems that coordinate multiple AI agents working together, each with specialized roles and capabilities.</p>
+                  <div class="orchestrator-examples">
+                    <h5>Orchestration platforms:</h5>
+                    <ul>
+                      <li><strong>Claude Squad:</strong> Multiple Claude agents working in parallel</li>
+                      <li><strong>Conductor:</strong> Agent workflow orchestration</li>
+                      <li><strong>Jules:</strong> Asynchronous coding agent with web browsing</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cli-best-practices">
+              <h3>CLI Agent best practices</h3>
+              
+              <div class="practice-grid">
+                <div class="practice-card">
+                  <span class="practice-icon">📋</span>
+                  <h4>Plan before you prompt</h4>
+                  <p>Don't jump straight into complex tasks. Take time to plan your request and provide sufficient context for better results.</p>
+                  <div class="planning-steps">
+                    <h5>Effective planning process:</h5>
+                    <ol>
+                      <li>Define the end goal clearly</li>
+                      <li>Break down into logical steps</li>
+                      <li>Identify required context and files</li>
+                      <li>Consider potential edge cases</li>
+                      <li>Plan verification steps</li>
+                    </ol>
+                  </div>
+                </div>
+
+                <div class="practice-card">
+                  <span class="practice-icon">📝</span>
+                  <h4>Adopt Spec-driven development</h4>
+                  <p>For structured and predictable outcomes, write detailed task breakdowns or "mini-PRDs" for agents to follow.</p>
+                  <div class="code-example">
+                    <div class="code-header">
+                      <span class="code-title">Spec Example</span>
+                    </div>
+                    <pre><code>
+# User Authentication Feature Spec
+
+## Goal
+Implement secure user authentication with JWT tokens
+
+## Requirements
+- Email/password login
+- Password hashing with bcrypt
+- JWT token generation
+- Protected route middleware
+- Input validation and sanitization
+
+## Acceptance Criteria
+- [ ] User can register with email/password
+- [ ] User can login and receive JWT token
+- [ ] Protected routes verify JWT tokens
+- [ ] Passwords are properly hashed
+- [ ] Input validation prevents injection attacks</code></pre>
+                  </div>
+                </div>
+
+                <div class="practice-card">
+                  <span class="practice-icon">🧪</span>
+                  <h4>Consider embracing TDD - Test-Driven Development</h4>
+                  <p>Have the AI write tests first, then generate minimal code to make tests pass. This keeps work focused and verifiable.</p>
+                  <div class="tdd-workflow">
+                    <h5>TDD with AI workflow:</h5>
+                    <ol>
+                      <li><strong>Red:</strong> AI writes failing tests based on requirements</li>
+                      <li><strong>Green:</strong> AI writes minimal code to pass tests</li>
+                      <li><strong>Refactor:</strong> AI improves code while keeping tests green</li>
+                      <li><strong>Repeat:</strong> Continue cycle for additional features</li>
+                    </ol>
+                  </div>
+                </div>
+
+                <div class="practice-card">
+                  <span class="practice-icon">🛡️</span>
+                  <h4>Utilize sandboxing for safety</h4>
+                  <p>Use sandbox features to prevent unintended side effects when experimenting or dealing with risky changes.</p>
+                  <div class="sandbox-commands">
+                    <h5>Common sandbox commands:</h5>
+                    <ul>
+                      <li><code>gemini --sandbox</code> - Isolated environment for testing</li>
+                      <li><code>claude --safe-mode</code> - Conservative change approach</li>
+                      <li><code>git worktree</code> - Separate working directories</li>
+                      <li><code>docker run --rm</code> - Disposable containers</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="practice-card">
+                  <span class="practice-icon">⏪</span>
+                  <h4>Leverage checkpointing</h4>
+                  <p>Use checkpointing features as an "undo" button to easily revert changes if agents go in the wrong direction.</p>
+                  <div class="checkpoint-strategies">
+                    <h5>Checkpointing strategies:</h5>
+                    <ul>
+                      <li><strong>Before major changes:</strong> Create checkpoint before significant modifications</li>
+                      <li><strong>Feature boundaries:</strong> Checkpoint at the completion of each feature</li>
+                      <li><strong>Experimental branches:</strong> Use Git branches as natural checkpoints</li>
+                      <li><strong>Automated snapshots:</strong> Set up automatic checkpointing intervals</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="practice-card">
+                  <span class="practice-icon">⚡</span>
+                  <h4>Master Command-line functions</h4>
+                  <p>Explore built-in commands and features of your CLI agent to maximize productivity.</p>
+                  <div class="command-examples">
+                    <h5>Useful CLI commands:</h5>
+                    <ul>
+                      <li><code>/agents</code> - Create specialized sub-agents (Claude Code)</li>
+                      <li><code>/plan</code> - See proposed course of action (Gemini CLI)</li>
+                      <li><code>/diff</code> - Show changes before applying</li>
+                      <li><code>/rollback</code> - Revert to previous state</li>
+                      <li><code>/context</code> - Manage conversation context</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="advanced-cli-techniques">
+              <br>
+              <h3>Advanced CLI techniques</h3>
+
+              <div class="technique-card">
+              
+              <div class="technique-sections">
+                <div class="technique-section">
+                  <h4>🔗 Tool integration</h4>
+                  <p>CLI agents can be composed with other command-line tools for powerful workflows.</p>
+                  <div class="integration-examples">
+                    <h5>Integration examples:</h5>
+                    <div class="code-example">
+                      <div class="code-header">
+                        <span class="code-title">Log Analysis Pipeline</span>
+                      </div>
+                      <pre><code># Pipe logs to AI for anomaly detection
+tail -f /var/log/app.log | gemini "Monitor for errors and anomalies"
+
+# Analyze Git history with AI
+git log --oneline | claude "Summarize recent changes and identify patterns"
+
+# Process test results
+npm test 2>&1 | aider "Fix failing tests"</code></pre>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="technique-section">
+                  <h4>💰 Cost optimization</h4>
+                  <p>Use strategic combinations of free and paid tools to minimize costs while maximizing capabilities.</p>
+                  <div class="cost-strategies">
+                    <h5>Cost-effective strategies:</h5>
+                    <ul>
+                      <li><strong>Planning with free tools:</strong> Use Gemini CLI (free, large context) for analysis and planning</li>
+                      <li><strong>Execution with paid tools:</strong> Feed plans to Claude Code for implementation</li>
+                      <li><strong>Batch processing:</strong> Group similar tasks to reduce API calls</li>
+                      <li><strong>Context reuse:</strong> Maintain context across related tasks</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="technique-section">
+                  <h4>🔄 Workflow automation</h4>
+                  <p>Create automated workflows that combine CLI agents with traditional development tools.</p>
+                  <div class="code-example">
+                    <div class="code-header">
+                      <span class="code-title">Automated code review workflow</span>
+                    </div>
+                    <pre><code>#!/bin/bash
+# Automated code review with AI
+
+# Get changed files
+CHANGED_FILES=$(git diff --name-only HEAD~1)
+
+# Run AI code review
+echo "$CHANGED_FILES" | xargs cat | claude "Review this code for:
+- Security vulnerabilities
+- Performance issues  
+- Code quality problems
+- Best practice violations"
+
+# Run automated tests
+npm test
+
+# Generate commit message
+git diff --cached | gemini "Generate a conventional commit message"</code></pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <div class="orchestration-strategies">
+              <br>
+              <h3>Multi-Agent orchestration strategies</h3>
+              
+              <div class="orchestration-patterns">
+                <div class="pattern-card">
+                  <h4>🏗️ Multi-Agent architecture</h4>
+                  <p>Design systems where multiple AI agents work together, each with specialized roles and capabilities.</p>
+                  <div class="architecture-example">
+                    <h5>Example architecture:</h5>
+                    <ul>
+                      <li><strong>Planning Agent:</strong> Breaks down requirements into tasks</li>
+                      <li><strong>Coding Agent:</strong> Implements features and fixes bugs</li>
+                      <li><strong>Testing Agent:</strong> Writes and runs tests</li>
+                      <li><strong>Review Agent:</strong> Performs code quality checks</li>
+                      <li><strong>Documentation Agent:</strong> Creates and updates docs</li>
+                    </ul>
+                  </div>
+                </div>
+<br>
+                <div class="pattern-card">
+                  <h4>🔒 Workspace isolation</h4>
+                  <p>Ensure agents work in isolated environments to prevent conflicts and enable parallel work.</p>
+                  <div class="isolation-strategies">
+                    <h5>Isolation techniques:</h5>
+                    <ul>
+                      <li><strong>Git branches:</strong> Each agent works on separate branches</li>
+                      <li><strong>Git worktrees:</strong> Multiple working directories for same repo</li>
+                      <li><strong>Docker containers:</strong> Completely isolated environments</li>
+                      <li><strong>Virtual environments:</strong> Separate dependency management</li>
+                    </ul>
+                  </div>
+                </div>
+<br>
+                <div class="pattern-card">
+                  <h4>📋 Task breakdown</h4>
+                  <p>Break large tasks into smaller, manageable sub-tasks that can be assigned to different agents.</p>
+                  <div class="breakdown-example">
+                    <h5>E-commerce feature breakdown:</h5>
+                    <ol>
+                      <li><strong>Agent A:</strong> Design database schema for products</li>
+                      <li><strong>Agent B:</strong> Create product API endpoints</li>
+                      <li><strong>Agent C:</strong> Build shopping cart functionality</li>
+                      <li><strong>Agent D:</strong> Implement payment processing</li>
+                      <li><strong>Agent E:</strong> Write comprehensive tests</li>
+                    </ol>
+                  </div>
+                </div>
+<br>
+                <div class="pattern-card">
+                  <h4>🎯 Clear instructions</h4>
+                  <p>Provide distinct, unambiguous instructions to each agent to ensure clean, predictable results.</p>
+                  <div class="instruction-guidelines">
+                    <h5>Instruction best practices:</h5>
+                    <ul>
+                      <li><strong>Single responsibility:</strong> One clear task per agent</li>
+                      <li><strong>Explicit dependencies:</strong> Define what each agent needs from others</li>
+                      <li><strong>Success criteria:</strong> Clear definition of completion</li>
+                      <li><strong>Constraints:</strong> Specify limitations and requirements</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="advanced-orchestration">
+              <br>
+              <h3>Advanced Orchestration patterns</h3>
+              
+              <div class="technique-card">
+              <div class="advanced-patterns">
+                <div class="pattern-section">
+                  <h4>🔄 Pipeline Orchestration</h4>
+                  <p>Create sequential workflows where the output of one agent becomes the input for the next.</p>
+                  <div class="pipeline-example">
+                    <h5>CI/CD Pipeline with AI Agents:</h5>
+                    <div class="code-example">
+                      <div class="code-header">
+                        <span class="code-title">Pipeline Configuration</span>
+                      </div>
+                      <pre><code>pipeline:
+  - stage: analysis
+    agent: code-analyzer
+    task: "Analyze codebase for technical debt and security issues"
+    
+  - stage: implementation  
+    agent: developer
+    task: "Fix issues identified in analysis stage"
+    depends_on: analysis
+    
+  - stage: testing
+    agent: tester
+    task: "Write and run comprehensive tests"
+    depends_on: implementation
+    
+  - stage: documentation
+    agent: documenter  
+    task: "Update documentation based on changes"
+    depends_on: [implementation, testing]</code></pre>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="pattern-section">
+                  <h4>⚡ Parallel processing</h4>
+                  <p>Run multiple agents simultaneously on independent tasks to maximize throughput.</p>
+                  <div class="parallel-strategies">
+                    <h5>Parallel processing strategies:</h5>
+                    <ul>
+                      <li><strong>Feature parallelism:</strong> Different agents work on different features</li>
+                      <li><strong>Layer parallelism:</strong> Frontend and backend development in parallel</li>
+                      <li><strong>Testing parallelism:</strong> Unit, integration, and E2E tests simultaneously</li>
+                      <li><strong>Platform parallelism:</strong> Web, mobile, and API development</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="pattern-section">
+                  <h4>🎯 Specialist Agents</h4>
+                  <p>Create agents with specific expertise for specialized tasks requiring domain knowledge.</p>
+                  <div class="specialist-examples">
+                    <h5>Specialist Agent types:</h5>
+                    <ul>
+                      <li><strong>Security agent:</strong> Focused on security vulnerabilities and best practices</li>
+                      <li><strong>Performance agent:</strong> Optimizes code for speed and efficiency</li>
+                      <li><strong>Accessibility agent:</strong> Ensures WCAG compliance and inclusive design</li>
+                      <li><strong>Database agent:</strong> Specializes in schema design and query optimization</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="pattern-section">
+                  <h4>✅ Quality assurance layers</h4>
+                  <p>Implement multiple QA checkpoints with different agents reviewing work at various stages.</p>
+                  <div class="qa-layers">
+                    <h5>QA layer structure:</h5>
+                    <ol>
+                      <li><strong>Code review agent:</strong> Reviews code quality and style</li>
+                      <li><strong>Security review agent:</strong> Checks for security vulnerabilities</li>
+                      <li><strong>Performance review agent:</strong> Analyzes performance implications</li>
+                      <li><strong>Integration test agent:</strong> Verifies system integration</li>
+                      <li><strong>Final review agent:</strong> Comprehensive final check</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+            <div class="orchestration-best-practices">
+
+              <div class="technique-card">
+              <h3>Orchestration best practices</h3>
+
+              <div class="best-practices-grid">
+                <div class="best-practice">
+                  <h4>🔍 Verification steps</h4>
+                  <p>Ask agents to perform verification steps like compiling and fixing linter errors after completing tasks.</p>
+                  <div class="verification-checklist">
+                    <h5>Standard verification steps:</h5>
+                    <ul>
+                      <li>Code compiles without errors</li>
+                      <li>All tests pass</li>
+                      <li>Linter rules satisfied</li>
+                      <li>Security scans clean</li>
+                      <li>Performance benchmarks met</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="best-practice">
+                  <h4>📚 Context guidance</h4>
+                  <p>Explicitly guide agents to review important documentation and use it as context for their tasks.</p>
+                  <div class="context-examples">
+                    <h5>Important context sources:</h5>
+                    <ul>
+                      <li><code>README.md</code> - Project overview and setup</li>
+                      <li><code>CONTRIBUTING.md</code> - Development guidelines</li>
+                      <li><code>instructions.md</code> - Specific task instructions</li>
+                      <li>API documentation and schemas</li>
+                      <li>Architecture decision records (ADRs)</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="best-practice">
+                  <h4>🌐 Web browsing capabilities</h4>
+                  <p>Leverage agents that can browse the web for up-to-date information and external documentation.</p>
+                  <div class="browsing-use-cases">
+                    <h5>Web browsing use cases:</h5>
+                    <ul>
+                      <li>Fetching latest API documentation</li>
+                      <li>Researching current best practices</li>
+                      <li>Finding solutions to specific errors</li>
+                      <li>Checking compatibility information</li>
+                      <li>Gathering requirements from external sources</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="best-practice">
+                  <h4>🎯 Bounded tasks</h4>
+                  <p>Start with well-defined, bounded tasks to build trust and ensure manageable reviews.</p>
+                  <div class="bounded-task-examples">
+                    <h5>Good bounded tasks:</h5>
+                    <ul>
+                      <li>"Add input validation to the user registration form"</li>
+                      <li>"Write unit tests for the payment processing module"</li>
+                      <li>"Optimize the database query in the user search function"</li>
+                      <li>"Update the API documentation for the new endpoints"</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="best-practice">
+                  <h4>👁️ Human oversight</h4>
+                  <p>Always maintain human oversight as the final reviewer and approver of all agent work.</p>
+                  <div class="oversight-responsibilities">
+                    <h5>Human oversight responsibilities:</h5>
+                    <ul>
+                      <li>Review all code changes before merging</li>
+                      <li>Validate that requirements are met</li>
+                      <li>Check for subtle errors and edge cases</li>
+                      <li>Ensure alignment with broader goals</li>
+                      <li>Make critical judgment calls</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="content-sidebar">
+
+            <!-- <div class="sidebar-card">
+              <h4>CLI Agent Quick Commands</h4>
+              <div class="command-reference">
+                <h5>Gemini CLI:</h5>
+                <ul>
+                  <li><code>gemini --sandbox</code> - Safe environment</li>
+                  <li><code>gemini --plan</code> - Show execution plan</li>
+                  <li><code>gemini --context</code> - Manage context</li>
+                </ul>
+                
+                <h5>Claude Code:</h5>
+                <ul>
+                  <li><code>/agents</code> - Create sub-agents</li>
+                  <li><code>/diff</code> - Show changes</li>
+                  <li><code>/rollback</code> - Revert changes</li>
+                </ul>
+                
+                <h5>Aider:</h5>
+                <ul>
+                  <li><code>/add</code> - Add files to context</li>
+                  <li><code>/drop</code> - Remove from context</li>
+                  <li><code>/undo</code> - Undo last change</li>
+                </ul>
+              </div>
+            </div> -->
+
+            <div class="sidebar-card">
+              <h4>Orchestration Checklist</h4>
+              <div class="checklist">
+                <label>
+                  <input type="checkbox">
+                  Define clear agent roles and responsibilities
+                </label>
+                <label>
+                  <input type="checkbox">
+                  Set up isolated workspaces for each agent
+                </label>
+                <label>
+                  <input type="checkbox">
+                  Break down tasks into manageable chunks
+                </label>
+                <label>
+                  <input type="checkbox">
+                  Establish verification and QA processes
+                </label>
+                <label>
+                  <input type="checkbox">
+                  Implement human oversight and review
+                </label>
+                <label>
+                  <input type="checkbox">
+                  Plan for error handling and rollbacks
+                </label>
+                <label>
+                  <input type="checkbox">
+                  Document agent workflows and processes
+                </label>
+              </div>
+            </div>
+
+            <!-- <div class="sidebar-card">
+              <h4>Common Pitfalls</h4>
+              <ul class="pitfall-list">
+                <li><strong>Agent Conflicts:</strong> Ensure proper workspace isolation</li>
+                <li><strong>Context Loss:</strong> Maintain context between agent handoffs</li>
+                <li><strong>Over-Automation:</strong> Keep humans in critical decision loops</li>
+                <li><strong>Poor Task Definition:</strong> Be specific about agent responsibilities</li>
+                <li><strong>No Rollback Plan:</strong> Always have a way to revert changes</li>
+              </ul>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <section id="advanced" class="section">
+            <div class="container">
+                <h2 class="section-title">Advanced techniques & patterns</h2>
+                
+                <div class="advanced-content">
+
+                  
+<!-- mcp -->
+<div class="technique-card">
+  <h3>Model Context Protocol (MCP)</h3>
+  <p>
+    MCP is an open protocol that allows AI coding tools to connect to external services, data, and actions in a structured, secure way. Think "USB-C for AI integrations". 
+    It enables AI-assisted engineering workflows where models can pull real-time context, run tests, or fetch project-specific knowledge directly from standardized MCP servers.
+  </p>
+
+  <!-- start screenshots -->
+  <section class="features-section">
+    <div class="feature">
+      <h3>MCP Visualized</h3>
+      <div class="feature-image" style="background-position-x: -60px;" data-bg-src="mcp-architecture.jpg"></div>
+      <p>
+        MCP sits between your AI assistant and your tools, acting as a universal adapter. The AI sends requests via MCP, which routes them to connected servers and returns structured responses the AI can act on.
+      </p>
+    </div>
+    <div class="feature">
+      <h3>Playwright MCP</h3>
+      <div class="feature-image" style="background-position-x: -60px;" data-bg-src="playwright-mcp-2.avif"></div>
+      <p>
+        An MCP server that lets AI tools run a browser, interact with it and perform automated browser tests on demand. It enables workflows like "test this PR in Chrome and Firefox" directly from your AI chat, 
+        returning pass/fail reports, screenshots, and logs without manual setup.
+      </p>
+    </div>
+
+    <div class="feature">
+      <h3>MCP Marketplace</h3>
+      <div class="feature-image" style="background-position-y: 20px;" data-bg-src="mcp-marketplace.png"></div>
+      <p>
+        A marketplace for MCP servers in Cline where developers can share and discover reusable MCP integrations. It allows teams to quickly find and deploy standardized services, 
+        like database access or API clients, that can be used across different AI coding tools.
+      </p>
+    </div>
+  </section>
+  <!-- end -->
+</div>
+<!-- end mcp -->
+
+                    <div class="technique-card">
+                        <h3>Critique-driven development</h3>
+                        <p>
+                            Use code review feedback directly as prompts. This technique leverages specific, 
+                            actionable feedback to generate targeted improvements.
+                        </p>
+                        
+                        <div class="code-example">
+                            <div class="code-header">
+                                <span class="code-title">Example: Converting Review Feedback to Prompts</span>
+                            </div>
+                            <pre><code>// Original review comment:
+"This function is doing too much. Consider extracting the validation 
+logic into a separate function and add proper error handling."
+
+// Transformed into AI prompt:
+"Refactor this function to extract validation logic into a separate 
+function. Add proper error handling with try-catch blocks and 
+meaningful error messages. Follow single responsibility principle."</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="technique-card">
+                        <h3>Iterative refinement atterns</h3>
+                        <p>
+                            Master the art of progressive improvement through structured iteration cycles.
+                        </p>
+                        
+                        <div class="refinement-cycle">
+                            <div class="cycle-step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Initial generation</h4>
+                                    <p>Start with a broad, high-level prompt</p>
+                                </div>
+                            </div>
+                            <div class="cycle-arrow">→</div>
+                            <div class="cycle-step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Targeted refinement</h4>
+                                    <p>Identify specific areas for improvement</p>
+                                </div>
+                            </div>
+                            <div class="cycle-arrow">→</div>
+                            <div class="cycle-step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Contextual enhancement</h4>
+                                    <p>Add constraints and examples</p>
+                                </div>
+                            </div>
+                            <div class="cycle-arrow">→</div>
+                            <div class="cycle-step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h4>Validation & testing</h4>
+                                    <p>Test and validate the output</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="technique-card">
+                        <h3>Advanced prompting strategies</h3>
+                        
+                        <div class="strategy-grid">
+                            <div class="strategy">
+                                <h4>Few-Shot prompting</h4>
+                                <p>Provide examples of desired output format and style</p>
+                                <div class="code-example">
+                                    <pre><code>
+// Example: API client generation
+"Generate API client functions following this pattern:
+
+Example:
+async function getUser(id) {
+  try {
+    const response = await fetch(`/api/users/${id}`);
+    if (!response.ok) throw new Error('Failed to fetch user');
+    return await response.json();
+  } catch (error) {
+    console.error('Error fetching user:', error);
+    throw error;
+  }
+}
+
+Now create similar functions for: getPosts, createPost, updatePost"</code></pre>
+                                </div>
+                            </div>
+
+                            <div class="strategy">
+                                <h4>Chain-of-Thought prompting</h4>
+                                <p>Guide AI through step-by-step reasoning</p>
+                                <div class="code-example">
+                                    <pre><code>            
+"Before writing the code, let's think through this step by step:
+
+1. First, identify what data we need to fetch
+2. Then, determine the best data structure to store it
+3. Consider error cases and edge conditions
+4. Finally, implement with proper error handling
+
+Now, walk me through your reasoning for each step, 
+then provide the implementation."</code></pre>
+                                </div>
+                            </div>
+
+                            <div class="strategy">
+                                <h4>Role-Based prompting</h4>
+                                <p>Set context by defining AI's expertise and perspective</p>
+                                <div class="code-example">
+                                    <pre><code>
+"You are a senior full-stack developer with 10 years of experience 
+in React and Node.js, specializing in performance optimization 
+and security best practices. 
+
+Given this React component that's experiencing performance issues 
+with large datasets, suggest optimizations while maintaining 
+accessibility and security standards."</code></pre>
+                                </div>
+                            </div>
+
+                            <div class="strategy">
+                                <h4>Constraint-based prompting</h4>
+                                <p>Define clear boundaries and requirements</p>
+                                <div class="code-example">
+                                    <pre><code>
+"Create a user authentication system with these constraints:
+- Must use TypeScript
+- No external authentication libraries
+- Include input validation
+- Maximum 200 lines of code
+- Must handle password hashing securely
+- Include comprehensive error messages"</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="technique-card">
+                        <h3>Cost-Benefit analysis framework</h3>
+                        <p>
+                            Learn to evaluate when to accept AI assistance based on complexity, 
+                            familiarity, and potential impact.
+                        </p>
+                        
+                        <div class="cost-benefit-matrix">
+                            <div class="matrix-quadrant high-benefit low-cost">
+                                <h4>High Benefit, Low Cost</h4>
+                                <p><strong>Ideal Zone</strong> - Accept immediately</p>
+                                <ul>
+                                    <li>Code completion</li>
+                                    <li>Boilerplate generation</li>
+                                    <li>Unit test creation</li>
+                                    <li>Documentation</li>
+                                </ul>
+                            </div>
+                            <div class="matrix-quadrant high-benefit high-cost">
+                                <h4>High Benefit, High Cost</h4>
+                                <p><strong>Careful Evaluation</strong> - Worth the investment</p>
+                                <ul>
+                                    <li>Complex refactoring</li>
+                                    <li>Architecture decisions</li>
+                                    <li>Performance optimizations</li>
+                                    <li>Security implementations</li>
+                                </ul>
+                            </div>
+                            <div class="matrix-quadrant low-benefit low-cost">
+                                <h4>Low Benefit, Low Cost</h4>
+                                <p><strong>Optional</strong> - Use for learning</p>
+                                <ul>
+                                    <li>Simple formatting</li>
+                                    <li>Comment generation</li>
+                                    <li>Variable renaming</li>
+                                    <li>Basic explanations</li>
+                                </ul>
+                            </div>
+                            <div class="matrix-quadrant low-benefit high-cost">
+                                <h4>Low Benefit, High Cost</h4>
+                                <p><strong>Avoid</strong> - Not worth the time</p>
+                                <ul>
+                                    <li>Over-engineered solutions</li>
+                                    <li>Unfamiliar patterns in critical code</li>
+                                    <li>Complex UI without clear requirements</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="technique-card">
+                        <h3>Context management strategies</h3>
+                        <p>
+                            Advanced techniques for providing optimal context to AI systems.
+                        </p>
+                        
+                        <div class="context-strategies">
+                            <div class="context-strategy">
+                                <h4>Progressive context building</h4>
+                                <div class="code-example">
+                                    <pre><code>// Start with core context
+#file src/types/User.ts
+#file src/api/userService.ts
+
+// Add related context as needed
+#file src/components/UserProfile.tsx
+#openfiles  // Include all currently open files
+
+// Provide specific constraints
+"Following the existing patterns in userService.ts, 
+create a new function to handle user preferences."</code></pre>
+                                </div>
+                            </div>
+
+                            <div class="context-strategy">
+                                <h4>Schema-driven development</h4>
+                                <p>Include database schemas, API specifications, and type definitions</p>
+                                <div class="code-example">
+                                    <pre><code>// Include TypeScript interfaces
+interface User {
+  id: string;
+  email: string;
+  preferences: UserPreferences;
+  createdAt: Date;
+}
+
+// Include API endpoint documentation
+// POST /api/users
+// Body: { email: string, password: string }
+// Returns: { user: User, token: string }
+
+"Create a user registration component that follows 
+this exact schema and API contract."</code></pre>
+                                </div>
+                            </div>
+
+                            <div class="context-strategy">
+                                <h4>Error-Driven Context</h4>
+                                <p>Use error messages and stack traces as context for debugging</p>
+                                <div class="code-example">
+                                    <pre><code>// Include full error with context
+"I'm getting this error:
+
+TypeError: Cannot read properties of undefined (reading 'map')
+    at UserList.jsx:25:8
+    at Array.map (&lt;anonymous&gt;)
+
+Here's the component code:
+[paste component]
+
+And here's the API response format:
+[paste example response]
+
+The error happens when the API returns an empty array. 
+How should I handle this case?"</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="production" class="section">
+            <div class="container">
+                <h2 class="section-title">Production-ready AI-assisted development</h2>
+
+                <div class="production-content">
+                    <div class="callout callout-warning">
+                        <h3>⚠️ The security reality check</h3>
+                        <p>
+                            "Vibe coding is fun until you start leaking database credentials in the client." 
+                            This real-world example shows why production deployment requires more than just functional code.
+                        </p>
+                    </div>
+
+                    <div class="production-principles">
+                        <h3>Production principles</h3>
+                        
+                        <div class="principle-grid">
+                            <div class="production-principle">
+                                <div class="principle-icon">🔍</div>
+                                <h4>Always review AI-generated code</h4>
+                                <p>
+                                    Treat AI-generated code like code from a junior developer. 
+                                    It needs careful review and testing before submission.
+                                </p>
+                                <ul>
+                                    <li>Check for security vulnerabilities</li>
+                                    <li>Verify error handling</li>
+                                    <li>Validate performance implications</li>
+                                    <li>Ensure maintainability standards</li>
+                                </ul>
+                            </div>
+
+                            <div class="production-principle">
+                                <div class="principle-icon">🧪</div>
+                                <h4>Have a comprehensive testing strategy</h4>
+                                <p>
+                                    AI can help generate tests, but you must verify coverage and quality.
+                                </p>
+                                <div class="code-example">
+                                    <pre><code>// AI-generated test example
+"Generate comprehensive unit tests for this user authentication function. 
+Include tests for:
+- Valid credentials
+- Invalid credentials  
+- Network errors
+- Malformed input
+- Edge cases like empty strings
+- Security scenarios like SQL injection attempts
+
+Use Jest and follow our existing test patterns in /tests/auth/"</code></pre>
+                                </div>
+                            </div>
+
+                            <div class="production-principle">
+                                <div class="principle-icon">🔒</div>
+                                <h4>Security-first development</h4>
+                                <p>AI can introduce security vulnerabilities. Always validate security practices.</p>
+                                <div class="security-checklist">
+                                    <h5>Security validation checklist:</h5>
+                                    <ul>
+                                        <li>✅ Input validation and sanitization</li>
+                                        <li>✅ Authentication and authorization</li>
+                                        <li>✅ SQL injection prevention</li>
+                                        <li>✅ XSS protection</li>
+                                        <li>✅ Sensitive data handling</li>
+                                        <li>✅ API key and credential management</li>
+                                        <li>✅ HTTPS and secure communications</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="production-principle">
+                                <div class="principle-icon">📈</div>
+                                <h4>Performance & scalability</h4>
+                                <p>AI might generate functional but inefficient code. Always consider performance.</p>
+                                <div class="code-example">
+                                    <pre><code>// Performance-focused prompting
+"Optimize this database query for a table with 1M+ records. 
+Consider:
+- Proper indexing strategies
+- Query execution plan
+- Memory usage
+- Connection pooling
+- Caching opportunities
+
+Explain your optimization choices and include before/after 
+performance comparisons."</code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ai-assisted-lifecycle">
+                        <h3>AI across the Software Development Lifecycle (SDLC)</h3>
+                        <p>
+                            Professional AI-assisted engineering integrates AI tools systematically 
+                            across all phases of development.
+                        </p>
+                        
+                        <div class="lifecycle-phases">
+                            <div class="lifecycle-phase">
+                                <h4>📋 Planning & Design</h4>
+                                <ul>
+                                    <li>AI planning collaborators</li>
+                                    <li>Design document generation</li>
+                                    <li>Task breakdown and estimation</li>
+                                    <li>Architecture recommendations</li>
+                                </ul>
+                                <div class="phase-example">
+                                    <strong>Example:</strong> "Analyze this product requirements document and generate 
+                                    a technical architecture plan with component breakdown, API design, 
+                                    and implementation timeline."
+                                </div>
+                            </div>
+
+                            <div class="lifecycle-phase">
+                                <h4>💾 Coding & Implementation</h4>
+                                <ul>
+                                    <li>Code completion and generation</li>
+                                    <li>Refactoring assistance</li>
+                                    <li>Migration support</li>
+                                    <li>Documentation generation</li>
+                                </ul>
+                                <div class="phase-example">
+                                    <strong>Example:</strong> "Migrate this class component to a functional component 
+                                    with hooks, maintaining all existing functionality and performance characteristics."
+                                </div>
+                            </div>
+
+                            <div class="lifecycle-phase">
+                                <h4>🧪 Testing & Quality Assurance</h4>
+                                <ul>
+                                    <li>Automated test generation</li>
+                                    <li>Test coverage analysis</li>
+                                    <li>Bug detection and fixing</li>
+                                    <li>Code quality improvements</li>
+                                </ul>
+                                <div class="phase-example">
+                                    <strong>Example:</strong> "Generate integration tests for this API endpoint, 
+                                    including error scenarios, authentication edge cases, and performance testing."
+                                </div>
+                            </div>
+
+                            <div class="lifecycle-phase">
+                                <h4>🚀 Deployment & Operations</h4>
+                                <ul>
+                                    <li>Build automation</li>
+                                    <li>Deployment configuration</li>
+                                    <li>Monitoring setup</li>
+                                    <li>Performance optimization</li>
+                                </ul>
+                                <div class="phase-example">
+                                    <strong>Example:</strong> "Create a CI/CD pipeline configuration for this Node.js 
+                                    application with automated testing, security scanning, and staged deployment."
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quality-gates">
+                        <h3>Quality Gates for AI-Generated Code</h3>
+                        <p>
+                            Implement systematic quality controls to ensure AI-generated code meets production standards.
+                        </p>
+                        
+                        <div class="quality-checklist">
+                            <div class="quality-gate">
+                                <h4>🔍 Code Review Checklist</h4>
+                                <div class="checklist">
+                                    <label><input type="checkbox"> Logic correctness and edge case handling</label>
+                                    <label><input type="checkbox"> Security vulnerabilities and data validation</label>
+                                    <label><input type="checkbox"> Performance implications and resource usage</label>
+                                    <label><input type="checkbox"> Code style and maintainability standards</label>
+                                    <label><input type="checkbox"> Error handling and logging</label>
+                                    <label><input type="checkbox"> Test coverage and quality</label>
+                                    <label><input type="checkbox"> Documentation and comments</label>
+                                    <label><input type="checkbox"> Dependency management and licensing</label>
+                                </div>
+                            </div>
+
+                            <div class="quality-gate">
+                                <h4>🧪 Testing Requirements</h4>
+                                <div class="testing-requirements">
+                                    <div class="requirement">
+                                        <h5>Unit Tests</h5>
+                                        <p>Every AI-generated function needs corresponding unit tests</p>
+                                    </div>
+                                    <div class="requirement">
+                                        <h5>Integration Tests</h5>
+                                        <p>Test AI-generated components in context with existing systems</p>
+                                    </div>
+                                    <div class="requirement">
+                                        <h5>Security Tests</h5>
+                                        <p>Validate security controls and input handling</p>
+                                    </div>
+                                    <div class="requirement">
+                                        <h5>Performance Tests</h5>
+                                        <p>Ensure generated code meets performance requirements</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="future" class="section">
+            <div class="container">
+                <h2 class="section-title">The Future of AI-Assisted Development</h2>
+                
+                <div class="future-content">
+                    <div class="vision-statement">
+                        <h3>What does the road ahead look like?</h3>
+                        <p class="lead">
+                            We're moving from simple code completion to intelligent agents that can reason, 
+                            plan, and execute complex development tasks autonomously while maintaining 
+                            human oversight and control.
+                        </p>
+                    </div>
+
+                    <div class="emerging-trends">
+                        <h3>Some emerging trends</h3>
+                        
+                        <div class="trends-grid">
+                            <div class="trend-card">
+                                <div class="trend-icon">🤖</div>
+                                <h4>Autonomous Agents</h4>
+                                <p>
+                                    AI agents that can take complex actions across entire codebases, 
+                                    reason about system architecture, and implement features end-to-end.
+                                </p>
+                                <div class="trend-examples">
+                                    <h5>Examples in development:</h5>
+                                    <ul>
+                                        <li>Cline's autonomous Chrome interaction</li>
+                                        <li>Multi-agent debugging systems</li>
+                                        <li>Automated migration tools</li>
+                                        <li>Self-healing production systems</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="trend-card">
+                                <div class="trend-icon">👁️</div>
+                                <h4>Visual development</h4>
+                                <p>
+                                    AI systems that can see, understand, and interact with user interfaces 
+                                    to provide more contextual assistance.
+                                </p>
+                                <div class="trend-examples">
+                                    <h5>Current capabilities:</h5>
+                                    <ul>
+                                        <li>Visual element inspection (Bolt, Lovable)</li>
+                                        <li>Screenshot-to-code generation</li>
+                                        <li>UI debugging with visual feedback</li>
+                                        <li>Design-to-implementation workflows</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="trend-card">
+                                <div class="trend-icon">🧠</div>
+                                <h4>Reasoning & planning</h4>
+                                <p>
+                                    Advanced models that can break down complex problems, create detailed 
+                                    plans, and execute multi-step solutions.
+                                </p>
+                                <div class="trend-examples">
+                                    <h5>Capabilities:</h5>
+                                    <ul>
+                                        <li>Architecture decision making</li>
+                                        <li>Performance optimization strategies</li>
+                                        <li>Security vulnerability assessment</li>
+                                        <li>Technical debt prioritization</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="trend-card">
+                                <div class="trend-icon">🔄</div>
+                                <h4>Continuous learning</h4>
+                                <p>
+                                    AI systems that learn from your codebase, team practices, and 
+                                    feedback to provide increasingly personalized assistance.
+                                </p>
+                                <div class="trend-examples">
+                                    <h5>Personalization areas:</h5>
+                                    <ul>
+                                        <li>Team coding standards</li>
+                                        <li>Architecture preferences</li>
+                                        <li>Performance patterns</li>
+                                        <li>Security requirements</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="future-workflow">
+                        <h3>A future development workflow</h3>
+                        <p>
+                            Imagine a development experience where AI agents handle routine tasks, 
+                            provide intelligent suggestions, and enable developers to focus on 
+                            high-level problem solving and creative solutions.
+                        </p>
+                        
+                        <div class="workflow-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-marker">🎯</div>
+                                <div class="timeline-content">
+                                    <h4>Intent definition</h4>
+                                    <p>
+                                        Describe what you want to build at a high level. AI understands 
+                                        context, requirements, and constraints from natural language.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-marker">📋</div>
+                                <div class="timeline-content">
+                                    <h4>Intelligent planning</h4>
+                                    <p>
+                                        AI generates detailed technical plans, considers architecture 
+                                        decisions, and suggests optimal implementation strategies.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-marker">🏗️</div>
+                                <div class="timeline-content">
+                                    <h4>Autonomous implementation</h4>
+                                    <p>
+                                        AI agents implement features across multiple files, handle 
+                                        integrations, and generate comprehensive tests.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-marker">🔍</div>
+                                <div class="timeline-content">
+                                    <h4>Intelligent review</h4>
+                                    <p>
+                                        AI provides detailed code review, security analysis, and 
+                                        performance optimization suggestions.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <div class="timeline-marker">🚀</div>
+                                <div class="timeline-content">
+                                    <h4>Automated deployment</h4>
+                                    <p>
+                                        AI manages deployment pipelines, monitors performance, and 
+                                        provides optimization recommendations.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="preparing-for-future">
+                        <h3>Preparing for the future</h3>
+                        <p>
+                            The models available today are the "worst" they'll ever be. Here's how to 
+                            future-proof your skills and workflows.
+                        </p>
+                        
+                        <div class="preparation-strategies">
+                            <div class="strategy-category">
+                                <h4>🧠 Mindset shifts</h4>
+                                <ul>
+                                    <li><strong>From coding to curating:</strong> Focus on providing context, validating outputs, and making architectural decisions</li>
+                                    <li><strong>From implementation to intent:</strong> Become expert at expressing what you want rather than how to build it</li>
+                                    <li><strong>From solo to collaborative:</strong> Learn to work with AI as a pair programming partner</li>
+                                    <li><strong>From reactive to proactive:</strong> Use AI to anticipate problems and optimize before issues arise</li>
+                                </ul>
+                            </div>
+
+                            <div class="strategy-category">
+                                <h4>🛠️ Skill development</h4>
+                                <ul>
+                                    <li><strong>Prompt engineering:</strong> Master the art of clear, contextual communication with AI</li>
+                                    <li><strong>AI tool fluency:</strong> Stay current with evolving AI development tools and capabilities</li>
+                                    <li><strong>Critical evaluation:</strong> Develop strong skills in reviewing and validating AI-generated code</li>
+                                    <li><strong>System thinking:</strong> Focus on architecture, design patterns, and high-level problem solving</li>
+                                </ul>
+                            </div>
+
+                            <div class="strategy-category">
+                                <h4>🔧 Workflow evolution</h4>
+                                <ul>
+                                    <li><strong>Iterative development:</strong> Embrace rapid prototyping and incremental improvement</li>
+                                    <li><strong>Context management:</strong> Develop systems for organizing and providing relevant context to AI</li>
+                                    <li><strong>Quality gates:</strong> Implement robust review and testing processes for AI-generated code</li>
+                                    <li><strong>Continuous learning:</strong> Stay adaptable as AI capabilities expand rapidly</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="call-to-action">
+                        <h3>Your next steps</h3>
+                        <p>
+                            The future of software development is being written now. Here's how to get started 
+                            and continue your journey beyond vibe coding.
+                        </p>
+                        
+                        <div class="action-items">
+                            <div class="action-category">
+                                <h4>🚀 Start today</h4>
+                                <ol>
+                                    <li>Choose one AI tool from this guide and build your first project</li>
+                                    <li>Implement the core best practices: plan first, provide context, test ruthlessly</li>
+                                    <li>Practice advanced prompting techniques on real problems</li>
+                                    <li>Set up quality gates and review processes</li>
+                                </ol>
+                            </div>
+
+                            <div class="action-category">
+                                <h4>📈 Level Up (Next 30 days)</h4>
+                                <ol>
+                                    <li>Build a production application using AI assistance throughout the lifecycle</li>
+                                    <li>Experiment with different tools for different use cases</li>
+                                    <li>Develop your personal prompting style and context management system</li>
+                                    <li>Share learnings with your team and start collaborative AI-assisted development</li>
+                                </ol>
+                            </div>
+
+                            <div class="action-category">
+                                <h4>🎯 Master Level (Next 90 days)</h4>
+                                <ol>
+                                    <li>Implement AI assistance across your entire development workflow</li>
+                                    <li>Develop custom prompts and workflows for your specific domain</li>
+                                    <li>Contribute to the AI-assisted development community</li>
+                                    <li>Stay current with emerging tools and techniques</li>
+                                </ol>
+                            </div>
+                        </div>
+                        
+                        <div class="final-message">
+                            <blockquote>
+                                "The goal is to work smarter, not just harder. By embracing AI as a powerful 
+                                collaborator and learning to guide its capabilities effectively, you're not 
+                                just improving your current productivity—you're preparing for the future of engineering."
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="footer-illustration">
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Beyond Vibe Coding</h4>
+                    <p>The ultimate guide to AI-assisted development for the modern software engineer.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://addyo.substack.com">Addy's SubStack</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Stay updated</h4>
+                    <p>AI-assisted development is evolving rapidly. Keep learning and adapting.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Beyond Vibe Coding Guide. Built with AI assistance.</p>
+            </div>
+        </div>
+    </footer>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K3VQ4DJPVY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K3VQ4DJPVY');
+</script>
+</body>
+</html>
