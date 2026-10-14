@@ -6,6 +6,8 @@ Research snapshot: **October 13, 2026**. Five separate investigations of the com
 
 **Barbini and Yegge provide the clearest models for the consulting objective.** Barbini connects practical teaching with a specific team-training offer. Yegge gives readers an explicit route from technical writing to organizational help. Isberg provides inspectable tools connected to the book. These are comparisons of visible practices, not rankings of marketing effectiveness.
 
+The [October 14 quantitative comparison](quantitative/README.md) adds archived audience counters, book-sales searches, demand proxies, and coverage-qualified activity rates. Its fixed baseline is July 16–October 13; it does not treat these dossiers’ selected examples as a complete feed census.
+
 ## Five different approaches
 
 Each linked dossier contains its own channel inventory, dated examples, source evidence, commercial paths, audience snapshots, and proposed tests. Ownership matters: a publisher's editorial operation, an employer's consulting business, and a guest host's audience are separate from an author's personal accounts.
