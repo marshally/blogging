@@ -1,0 +1,524 @@
+{
+  "metrics": [
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Platform-reported followers; never substitute connections.",
+      "formula_id": null,
+      "metric_id": "account_followers",
+      "unit": "people",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Platform-reported connections, separate from followers.",
+      "formula_id": null,
+      "metric_id": "account_connections",
+      "unit": "people",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Platform-reported channel subscribers.",
+      "formula_id": null,
+      "metric_id": "account_subscribers",
+      "unit": "people",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Disclosed total newsletter subscriptions; do not infer people or infer components from a total.",
+      "formula_id": null,
+      "metric_id": "newsletter_subscribers_total",
+      "unit": "subscriptions",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Disclosed free newsletter subscriptions; do not infer people or infer components from a total.",
+      "formula_id": null,
+      "metric_id": "newsletter_subscribers_free",
+      "unit": "subscriptions",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Disclosed paid newsletter subscriptions; do not infer people or infer components from a total.",
+      "formula_id": null,
+      "metric_id": "newsletter_subscribers_paid",
+      "unit": "subscriptions",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "content"
+      ],
+      "description": "Use the platform-specific view definition; record its name.",
+      "formula_id": null,
+      "metric_id": "content_views",
+      "unit": "views",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "content"
+      ],
+      "description": "Explicit likes, separate from a broader reactions count.",
+      "formula_id": null,
+      "metric_id": "content_likes",
+      "unit": "interactions",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "content"
+      ],
+      "description": "Platform-reported reactions.",
+      "formula_id": null,
+      "metric_id": "content_reactions",
+      "unit": "interactions",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "content"
+      ],
+      "description": "All reported comments, including author comments unless the source says otherwise.",
+      "formula_id": null,
+      "metric_id": "content_comments",
+      "unit": "comments",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "content"
+      ],
+      "description": "Comments demonstrably excluding the content author.",
+      "formula_id": null,
+      "metric_id": "content_non_author_comments",
+      "unit": "comments",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "content"
+      ],
+      "description": "Platform-reported reposts/shares; preserve the metric name.",
+      "formula_id": null,
+      "metric_id": "content_reposts",
+      "unit": "reposts",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "content"
+      ],
+      "description": "Published media duration in seconds.",
+      "formula_id": null,
+      "metric_id": "content_duration_seconds",
+      "unit": "seconds",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "book",
+        "person",
+        "organization"
+      ],
+      "description": "Copies sold; distinguish paid/free and returns treatment in scope.notes.",
+      "formula_id": null,
+      "metric_id": "book_units_sold",
+      "unit": "copies",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "book",
+        "person",
+        "organization"
+      ],
+      "description": "Copies shipped; do not relabel as sold.",
+      "formula_id": null,
+      "metric_id": "book_units_shipped",
+      "unit": "copies",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "book",
+        "person",
+        "organization"
+      ],
+      "description": "Copies printed; do not relabel as sold.",
+      "formula_id": null,
+      "metric_id": "book_units_printed",
+      "unit": "copies",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "book",
+        "person",
+        "organization"
+      ],
+      "description": "Copies distributed, potentially including free copies.",
+      "formula_id": null,
+      "metric_id": "book_units_distributed",
+      "unit": "copies",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "book"
+      ],
+      "description": "Explicitly free downloads, separate from paid units.",
+      "formula_id": null,
+      "metric_id": "book_free_downloads",
+      "unit": "downloads",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "book"
+      ],
+      "description": "Rating count for the exact retailer/marketplace and edition aggregation shown.",
+      "formula_id": null,
+      "metric_id": "book_rating_count",
+      "unit": "ratings",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "book"
+      ],
+      "description": "Written review count, distinct from star-only ratings.",
+      "formula_id": null,
+      "metric_id": "book_written_review_count",
+      "unit": "reviews",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "book"
+      ],
+      "description": "Mean rating as reported; scope.rating_scale_max is required.",
+      "formula_id": null,
+      "metric_id": "book_average_rating",
+      "unit": "rating_points",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "book"
+      ],
+      "description": "Observed rank; exact marketplace/category/format required; never convert to copies.",
+      "formula_id": null,
+      "metric_id": "book_sales_rank",
+      "unit": "rank",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "book"
+      ],
+      "description": "ISO date with original precision (YYYY, YYYY-MM, or YYYY-MM-DD); do not invent a day.",
+      "formula_id": null,
+      "metric_id": "book_publication_date",
+      "unit": "date",
+      "value_type": "string"
+    },
+    {
+      "allowed_subject_types": [
+        "book"
+      ],
+      "description": "One of planned, early_access, published, retired, unknown.",
+      "formula_id": null,
+      "metric_id": "book_publication_status",
+      "unit": "status",
+      "value_type": "string"
+    },
+    {
+      "allowed_subject_types": [
+        "offer"
+      ],
+      "description": "Advertised price; currency required, with per-seat/per-team/billing-period scope notes.",
+      "formula_id": null,
+      "metric_id": "offer_price",
+      "unit": "currency",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "offer",
+        "event"
+      ],
+      "description": "Advertised capacity, separate from attendance.",
+      "formula_id": null,
+      "metric_id": "offer_capacity",
+      "unit": "seats",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "event"
+      ],
+      "description": "Disclosed actual attendance, with reporting source and scope.",
+      "formula_id": null,
+      "metric_id": "event_attendance",
+      "unit": "people",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "event"
+      ],
+      "description": "One of announced, scheduled, delivered, cancelled, unknown.",
+      "formula_id": null,
+      "metric_id": "event_status",
+      "unit": "status",
+      "value_type": "string"
+    },
+    {
+      "allowed_subject_types": [
+        "person"
+      ],
+      "description": "Documented first-publication date at the precision actually known; not an estimated career start.",
+      "formula_id": null,
+      "metric_id": "author_first_publication_date",
+      "unit": "date",
+      "value_type": "string"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Count collected qualifying records; partial coverage yields a lower bound.",
+      "formula_id": "count_content",
+      "metric_id": "observed_content_count",
+      "unit": "items",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Original posts only over a complete public window, scaled by actual duration.",
+      "formula_id": "original_posts_per_week",
+      "metric_id": "original_posts_per_week",
+      "unit": "posts_per_week",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Fraction of complete seven-day bins containing an original post.",
+      "formula_id": "active_week_fraction",
+      "metric_id": "active_week_fraction",
+      "unit": "fraction",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Later minus earlier comparable follower observation; never infer causality.",
+      "formula_id": "followers_change",
+      "metric_id": "followers_change",
+      "unit": "people",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "100 times follower change divided by earlier count.",
+      "formula_id": "followers_growth_percent",
+      "metric_id": "followers_growth_percent",
+      "unit": "percent",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Median of available content-view observations, with platform/format and age context.",
+      "formula_id": "median_metric",
+      "metric_id": "median_content_views",
+      "unit": "views",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Median of available reaction observations.",
+      "formula_id": "median_metric",
+      "metric_id": "median_content_reactions",
+      "unit": "interactions",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Median of available comment observations; do not assume non-author only.",
+      "formula_id": "median_metric",
+      "metric_id": "median_content_comments",
+      "unit": "comments",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Median of available repost observations.",
+      "formula_id": "median_metric",
+      "metric_id": "median_content_reposts",
+      "unit": "reposts",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "75th percentile of available content views using the specified linear interpolation.",
+      "formula_id": "p75_metric",
+      "metric_id": "p75_content_views",
+      "unit": "views",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Qualifying content in the named format divided by the same collected population.",
+      "formula_id": "format_fraction",
+      "metric_id": "content_format_fraction",
+      "unit": "fraction",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "book"
+      ],
+      "description": "Comparable later-minus-earlier rating counts; net change, not necessarily new ratings.",
+      "formula_id": "counter_change",
+      "metric_id": "book_rating_count_change",
+      "unit": "ratings",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "book"
+      ],
+      "description": "Comparable later-minus-earlier written-review counts; net change.",
+      "formula_id": "counter_change",
+      "metric_id": "book_written_review_count_change",
+      "unit": "reviews",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Newsletter issues over a complete public window, scaled by actual duration.",
+      "formula_id": "issues_per_week",
+      "metric_id": "newsletter_issues_per_week",
+      "unit": "issues_per_week",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "content"
+      ],
+      "description": "Distinct derived content with archived derived_from relationship evidence.",
+      "formula_id": "derivative_count",
+      "metric_id": "verified_derivative_count",
+      "unit": "items",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "content"
+      ],
+      "description": "Derivative publication time minus original publication time; requires sufficient date precision.",
+      "formula_id": "reuse_lag_days",
+      "metric_id": "reuse_lag_days",
+      "unit": "days",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Count only content_kind=video_upload over a complete public window; scope.content_kind must equal video_upload.",
+      "formula_id": "kind_per_week",
+      "metric_id": "uploads_per_week",
+      "unit": "uploads_per_week",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Count only content_kind=podcast_episode over a complete public window; scope.content_kind must equal podcast_episode.",
+      "formula_id": "kind_per_week",
+      "metric_id": "podcast_episodes_per_week",
+      "unit": "episodes_per_week",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Count only content_kind=article over a complete public window; scope.content_kind must equal article.",
+      "formula_id": "kind_per_week",
+      "metric_id": "articles_per_week",
+      "unit": "articles_per_week",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Count only content_kind=repost over a complete public window; scope.content_kind must equal repost.",
+      "formula_id": "kind_per_week",
+      "metric_id": "reposts_per_week",
+      "unit": "reposts_per_week",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Count only content_kind=reply over a complete public window; scope.content_kind must equal reply.",
+      "formula_id": "kind_per_week",
+      "metric_id": "replies_per_week",
+      "unit": "replies_per_week",
+      "value_type": "number"
+    },
+    {
+      "allowed_subject_types": [
+        "account"
+      ],
+      "description": "Count only content_kind=quote_post over a complete public window; scope.content_kind must equal quote_post.",
+      "formula_id": "kind_per_week",
+      "metric_id": "quote_posts_per_week",
+      "unit": "posts_per_week",
+      "value_type": "number"
+    }
+  ],
+  "schema_version": "1.0"
+}

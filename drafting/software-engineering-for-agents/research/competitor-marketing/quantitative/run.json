@@ -1,0 +1,56 @@
+{
+  "competitors": [
+    {
+      "competitor_id": "barbini",
+      "person_ids": [
+        "person:uberto-barbini"
+      ]
+    },
+    {
+      "competitor_id": "isberg",
+      "person_ids": [
+        "person:peter-isberg"
+      ]
+    },
+    {
+      "competitor_id": "kim-yegge",
+      "person_ids": [
+        "person:gene-kim",
+        "person:steve-yegge"
+      ]
+    },
+    {
+      "competitor_id": "osmani",
+      "person_ids": [
+        "person:addy-osmani"
+      ]
+    },
+    {
+      "competitor_id": "lelek-skowronski",
+      "person_ids": [
+        "person:tomasz-lelek",
+        "person:artur-skowronski"
+      ]
+    }
+  ],
+  "created_at": "2026-10-14T17:33:10Z",
+  "metric_registry_sha256": "4924b47a62a6eb722e90eb8d54c0a955ea260d8672504e851e27164c4f32582a",
+  "run_id": "quant-2026-10-14",
+  "schema_sha256": "2c072806a2a91cb65ddb7d3b0160e1df39e028aea70e4691924e68f92a03830a",
+  "schema_version": "1.0",
+  "status": "collecting",
+  "timezone": "UTC",
+  "window_end": "2026-10-14T00:00:00Z",
+  "window_start": "2026-07-16T00:00:00Z",
+  "worker_ids": [
+    "coordinator",
+    "books",
+    "linkedin",
+    "video",
+    "social-x",
+    "social-bluesky",
+    "social-instagram",
+    "social-tiktok",
+    "newsletters-commercial"
+  ]
+}
