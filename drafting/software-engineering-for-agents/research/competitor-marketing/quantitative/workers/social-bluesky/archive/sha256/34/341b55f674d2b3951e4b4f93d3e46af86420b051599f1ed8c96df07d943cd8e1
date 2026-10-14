@@ -1,0 +1,2141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5B3LMK9H');</script>
+
+  <title>From Objects to Functions: Build Your Software Faster and Safer with Functional Programming and Kotlin by Uberto Barbini</title>
+<meta name="description" content="Learn Functional Programming by building a complete web application that uses Kotlin, TDD with end-to-end tests, and CQRS and Event Sourcing microservices architecture.">
+<meta name="keywords" content="functional programming, oop, object-oriented, kotlin, java, design patterns,">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@pragprog" />
+<meta name="twitter:image" content="https://pragprog.com/titles/uboop/from-objects-to-functions/uboop.jpg" />
+<meta name="twitter:image:" content="Book cover image." />
+<meta name="twitter:title" content="From Objects to Functions" />
+<meta name="twitter:description" content="Learn Functional Programming by building a complete web application that uses Kotlin, TDD with end-to-end tests, and CQRS and Event Sourcing microservices architecture." />
+
+
+<meta property="og:title" content="From Objects to Functions" />
+<meta property="og:url" content="https://pragprog.com/titles/uboop/from-objects-to-functions" />
+<meta property="og:image" content="https://pragprog.com/titles/uboop/uboop-large.jpg" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Learn Functional Programming by building a complete web application that uses Kotlin, TDD with end-to-end tests, and CQRS and Event Sourcing microservices architecture." />
+<meta property="book:author" content="Uberto Barbini" />
+<meta property="book:isbn" content="9781680508451" />
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://pragprog.com/css/style.min.d629062726b622a0067910667a567055efda7dbc46151f7f75a05f74f7a2e487.css">
+
+<link rel="stylesheet" href="https://pragprog.com/css/balloon.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+<script src="https://transactions.sendowl.com/assets/sendowl.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://pragprog.com/js/jquery-3.5.1.min.js"></script>
+
+<script src="https://pragprog.com/js/dynamo.min.js?v=4.25.1"></script>
+<script>
+    $(document).ready(function() {
+        var sku = ('uboop') ? 'uboop' : '';
+        dynamo({
+            'dynamoPermalink': 'https:\/\/pragprog.com\/js\/dynamo.min.js',
+            'sku': sku,
+            
+            'slug': 'index',
+            
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+<div class="title-container">
+  
+<header>
+  <div class="logo">
+    <a href="/" name="Home page" aria-label="return to pragprog home">
+      <div id="logo-svg-container">
+  <svg version="1.1"
+       id="logo-svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     x="0px" y="0px"
+     viewBox="0 8.5 275 108.5"
+     preserveAspectRatio="xMinYMin meet"
+     xml:space="preserve">
+
+  <style type="text/css">
+   .logo_letters{fill:#e0e0f0;}
+  </style>
+
+  <g id="Trapezoid">
+    <polygon class="trapezoid" points="247,108.5 24,108.5 0,0 275,0"/>
+  </g>
+
+  <g id="The">
+    <g>
+      <g>
+	<path class="logo_letters" d="M61.3,26.4l-0.8,0.3c-0.9-1.8-2.6-3.1-4.6-3.1c-0.8,0-0.8,0.4-0.8,0.9V34c0,0.5,0,1.2,0.2,1.6
+				      c0.3,0.7,1,0.7,1.6,0.7h0.4V37h-6.5v-0.6l0.4,0c0.6,0,1.3-0.1,1.6-0.7c0.2-0.4,0.2-1.2,0.2-1.7v-9.4c0-0.7,0-1.1-0.9-1.1
+				      c-2.1,0-3.7,1.3-4.7,3.1l-0.7-0.3l1.2-3.7h12.2L61.3,26.4z"/>
+	<path class="logo_letters" d="M72.3,34.3c0,1.2,0.2,1.9,1.5,2H74V37h-5.6v-0.6h0.3c1.4-0.1,1.6-0.7,1.6-2v-4.5
+				      c0-0.5,0-1.1-0.3-1.5c-0.3-0.4-0.9-0.6-1.4-0.6c-1.2,0-2.9,0.8-3.7,1.7v5c0,1.2,0.1,2,1.4,2h0.3V37h-5.6v-0.6h0.2
+				      c1.4-0.1,1.7-0.7,1.7-2v-9c0-1.1-0.1-1.9-1.6-2l-0.3,0v-0.6c1-0.1,2.1-0.3,3-0.7h0.8v6.4c1.2-1,2.6-1.8,4.3-1.8
+				      c0.8,0,1.7,0.2,2.4,0.7c0.8,0.6,0.8,1.5,0.8,2.4v0.1V34.3z"/>
+	<path class="logo_letters" d="M77.4,30.9l0,1.1c0,1,0.4,2.1,0.9,2.9c0.6,0.9,1.6,1.3,2.7,1.3c1.4,0,2.4-0.7,3.1-1.9l0.7,0.4
+				      c-0.8,1.7-2.5,2.5-4.3,2.5c-1.4,0-2.6-0.4-3.7-1.4c-1-1-1.6-2.5-1.6-3.9c0-3,1.9-5.2,5-5.2h0c2.5,0,4.5,1.7,4.5,4.2v0.1H77.4z
+				      M82.5,30.1c0-1.6-1-2.6-2.4-2.6c-1.5,0-2.5,1.2-2.6,2.6H82.5z"/>
+      </g>
+    </g>
+  </g>
+  <g id="Pragmatic">
+    <g>
+      <g>
+	<path class="logo_letters" d="M29.9,53.7c0,0.8,0,1.8,0.3,2.4c0.5,1.1,1.7,1.2,2.7,1.3l0.7,0v1.1H23.1v-1.1l0.3,0
+				      c1-0.1,2-0.2,2.4-1.2c0.4-0.8,0.4-2,0.4-3V38.6c0-1.9-0.2-3.3-2.7-3.5l-0.5,0V34h11.8c2.1,0,4.2,0.2,6,1.3c2,1.2,3.1,3.2,3.1,5.5
+				      c0,2.1-0.9,4.1-2.6,5.4c-1.8,1.4-4.4,1.6-6.6,1.6h-5V53.7z M34.3,46.4c1.8,0,3.4-0.1,4.7-1.5c1.1-1.2,1.4-2.5,1.4-4.1
+				      c0-1.5-0.5-3.1-1.7-4.1c-1.2-1-2.8-1.3-4.3-1.3c-0.9,0-3.3,0.1-4,0.7c-0.5,0.3-0.5,1.1-0.5,1.7v8.6H34.3z"/>
+	<path class="logo_letters" d="M51.7,53.9c0.1,2.1,0.4,3.3,2.7,3.5l0.6,0v1.1h-9.9v-1.1h0.4c2.4-0.1,2.8-1.3,2.8-3.5v-7.5
+				      c0-2-0.4-3.3-2.6-3.5H45v-1.1l5.5-0.8h1.2v2.7c1.6-1.6,3.6-3.1,6-3.1c1.2,0,2.7,0.5,2.7,1.9c0,1.2-0.9,1.9-2,1.9
+				      c-1.7,0-2.1-1.2-3.2-1.2c-1.2,0-2.7,1.1-3.5,2V53.9z"/>
+	<path class="logo_letters" d="M81.3,57.6c-0.9,0.8-2.3,1.2-3.5,1.2h-0.1c-1.8,0-3.4-0.8-3.9-2.6c-2.1,1.7-4.1,2.6-6.8,2.6
+				      c-2.5,0-5.5-1.4-5.5-4.2c0-2.4,1.5-3.6,3.6-4.5c1.9-0.9,4-1.3,6-1.5l2.7-0.3v-2.6c-0.1-1.1-0.3-2.1-1.3-2.7
+				      c-0.9-0.6-2.2-0.8-3.2-0.8c-1.1,0-3.5,0.5-3.5,1.9v0.5c0,1.2-0.5,2.2-1.8,2.2c-0.9,0-1.7-0.7-1.7-1.6c0-1.5,1.7-2.8,2.9-3.4
+				      c1.5-0.6,3.5-1,5.1-1h0.1c1.5,0,3.4,0.5,4.7,1.2c1.9,1,2.1,2.4,2.1,4.4v7.1c0,1.5,0.2,3.8,2,3.8c0.5,0,1-0.3,1.5-0.5L81.3,57.6z
+				      M73.7,49.5c-2.7,0.3-8.6,1-8.6,4.6c0,1.8,1.5,2.9,3.3,2.9c1.9,0,3.9-1.2,5.4-2.4V49.5z"/>
+	<path class="logo_letters" d="M94.6,56.8c2.7,0.4,5.8,0.9,5.8,4.4c0,4.9-5.8,6-9.7,6c-2.9,0-9.1-0.7-9.1-4.6
+				      c0-2.1,2.1-3.2,3.7-3.8v-0.1c-1.4-0.4-2.6-1.3-2.6-2.9c0-2,1.7-3.3,3.5-3.7c-1.8-1-2.8-2.9-2.8-4.9v-0.2c0.1-4,3.5-6.3,7.2-6.3
+				      c1.1,0,2.2,0.2,3.3,0.6c0.9-1.7,2.5-3.2,4.5-3.2c1,0,2.1,0.4,2.1,1.5c0,0.7-0.5,1.4-1.3,1.4c-0.8,0-1.5-0.6-2.3-0.6
+				      s-1.4,0.8-1.9,1.4c1.8,1.3,3,3.1,3,5.4c0,1.7-0.9,3.5-2.2,4.5c-1.4,1.2-3.4,1.5-5.3,1.5c-1.2,0-2.2-0.2-3.2-0.6
+				      c-0.7,0.3-1.7,1.1-1.7,1.9c0,1.3,2,1.4,2.8,1.5L94.6,56.8z M86.7,59.2c-1.4,0.4-2.9,1.7-2.9,3.2c0,3.2,4.8,3.7,7.1,3.7
+				      c2.3,0,6.9-0.5,6.9-3.6c0-2-2.6-2.2-4.1-2.4L86.7,59.2z M86.9,47c0,2.7,0.7,5,3.9,5c1.2,0,2.6-0.6,3.1-1.7
+				      c0.5-0.9,0.6-2.4,0.6-3.4c0-2.6-0.6-4.9-3.7-4.9C87.8,42,86.9,44.5,86.9,47z"/>
+	<path class="logo_letters" d="M107.7,53.9c0,2,0.3,3.3,2.6,3.5h0.4v1.1h-9.2v-1.1c2.4-0.2,2.8-1.4,2.8-3.5v-7.5
+				      c0-2-0.4-3.3-2.6-3.5h-0.6v-1.1l5.5-0.8h1.2v2.5c1.6-1.7,4-2.8,6.8-2.8c2.3,0,3.9,0.6,5,2.8c1.8-1.6,4.3-2.8,6.6-2.8h0.1
+				      c1.5,0,3.1,0.5,4.1,1.8c0.8,1,0.9,2.3,0.9,3.5v7.9c0,1.9,0.3,3.3,2.7,3.5v1.1h-9.1v-1.1h0.3c2.3-0.2,2.7-1.4,2.7-3.5v-7.1
+				      c0-0.8,0-1.7-0.3-2.4c-0.4-1.1-1.4-1.8-2.6-1.8c-1.9,0-3.8,1.2-5.4,2.4v9c0,2.1,0.4,3.3,2.7,3.5h0.3v1.1H113v-1.1h0.3
+				      c2.3-0.2,2.7-1.4,2.7-3.5v-7.2c0-2-0.1-4.1-2.7-4.1c-2.1,0-4.1,1.2-5.5,2.4V53.9z"/>
+	<path class="logo_letters" d="M155.4,57.6c-0.9,0.8-2.3,1.2-3.5,1.2h-0.1c-1.8,0-3.4-0.8-3.9-2.6c-2.1,1.7-4.1,2.6-6.8,2.6
+				      c-2.5,0-5.5-1.4-5.5-4.2c0-2.4,1.5-3.6,3.6-4.5c1.9-0.9,4-1.3,6-1.5l2.7-0.3v-2.6c-0.1-1.1-0.3-2.1-1.3-2.7
+				      c-0.9-0.6-2.2-0.8-3.2-0.8c-1.1,0-3.5,0.5-3.5,1.9v0.5c0,1.2-0.5,2.2-1.8,2.2c-0.9,0-1.7-0.7-1.7-1.6c0-1.5,1.7-2.8,2.9-3.4
+				      c1.5-0.6,3.5-1,5.1-1h0.1c1.5,0,3.4,0.5,4.7,1.2c1.9,1,2.1,2.4,2.1,4.4v7.1c0,1.5,0.2,3.8,2,3.8c0.5,0,1-0.3,1.5-0.5L155.4,57.6z
+				      M147.9,49.5c-2.7,0.3-8.6,1-8.6,4.6c0,1.8,1.5,2.9,3.3,2.9c1.9,0,3.9-1.2,5.4-2.4V49.5z"/>
+	<path class="logo_letters" d="M167.5,42.2h-5.1v10.1c0,2,0,4.9,2.7,4.9c1.3,0,2.3-0.7,3.1-1.6l0.9,0.8c-1.2,1.6-3.1,2.3-5.1,2.3
+				      c-1.2,0-2.6-0.3-3.6-0.9c-1.4-0.9-1.6-2.3-1.6-3.9V42.2h-3v-1.2c4.1-0.1,4.9-3.1,4.9-6.6h1.5v6.6h5.1V42.2z"/>
+	<path class="logo_letters" d="M176.3,53.9c0,2,0.3,3.3,2.6,3.5h0.4v1.1h-9.5v-1.1h0.3c2.4-0.1,2.7-1.3,2.7-3.5v-7.5
+				      c0-2-0.4-3.3-2.6-3.5h-0.6v-1.1l5.5-0.8h1.2V53.9z M174.5,39.3c-1.3,0-2.1-1-2.1-2.2c0-1.1,1-2.1,2.2-2.1c1.3,0,2.2,1,2.2,2.2
+				      C176.7,38.4,175.7,39.3,174.5,39.3z"/>
+	<path class="logo_letters" d="M197.6,54.8c-1.8,2.8-4.4,4-7.7,4c-5.4,0-8.9-3.5-8.9-8.9c0-5.4,3.3-9.2,8.9-9.2
+				      c1.7,0,3.3,0.3,4.8,1.3c1.2,0.8,2.4,2,2.4,3.5c0,1.1-0.7,2-1.8,2c-1,0-1.8-0.7-1.8-1.7c0-0.5,0.1-0.9,0.1-1.4
+				      c0-1.6-2.3-2.3-3.6-2.3c-4.1,0-4.9,4.5-4.9,7.7v0.1c0,3.6,1.6,7.5,5.8,7.5c2.5,0,4.1-1.4,5.6-3.3L197.6,54.8z"/>
+      </g>
+    </g>
+  </g>
+  <g id="Bookshelf">
+    <g>
+      <g>
+	<path class="logo_letters" d="M68.6,86v-1.1l0.4,0c1-0.1,2.1-0.2,2.6-1.2c0.3-0.6,0.4-1.7,0.4-2.6V66.1c0-1.9-0.2-3.3-2.7-3.5
+				      l-0.6-0.1v-1.1H81c1.9,0,4.7,0.1,6.5,0.7c2.3,0.8,4,2.6,4,5.1c0,3.1-2.4,4.6-5.2,5.1v0.1c3.3,0.5,6.5,2.5,6.5,6.2
+				      c0,2.7-1.4,4.9-3.8,6.1c-2.2,1.1-5.2,1.2-7.6,1.2H68.6z M79.5,72c3.3,0,8.3,0,8.3-4.6c0-4.1-4.2-4.6-7.4-4.6c-1,0-3.3,0-4.2,0.8
+				      c-0.6,0.6-0.7,1.7-0.7,2.6V72H79.5z M75.5,80.3c0,1,0,2.6,0.6,3.3c0.8,0.8,3.1,0.9,4.2,0.9c1.8,0,4.2-0.2,5.8-1.1
+				      c1.7-1,2.6-2.8,2.6-4.8c0-2.2-1-4.2-3.3-4.8c-1.5-0.4-3.6-0.4-5.3-0.4h-4.6V80.3z"/>
+	<path class="logo_letters" d="M110.4,70.5c1.8,1.7,2.6,4.4,2.6,6.8c0,5.4-3.4,9-8.8,9c-5.3,0-8.8-3.5-8.8-8.8
+				      c0-5.4,3.1-9.3,8.7-9.3C106.4,68.2,108.8,68.9,110.4,70.5z M104.3,69.7c-4.1,0-5.1,4.4-5.1,7.7c0,3.5,1,7.5,5.3,7.5
+				      c3.9,0,4.8-4.1,4.8-7.2c0-1.7-0.1-3.7-0.9-5.3c-0.8-1.5-2.3-2.7-4-2.7H104.3z"/>
+	<path class="logo_letters" d="M130.6,70.5c1.8,1.7,2.6,4.4,2.6,6.8c0,5.4-3.4,9-8.8,9c-5.3,0-8.8-3.5-8.8-8.8
+				      c0-5.4,3.1-9.3,8.7-9.3C126.5,68.2,129,68.9,130.6,70.5z M124.5,69.7c-4.1,0-5.1,4.4-5.1,7.7c0,3.5,1,7.5,5.3,7.5
+				      c3.9,0,4.8-4.1,4.8-7.2c0-1.7-0.1-3.7-0.9-5.3c-0.8-1.5-2.3-2.7-4-2.7H124.5z"/>
+	<path class="logo_letters" d="M141.8,77l5.1-4.5c0.4-0.4,1.3-1,1.3-1.7c0-1-1.2-1.1-2-1.2v-1.1h9.6v1.1c-3.2,0.3-5.4,1.7-7.7,3.8
+				      l-0.9,0.8l5,7.3c1.2,1.7,2.6,3.1,4.8,3.4V86h-9.8v-1.1h0.4c0.7,0,1.6,0,1.6-1c0-0.8-0.8-1.8-1.2-2.4l-3.4-4.9l-2.9,2.6v2.3
+				      c0,2.1,0.2,3.4,2.5,3.5h0.6V86h-9.8v-1.1h0.4c2.4-0.1,2.8-1.2,2.8-3.5V66c0-1.9-0.2-3.3-2.7-3.5l-0.5,0v-1.1
+				      c1.8-0.2,3.5-0.5,5.2-1.2h1.4V77z"/>
+	<path class="logo_letters" d="M173,74.1h-1.2c-0.9-2.4-3.7-4.4-6.3-4.4c-1.6,0-3.7,0.7-3.7,2.6c0,1.8,2.1,2.1,3.4,2.4l4.1,1
+				      c2.7,0.6,5,1.6,5,4.8c0,4-4,5.8-7.5,5.8c-2.1,0-4.1-0.5-5.8-1.8l-0.4,1.5h-1.2l-1.3-6.4h1.3c1,3.2,4,5.2,7.3,5.2
+				      c1.8,0,4.5-0.9,4.5-3.2c0-1.8-1.6-2.2-3-2.5l-3.7-1c-2.7-0.7-5.8-1.4-5.8-4.8c0-3.3,3.7-5.1,6.6-5.1c1.8,0,3.7,0.5,5.1,1.6
+				      l0.4-1.3h1L173,74.1z"/>
+	<path class="logo_letters" d="M195.7,81.4c0,2,0.3,3.3,2.5,3.5h0.4V86H189v-1.1h0.4c2.4-0.1,2.8-1.2,2.8-3.5v-7.7
+				      c0-0.9,0-1.8-0.6-2.6c-0.6-0.7-1.5-1-2.4-1c-2.1,0-4.9,1.4-6.3,2.8v8.5c0,2,0.3,3.3,2.4,3.5h0.5V86h-9.6v-1.1h0.4
+				      c2.4-0.1,2.8-1.2,2.8-3.5V66c0-1.9-0.2-3.3-2.7-3.5l-0.5,0v-1.1c1.8-0.2,3.5-0.5,5.2-1.2h1.4v11.1c2.1-1.8,4.5-3,7.3-3
+				      c1.3,0,3,0.4,4,1.2c1.4,1.1,1.4,2.6,1.4,4.1v0.3V81.4z"/>
+	<path class="logo_letters" d="M204.4,75.6l-0.1,1.8c0,1.7,0.6,3.6,1.5,5c1,1.5,2.8,2.2,4.6,2.2c2.4,0,4.1-1.2,5.3-3.3l1.2,0.6
+				      c-1.3,2.8-4.3,4.3-7.3,4.3c-2.4,0-4.5-0.6-6.3-2.3c-1.8-1.8-2.7-4.3-2.7-6.7c0-5.2,3.3-9,8.6-9h0.1c4.2,0,7.7,2.8,7.7,7.2v0.1
+				      H204.4z M213.1,74.1c0-2.7-1.7-4.4-4.1-4.4c-2.6,0-4.2,2.1-4.5,4.4H213.1z"/>
+	<path class="logo_letters" d="M225.4,81.4c0,1.9,0.3,3.3,2.5,3.5l0.4,0V86h-9.4v-1.1h0.3c2.3-0.2,2.7-1.3,2.7-3.5V66
+				      c0-1.9-0.2-3.3-2.7-3.5l-0.5,0v-1.1c1.8-0.2,3.5-0.5,5.2-1.2h1.4V81.4z"/>
+	<path class="logo_letters" d="M239.6,69.7H236v11.7c0,2,0.3,3.3,2.5,3.5l0.5,0V86h-9.5v-1.1h0.3c2.3-0.1,2.7-1.3,2.7-3.5V69.7
+				      h-3.1v-1.2h3.1v-1.5c0-1.9,0.1-3.6,1.5-5.1c1.6-1.6,4.3-2.4,6.5-2.4c1.2,0,3.1,0.6,3.1,2.1c0,0.9-0.8,1.6-1.7,1.6
+				      c-1.7,0-1.7-2.1-3.4-2.1c-0.6,0-1.3,0.4-1.8,0.8c-0.8,0.8-0.8,1.7-0.8,2.8v3.9h3.6V69.7z"/>
+      </g>
+    </g>
+  </g>
+</svg>
+</div>
+    </a>
+  </div>
+
+  <div class="top-bar" id="top-bar">
+    <nav id="page-nav">
+      
+      <label for="hamburger">&#9776;</label>
+      <input type="checkbox" id="hamburger" />
+      <ul class="top-bar">
+        <li><a href="/">Home</a></li>
+        <li><a href="/titles">Books</a></li>
+        <li><a href="/authors">Authors</a></li>
+        <li><a href="/publish-with-us">Publish with Us</a></li>
+        <li><a href="/support">Support</a></li>
+        <li>
+          <a
+            href="https://www.giftya.com/brands/1568049/pragmatic-bookshelf"
+            target="_blank"
+          >
+            eGifts
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.redbubble.com/people/PragProg/shop"
+            target="_blank"
+          >
+            Swag
+          </a>
+        </li>
+        
+        <li>
+          <a href="https://transactions.sendowl.com/customer_accounts/164668">
+            My Orders
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="search-bar">
+    <div class="search-wrapper">
+      <form action="/search">
+        <div class="search">
+          <input
+            type="text"
+            class="searchTerm"
+            name="q"
+            placeholder="Search titles..."
+          />
+          <button aria-label="Search" type="submit" class="searchButton">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+    <span id="sendowl-hitch" class="sendowl-hitch"></span>
+    <script>
+      sendOwl.cartWidget({
+        merchantID: 164668,
+        parent: document.getElementById("sendowl-hitch"),
+      });
+      var sendowl_carter = document.getElementsByClassName("cart-icon");
+      sendowl_carter[0].alt = "Shopping cart";
+    </script>
+  </div>
+
+  <div
+    class="tag"
+    
+  >
+    <ul>
+      <li><a href="#prereqs">Prereqs</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li><a href="#extracts">Extracts</a></li>
+      <li><a href="#author">Author</a></li>
+    </ul>
+  </div>
+</header>
+
+
+  
+<div class="titlepage-left">
+  <div class="book-about book-about-cover">
+    <a href="uboop.jpg" aria-label="book cover image">
+    <div>
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage book-title-image centered"  alt="" src="/titles/uboop/from-objects-to-functions/uboop-250.jpg" srcset="/titles/uboop/from-objects-to-functions/uboop-250.jpg 1x, /titles/uboop/from-objects-to-functions/uboop-375.jpg 1.5x, /titles/uboop/from-objects-to-functions/uboop-500.jpg 2x, /titles/uboop/from-objects-to-functions/uboop-750.jpg 3x, /titles/uboop/from-objects-to-functions/uboop-1000.jpg 4x" />
+
+
+
+
+
+
+
+
+
+    </div>
+    </a>
+
+    <p><a target="_blank" href="https://twitter.com/intent/tweet?text=From%20Objects%20to%20Functions%3a%20Build%20Your%20Software%20Faster%20and%20Safer%20with%20Functional%20Programming%20and%20Kotlin%20https%3a%2f%2fpragprog.com%2ftitles%2fuboop%2ffrom-objects-to-functions%2f"><img src="/img/twitter.png" width="10%" alt="" style="vertical-align: middle;"/><span class="tweet_text">Tweet this</span></a></p>
+  </div>
+
+  <div class="book-about book-about-text">
+    <dl>
+      <dt>Pages:</dt>
+      <dd>468</dd>
+
+      
+      <dt>Published:</dt>
+      <dd>September 2023</dd>
+      
+
+      <dt>ISBN:</dt>
+      <dd>9781680508451</dd>
+
+      <dt>Edition:</dt>
+      <dd>1</dd>
+    </dl>
+    <p>
+      In Print
+    </p>
+      
+      <div class="skillmeter">
+        <img src="/img/skillmeter/skill-meter-4-8.png" alt="Skill Level Meter"/>
+      </div>
+      
+    </p>
+  </div>
+</div>
+
+<div class="titlepage-main">
+  <section class="book-main" markdown="1">
+
+  <h1 class="title">From Objects to Functions</h1>
+  <h2 class="subtitle"> Build Your Software Faster and Safer with Functional Programming and Kotlin </h2>
+  <h2 class="author">by Uberto Barbini</a></h2>
+
+  <p>
+  <p>Build applications quicker and with less effort using functional
+programming and Kotlin. Learn by building a complete application, from
+gathering requirements to delivering a microservice architecture
+following functional programming principles. Learn how to implement CQRS
+and EventSourcing in a functional way to map the domain into code better
+and to keep the cost of change low for the whole application life cycle.</p>
+<p>If you&rsquo;re curious about functional programming or you are struggling
+with how to put it into practice, this guide will help you increase your
+productivity composing small functions together instead of creating fat
+objects.</p>
+
+  </p>
+  
+
+  
+  
+  <div class="buy-container-small">
+    <div class="buy-container">
+      
+<div class="buybox">
+
+
+<h3>eBook Formats:</h3>
+
+<ul class="compact">
+<li><p>PDF for desktop/tablets</p></li>
+<li><p>epub for Apple Books, e-readers</p></li>
+<li><p>mobi for Kindle readers</p></li>
+</ul>
+
+<p>
+Get all eBook formats here for <strong>$29.95</strong> (USD)
+</p>
+
+<p>
+
+<a href="https://transactions.sendowl.com/packages/819729/124ED2E3/add_to_cart" rel="nofollow" class="buynowbtn">Add to Cart</a><script src="https://transactions.sendowl.com/assets/sendowl.js"></script>
+<img src="/img/cclogos.png" alt="we accept visa, mastercard, amex, discover, paypal" style="padding-top: 10px;"/>
+
+</p>
+
+<p>
+
+</p>
+
+
+<hr/>
+
+<h3>Paperback Formats:</h3>
+
+<ul>
+	<li><p>
+    <a href="https://bookshop.org/a/2696/9781680508451"
+      target="_blank">Order via Bookshop</a> <span style="font-style: italic;">(U.S. Only)</span>
+	</p></li>
+</ul>
+<p>Please support indie bookstores!<br/>
+	Find <a href="https://www.indiebound.org">indie bookstores in the U.S.</a> Find <a href="https://www.biblio.com/bookstores/">indie bookstores around the world</a>.
+</p>
+
+
+</div>
+
+      
+    </div>
+  </div>
+  <hr/>
+
+  <p>Switching to the functional paradigm isn&rsquo;t easy when you&rsquo;re used to
+object-oriented programming. You need more than just lambdas and mapping
+over collections to get a declarative style and disentangle the state
+from the computations. Use transformations and compositions to help you
+write less code with better results. Boost your productivity and harness
+the power of functional programming by creating real-world applications
+rather than focusing on theoretical concepts.</p>
+<p>Work through a series of short exercises to find and compose pure
+functions, and create data structures that work like algebra. Get rid of
+mutable state in your software to eliminate the main source of bugs.
+Apply CQRS and EventSourcing patterns to translate stakeholder
+requirements into functional design and then into code. See how Kotlin&rsquo;s
+easy-to-learn syntax and functional-friendly approach make it a great
+option for a pragmatic language that integrates well with existing Java
+code and libraries.</p>
+<p>Leverage functional programming to build and deliver robust applications
+in less time and with fewer defects.</p>
+
+
+  <h3 id="prereqs">What You Need</h3>
+
+  The code in this book is designed to allow you to build your application
+from scratch on Windows, Mac and Linux. You will need a recent IDE, we
+recommend IntelliJ Community Edition, and Kotlin 1.9.x or later.
+
+
+  <h3 id="resources">Resources</h3>
+
+  <ul>
+  <li><p><a href="https://devtalk.com/books/from-objects-to-functions/" rel="nofollow" target="_blank">Errata, typos, suggestions</a></p></li>
+  <li><p><a href="https://media.pragprog.com/titles/uboop/code/uboop-code.zip">Source Code (zip file)</a></p></li>
+  </ul>
+
+
+
+    <p>
+      <strong>Releases:</strong>
+      <div class="release-list">
+      <div class="a-release">
+        <div class="release-date">2023/09/12</div>
+        <div class="release-name">P1.0</div>
+        <div class="release-notes">First printing.</div>
+      </div>
+      <div class="a-release">
+        <div class="release-date">2023/04/19</div>
+        <div class="release-name">B7.0</div>
+        <div class="release-notes">*The book is content-complete and heading to copy edit and indexing.</div>
+      </div>
+      <div class="a-release">
+        <div class="release-date">2023/01/13</div>
+        <div class="release-name">B6.0</div>
+        <div class="release-notes">Added new material:
+ * Appendix 3: A Pinch of Theory
+ * List of Additional Resources</div>
+      </div>
+      <div class="a-release">
+        <div class="release-date">2022/09/22</div>
+        <div class="release-name">B5.0</div>
+        <div class="release-notes">*Added Chapter 13: Designing a Functional Architecture</div>
+      </div>
+      </div>
+    </p>
+
+
+  <h3 id="extracts">Contents & Extracts</h3>
+
+  <div class="book-contents">
+    <ul>
+<li>Acknowledgments</li>
+<li><a href="https://media.pragprog.com/titles/uboop/preface.pdf" class="pdf-link">Preface<img aria-label="PDF icon" class="pdf-icon" src="/img/pdf_icon.png"/></a>
+<ul>
+<li>About This Book</li>
+</ul>
+</li>
+<li>Introduction: Why Functional Programming?
+<ul>
+<li>Why Kotlin?</li>
+<li>What Functional Programming Is Really About</li>
+<li>Unlearning Object-Oriented Programming</li>
+<li>Recap</li>
+</ul>
+</li>
+<li>Preparing a New Application
+<ul>
+<li>Defining the Sample Application</li>
+<li>Zettai: An Innovative To-Do List Application</li>
+<li>Letting Tests Guide Development</li>
+<li>Setting Up the Project</li>
+<li>Making Unit Tests Functional</li>
+<li>Recap</li>
+<li>Exercises</li>
+</ul>
+</li>
+<li>Handling HTTP Using Functions
+<ul>
+<li>Kicking Off the Project</li>
+<li>Serving HTML Pages Functionally</li>
+<li>Starting Zettai</li>
+<li>Designing with Arrows</li>
+<li>Serving Lists from a Map</li>
+<li>Recap</li>
+<li>Exercises</li>
+</ul>
+</li>
+<li>Defining the Domain and Testing It
+<ul>
+<li>Improving the Acceptance Tests</li>
+<li>Using Higher-Order Functions</li>
+<li><a href="https://media.pragprog.com/titles/uboop/domain.pdf" class="pdf-link">Separating the Domain from the
+Infrastructure<img aria-label="PDF icon" class="pdf-icon" src="/img/pdf_icon.png"/></a></li>
+<li>Driving the Tests from the Domain</li>
+<li>Converting DDT to Pesticide</li>
+<li>Recap</li>
+<li>Exercises</li>
+</ul>
+</li>
+<li>Modeling the Domain and the Adapters
+<ul>
+<li>Starting a New Story to Modify a List
+<a href="https://media.pragprog.com/titles/uboop/story.pdf" class="pdf-link">excerpt<img aria-label="PDF icon" class="pdf-icon" src="/img/pdf_icon.png"/></a></li>
+<li>Using Functional Dependency Injection</li>
+<li>Debugging Functional Code</li>
+<li>Functional Domain Modeling</li>
+<li>Recap</li>
+<li>Exercises</li>
+</ul>
+</li>
+<li>Using Events to Modify the State
+<ul>
+<li>Creating and Displaying To-Do Lists</li>
+<li>Storing the State Changes</li>
+<li>Unleashing the Power of Recursion</li>
+<li>Folding Events</li>
+<li>Discovering the Monoid</li>
+<li>Recap</li>
+<li>Exercises</li>
+</ul>
+</li>
+<li>Executing Commands to Generate Events
+<ul>
+<li>Creating a New List</li>
+<li>Using Commands to Change the State</li>
+<li>Modeling the Domain with States and Events</li>
+<li>Writing Functional State Machines</li>
+<li>Connecting the Hub</li>
+<li>Understanding Commands and Events Better</li>
+<li>Recap</li>
+<li>Exercises</li>
+</ul>
+</li>
+<li>Handling Errors Functionally
+<ul>
+<li>Handling Errors Better</li>
+<li>Learning Functors and Categories</li>
+<li>Using Functors to Handle Errors</li>
+<li>Working with Outcomes</li>
+<li>Recap</li>
+<li>Exercises</li>
+</ul>
+</li>
+<li>Using Functors to Project Events
+<ul>
+<li>Projecting Our Events</li>
+<li>Running Queries on Functors</li>
+<li>Thinking in Terms of Functors</li>
+<li>Command and Query Responsibility Segregation (CQRS)</li>
+<li>Recap</li>
+<li>Exercises</li>
+</ul>
+</li>
+<li>Using Monads to Persist Data Safely
+<ul>
+<li>Persisting Safely</li>
+<li>Connecting to the Database with Kotlin</li>
+<li>Accessing Remote Data in a Functional Way</li>
+<li>Exploring the Power of Monads</li>
+<li>Recap</li>
+<li>Exercises</li>
+</ul>
+</li>
+<li>Reading Context to Handle Commands
+<ul>
+<li>Accessing the Database with Monads
+<a href="https://media.pragprog.com/titles/uboop/monads.pdf" class="pdf-link">excerpt<img aria-label="PDF icon" class="pdf-icon" src="/img/pdf_icon.png"/></a></li>
+<li>Handling Commands with Context Reader</li>
+<li>Querying Projections from Database</li>
+<li>Modeling the Domain with Event Sourcing</li>
+<li>Recap</li>
+<li>Exercises</li>
+</ul>
+</li>
+<li>Validating Data with Applicatives
+<ul>
+<li>Renaming a List</li>
+<li>Transforming Functions with Two Parameters</li>
+<li>Validating with Validations</li>
+<li>Combining Applicative Functors</li>
+<li>Improving the User Interface</li>
+<li>Recap</li>
+<li>Exercises</li>
+</ul>
+</li>
+<li>Monitoring and Functional JSON
+<ul>
+<li>Monitoring Our Application</li>
+<li>Structured Logging</li>
+<li>Making JSON Functional</li>
+<li>Meeting Profunctors</li>
+<li>Logging Database Calls</li>
+<li>Recap</li>
+<li>Exercises</li>
+</ul>
+</li>
+<li>Designing a Functional Architecture
+<ul>
+<li>Chasing Simplicity</li>
+<li>Designing a Whole System</li>
+<li>Translating to Code</li>
+<li>Final Considerations</li>
+<li>Exercises</li>
+</ul>
+</li>
+<li>What Is Functional Programming?
+<ul>
+<li>The Origins</li>
+<li>Achieving Referential Transparency</li>
+<li>Think in Morphisms</li>
+<li>Recap</li>
+</ul>
+</li>
+<li>About Functional Kotlin
+<ul>
+<li>Setting Up Kotlin</li>
+<li>Kotlin 101</li>
+<li>Exploring the Kotlin Type System</li>
+</ul>
+</li>
+<li>A Pinch of Theory
+<ul>
+<li>Category Theory</li>
+<li>It&rsquo;s All About Morphisms</li>
+<li>Types over Types</li>
+<li>Functors Are Mappers</li>
+<li>The Mysterious Monad</li>
+<li>Connecting Everything with Yoneda</li>
+<li>Conclusion</li>
+</ul>
+</li>
+<li>Additional Resources
+<ul>
+<li>Programming</li>
+<li>Category Theory</li>
+</ul>
+</li>
+</ul>
+
+  </div>
+
+  <h3 id="author">Author</h3>
+
+  <strong>Uberto</strong> is a very passionate programmer, starting when he created his
+first video game on the ZxSpectrum many years ago. He worked in all
+kinds of organizations, from the very big to the very small, coaching
+and helping teams build software in an efficient and sustainable way to
+create value for the company. He has used a range of functional
+languages (Haskell, Clojure, Scala), and he is currently in love with
+the simplicity of Kotlin and its productivity. He is a regular speaker
+at conferences around the world on Kotlin and Java, and he enjoys
+teaching courses and mentoring young programmers.
+
+  </section>
+</div>
+
+<div class="titlepage-right">
+  <div class="buy-container-large">
+    <div class="buy-container">
+      
+<div class="buybox">
+
+
+<h3>eBook Formats:</h3>
+
+<ul class="compact">
+<li><p>PDF for desktop/tablets</p></li>
+<li><p>epub for Apple Books, e-readers</p></li>
+<li><p>mobi for Kindle readers</p></li>
+</ul>
+
+<p>
+Get all eBook formats here for <strong>$29.95</strong> (USD)
+</p>
+
+<p>
+
+<a href="https://transactions.sendowl.com/packages/819729/124ED2E3/add_to_cart" rel="nofollow" class="buynowbtn">Add to Cart</a><script src="https://transactions.sendowl.com/assets/sendowl.js"></script>
+<img src="/img/cclogos.png" alt="we accept visa, mastercard, amex, discover, paypal" style="padding-top: 10px;"/>
+
+</p>
+
+<p>
+
+</p>
+
+
+<hr/>
+
+<h3>Paperback Formats:</h3>
+
+<ul>
+	<li><p>
+    <a href="https://bookshop.org/a/2696/9781680508451"
+      target="_blank">Order via Bookshop</a> <span style="font-style: italic;">(U.S. Only)</span>
+	</p></li>
+</ul>
+<p>Please support indie bookstores!<br/>
+	Find <a href="https://www.indiebound.org">indie bookstores in the U.S.</a> Find <a href="https://www.biblio.com/bookstores/">indie bookstores around the world</a>.
+</p>
+
+
+</div>
+
+      
+    </div>
+  </div>
+
+  <section class="newsletter-container">
+    <div class="newsletterbox">
+  	    <h2>Releases, Offers &amp; More</h2>
+
+<p>
+Be the first to hear about our newest content, best promotions and upcoming events. Plus get <span style="font-weight: bold; font-size: 1.1em;">25% off</span> your next purchase.
+</p>
+
+<p>
+	<a class="loginbtn" href="/newsletter">Newsletter Sign Up</a>
+</p>
+
+    </div>
+  </section>
+
+  <section class="related-container">
+  	<div class="buybox">
+
+<h3>Related categories:</h3>
+
+<ul>
+
+	<li><p><a href="/categories/functional-programming">Functional Programming</a></p></li>
+
+</ul>
+
+</div>
+  </section>
+
+  <section class="book-ads">
+  	<h3>Related Titles:</h3>
+
+<ul>
+	
+	    
+	        
+	    	
+	    	    
+
+	    		
+
+	    		
+				   <li><p><a href="/titles/egmicro"><i>Practical Microservices</i>
+				   	
+      				
+      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage related-title-img"  alt="" src="/titles/egmicro/practical-microservices/egmicro_hu_7ddbc707765e0f3e.jpg" srcset="/titles/egmicro/practical-microservices/egmicro_hu_7ddbc707765e0f3e.jpg 1x, /titles/egmicro/practical-microservices/egmicro_hu_86c97901ed368a37.jpg 1.5x, /titles/egmicro/practical-microservices/egmicro_hu_c164a9c1d65326ac.jpg 2x, /titles/egmicro/practical-microservices/egmicro_hu_f06f9044e7a44267.jpg 3x, /titles/egmicro/practical-microservices/egmicro_hu_3c3128b79d77434.jpg 4x" />
+
+
+
+
+
+
+
+
+
+
+
+				   </a></p></li>
+				
+	    	
+	    
+	        
+	    	
+	    	    
+
+	    		
+
+	    		
+				   <li><p><a href="/titles/vskotlin"><i>Programming Kotlin</i>
+				   	
+      				
+      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage related-title-img"  alt="" src="/titles/vskotlin/programming-kotlin/vskotlin_hu_9c9b270cf076d674.jpg" srcset="/titles/vskotlin/programming-kotlin/vskotlin_hu_9c9b270cf076d674.jpg 1x, /titles/vskotlin/programming-kotlin/vskotlin_hu_b2e2897929dbbe17.jpg 1.5x, /titles/vskotlin/programming-kotlin/vskotlin_hu_be57a763bea23f11.jpg 2x, /titles/vskotlin/programming-kotlin/vskotlin_hu_35b81a4ca0c2ddfa.jpg 3x, /titles/vskotlin/programming-kotlin/vskotlin_hu_59706e55fa44db38.jpg 4x" />
+
+
+
+
+
+
+
+
+
+
+
+				   </a></p></li>
+				
+	    	
+	    
+	        
+	    	
+	    	    
+
+	    		
+
+	    		
+				   <li><p><a href="/titles/swdddf"><i>Domain Modeling Made Functional</i>
+				   	
+      				
+      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage related-title-img"  alt="" src="/titles/swdddf/domain-modeling-made-functional/swdddf_hu_3baacb381a09946f.jpg" srcset="/titles/swdddf/domain-modeling-made-functional/swdddf_hu_3baacb381a09946f.jpg 1x, /titles/swdddf/domain-modeling-made-functional/swdddf_hu_aea1fae2e06b8e1.jpg 1.5x, /titles/swdddf/domain-modeling-made-functional/swdddf_hu_f78e848391a72c47.jpg 2x, /titles/swdddf/domain-modeling-made-functional/swdddf_hu_edad9f52f7f211c2.jpg 3x, /titles/swdddf/domain-modeling-made-functional/swdddf_hu_814471ccc80dc1d.jpg 4x" />
+
+
+
+
+
+
+
+
+
+
+
+				   </a></p></li>
+				
+	    	
+	    
+	        
+	    	
+	    	    
+
+	    		
+
+	    		
+				   <li><p><a href="/titles/mtgo"><i>Effective Go Recipes</i>
+				   	
+      				
+      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage related-title-img"  alt="" src="/titles/mtgo/effective-go-recipes/mtgo-125.jpg" srcset="/titles/mtgo/effective-go-recipes/mtgo-125.jpg 1x, /titles/mtgo/effective-go-recipes/mtgo-188.jpg 1.5x, /titles/mtgo/effective-go-recipes/mtgo-250.jpg 2x, /titles/mtgo/effective-go-recipes/mtgo-375.jpg 3x, /titles/mtgo/effective-go-recipes/mtgo-500.jpg 4x" />
+
+
+
+
+
+
+
+
+
+
+
+				   </a></p></li>
+				
+	    	
+	    
+	        
+	    	
+	    	    
+
+	    		
+
+	    		
+				   <li><p><a href="/titles/dlret2"><i>Agile Retrospectives, Second Edition</i>
+				   	
+      				
+      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage related-title-img"  alt="" src="/titles/dlret2/agile-retrospectives-second-edition/dlret2-125.jpg" srcset="/titles/dlret2/agile-retrospectives-second-edition/dlret2-125.jpg 1x, /titles/dlret2/agile-retrospectives-second-edition/dlret2-188.jpg 1.5x, /titles/dlret2/agile-retrospectives-second-edition/dlret2-250.jpg 2x, /titles/dlret2/agile-retrospectives-second-edition/dlret2-375.jpg 3x, /titles/dlret2/agile-retrospectives-second-edition/dlret2-500.jpg 4x" />
+
+
+
+
+
+
+
+
+
+
+
+				   </a></p></li>
+				
+	    	
+	    
+	        
+	    	
+	    	    
+
+	    		
+
+	    		
+				   <li><p><a href="/titles/jwpython"><i>A Common-Sense Guide to Data Structures and Algorithms in Python, Volume 1</i>
+				   	
+      				
+      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage related-title-img"  alt="" src="/titles/jwpython/a-common-sense-guide-to-data-structures-and-algorithms-in-python-volume-1/jwpython-125.jpg" srcset="/titles/jwpython/a-common-sense-guide-to-data-structures-and-algorithms-in-python-volume-1/jwpython-125.jpg 1x, /titles/jwpython/a-common-sense-guide-to-data-structures-and-algorithms-in-python-volume-1/jwpython-188.jpg 1.5x, /titles/jwpython/a-common-sense-guide-to-data-structures-and-algorithms-in-python-volume-1/jwpython-250.jpg 2x, /titles/jwpython/a-common-sense-guide-to-data-structures-and-algorithms-in-python-volume-1/jwpython-375.jpg 3x, /titles/jwpython/a-common-sense-guide-to-data-structures-and-algorithms-in-python-volume-1/jwpython-500.jpg 4x" />
+
+
+
+
+
+
+
+
+
+
+
+				   </a></p></li>
+				
+	    	
+	    
+	        
+	    	
+	    	    
+
+	    		
+
+	    		
+				   <li><p><a href="/titles/ksrtc"><i>Programming WebRTC</i>
+				   	
+      				
+      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage related-title-img"  alt="" src="/titles/ksrtc/programming-webrtc/ksrtc-125.jpg" srcset="/titles/ksrtc/programming-webrtc/ksrtc-125.jpg 1x, /titles/ksrtc/programming-webrtc/ksrtc-188.jpg 1.5x, /titles/ksrtc/programming-webrtc/ksrtc-250.jpg 2x, /titles/ksrtc/programming-webrtc/ksrtc-375.jpg 3x, /titles/ksrtc/programming-webrtc/ksrtc-500.jpg 4x" />
+
+
+
+
+
+
+
+
+
+
+
+				   </a></p></li>
+				
+	    	
+	    
+	        
+	    	
+	    	    
+
+	    		
+
+	    		
+				   <li><p><a href="/titles/atcrime2"><i>Your Code as a Crime Scene, Second Edition</i>
+				   	
+      				
+      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage related-title-img"  alt="" src="/titles/atcrime2/your-code-as-a-crime-scene-second-edition/atcrime2-125.jpg" srcset="/titles/atcrime2/your-code-as-a-crime-scene-second-edition/atcrime2-125.jpg 1x, /titles/atcrime2/your-code-as-a-crime-scene-second-edition/atcrime2-188.jpg 1.5x, /titles/atcrime2/your-code-as-a-crime-scene-second-edition/atcrime2-250.jpg 2x, /titles/atcrime2/your-code-as-a-crime-scene-second-edition/atcrime2-375.jpg 3x, /titles/atcrime2/your-code-as-a-crime-scene-second-edition/atcrime2-500.jpg 4x" />
+
+
+
+
+
+
+
+
+
+
+
+				   </a></p></li>
+				
+	    	
+	    
+	        
+	    	
+	    	    
+
+	    		
+
+	    		
+				   <li><p><a href="/titles/sbelixir"><i>From Ruby to Elixir</i>
+				   	
+      				
+      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage related-title-img"  alt="" src="/titles/sbelixir/from-ruby-to-elixir/sbelixir-125.jpg" srcset="/titles/sbelixir/from-ruby-to-elixir/sbelixir-125.jpg 1x, /titles/sbelixir/from-ruby-to-elixir/sbelixir-188.jpg 1.5x, /titles/sbelixir/from-ruby-to-elixir/sbelixir-250.jpg 2x, /titles/sbelixir/from-ruby-to-elixir/sbelixir-375.jpg 3x, /titles/sbelixir/from-ruby-to-elixir/sbelixir-500.jpg 4x" />
+
+
+
+
+
+
+
+
+
+
+
+				   </a></p></li>
+				
+	    	
+	    
+	        
+	    	
+	    	    
+
+	    		
+
+	    		
+				   <li><p><a href="/titles/aapsql"><i>High Performance PostgreSQL for Rails</i>
+				   	
+      				
+      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage related-title-img"  alt="" src="/titles/aapsql/high-performance-postgresql-for-rails/aapsql-125.jpg" srcset="/titles/aapsql/high-performance-postgresql-for-rails/aapsql-125.jpg 1x, /titles/aapsql/high-performance-postgresql-for-rails/aapsql-188.jpg 1.5x, /titles/aapsql/high-performance-postgresql-for-rails/aapsql-250.jpg 2x, /titles/aapsql/high-performance-postgresql-for-rails/aapsql-375.jpg 3x, /titles/aapsql/high-performance-postgresql-for-rails/aapsql-500.jpg 4x" />
+
+
+
+
+
+
+
+
+
+
+
+				   </a></p></li>
+				
+	    	
+	    
+	        
+	    	
+	    	    
+
+	    		
+
+	    		
+				   <li><p><a href="/titles/ruby5"><i>Programming Ruby 3.3 (5th Edition)</i>
+				   	
+      				
+      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage related-title-img"  alt="" src="/titles/ruby5/programming-ruby-3-3-5th-edition/ruby5-125.jpg" srcset="/titles/ruby5/programming-ruby-3-3-5th-edition/ruby5-125.jpg 1x, /titles/ruby5/programming-ruby-3-3-5th-edition/ruby5-188.jpg 1.5x, /titles/ruby5/programming-ruby-3-3-5th-edition/ruby5-250.jpg 2x, /titles/ruby5/programming-ruby-3-3-5th-edition/ruby5-375.jpg 3x, /titles/ruby5/programming-ruby-3-3-5th-edition/ruby5-500.jpg 4x" />
+
+
+
+
+
+
+
+
+
+
+
+				   </a></p></li>
+				
+	    	
+	    
+	        
+	    	
+	    	    
+
+	    		
+
+	    		
+				   <li><p><a href="/titles/vscajava"><i>Cruising Along with Java</i>
+				   	
+      				
+      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage related-title-img"  alt="" src="/titles/vscajava/cruising-along-with-java/vscajava-125.jpg" srcset="/titles/vscajava/cruising-along-with-java/vscajava-125.jpg 1x, /titles/vscajava/cruising-along-with-java/vscajava-188.jpg 1.5x, /titles/vscajava/cruising-along-with-java/vscajava-250.jpg 2x, /titles/vscajava/cruising-along-with-java/vscajava-375.jpg 3x, /titles/vscajava/cruising-along-with-java/vscajava-500.jpg 4x" />
+
+
+
+
+
+
+
+
+
+
+
+				   </a></p></li>
+				
+	    	
+	    
+	        
+	    	
+	    	    
+
+	    		
+
+	    		
+				   <li><p><a href="/titles/a-jragile"><i>Competing with Unicorns</i>
+				   	
+      				
+      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage related-title-img"  alt="" src="/titles/a-jragile/competing-with-unicorns/a-jragile-125.jpg" srcset="/titles/a-jragile/competing-with-unicorns/a-jragile-125.jpg 1x, /titles/a-jragile/competing-with-unicorns/a-jragile-188.jpg 1.5x, /titles/a-jragile/competing-with-unicorns/a-jragile-250.jpg 2x, /titles/a-jragile/competing-with-unicorns/a-jragile-375.jpg 3x, /titles/a-jragile/competing-with-unicorns/a-jragile-500.jpg 4x" />
+
+
+
+
+
+
+
+
+
+
+
+				   </a></p></li>
+				
+	    	
+	    
+	        
+	    	
+	    	    
+
+	    		
+
+	    		
+				   <li><p><a href="/titles/vsjava2e"><i>Functional Programming in Java, Second Edition</i>
+				   	
+      				
+      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage related-title-img"  alt="" src="/titles/vsjava2e/functional-programming-in-java-second-edition/vsjava2e-125.jpg" srcset="/titles/vsjava2e/functional-programming-in-java-second-edition/vsjava2e-125.jpg 1x, /titles/vsjava2e/functional-programming-in-java-second-edition/vsjava2e-188.jpg 1.5x, /titles/vsjava2e/functional-programming-in-java-second-edition/vsjava2e-250.jpg 2x, /titles/vsjava2e/functional-programming-in-java-second-edition/vsjava2e-375.jpg 3x, /titles/vsjava2e/functional-programming-in-java-second-edition/vsjava2e-500.jpg 4x" />
+
+
+
+
+
+
+
+
+
+
+
+				   </a></p></li>
+				
+	    	
+	    
+	        
+	    	
+	    	    
+
+	    		
+
+	    		
+				   <li><p><a href="/titles/dcsidekiq"><i>Ruby on Rails Background Jobs with Sidekiq</i>
+				   	
+      				
+      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage related-title-img"  alt="" src="/titles/dcsidekiq/ruby-on-rails-background-jobs-with-sidekiq/dcsidekiq-125.jpg" srcset="/titles/dcsidekiq/ruby-on-rails-background-jobs-with-sidekiq/dcsidekiq-125.jpg 1x, /titles/dcsidekiq/ruby-on-rails-background-jobs-with-sidekiq/dcsidekiq-188.jpg 1.5x, /titles/dcsidekiq/ruby-on-rails-background-jobs-with-sidekiq/dcsidekiq-250.jpg 2x, /titles/dcsidekiq/ruby-on-rails-background-jobs-with-sidekiq/dcsidekiq-375.jpg 3x, /titles/dcsidekiq/ruby-on-rails-background-jobs-with-sidekiq/dcsidekiq-500.jpg 4x" />
+
+
+
+
+
+
+
+
+
+
+
+				   </a></p></li>
+				
+	    	
+	    
+	        
+	    	
+	    	    
+
+	    		
+
+	    		
+				   <li><p><a href="/titles/rshaskell"><i>Effective Haskell</i>
+				   	
+      				
+      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage related-title-img"  alt="" src="/titles/rshaskell/effective-haskell/rshaskell-125.jpg" srcset="/titles/rshaskell/effective-haskell/rshaskell-125.jpg 1x, /titles/rshaskell/effective-haskell/rshaskell-188.jpg 1.5x, /titles/rshaskell/effective-haskell/rshaskell-250.jpg 2x, /titles/rshaskell/effective-haskell/rshaskell-375.jpg 3x, /titles/rshaskell/effective-haskell/rshaskell-500.jpg 4x" />
+
+
+
+
+
+
+
+
+
+
+
+				   </a></p></li>
+				
+	    	
+	    
+	        
+	    	
+	    	    
+
+	    		
+
+	    		
+				   <li><p><a href="/titles/dswdcloj3"><i>Web Development with Clojure, Third Edition</i>
+				   	
+      				
+      				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img class="bookimage related-title-img"  alt="" src="/titles/dswdcloj3/web-development-with-clojure-third-edition/dswdcloj3-125.jpg" srcset="/titles/dswdcloj3/web-development-with-clojure-third-edition/dswdcloj3-125.jpg 1x, /titles/dswdcloj3/web-development-with-clojure-third-edition/dswdcloj3-188.jpg 1.5x, /titles/dswdcloj3/web-development-with-clojure-third-edition/dswdcloj3-250.jpg 2x, /titles/dswdcloj3/web-development-with-clojure-third-edition/dswdcloj3-375.jpg 3x, /titles/dswdcloj3/web-development-with-clojure-third-edition/dswdcloj3-500.jpg 4x" />
+
+
+
+
+
+
+
+
+
+
+
+				   </a></p></li>
+				
+	    	
+	    
+	
+</ul>
+
+  </section>
+</div>
+
+<div class="book-about-small">
+    
+      <div class="skillmeter-small">
+        <img src="/img/skillmeter/skill-meter-4-8.png" alt="Skill Level Meter"/>
+      </div>
+    
+</div>
+
+
+  <footer class="footer">
+  <ul style="margin-block-end: 0.5em">
+    <li><a href="/contact">Contact</a></li>
+    <li><a href="/about">About Us</a></li>
+    <li><a href="/privacy">Privacy</a></li>
+    <li><a href="/terms-of-use">Terms of Use</a></li>
+    <li><a href="/security">Security</a></li>
+    <li><a href="/newsletter">Newsletter</a></li>
+    <li><a href="https://www.giftya.com/brands/1568049/pragmatic-bookshelf" target="_blank">eGifts</a></li>
+    
+    <li><a href="/promotions">Partnerships &amp; Promotions</a></li>
+    <li><a href="/careers">Careers</a></li>
+  </ul>
+
+  <div style="font-size: 70%; color: #C2CBC2">
+    &copy; 1999-2026 The Pragmatic Programmers, LLC. All Rights Reserved.
+  </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#915465",
+      "text": "#ffdddd"
+    },
+    "button": {
+      "background": "#93535B"
+    }
+  },
+  "theme": "classic",
+  "content": {
+    "message": "This website uses cookies for navigation, order transactions, and general analytics. ",
+    "href": "https://pragprog.com/privacy"
+  }
+});
+</script>
+
+</div>
+</body>
+</html>
