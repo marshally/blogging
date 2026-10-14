@@ -74,6 +74,7 @@ def x_literal(text,locator):
 def validate(roots,configuration=Q,strict_sort=False,replay_derived=True):
  schema=load_json(configuration/'data-contract.schema.json');registry=load_json(configuration/'metric-definitions.json');run=load_json(configuration/'run.json')
  Draft202012Validator.check_schema(schema)
+ assert (configuration/'data-contract.schema.json').read_text()==json.dumps(schema,ensure_ascii=False,sort_keys=True,indent=2)+'\n','Schema serialization'
  validators={name:Draft202012Validator({'$schema':schema['$schema'],'$defs':schema['$defs'],'$ref':'#/$defs/'+name},format_checker=FormatChecker()) for name in schema['$defs']}
  for file,key in [('run.json','run'),('metric-definitions.json','metric_registry')]:
   value=load_json(configuration/file);validators[key].validate(value)
@@ -167,8 +168,13 @@ def validate(roots,configuration=Q,strict_sort=False,replay_derived=True):
     expected=dt.datetime.fromtimestamp(milliseconds/1000,dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
     assert c['published_at']=={'value':expected,'precision':'second'},'Hydration publication time mismatch'
  seen_urls={}
+ native_content={}
  for c in content.values():
   key=(c['platform'],c['url']);assert key not in seen_urls or seen_urls[key]==c['content_id'],'Identity collision';seen_urls[key]=c['content_id']
+  if c['native_id']:
+   key=(c['platform'],c['native_id'])
+   assert key not in native_content or native_content[key]==c['content_id'],'Unresolved native content identity alias'
+   native_content[key]=c['content_id']
  for r in relations.values():
   fk(r['from_id']);fk(r['to_id'])
   if r['predicate']=='owns_account':assert r['to_id'] in entities and entities[r['to_id']]['entity_type']=='account'
@@ -227,16 +233,26 @@ def validate(roots,configuration=Q,strict_sort=False,replay_derived=True):
    if o['metric_id']=='event_status' and v is not None:assert v in ('announced','scheduled','delivered','cancelled','unknown')
    if o['period_type']=='window':assert (o['period_start'],o['period_end'])==(START,END),'Observation baseline window'
    else:assert (o['period_start'] is None)==(o['period_end'] is None),'Half observation period'
+   if o['period_start']:assert stamp(o['period_start'])<stamp(o['period_end']),'Reversed observation period'
+   rate_kinds={'original_posts_per_week':'original_post','uploads_per_week':'video_upload','podcast_episodes_per_week':'podcast_episode','articles_per_week':'article','reposts_per_week':'repost','replies_per_week':'reply','quote_posts_per_week':'quote_post','newsletter_issues_per_week':'newsletter_issue','active_week_fraction':'original_post'}
+   if o['metric_id'] in rate_kinds:assert sc['content_kind']==rate_kinds[o['metric_id']],'Cadence content-kind scope mismatch'
    if o['coverage_id']:fk(o['coverage_id'],coverage)
    if table=='derived-metrics':
     assert o['worker_id']=='coordinator' and o['evidence_class']=='derived' and o['lineage'] and m['formula_id'],'Derived invariants'
     lin=o['lineage'];assert lin['formula_id']==m['formula_id'] and lin['script_sha256']==digest(configuration/lin['script_path']),'Derived formula/script drift'
     for key,col in [('observation_ids',observations),('content_ids',content),('relationship_ids',relations),('coverage_ids',coverage),('capture_ids',captures)]:
      for id in lin[key]:fk(id,col)
+    needed=set()
+    for key,col in [('observation_ids',observations),('content_ids',content),('relationship_ids',relations)]:
+     for id in lin[key]:needed.update(e['capture_id'] for e in col[id]['evidence'])
+    for id in lin['coverage_ids']:needed.update(coverage[id]['capture_ids'])
+    assert needed<=set(lin['capture_ids']),'Incomplete capture lineage'
     assert o['observation_id'] not in lin['observation_ids'],'Self-referential lineage'
     if m['formula_id'] in ('original_posts_per_week','active_week_fraction','issues_per_week','kind_per_week'):assert lin['coverage_ids'] and all(coverage[x]['status']=='complete_public_window' for x in lin['coverage_ids']),'Rate without complete coverage'
     if o['metric_id']=='uploads_per_week':assert sc['content_kind']=='video_upload'
-   else:assert o['lineage'] is None and o['evidence_class']!='derived','Collected lineage invariant'
+   else:
+    assert o['lineage'] is None and o['evidence_class']!='derived','Collected lineage invariant'
+    assert m['formula_id'] is None or q=='unknown','A successful registered formula belongs in derived-metrics'
    if o['evidence_class'] in ('direct_observation','first_party_report','third_party_report'):
     assert o['evidence'],'Accepted observation without evidence'
     supporting=[e for e in o['evidence'] if artifacts[(e['capture_id'],e['artifact_sha256'])]['representation']=='original_response' and captures[e['capture_id']]['status'] in ('complete','partial')]

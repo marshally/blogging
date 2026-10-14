@@ -83,6 +83,10 @@ def derive(check=False):
       emit(subject,metric,kind_per_week(selected,days),cov=[cov],items=selected,sc=scope(content_kind=kind),note=f'{len(selected)} distinct {kind} records / ({days:g} days / 7); UTC baseline.')
     if kind=='original_post':emit(subject,'active_week_fraction',active_week_fraction(selected,start,end),cov=[cov],items=selected,sc=scope(content_kind=kind),note='Original posts in 12 complete seven-day bins anchored July 16 UTC; final six days excluded.')
    if selected:
+    for dimension in ('primary_intent','ai_engineering_relevance'):
+     for label in sorted({c[dimension] for c in selected}):
+      partition=[c for c in selected if c[dimension]==label]
+      emit(subject,'observed_content_count',count_content(partition),cov=[cov],items=partition,qualifier=qual,sc=scope(content_kind=kind,notes=f'{dimension}={label}'),note=f'Classification partition of the same collected {kind} population n={len(selected)}; coverage={cov["status"]}. Rubric in methodology.md; unknown labels remain explicit.')
     for fmt in sorted({c['format'] for c in selected}):emit(subject,'content_format_fraction',format_fraction(selected,fmt),cov=[cov],items=selected,sc=scope(content_kind=kind,content_format=fmt),note=f'Format fraction of collected {kind} population n={len(selected)}; coverage={cov["status"]}.')
     for fmt in sorted({c['format'] for c in selected}):
      group=[c for c in selected if c['format']==fmt];ids={c['content_id'] for c in group}
