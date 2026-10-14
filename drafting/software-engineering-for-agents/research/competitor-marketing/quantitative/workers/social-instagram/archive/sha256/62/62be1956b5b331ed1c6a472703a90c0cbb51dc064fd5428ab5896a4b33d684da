@@ -1,0 +1,1576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Why hello, view-sourcerer! -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+
+
+
+
+<title>Addy Osmani — Engineering, AI and Web Performance</title>
+<meta name="title" content="Addy Osmani — Engineering, AI and Web Performance">
+<meta name="description" content="Addy Osmani writes about agentic engineering, AI-assisted development, web performance, software quality, and engineering leadership.">
+<meta name="author" content="Addy Osmani">
+<link rel="canonical" href="https://addyosmani.com/">
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://addyosmani.com/">
+<meta property="og:title" content="Addy Osmani — Engineering, AI and Web Performance">
+<meta property="og:description" content="Addy Osmani writes about agentic engineering, AI-assisted development, web performance, software quality, and engineering leadership.">
+<meta property="og:image" content="https://res.cloudinary.com/ddxwdqwkr/image/upload/w_1600,h_836,q_100/l_text:Karla_72_bold:AddyOsmani.com,co_rgb:ffe4e6,c_fit,w_1400,h_240/fl_layer_apply,g_south_west,x_100,y_180/l_text:Karla_48:addyosmani.com%2520%25C2%25B7%2520,co_rgb:ffe4e680,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_100/l_twitter_name:addyosmani/c_thumb,g_face,r_max,w_380,h_380,q_100/fl_layer_apply,w_140,g_north_west,x_100,y_100/v1681336739/addy/grain-gradient.png">
+<meta property="og:site_name" content="AddyOsmani.com">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@addyosmani">
+<meta name="twitter:creator" content="@addyosmani">
+<meta name="twitter:url" content="https://addyosmani.com/">
+<meta name="twitter:title" content="Addy Osmani — Engineering, AI and Web Performance">
+<meta name="twitter:description" content="Addy Osmani writes about agentic engineering, AI-assisted development, web performance, software quality, and engineering leadership.">
+<meta name="twitter:image" content="https://res.cloudinary.com/ddxwdqwkr/image/upload/w_1600,h_836,q_100/l_text:Karla_72_bold:AddyOsmani.com,co_rgb:ffe4e6,c_fit,w_1400,h_240/fl_layer_apply,g_south_west,x_100,y_180/l_text:Karla_48:addyosmani.com%2520%25C2%25B7%2520,co_rgb:ffe4e680,c_fit,w_1400/fl_layer_apply,g_south_west,x_100,y_100/l_twitter_name:addyosmani/c_thumb,g_face,r_max,w_380,h_380,q_100/fl_layer_apply,w_140,g_north_west,x_100,y_100/v1681336739/addy/grain-gradient.png">
+
+<link rel="alternate" type="application/rss+xml" title="AddyOsmani.com RSS Feed" href="https://addyosmani.com/rss.xml">
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://addyosmani.com/#website",
+  "url": "https://addyosmani.com/",
+  "name": "AddyOsmani.com",
+  "description": "Addy Osmani writes about agentic engineering, AI-assisted development, web performance, software quality, and engineering leadership.",
+  "inLanguage": "en",
+  "author": { "@type": "Person", "@id": "https://addyosmani.com/bio/#person", "name": "Addy Osmani" }
+}
+</script>
+
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/assets/images/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/images/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/assets/images/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/assets/images/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-TileImage" content="/assets/images/favicons/mstile-144x144.png">
+<meta name="theme-color" content="#eb298c">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+  
+</head>
+<body>
+
+  <style>
+@media only screen and (max-width: 700px) {
+    .mobile-hidden {
+        display:none;
+    }
+}
+</style>
+<nav class="main-nav">
+    
+
+    
+    
+    
+
+    <a class="mobile-hidden" href="https://github.com/addyosmani">GitHub </a>
+
+    <a class="mobile-hidden" href="/press">Press </a>
+
+    <a class="mobile-hidden" href="/bio">Biography </a>
+
+    <a class="mobile-hidden" href="/built">Built </a>
+
+    <!-- <a href="https://www.youtube.com/playlist?list=PLVUliVBcvz1lKS9-rcPFFXkwGOj_YX_-5">Talks</a> -->
+    <!-- <a rel="me" class="mobile-hidden" href="https://indieweb.social/@addyosmani">Mastodon</a> -->
+    <a rel="me" class="mobile-hidden" href="https://www.linkedin.com/in/addyosmani/">LinkedIn</a>
+
+    <a href="https://twitter.com/addyosmani">Twitter </a>
+
+    <!-- <a class="mobile-hidden" href="/feed.xml">Subscribe</a> -->
+    <a class="mobile-hidden" style="font-weight:bold;" href="https://addyo.substack.com">Newsletter</a>
+
+    <!-- <a target="_blank" href="https://teejungle.net/">Shop </a> -->
+
+    <a class="cta" href="/blog">Blog </a>
+
+</nav>
+
+  
+      
+
+<!-- Temporary until I inline fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Person JSON-LD is emitted once, site-wide, from _includes/meta.html -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap&text=AddyOsmaniBooks" rel="stylesheet"> -->
+<style id="fonts-inter">
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/l/font?kit=UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZtrib2Ai-7mdXDPVuYuRg1S3kZdAQ&skey=c491285d6722e4fa&v=v8) format('woff');
+}
+</style>
+
+<style>
+html {
+    overflow-x: hidden
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {  
+  display: grid;
+  /* grid-template-columns: 75% 25%; */
+  grid-template-columns: 70% 30%;
+  /* grid-template-columns: 2fr 1fr; */ /*was default*/
+  /* grid-template-rows: 1.8fr; */
+  gap: 0px 0px;
+  /* grid-auto-flow: row; */
+  /* grid-template-areas: */
+}
+
+nav.main-nav a.cta:hover {
+    background:#4487be;
+}
+
+.text-container {
+    background: #000;
+    padding-left: 80px; /*31px*/
+}
+.image-container {
+    background: #000;
+}
+
+.image-container .image-text {
+    opacity: 0.86;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    margin-top: -80px;
+    padding: 20px;
+    line-height: 1.7;
+}
+
+.image-text {
+    color: white;
+    line-height: 120%;
+    margin-top: 16px;
+    margin-right: 16px;
+}
+
+.image-text a {
+    color: #FEED73;
+}
+
+.author-container {
+    padding-top: 4px;
+    color: white;
+}
+
+.author-container .author {
+    /* font-size: 2em; */
+    /* font-family: Inter-Regular_Black; */
+    font-family: 'Inter', sans-serif;
+    font-size: 6rem;
+    color: #FFFFFF;
+    letter-spacing: -4.48px;
+    line-height: 102px;
+}
+
+.author-container .role, .text-subtitle {
+    opacity: 0.64;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    letter-spacing: -0.51px;
+    margin-top: 4px;
+}
+
+.books-container,
+.studies-container {
+    margin-top: 40px;
+    /* overflow-x: auto; */
+    width: 90%; 
+    /* width: 645px; */
+}
+
+.books-container {
+    height: 800px;
+}
+
+.books-container h3,
+.studies-container h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.64;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    letter-spacing: -0.51px;
+    margin-top: 4px;
+}
+
+.books,
+.studies {
+    display: grid;
+    justify-content: center;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    align-content: center;
+    grid-gap: 10px;
+    /* margin-left: -8px; */
+    float: left;
+    /* grid-template: repeat(2, 1fr) / repeat(2, 1fr); */
+
+    /* Switch from single row to 2 row */
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-flow: row;
+}
+
+
+.books img,
+.studies img {
+    max-width: 119px;
+    max-height: 185px;
+    object-fit: contain;
+}
+
+.studies h2,
+.books h2 {
+    color: white;
+    opacity: 0.64;
+    font: 0.7rem "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 4px;
+    margin-top: 6px;
+}
+
+.studies h2 {
+    color: black;
+}
+
+figure.thumb {
+    margin: 10px;
+    webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+
+figure.thumb .author {
+    display:none;
+}
+
+figure.thumb img:hover {
+    outline: 5px solid #4361b3;
+}
+
+
+
+.image-container img {
+  /*  To contain the image to the confines of the div  */
+  max-width: 100%;
+}
+
+
+.hero-image {
+  max-width: 100%; 
+  /* width: 800px; */
+  margin: auto;
+}
+
+.hero-image::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.00) 6%, #000 106%);
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
+}
+
+@media only screen and (max-width: 1100px) {
+/* Change columns so that photo is the main thing you see*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.text-container {
+    padding-left: 21px; /*31px*/
+}
+
+figure h2 {
+    /* display: none; */
+}
+
+.books-container,
+.studies-container {
+    margin-top: 40px;
+    overflow-x: auto;
+    width: 95%;
+    /* display: inline-grid; */
+}
+
+.books-container {
+    height: 800px;
+}
+
+.books,
+.studies {
+    display: grid;
+    justify-content: flex-start;
+    grid-auto-flow: column;
+    align-content: center;
+    grid-gap: 10px;
+    /* margin-left: -8px; */
+    /* width: max-content; */
+    float: left;
+    /* grid-template: repeat(2, 1fr) / repeat(2, 1fr); */
+    grid-template-columns: 160px 160px 160px 160px;
+    /* grid-template-columns: minmax(0, 1fr) 300px; */
+    min-width: 0;
+
+    /* multi-row experience */
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-flow: row;
+}
+
+.author-container {
+    padding-top: 54px;
+}
+
+.author-container .author {
+    font-size: 5rem;
+    letter-spacing: -4.48px;
+    line-height: 79px;
+}
+
+}
+</style>
+
+<style>
+.header-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #151719;
+    height: 416px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.header-wrapper img {
+    object-fit: contain;
+    object-position: top;
+    aspect-ratio: 16 / 9;
+    height: 100%;
+}
+
+h3 {
+    /* font-size: 2rem; */
+    font-weight: 600;
+    font-weight: 800;
+    line-height: 1.25;
+    letter-spacing: -.02em;
+}
+
+nav.main-nav {
+    padding: 20px 20px 0;
+    background: #000;
+    margin: 0 auto;
+    text-align: right;
+    z-index: 100;
+    height: 60px;
+}
+  
+  .profile #wrapper {
+    padding: 60px 0px 0px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+nav.main-nav a {
+    top: 8px;
+    right: 6px;
+    padding: 8px 12px;
+    color: #D9E3EA;
+    font-size: 13px;
+    /* font-weight: bold; */
+    line-height: 1.35;
+    border-radius: 3px;
+}
+
+    .header-wrapper img:hover {
+        /* transform: scale(1.5); */
+    }
+    @media only screen and (max-width: 900px) {
+        .header-wrapper img {
+            object-position: bottom;
+        }
+        .header-wrapper {
+            max-height: 200px;
+        }
+        nav.main-nav {
+            padding: 20px 11px 0;
+        }
+        .profile #wrapper {
+            padding: 0px 0px 0px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .books-container {
+            height: 900px
+        }
+
+        .books, .studies {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .books img, .studies img {
+            max-width: 119px;
+            max-height: 150px;
+            object-fit: contain;
+        }
+    }
+    @media only screen and (max-width: 400px) {
+        nav > a:nth-child(1) {
+            display: none;
+        }
+    }
+
+#footer {
+    margin-top: 50px;
+}
+</style>
+    
+<div class="container">
+    <div class="text-container">
+
+        <div class="author-container">
+            <h1 class="author">Addy Osmani</h1>
+            <div class="role">Engineering and evangelism leader</div>
+            <div itemscope itemtype="https://schema.org/Person" class="image-text">
+                <span itemprop="name">Addy Osmani</span> is an <span itemprop="nationality">Irish</span> <a itemprop="jobTitle" href="https://www.linkedin.com/in/addyosmani/">engineering and evangelism leader</a> and a Member of Technical Staff at <a href="https://www.anthropic.com/">Anthropic</a>. He works on Claude Code. He spent over 14 years at Google, most recently as a Director at <a href="https://cloud.google.com/ai">Google Cloud AI</a>, running Cloud AI Developer Experience and Technical Evangelism and helping launch Google's agent developer platform. Before that he led Developer Experience across <a href="https://www.google.com/chrome/">Chrome</a>, DevTools, Lighthouse, and Core Web Vitals, and <a href="https://gemini.addy.ie">Gemini's</a> developer experience (coding agents, evals, code quality). A developer for 25+ years, and earlier an engineer on <a href="https://golden.com/wiki/Addy_Osmani_(software_engineer)-REKEB86">Fortune 500 sites</a>, he is passionate about AI-assisted engineering and developer tools. He is the <a itemprop="author" href="https://g.co/kgs/t9AVE7">author</a> of <a href="https://store.addy.ie">books</a> including <a itemscope itemtype="https://schema.org/Book" href="https://www.oreilly.com/library/view/learning-javascript-design/9781449334840/"><span itemprop="title">Learning JavaScript Design Patterns</span></a>, <a href="https://leet.addy.ie">Leading Effective Engineering Teams</a>, <a href="https://stoic.addy.ie">Stoic Mind</a>, and <a itemscope itemtype="https://schema.org/Book" href="https://www.smashingmagazine.com/printed-books/image-optimization/"><span itemprop="title">Image Optimization</span></a>, and has given over 200 <a href="https://www.youtube.com/playlist?list=PLVUliVBcvz1lKS9-rcPFFXkwGOj_YX_-5">talks</a> worldwide. You can find his writing on his <a href="https://addyosmani.com/blog/">blog</a>, <a href="https://substack.com/@addyosmani">Substack</a>, and <a href="https://leaddev.com/community/addy-osmani">LeadDev</a>, his code in <a href="https://addyosmani.com/open-source">open source</a>, and him on <a href="https://www.linkedin.com/in/addyosmani">LinkedIn</a>, <a href="https://twitter.com/addyosmani">Twitter</a>, and <a href="https://tiktok.com/@vvoicemotivation">TikTok</a>. 
+            </div>
+        </div>
+
+        <!-- Featured books -->
+        <div class="books-container">
+    <h3>Books</h3>
+    
+        <div class="books">
+
+<figure class="thumb">
+  <div class="cover">
+    <a target="_blank" href="https://www.oreilly.com/library/view/agentic-engineering/0642572392291/">
+      <img
+        alt="Code generation has become cheap. Verification has not. As AI agents take on more of the development process, the bottleneck has moved from writing code to deciding what to build, directing agents to build it, and being able to answer for what ships. Agentic Engineering is a guide to making that shift deliberately and delegating work without giving up control: designing harnesses that give agents the right context, tools and goals, writing specs and skills that support reliable delegation, orchestrating multiagent and long-running workflows, and building stopping conditions, evaluations and review into the loop."
+        src="https://addyosmani.com/assets/images/agentic-engineering.webp"
+        width="238px"
+        height="370px"
+        style="background-color:white;"
+      >
+    </a>
+  </div>
+  <h2>Agentic Engineering</h2>
+  <p class="author">by Addy Osmani</p>
+</figure>
+
+<figure class="thumb">
+  <div class="cover">
+    <a target="_blank" href="https://www.oreilly.com/library/view/web-performance-engineering/9798341660182/">
+      <img
+        alt="On today's web, performance isn't just a nice-to-have—it's essential. A slow or unstable experience drives users away, while a fast, reliable one builds trust and keeps them engaged. Web Performance Engineering in the Age of AI is a comprehensive, hands-on guide for developers, technical leads, and performance engineers focused on delivering high-impact, user-first web experiences."
+        src="https://addyosmani.com/assets/images/wpe.jpg"
+        width="238px"
+        height="370px"
+        style="background-color:white;"
+      >
+    </a>
+  </div>
+  <h2>Web Performance Engineering</h2>
+  <p class="author">by Addy Osmani</p>
+</figure>
+
+<figure class="thumb">
+  <div class="cover">
+    <a target="_blank" href="https://www.oreilly.com/library/view/the-effective-software/9798341638167/">
+      <img
+        alt="The software engineering landscape is constantly evolving, and the demands on engineers intensify with each technological and methodological shift. In such an environment, being a good coder isn't enough—true effectiveness goes beyond technical skills. This book is designed as a guide for individual contributors who want to level up to meet the challenges of a changing industry."
+        src="https://addyosmani.com/assets/images/swe.jpg"
+        width="238px"
+        height="370px"
+        style="background-color:white;"
+      >
+    </a>
+  </div>
+  <h2>The Effective Software Engineer</h2>
+  <p class="author">by Addy Osmani</p>
+</figure>
+
+<figure class="thumb">
+  <div class="cover">
+    <a target="_blank" href="https://beyond.addy.ie">
+      <img
+        alt="Beyond Vibe Coding is a practical guide by Addy Osmani on maintaining code quality in the age of AI-assisted development.
+
+It explores how to treat AI like a junior developer, ensuring that code meets your standards, remains understandable, and aligns with your team's practices. The book covers strategies for avoiding common pitfalls with AI-generated code and emphasizes discipline, testing, and maintainability in modern software workflows."
+        src="https://addyosmani.com/assets/images/beyond.webp"
+        width="238px"
+        height="370px"
+        style="background-color:white;"
+      >
+    </a>
+  </div>
+  <h2>Beyond Vibe Coding</h2>
+  <p class="author">by Addy Osmani</p>
+</figure>
+
+<figure class="thumb">
+  <div class="cover">
+    <a target="_blank" href="https://leanpub.com/effective-software-engineering-management">
+      <img
+        alt="Effective Software Engineering Management: A practical handbook for leading modern software teams with frameworks for building trust, shaping culture, and connecting execution to business outcomes."
+        src="https://d2sofvawe08yqg.cloudfront.net/effective-software-engineering-management/s_hero2x?1764457365"
+        width="238px"
+        height="370px"
+        style="background-color:white;"
+      >
+    </a>
+  </div>
+  <h2>Effective Software Engineering Management</h2>
+  <p class="author">by Addy Osmani</p>
+</figure>
+
+<figure class="thumb">
+  <div class="cover">
+    <a target="_blank" href="https://vibe.addy.ie">
+       <img alt="AI-assisted coding and cloud-based tools are already transforming how modern applications are built. Bolt.new, a powerful in-browser AI agent from StackBlitz, streamlines the development process, allowing you to prototype quickly, debug intelligently, and launch confidently—no local setup required. Whether you're new to full stack development or looking to supercharge your workflow, this accessible guide takes you from JavaScript and React fundamentals all the way to deploying sophisticated apps with Bolt.new and StackBlitz. Through real-world projects like a movie explorer and a Supabase-powered workout tracker, you'll master prompt-first development, tap into WebContainers for running backend logic in the browser, and discover a seamless path from idea to deployment. If you're ready to rethink how web apps are built—from the command line to the cloud—this book is your blueprint."
+        src="https://addyosmani.com/assets/images/bolt.webp"
+        width="238px"
+        height="370px"
+        style="background-color:white;"
+      >
+    </a>
+  </div>
+  <h2>Building Web Apps with Bolt</h2>
+  <p class="author">by Addy Osmani</p>
+</figure>
+
+          <figure class="thumb">
+            <div class="cover">
+            <a target="_blank" href="https://largeapps.dev">
+                <img alt="Building Large Scale Web Apps is a toolkit to managing large-scale React applications.
+
+React as a library allows you to start building user interfaces quickly and easily. But how do things scale as an application grows? How do you ensure that your codebase remains manageable, your performance metrics stay on point, and your team continues to work cohesively as the project evolves?
+
+In this book, you'll uncover strategies that industry professionals use to build scalable, performant, and maintainable React applications, all without becoming overwhelmed by complexity.
+                " src="https://addyosmani.com/assets/images/large-apps.webp" width="238px" height="370px" style="background-color:black;">
+           </a>
+            </div>
+            <h2>Building large-scale web apps</h2>
+            <p class="author">by Addy Osmani</p>
+          </figure>
+
+              <figure class="thumb">
+                <div class="cover">
+                    <picture>
+                      <a href="https://leet.addy.ie/" target="_blank">
+                        <img alt="Leading Effective Engineering Teams - a book of growth tips for engineers, tech leads and managers by Addy Osmani" src="https://addyosmani.com/assets/images/leadeng.jpg" width="238px" height="370px" style="background-color:white;">
+                      </a>
+                    </picture>
+                </div>
+                
+                <h2>Effective Eng. Teams</h2>
+                <p class="author">by Addy Osmani</p>
+              </figure>
+              
+              <figure class="thumb">
+                <div class="cover">
+                <a target="_blank" href="https://prodengineer.org/">
+                    <img alt="Product Engineering with AI - A book bundle about building AI-powered products, from foundations to real-world implementation." src="https://addyosmani.com/assets/images/prodengineer.webp" width="238px" height="370px" style="background-color:black;">
+                </a>
+                </div>
+                <h2>Product Engineering with AI</h2>
+                <p class="author">by Addy Osmani</p>
+              </figure>
+
+          <figure class="thumb">
+            <div class="cover">
+            <a target="_blank" href="https://patterns.addy.ie">
+                <img alt="Do you want to write beautiful, structured, and maintainable JavaScript by applying modern design patterns to the language? Do you want clean, efficient, manageable code? Want to stay up-to-date with the latest best practices? If so, the updated second edition of Learning JavaScript Design Patterns is the ideal place to start.
+
+                Author Addy Osmani shows you how to apply modern design patterns to JavaScript and React. That includes popular design patterns such as modules, mixins, observers, and mediators. You'll learn about performance and rendering patterns, such as server-side rendering and islands architecture. You'll also learn how modern architectural patterns—such as MVC, MVP, and MVVM—are useful from the perspective of a modern web application developer. Other essential topics include modern JavaScript syntax and React patterns such as Hooks, higher order components, and render props.
+                
+                " src="https://addyosmani.com/assets/images/jsdp2.webp" width="238px" height="370px" style="background-color:white;">
+           </a>
+            </div>
+            <h2>JS Patterns: 2nd Edition</h2>
+            <p class="author">by Addy Osmani</p>
+          </figure>
+
+
+
+              <figure class="thumb">
+                <div class="cover">
+                    <a target="_blank" href="https://patterns.dev">
+                    <picture>
+                         <img alt="Modern Web Apps - a guide to writing high-performance React web applications by Lydia Hallie and Addy Osmani" src="https://addyosmani.com/assets/images/book-lp.webp" width="400px" height="517px" style="background-color:white; object-fit: cover;">
+                    </picture>
+                </a>
+                </div>
+                <h2>Learning Patterns</h2>
+                <p class="author">by Lydia Hallie and Addy Osmani</p>
+              </figure>
+
+
+
+
+              <figure class="thumb">
+                <div class="cover">
+                <a target="_blank" href="https://www.smashingmagazine.com/printed-books/success-at-scale">
+                    <img alt="Success at Scale is a curated collection of best-practice case studies capturing how production sites of different sizes tackle performance, accessibility, capabilities, and developer experience at scale. Case studies are from industry experts with guidance that stands the test of time.
+                    " src="https://addyosmani.com/assets/images/successatscale.jpg" width="238px" height="370px" style="background-color: #26354A">
+               </a>
+                </div>
+                <h2>Success at Scale</h2>
+                <p class="author">by Addy Osmani</p>
+              </figure>
+
+
+              <figure class="thumb">
+                <div class="cover">
+                    <a target="_blank" href="https://dx.addy.ie">
+                    <picture>
+                        <img alt="Developer Experience" src="https://addyosmani.com/assets/images/dx-book.jpg" width="238px" height="370px" style="background-color:#000;">
+                    </picture>
+                </a>
+                </div>
+                  
+                <h2>Developer Experience</h2>
+                <p class="author">by Addy Osmani</p>
+              </figure>
+
+              <figure class="thumb">
+                <div class="cover">
+                    <a target="_blank" href="https://stoic.addy.ie">
+                    <picture>
+                        <img alt="The Stoic Mind: By Addy Osmani and GoLimitless" src="https://addyosmani.com/assets/images/book-stoic.webp" width="238px" height="370px" style="background-color:#000;">
+                    </picture>
+                </a>
+                </div>
+                  
+                <h2>The Stoic Mind</h2>
+                <p class="author">by Addy &amp; GoLimitless</p>
+              </figure>
+              
+
+              <figure class="thumb">
+                <div class="cover">
+                <a target="_blank" href="https://addyosmani.com/blog/software-engineering-soft-parts/">
+                    <img alt="In Software Engineering - The Soft Parts Addy Osmani shares lessons from his first 10 years at Google on the soft skills that can help engineers become effective and scale their effectiveness. This guidance should help junior, mid-career and even senior developers move forward, deal with changing technology, and navigate building non-trivial systems. Becoming a good engineer is about collecting experience. Each project, even small ones, is a chance to add new techniques and tools to your toolbox. Where this delivers even more value is when you can solve problems by pairing techniques learned on one project with tools learned working on another. This short book tries to capture what the soft skills are and how they can all add up.
+                    " src="https://addyosmani.com/assets/images/softeng-google.jpg" width="238px" height="370px" style="background-color:#000083;">
+               </a>
+                </div>
+                <h2>SoftEng - The Soft Parts</h2>
+                <p class="author">by Addy Osmani</p>
+              </figure>
+
+              <figure class="thumb">
+                <div class="cover">
+                    <a target="_blank" href="https://www.smashingmagazine.com/printed-books/image-optimization/">
+                    <picture>
+                        <img alt="Image Optimization by Addy Osmani. A Smashing Magazine title." src="https://addyosmani.com/assets/images/book-io.webp" width="238px" height="370px" style="background-color:#51BFE8;">
+                    </picture>
+                </a>
+                </div>
+                  
+                <h2>Image Optimization</h2>
+                <p class="author">by Addy Osmani</p>
+              </figure>
+              
+
+              <figure class="thumb">
+                <div class="cover">
+                <a target="_blank" href="https://www.oreilly.com/library/view/learning-javascript-design/9781449334840/">
+                    <img alt="Explore many popular design patterns, including Modules, Observers, Facades, and Mediators. Learn how modern architectural patterns—such as MVC, MVP, and MVVM—are useful from the perspective of a modern web application developer. This book also walks experienced JavaScript developers through modern module formats, how to namespace code effectively, and other essential topics." src="https://addyosmani.com/assets/images/book-jsdp.webp" width="238px" height="370px" style="background-color:white;">
+               </a>
+                </div>
+                <h2>JS Design Patterns</h2>
+                <p class="author">by Addy Osmani</p>
+              </figure>
+
+              <!-- <figure class="thumb">
+                <div class="cover">
+                <a target="_blank" href="https://14habits.com">
+                    <img alt="14 Habits of highly productive developers" src="https://addyosmani.com/assets/images/book-habits.webp" width="238px" height="370px" style="background-color:white;">
+               </a>
+                </div>
+                <h2>Featured: 14 Habits</h2>
+                <p class="author">by Zeno Rocha</p>
+              </figure> -->
+
+              <figure class="thumb">
+                <div class="cover">
+                <a target="_blank" href="https://www.smashingmagazine.com/smashing-book-4-new-perspectives/">
+                    <img alt="New perspectives on web design" src="https://addyosmani.com/assets/images/book-responsive.webp" width="238px" height="370px" style="background-color:white;">
+               </a>
+                </div>
+                <h2>Featured: SM Book 4</h2>
+                <p class="author">by Addy Osmani</p>
+              </figure>
+
+              <figure class="thumb">
+                <div class="cover">
+                <a target="_blank" href="https://www.oreilly.com/library/view/developing-backbonejs-applications/9781449328535/">
+                    <img alt="Backbone Fundamentals" src="https://addyosmani.com/assets/images/book-backbone.webp" width="238px" height="370px" style="background-color:white;">
+               </a>
+                </div>
+                <h2>Backbone Applications</h2>
+                <p class="author">by Addy Osmani</p>
+              </figure>
+              
+        
+              <!-- <figure class="thumb">
+                <div class="cover">
+                <picture>
+                    <source srcset="https://addyosmani.com/books/success-at-scale.avif" type="image/avif">
+                    <source srcset="https://addyosmani.com/books/success-at-scale.webp" type="image/webp">
+                    <source srcset="https://addyosmani.com/books/success-at-scale.jpg">
+                    <img alt="Success at scale - a book of technical production case studies from popular large sites by Addy Osmani and friends" src="https://addyosmani.com/books/success-at-scale.jpg" width="238px" height="370px" style="background-color:#F04639;">
+                </picture>
+                </div>
+                <h2>Success at Scale</h2>
+                <p class="author">by Addy Osmani and friends</p>
+              </figure> -->
+            </div>
+</div>
+
+
+
+        <!-- Case studies -->
+        <div class="studies-container">
+            <h3>Case Studies</h3>
+            
+<!--
+case studies
+https://web.dev/shopping-for-speed-on-ebay/
+https://medium.com/dev-channel/a-netflix-web-performance-case-study-c0bcde26a9d9
+https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0
+https://medium.com/dev-channel/a-pinterest-progressive-web-app-performance-case-study-3bd6ed2e6154
+https://medium.com/dev-channel/treebo-a-react-and-preact-progressive-web-app-performance-case-study-5e4f450d5299
+https://developers.google.com/web/showcase/2017/twitter
+-->
+
+                <div class="studies">
+                    <figure class="thumb">
+                        <div class="cover">
+                            <a target="_blank" href="https://medium.com/@addyosmani/shopping-for-speed-on-ebay-com-6229711d7573">
+                            <picture>
+                                <img alt="eBay logo." src="https://addyosmani.com/assets/images/ebay2.svg" width="auto" height="100px">
+                            </picture>
+                        </a>
+                        </div>
+                          
+                        <h2>eBay</h2>
+                        
+                      </figure>
+                      
+                      <figure class="thumb">
+                        <div class="cover">
+                            <a target="_blank" href="https://medium.com/dev-channel/a-netflix-web-performance-case-study-c0bcde26a9d9">
+                            <picture>
+                                 <img alt="Netflix" src="https://addyosmani.com/assets/images/netflix.svg" width="auto" height="100px" >
+                            </picture>
+                        </a>
+                        </div>
+                        <h2>Netflix</h2>
+                      </figure>
+
+                      <figure class="thumb">
+                        <div class="cover">
+                        <a target="_blank" href="https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0">
+                            <img alt="Tinder" src="https://addyosmani.com/assets/images/tinder2.svg" width="auto" height="100px">
+                       </a>
+                        </div>
+                        <h2>Tinder</h2>
+                        
+                      </figure>
+
+                      <figure class="thumb">
+                        <div class="cover">
+                            <a href="https://medium.com/dev-channel/a-pinterest-progressive-web-app-performance-case-study-3bd6ed2e6154">
+                            <picture>
+                                <img alt="Pinterest" src="https://addyosmani.com/assets/images/pinterest2.svg" width="auto" height="100px">
+                            </picture>
+                        </a>
+                        </div>
+                        
+                        <h2>Pinterest</h2>
+                        
+                      </figure>
+
+                      <figure class="thumb">
+                        <div class="cover">
+                            <a href="https://medium.com/p/5e4f450d5299">
+                            <picture>
+                                <img alt="Treebo" src="https://addyosmani.com/assets/images/treebo.svg" width="auto" height="100px">
+                            </picture>
+                        </a>
+                        </div>
+                        
+                        <h2>Treebo</h2>
+                        
+                      </figure>
+
+                      <figure class="thumb">
+                        <div class="cover">
+                            <a href="https://medium.com/@addyosmani/building-a-better-web-a-faster-youtube-on-web-24b1dc03716">
+                            <picture>
+                                <img alt="YouTube" src="https://addyosmani.com/assets/images/youtube.svg" width="auto" height="100px">
+                            </picture>
+                        </a>
+                        </div>
+                        
+                        <h2>YouTube</h2>
+                        
+                      </figure>
+                      
+
+                      <figure class="thumb">
+                        <div class="cover">
+                            <a href="https://medium.com/@addyosmani/photoshop-is-now-on-the-web-38d70954365a">
+                            <picture>
+                                <img alt="Adobe case study" src="https://addyosmani.com/assets/images/adobe.svg" width="auto" height="100px">
+                            </picture>
+                        </a>
+                        </div>
+                        
+                        <h2>Adobe</h2>
+                        
+                      </figure>
+
+                      
+                
+                      <figure class="thumb">
+                        <div class="cover">
+                            <a href="https://largeapps.dev/case-studies/twitter/">
+                            <picture>
+                                <img alt="Twitter web case study" src="https://addyosmani.com/assets/images/twitter.png" width="auto" height="100px">
+                            </picture>
+                        </a>
+                        </div>
+                        
+                        <h2>Twitter</h2>
+                        
+                      </figure>
+
+                    </div>
+           
+        </div>
+
+    </div>
+
+    <!-- Featured hero image -->
+    <div class="image-container">
+        <div class="hero-image">
+            <picture>
+                <source srcset="/assets/images/IMG_5872.avif" type="image/avif">
+                <source srcset="/assets/images/IMG_5872.webp" type="image/webp">
+                <source srcset="/assets/images/IMG_5872.jpg">
+                <img 
+                alt="Pictured: Addy Osmani."
+                src="/assets/images/IMG_5872.jpg"
+                width="auto"
+                height="80%">
+            </picture>
+        </div>
+
+    </div>
+</div>
+
+<div class="profile">
+    <section id="wrapper">
+        
+          <!-- don't show header-->
+        
+    </section>
+</div>
+
+
+  
+
+  <style>
+
+    .thoughts-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .thoughts-item {
+        display: block;
+        text-decoration: none;
+        color: #333;
+    }
+
+    .thoughts-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+        background: #ccc;
+        aspect-ratio: 1/1;
+    }
+
+    .thoughts-item-ai {
+        display: block;
+        text-decoration: none;
+        color: #333;
+    }
+
+    .thoughts-item-ai img {
+        width: 100%;
+        display: block;
+        background: #ccc;
+        aspect-ratio: 1/1;
+    }
+
+    .thoughts-item img:hover {
+        outline: 5px solid #4361b3;
+    }
+
+    .thoughts-item-ai img:hover {
+        outline: 5px solid #4361b3;
+    }
+
+    .thoughts-item h3,
+    .thoughts-item-ai h3 {
+        font-size: 1.25rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .more-thoughtss {
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .more-thoughtss a {
+        text-decoration: none;
+    }
+
+    .more-thoughtss a:hover {
+        text-decoration: underline;
+    }
+
+    </style>
+
+
+    <h2 class="section-title">Featured AI articles</h2>
+    
+    
+    <div class="thoughts-grid">
+        
+        
+        <a href="https://addyosmani.com/blog/brownfield-agentic-engineering/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/brownfield-agentic-engineering/11.webp" alt="Brownfield Agentic Engineering thumbnail" loading="lazy">
+            <h3>Brownfield Agentic Engineering</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/agentic-skill-decay/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/agentic-skill-decay/06.webp" alt="Agentic Skill Decay thumbnail" loading="lazy">
+            <h3>Agentic Skill Decay</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/audit-your-agent-files/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/audit-your-agent-files/08.webp" alt="Audit your Agent files thumbnail" loading="lazy">
+            <h3>Audit your Agent files</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/human-judgment-doesnt-leave-the-software/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/human-judgment.jpg" alt="Human judgment doesn&#39;t leave the software factory. It relocates. thumbnail" loading="lazy">
+            <h3>Human judgment doesn't leave the software factory. It relocates.</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/practical-loop-engineering/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/practical-loop-engineering.png" alt="Practical Loop Engineering thumbnail" loading="lazy">
+            <h3>Practical Loop Engineering</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/agentic-code-quality/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/agentic-code-quality.png" alt="Agentic Code Quality thumbnail" loading="lazy">
+            <h3>Agentic Code Quality</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/software-factories/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/software-factories.jpg" alt="Software Factories, Light and Dark thumbnail" loading="lazy">
+            <h3>Software Factories, Light and Dark</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/own-the-outer-loop/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/outer-loop.jpg" alt="Own the Outer Loop thumbnail" loading="lazy">
+            <h3>Own the Outer Loop</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/earning-judgment/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/earning-judgment.jpg" alt="Earning taste and judgment thumbnail" loading="lazy">
+            <h3>Earning taste and judgment</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/career-advice-age-of-agents/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/agent-career.jpg" alt="The Agent-Era Career thumbnail" loading="lazy">
+            <h3>The Agent-Era Career</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/agentic-autonomy-levels/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/autonomy-levels.jpg" alt="Agentic Autonomy Levels thumbnail" loading="lazy">
+            <h3>Agentic Autonomy Levels</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/new-sdlc-vibe-coding/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/newsdlc-harness-anatomy-meta.jpg" alt="The New Software Lifecycle thumbnail" loading="lazy">
+            <h3>The New Software Lifecycle</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/agentic-code-review/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/agentic-code-review.jpg" alt="Agentic Code Review thumbnail" loading="lazy">
+            <h3>Agentic Code Review</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/loop-engineering/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/loop-engineering.jpg" alt="Loop Engineering thumbnail" loading="lazy">
+            <h3>Loop Engineering</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/intent-debt/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/intentdebt.jpg" alt="The Intent Debt thumbnail" loading="lazy">
+            <h3>The Intent Debt</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/orchestration-tax/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/orchestration-tax.jpg" alt="The Orchestration Tax thumbnail" loading="lazy">
+            <h3>The Orchestration Tax</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/dont-outsource-learning/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/dont-outsource-learning.jpg" alt="Don&#39;t Outsource the Learning thumbnail" loading="lazy">
+            <h3>Don't Outsource the Learning</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/cognitive-surrender/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/cognitive-surrender.jpg" alt="Cognitive Surrender thumbnail" loading="lazy">
+            <h3>Cognitive Surrender</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/agent-skills/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/addys-agent-skills.jpg" alt="Agent Skills thumbnail" loading="lazy">
+            <h3>Agent Skills</h3>
+        </a>
+        
+        
+        
+        <a href="https://addyosmani.com/blog/long-running-agents/" class="thoughts-item-ai">
+            <img width="300" height="200" src="https://addyosmani.com/assets/images/long-running.jpg" alt="Long-running Agents thumbnail" loading="lazy">
+            <h3>Long-running Agents</h3>
+        </a>
+        
+        
+    </div>
+
+
+    <p style="margin-bottom: 60px;">&nbsp;</p>
+
+    <h2 class="section-title">Featured thoughts</h2>
+    <div class="thoughts-grid">
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6981270958401609728?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6981270958401609728%29&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B0ogUFJiITRe4dLcKsc4%2FCQ%3D%3D" class="thoughts-item">
+            <img width="300" height="300" src="https://addyosmani.com/assets/images/homepage-critical.jpg" alt="thoughts Thumbnail" loading="lazy">
+            <h3>Critical Thinking is key</h3>
+        </a>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7000540911050907648?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7000540911050907648%29&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B0ogUFJiITRe4dLcKsc4%2FCQ%3D%3D" class="thoughts-item">
+            <img width="300" height="300" src="https://addyosmani.com/assets/images/homepage-team.jpg" alt="thoughts Thumbnail" loading="lazy">
+            <h3>Overcome team dysfunction</h3>
+        </a>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7044175826115846144?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7044175826115846144%29&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B0ogUFJiITRe4dLcKsc4%2FCQ%3D%3D" class="thoughts-item">
+            <img width="300" height="300" src="https://addyosmani.com/assets/images/homepage-subset.jpg" alt="thoughts Thumbnail" loading="lazy">
+            <h3>Work is a subset of life</h3>
+        </a>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:6996942888802598912/" class="thoughts-item">
+            <img width="300" height="300" src="https://addyosmani.com/assets/images/homepage-coach.jpg" alt="thoughts Thumbnail" loading="lazy">
+            <h3>Coach, mentor, sponsor</h3>
+        </a>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7018966411389661184/" class="thoughts-item">
+            <img width="300" height="300" src="https://addyosmani.com/assets/images/homepage-engineer.jpg" alt="thoughts Thumbnail" loading="lazy">
+            <h3>Effective engineers</h3>
+        </a>
+    </div>
+
+    <div class="more-thoughtss">
+        <p>Check out more of my thoughts on <a href="https://www.linkedin.com/in/addyosmani/" target="_blank">LinkedIn</a>.</p>
+    </div>
+
+
+  <section id="wrapper" class="home" style="">
+    <div class="about">
+
+
+  <ol class="list-view">
+
+    <li class="list-item">
+      <div class="list-header">
+        <div class="_bubble" style="background-image: url(assets/images/1448501262_heart.svg);"></div>
+      </div>
+      <div class="list-detail">
+        <div class="_title-block">
+          <h3>Open-source</h3>
+        </div>
+        <p class="_summary">Projects I've contributed to include
+          <a href="https://developers.google.com/web/tools/lighthouse">Lighthouse</a>,
+          <a href="https://workboxjs.org">Workbox</a>,
+          <a href="https://github.com/GoogleChromeLabs/quicklink">Quicklink</a>,
+          <a href="https://guessjs.com">Guess.js</a>,
+          <a href="http://yeoman.io">Yeoman</a>,
+          <a href="http://todomvc.com">TodoMVC</a>,
+          <a href="https://browserbench.org/Speedometer3.0/">Speedometer</a>,
+          <a href="https://github.com/addyosmani/critical">Critical</a> and
+          <a href="http://getmdl.io">Material Design Lite</a>. More recently I've been building for coding agents:
+          <a href="https://github.com/addyosmani/agent-skills">agent-skills</a>, a set of production-grade engineering skills for AI coding agents, and
+          <a href="https://github.com/addyosmani/clarity">clarity</a>, an agent skill for clearer writing. You can find more on my <a
+            href="https://addyosmani.com/open-source">open-source</a> page or on <a
+            href="https://github.com/addyosmani">GitHub</a>.</p>
+      </div>
+    </li>
+
+    <!-- <li class="list-item">
+      <div class="list-header">
+        <div class="_bubble" style="background-image: url(assets/images/pencil-js.svg);"></div>
+      </div>
+      <div class="list-detail">
+        <div class="_title-block">
+          <h3>Books I've written</h3>
+        </div>
+        <p class="_summary">My books include <a href="https://bit.ly/smashing-images">Image Optimization</a> (2021), <a href="https://patterns.dev">Learning Patterns</a> (2021) with Lydia Hallie, 
+          <a href="/resources/essentialjsdesignpatterns/book/index.html">Learning JavaScript
+            Design Patterns</a> and <a href="http://addyosmani.github.com/backbone-fundamentals">Backbone.js Apps</a>. I am working on <a href="https://addyosmani.com/books/">a few</a> other book projects in 2022: Efficient Engineering and Success at scale.
+        </p>
+      </div>
+    </li> -->
+    <li class="list-item">
+      <div class="list-header">
+        <div class="_bubble" style="background-image: url(assets/images/ttt.svg);"></div>
+      </div>
+      <div class="list-detail">
+        <div class="_title-block">
+          <h3>Podcasts</h3>
+        </div>
+        <p class="_summary">
+          I have been on a few podcasts recently, including <a href="https://newsletter.pragmaticengineer.com/p/from-chrome-devtools-to-ai-engineering">The Pragmatic Engineer</a> and <a href="https://open.spotify.com/episode/36GIDcIv7lWxsiBLdl1ti8">Beyond Coding</a>.
+          
+          <!-- I previously appeared on <a href="https://www.youtube.com/watch?v=i5R7giitymk">State Of The
+            Web</a> talking about the state of JavaScript. The last show I did was season 4 of <a
+            href="https://g.co/TotallyToolingTips">Totally Tooling
+            Tips</a> with Matt Gaunt. It has unicorns!. -->
+          </p>
+      </div>
+    </li>
+    <li class="list-item">
+      <div class="list-header">
+        <div class="_bubble" style="background-image: url(assets/images/luggage-js.svg);"></div>
+      </div>
+      <div class="list-detail">
+        <div class="_title-block">
+          <h3>Talks</h3>
+        </div>
+        <p class="_summary">
+          Recordings of my talks are on my <a href="https://www.youtube.com/watch?v=X9eRLElSW1c&list=PLVUliVBcvz1lKS9-rcPFFXkwGOj_YX_-5">YouTube</a> channel. My most recent is <a href="https://www.youtube.com/watch?v=n97BCfyFIvw">Don't Build Agents You Can't Answer For</a>, the closing keynote at AI Engineer. Earlier ones include <a href="https://youtu.be/AQqFZ5t8uNc">Optimize the Core Web Vitals</a> and <a href="https://youtu.be/X9eRLElSW1c">Cost Of JavaScript</a>. You can find some of my slides on <a
+            href="http://speakerdeck.com/addyosmani">SpeakerDeck</a>.
+          </p>
+      </div>
+    </li>
+    <li class="list-item">
+      <div class="list-header">
+        <div class="_bubble" style="background-image: url(assets/images/1448501267_laptop.svg);"></div>
+      </div>
+      <div class="list-detail">
+        <div class="_title-block">
+          <h3>Film</h3>
+        </div>
+        <p class="_summary">
+          I appear in <a href="https://www.youtube.com/watch?v=kHL3XzjpT5w">The Story of VS Code</a>, the official documentary about Visual Studio Code. There is a short <a href="https://www.linkedin.com/posts/addyosmani_programming-softwareengineering-activity-7501885407467479040-6QKu/">trailer</a> too.
+          </p>
+      </div>
+    </li>
+    <li class="list-item">
+      <div class="list-header">
+        <div class="_bubble" style="background-image: url(assets/images/github-notebook.svg);"></div>
+      </div>
+      <div class="list-detail">
+        <div class="_title-block">
+          <h3>Blog</h3>
+        </div>
+        <p class="_summary">You can find my writing on my <a href="https://addyosmani.com/blog/">blog</a>, <a href="https://substack.com/@addyosmani">Substack</a> and on <a href="https://leaddev.com/community/addy-osmani">LeadDev</a>. My last post on here was: 
+  <a href="/blog/brownfield-agentic-engineering/">Brownfield Agentic Engineering</a>
+
+</p>
+      </div>
+    </li>
+  </ol>
+</div>
+
+  </section>
+
+  <style>
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.video-grid-wide {
+    grid-template-columns: repeat(320, minmax(300px, 1fr));
+    overflow: hidden;
+}
+
+.video-item {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.video-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: #ccc;
+    /* aspect-ratio: 16/9; */
+}
+
+.video-item img:hover {
+    outline: 5px solid #4361b3;
+}
+
+.video-item h3 {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.more-videos {
+    text-align: center;
+    padding: 1rem;
+}
+
+.more-videos a {
+    text-decoration: none;
+}
+
+.more-videos a:hover {
+    text-decoration: underline;
+}
+
+.video-wide, .video-wide img {
+    height: 400px;
+}
+</style>
+
+
+<!-- videos -->
+<h2 class="section-title">Featured Videos</h2>
+<div class="video-grid">
+    <a href="https://www.youtube.com/watch?v=dHIppEqwi0g" class="video-item">
+        <img width="300" height="168" src="https://i.ytimg.com/vi/dHIppEqwi0g/hqdefault.jpg" alt="Video Thumbnail" loading="lazy">
+        <h3>Beyond Vibe Coding</h3>
+    </a>
+    <a href="https://www.youtube.com/watch?v=SpKtpW9TGF0" class="video-item">
+        <img width="300" height="168" src="https://i.ytimg.com/vi/SpKtpW9TGF0/hqdefault.jpg" alt="Video Thumbnail" loading="lazy">
+        <h3>The AI-Assisted Developer Workflow</h3>
+    </a>
+    <a href="https://www.youtube.com/watch?v=IMHneaMO-dg" class="video-item">
+        <img width="300" height="168" src="https://i.ytimg.com/vi/IMHneaMO-dg/hqdefault.jpg" alt="Video Thumbnail" loading="lazy">
+        <h3>How to become a "T-shaped" software engineer</h3>
+    </a>
+</div>
+<div class="video-grid">
+    <a href="/talks/life-lessons/" class="video-item">
+        <img width="300" height="168" src="https://addyosmani.com/assets/images/homepage-life.jpg" alt="Video Thumbnail" loading="lazy">
+        <h3>Life Lessons</h3>
+    </a>
+    <a href="/talks/10-years/" class="video-item">
+        <img width="300" height="168" src="https://addyosmani.com/assets/images/homepage-10years.jpg" alt="Video Thumbnail" loading="lazy">
+        <h3>Effective Engineering Teams</h3>
+    </a>
+    <a href="https://www.youtube.com/watch?v=X9eRLElSW1c" class="video-item">
+        <img width="300" height="168" src="https://addyosmani.com/assets/images/homepage-costjs.jpg" alt="Video Thumbnail" loading="lazy">
+        <h3>Cost Of JavaScript</h3>
+    </a>
+</div>
+<div class="more-videos">
+    <p>Check out more of my videos on <a href="https://www.youtube.com/playlist?list=PLVUliVBcvz1lKS9-rcPFFXkwGOj_YX_-5" target="_blank">YouTube</a>.</p>
+</div>
+
+
+<!-- shorts -->
+ <style>
+    .video-shorts {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+ </style>
+<h2 class="section-title">Shorts</h2>
+<div class="video-grid video-shorts">
+    <a href="https://www.youtube.com/shorts/nSZ4ON6FE80" class="video-item">
+        <img width="300" height="168" src="https://i.ytimg.com/vi/nSZ4ON6FE80/hqdefault.jpg" alt="YouTube Short Thumbnail" loading="lazy">
+        <h3>How to become an effective engineer?</h3>
+    </a>
+    <a href="https://www.youtube.com/shorts/jas4SXq8Fo8" class="video-item">
+        <img width="300" height="168" src="https://i.ytimg.com/vi/jas4SXq8Fo8/hqdefault.jpg" alt="YouTube Short Thumbnail" loading="lazy">
+        <h3>Habits that may be slowing you down</h3>
+    </a>
+        <a href="https://www.youtube.com/shorts/N3DV6fJaaHU" class="video-item">
+        <img width="300" height="168" src="https://i.ytimg.com/vi/N3DV6fJaaHU/hqdefault.jpg" alt="YouTube Short Thumbnail" loading="lazy">
+        <h3>Are you a T-shaped engineer?</h3>
+    </a>
+    <a href="https://www.youtube.com/shorts/yYcAx3UWcVQ" class="video-item">
+        <img width="300" height="168" src="https://i.ytimg.com/vi/yYcAx3UWcVQ/hqdefault.jpg" alt="YouTube Short Thumbnail" loading="lazy">
+        <h3>Why asking why can help you build better software</h3>
+    </a>
+    <a href="https://www.youtube.com/shorts/xWHOimdLEYA" class="video-item">
+        <img width="300" height="168" src="https://i.ytimg.com/vi/xWHOimdLEYA/hqdefault.jpg" alt="YouTube Short Thumbnail" loading="lazy">
+        <h3>IC vs manager which path is right for you</h3>
+    </a>
+</div>
+
+<!-- network -->
+ <style>
+    .video-network {
+        overflow: visible;
+    }
+ </style>
+
+<h2 class="section-title">My Network</h2>
+<div class="video-grid video-grid-wide video-network">
+    <a href="https://instagram.com/deepvoice1.0" class="video-item video-wide">
+        <img width="300" height="168" src="https://addyosmani.com/assets/images/network-01b.jpg" alt="Video Thumbnail" loading="lazy">
+        <h3>Instagram - Motivational Tips</h3>
+    </a>
+    <a href="https://tiktok.com/@vvoicemotivation" class="video-item video-wide">
+        <img width="300" height="168" src="https://addyosmani.com/assets/images/network-02.jpg" alt="Video Thumbnail" loading="lazy">
+        <h3>TikTok - Motivational Tips</h3>
+    </a>
+    <a href="https://www.youtube.com/@AddyOsmani/videos" class="video-item video-wide">
+        <img width="300" height="168" src="https://addyosmani.com/assets/images/network-04.jpg" alt="Video Thumbnail" loading="lazy">
+        <h3>YouTube - Tutorials</h3>
+    </a>
+    <a href="https://addyo.substack.com" class="video-item video-wide">
+        <img width="300" height="168" src="https://addyosmani.com/assets/images/network-05b.png" alt="Video Thumbnail" loading="lazy">
+        <h3>Substack - Articles</h3>
+    </a>
+</div>
+
+  <footer id="footer">
+    <p class="small" style="padding:20px 20px 0 20px; max-width:760px; margin:0 auto; color:#777; font-size:13px; line-height:1.5;">
+        <strong>Disclaimer:</strong> The views and opinions expressed on this site are my own.
+    </p>
+    <p class="small" style="padding:10px 20px 20px 20px; max-width:760px; margin:0 auto;">© Copyright 2026 Addy Osmani</p>
+</footer>
+
+  
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-46754295-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <!--
+  Conversion / outbound-click tracking for GA4 (Measurement ID G-QLSQW43X99).
+  Purchases happen off-site (Amazon/O'Reilly/Leanpub etc.), so the trackable
+  proxy is the outbound click. We fire two custom GA4 events that you can mark
+  as Key events (conversions) in GA4 Admin > Key events:
+    - book_click        (intent to buy a book; outbound to a retailer / book link)
+    - newsletter_click  (intent to subscribe; outbound/click to Substack)
+  This piggybacks on the GA4 Google tag already loaded on the page, so it does
+  NOT add a second page_view. If gtag is somehow missing it lazy-loads it with
+  send_page_view:false as a safety net.
+-->
+<script>
+(function () {
+  var GA4_ID = 'G-QLSQW43X99';
+
+  function ensureGtag() {
+    if (typeof window.gtag === 'function') return; // tag already on the page
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { window.dataLayer.push(arguments); };
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA4_ID;
+    document.head.appendChild(s);
+    window.gtag('js', new Date());
+    window.gtag('config', GA4_ID, { send_page_view: false });
+  }
+
+  function track(name, params) {
+    try { ensureGtag(); window.gtag('event', name, params || {}); } catch (e) {}
+  }
+
+  function retailerForHost(host) {
+    host = (host || '').toLowerCase();
+    if (/(^|\.)(amazon\.|amzn\.)/.test(host)) return 'amazon';
+    if (/oreilly\.com$/.test(host) || /(^|\.)oreilly\.com/.test(host)) return 'oreilly';
+    if (/leanpub\.com/.test(host)) return 'leanpub';
+    if (/smashingmagazine\.com/.test(host)) return 'smashing';
+    if (/books\.apple\.com/.test(host)) return 'apple_books';
+    if (/play\.google\.com/.test(host)) return 'google_play';
+    if (/gumroad\.com/.test(host)) return 'gumroad';
+    return null;
+  }
+
+  function text(el) {
+    return (el && (el.textContent || '')).replace(/\s+/g, ' ').trim().slice(0, 100);
+  }
+
+  document.addEventListener('click', function (e) {
+    var t = e.target;
+    if (!t || !t.closest) return;
+    var a = t.closest('a[href]');
+    if (!a) return;
+
+    var href = a.getAttribute('href') || '';
+    if (!/^https?:/i.test(href)) return; // ignore in-page anchors, mailto, javascript:
+
+    var url;
+    try { url = new URL(href, window.location.href); } catch (_) { return; }
+    var host = url.hostname;
+    var location = window.location.pathname;
+
+    // 1) Explicit CTA elements (data attributes win)
+    var bookEl = t.closest('[data-book]');
+    var newsEl = t.closest('[data-newsletter]');
+
+    // 2) Homepage / featured book grid
+    var inBookGrid = !!t.closest('.books-container');
+
+    var isBook = !!bookEl || inBookGrid || !!retailerForHost(host);
+    var isNewsletter = !!newsEl || /(^|\.)substack\.com$/.test(host) || /substack\.com/.test(host);
+
+    if (isBook) {
+      var figure = t.closest('figure.thumb');
+      var bookName =
+        (bookEl && bookEl.getAttribute('data-book')) ||
+        (figure && text(figure.querySelector('h2'))) ||
+        text(a) ||
+        'unknown';
+      var retailer =
+        (bookEl && bookEl.getAttribute('data-retailer')) ||
+        retailerForHost(host) ||
+        'redirect';
+      track('book_click', {
+        book: bookName,
+        retailer: retailer,
+        location: location,
+        link_domain: host,
+        link_url: url.href.slice(0, 300)
+      });
+      return;
+    }
+
+    if (isNewsletter) {
+      track('newsletter_click', {
+        location: location,
+        source: (newsEl && newsEl.getAttribute('data-newsletter')) || 'link',
+        link_domain: host,
+        link_url: url.href.slice(0, 300)
+      });
+      return;
+    }
+  }, true); // capture phase so it runs even if other handlers stopPropagation
+})();
+</script>
+
+
+<script async id="netlify-rum-container" src="/.netlify/scripts/rum" data-netlify-rum-site-id="11504f31-fa4b-420c-ae4e-a91a7af57aa8" data-netlify-deploy-branch="source" data-netlify-deploy-context="production" data-netlify-cwv-token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzaXRlX2lkIjoiMTE1MDRmMzEtZmE0Yi00MjBjLWFlNGUtYTkxYTdhZjU3YWE4IiwiYWNjb3VudF9pZCI6IjViOTI4OWUzMzgxM2YwMjg5NTdhZTYyZCIsImRlcGxveV9pZCI6IjZhYjAyZGY5NGRhZTEyNGI2M2FlMDg4ZCIsImlzc3VlciI6Im5mc2VydmVyIn0.xYsHE1AmlCdNxd63snOETUC1rC6F8cOdgFcA-goo7PE"></script>
+</body>
+</html>
+
+
