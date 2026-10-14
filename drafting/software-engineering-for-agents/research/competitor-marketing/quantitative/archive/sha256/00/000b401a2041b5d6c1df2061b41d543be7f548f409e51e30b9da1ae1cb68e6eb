@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vibe Coding — Steve Yegge</title>
+  <meta name="description" content="Vibe Coding: Building Production-Grade Software With GenAI, Chat, Agents, and Beyond. The 2025 book by Steve Yegge — Gold Medal (Axiom) and Silver (IBPA Benjamin Franklin). With workshops co-led with Gene Kim.">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://yegge.ai/vibe-coding.html">
+  <link rel="alternate" type="application/atom+xml" title="Steve Yegge — essays" href="/feed.xml">
+  <meta property="og:site_name" content="yegge.ai">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vibe Coding — Steve Yegge">
+  <meta property="og:description" content="Vibe Coding: Building Production-Grade Software With GenAI, Chat, Agents, and Beyond. The 2025 book by Steve Yegge — Gold Medal (Axiom) and Silver (IBPA Benjamin Franklin). With workshops co-led with Gene Kim.">
+  <meta property="og:url" content="https://yegge.ai/vibe-coding.html">
+  <meta property="og:image" content="https://yegge.ai/images/og-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Vibe Coding — Steve Yegge">
+  <meta name="twitter:description" content="Vibe Coding: Building Production-Grade Software With GenAI, Chat, Agents, and Beyond. The 2025 book by Steve Yegge — Gold Medal (Axiom) and Silver (IBPA Benjamin Franklin). With workshops co-led with Gene Kim.">
+  <meta name="twitter:image" content="https://yegge.ai/images/og-card.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Cardo:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem('theme') !== 'light')
+          document.documentElement.setAttribute('data-theme', 'dark');
+      } catch (e) { /* localStorage blocked — default to dark */
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+  
+  
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ebdb66d0808941fb94041c4f2320eb00"}'></script>
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="/index.html" class="nav-logo">yegge<span>.ai</span></a>
+      <ul class="nav-links">
+        <li><a href="/bio.html">About</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/atlas.html">Atlas</a></li>
+        <li><a href="/friends.html">Friends</a></li>
+        <li><a href="/search.html" class="nav-search" aria-label="Search the archive">Search</a></li>
+        <li><a href="/cdn-cgi/l/email-protection#9ffaf1f8fef8faf2faf1ebecdff8f7f0ecebebedfefcf4b1fcf0f2" class="nav-cta">Get in touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <main id="main" tabindex="-1" data-pagefind-body>
+  <div class="page-header history-header">
+    <figure class="history-header-photo">
+      <img src="images/books/vibe-coding-steve-gene.jpg" alt="Steve Yegge and Gene Kim, co-authors of Vibe Coding">
+    </figure>
+    <p class="section-label">Atlas · Books</p>
+    <h1>Vibe Coding</h1>
+    <p>
+      <em>Building Production-Grade Software With GenAI, Chat, Agents, and Beyond.</em>
+      A 2025 book by <strong>Gene Kim</strong> and <strong>Steve Yegge</strong>,
+      foreword by <strong>Dario Amodei</strong>. Published by IT&nbsp;Revolution.
+    </p>
+  </div>
+
+  <!-- ── Book hero ──────────────────────────────────────────── -->
+  <section class="book-hero">
+    <div class="book-hero-inner">
+      <a class="book-cover" href="https://itrevolution.com/product/vibe-coding-book/" target="_blank" rel="noopener" aria-label="Vibe Coding on IT Revolution">
+        <img src="images/books/vibe-coding-cover.jpg" alt="Vibe Coding — book cover">
+      </a>
+
+      <div class="book-meta">
+        <div class="medal-stack">
+          <a class="medal" href="https://axiomawards.com/blog/2026-medalists" target="_blank" rel="noopener" aria-label="2026 Axiom Business Book Awards Gold Medal — Business Technology">
+            <span class="medal-disc" aria-hidden="true">★</span>
+            <span class="medal-text">
+              <span class="medal-line-1">Gold Medal</span>
+              <span class="medal-line-2">2026 Axiom Awards · Business Technology</span>
+            </span>
+          </a>
+          <a class="medal medal--silver" href="https://www.ibpabookaward.org/winners-professional-technical" target="_blank" rel="noopener" aria-label="2026 IBPA Benjamin Franklin Silver — Professional & Technical">
+            <span class="medal-disc" aria-hidden="true">★</span>
+            <span class="medal-text">
+              <span class="medal-line-1">Silver</span>
+              <span class="medal-line-2">2026 IBPA Benjamin Franklin · Professional &amp; Technical</span>
+            </span>
+          </a>
+        </div>
+
+        <p class="book-meta-blurb">
+          By Gene Kim — author of <em>The Phoenix Project</em> and
+          <em>The DevOps Handbook</em> — and Steve Yegge.
+        </p>
+
+        <div class="book-buy">
+          <a class="btn-primary" href="https://itrevolution.com/product/vibe-coding-book/" target="_blank" rel="noopener">Get the book</a>
+          <p class="book-meta-isbn">IT&nbsp;Revolution&nbsp;·&nbsp;Oct&nbsp;2025</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── About the book ────────────────────────────────────── -->
+  <section class="section book-section">
+    <div class="book-section-inner">
+      <h2 class="section-heading">About the book</h2>
+      <div class="book-prose">
+        <p>
+          <em>Vibe Coding</em> is a practical book about a new way of building
+          software, where intent and conversational flow matter more than syntax.
+          Developers describe what they want; the system builds it. The book
+          lays out how to harness GenAI at production scale without losing the
+          engineering excellence modern systems demand.
+        </p>
+        <p>
+          The authors draw on decades of combined experience in software
+          engineering and developer productivity — Gene from the DevOps
+          and Phoenix Project arc, me from Amazon, Google, Grab, and
+          Sourcegraph — to walk through how teams transform programming
+          challenges into fluid conversations with coding agents while still
+          shipping real systems.
+        </p>
+        <p>
+          The book won the <strong>Gold Medal at the 2026 Axiom Book Awards</strong>
+          and <strong>Silver at the 2026 IBPA Benjamin Franklin Awards</strong>
+          in the Professional &amp; Technical category.
+        </p>
+        <p class="book-prose-meta">
+          320 pages · paperback, ebook, audiobook · IT Revolution · October 2025
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── In the press ──────────────────────────────────────── -->
+  <section class="section book-section book-section--alt">
+    <div class="book-section-inner">
+      <h2 class="section-heading">In the press</h2>
+
+      <figure class="press-pull">
+        <blockquote>
+          &ldquo;IT is a layered activity. We're losing the bottom layer, code
+          generation. Everyone's getting pushed up in that direction because
+          AI is writing code.&rdquo;
+        </blockquote>
+        <figcaption>
+          &mdash; Steve Yegge in <em>Deloitte Tech Trends 2026</em>,
+          dedicated sidebar &ldquo;From writer to director&rdquo;.
+          <a href="https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html" target="_blank" rel="noopener">Read the sidebar →</a>
+        </figcaption>
+      </figure>
+
+      <figure class="press-pull">
+        <blockquote>
+          The author was quoted at length in a March 2026 <em>New York Times Magazine</em>
+          feature on AI coding agents and the future of programming &mdash; the most-cited
+          piece on the practitioner side of the AI-coding shift to date.
+        </blockquote>
+        <figcaption>
+          <a href="https://www.nytimes.com/2026/03/12/magazine/ai-coding-programming-jobs-claude-chatgpt.html" target="_blank" rel="noopener">Read the article →</a>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ── Talks & podcasts on Vibe Coding ───────────────────── -->
+  <section class="section book-section">
+    <div class="book-section-inner">
+      <h2 class="section-heading">Talks &amp; podcasts</h2>
+      <p class="book-section-meta">
+        Pieces of <em>Vibe Coding</em> appear across a year of talks and podcasts.
+        The book is the consolidated text; these are the places where the ideas
+        first showed up in public.
+      </p>
+
+      <div class="work-group">
+        <div class="work-entry">
+          <span class="work-year">2025-12</span>
+          <span class="work-title"><a href="https://www.latent.space/p/steve-yegges-vibe-coding-manifesto" target="_blank" rel="noopener">Steve Yegge's Vibe Coding Manifesto</a></span>
+          <span class="work-venue">Latent Space</span>
+        </div>
+        <div class="work-entry">
+          <span class="work-year">2025-12</span>
+          <span class="work-title"><a href="https://www.youtube.com/watch?v=7Dtu2bilcFs" target="_blank" rel="noopener">2026: The Year The IDE Died</a></span>
+          <span class="work-venue">with Gene Kim</span>
+        </div>
+        <div class="work-entry">
+          <span class="work-year">2025</span>
+          <span class="work-title"><a href="https://www.youtube.com/watch?v=yUv1xK9KOtE" target="_blank" rel="noopener">Stop Writing Code — That's What LLMs Are For</a></span>
+          <span class="work-venue">Sourcegraph · CHOP keynote</span>
+        </div>
+        <div class="work-entry">
+          <span class="work-year">2025-04</span>
+          <span class="work-title"><a href="https://www.oreilly.com/radar/podcast/generative-ai-in-the-real-world-vibe-coding-with-steve-yegge/" target="_blank" rel="noopener">Vibe Coding with Steve Yegge</a></span>
+          <span class="work-venue">O'Reilly Radar</span>
+        </div>
+        <div class="work-entry">
+          <span class="work-year">2025-04</span>
+          <span class="work-title"><a href="https://thedataexchange.media/vibe-coding-chop-steve-yegge/" target="_blank" rel="noopener">Vibe Coding and the Rise of AI Agents</a></span>
+          <span class="work-venue">The Data Exchange</span>
+        </div>
+        <div class="work-entry">
+          <span class="work-year">2026-02</span>
+          <span class="work-title"><a href="https://podcasts.apple.com/us/podcast/the-ai-vampire-with-gas-towns-steve-yegge/id117488860?i=1000750172103" target="_blank" rel="noopener">The AI Vampire with Gas Town's Steve Yegge</a></span>
+          <span class="work-venue">Hanselminutes #1034</span>
+        </div>
+        <div class="work-entry">
+          <span class="work-year">2026-02</span>
+          <span class="work-title"><a href="https://softwareengineeringdaily.com/2026/02/12/gas-town-beads-and-the-rise-of-agentic-development-with-steve-yegge/" target="_blank" rel="noopener">Gas Town, Beads, and the Rise of Agentic Development</a></span>
+          <span class="work-venue">SE Daily · Kevin Ball</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Vibe Coding with Steve and Gene (podcast) ─────────── -->
+  <section class="section book-section book-section--alt">
+    <div class="book-section-inner">
+      <h2 class="section-heading">Vibe Coding with Steve and Gene</h2>
+      <p class="book-section-meta">
+        A video podcast Gene Kim and I recorded around the book — conversations
+        and live working sessions on building software with coding agents.
+      </p>
+
+      <div class="work-group">
+        <div class="work-entry">
+          <span class="work-year">S1E1</span>
+          <span class="work-title"><a href="https://www.youtube.com/watch?v=Lwh7_rxtMTw" target="_blank" rel="noopener">When and How Vibe Coding Changed Our Lives</a></span>
+          <span class="work-venue">Vibe Coding with Steve and Gene</span>
+        </div>
+        <div class="work-entry">
+          <span class="work-year">S1E2</span>
+          <span class="work-title"><a href="https://www.youtube.com/watch?v=casRpzS64mE" target="_blank" rel="noopener">FAAFO! Faster, Ambitious, Autonomous/Alone, Fun, Options</a></span>
+          <span class="work-venue">Vibe Coding with Steve and Gene</span>
+        </div>
+        <div class="work-entry">
+          <span class="work-year">S1E3</span>
+          <span class="work-title"><a href="https://www.youtube.com/watch?v=ENeIaJm47Xw" target="_blank" rel="noopener">As Developers, We Move From Line Cook to Head Chef — Very FAAFO!</a></span>
+          <span class="work-venue">Vibe Coding with Steve and Gene</span>
+        </div>
+        <div class="work-entry">
+          <span class="work-year">S1E4</span>
+          <span class="work-title"><a href="https://www.youtube.com/watch?v=2KrHZOpir1I" target="_blank" rel="noopener">Programming Is Hard (No Winners, Only Survivors!), and When Vibe Coding Goes Very Wrong</a></span>
+          <span class="work-venue">Vibe Coding with Steve and Gene</span>
+        </div>
+        <div class="work-entry">
+          <span class="work-year">S1E5</span>
+          <span class="work-title"><a href="https://www.youtube.com/watch?v=0L6Fp5jS9Ko" target="_blank" rel="noopener">Vibe Writing: How We Wrote This Book (The Isomorphic Sibling of Vibe Coding)</a></span>
+          <span class="work-venue">Vibe Coding with Steve and Gene</span>
+        </div>
+        <div class="work-entry">
+          <span class="work-year">S1E6</span>
+          <span class="work-title"><a href="https://www.youtube.com/watch?v=ZBeWGSjz0DU" target="_blank" rel="noopener">Live Demo of Vibe Writing a New Section: Why Every AI Needs a REPL</a></span>
+          <span class="work-venue">Vibe Coding with Steve and Gene</span>
+        </div>
+        <div class="work-entry">
+          <span class="work-year">S1E7</span>
+          <span class="work-title"><a href="https://www.youtube.com/watch?v=KDSCQnQCJ8g" target="_blank" rel="noopener">Who Vibe Coding Is For — Developers and So Many More!</a></span>
+          <span class="work-venue">Vibe Coding with Steve and Gene</span>
+        </div>
+        <div class="work-entry">
+          <span class="work-year">S1E8</span>
+          <span class="work-title"><a href="https://www.youtube.com/watch?v=ZJUyVVFOXOc" target="_blank" rel="noopener">Show and Tell: Efrit — Giving Claude Full Access to 50 Years of Emacs</a></span>
+          <span class="work-venue">Vibe Coding with Steve and Gene</span>
+        </div>
+        <div class="work-entry">
+          <span class="work-year">—</span>
+          <span class="work-title"><a href="https://www.youtube.com/watch?v=HtqxI53h7zM" target="_blank" rel="noopener">Pairing Session: Migrating Wyvern Management Scripts with Claude Code</a></span>
+          <span class="work-venue">with Gene Kim · IT Revolution</span>
+        </div>
+        <div class="work-entry">
+          <span class="work-year">—</span>
+          <span class="work-title"><a href="https://www.youtube.com/watch?v=YaOEJn9dPJg" target="_blank" rel="noopener">Pairing Session: 2-Hour Pair Programming — Fix Two Tests</a></span>
+          <span class="work-venue">with Gene Kim · IT Revolution</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Workshops ─────────────────────────────────────────── -->
+  <section class="section book-section">
+    <div class="book-section-inner">
+      <h2 class="section-heading">Workshops</h2>
+      <p class="book-section-meta">
+        <em>Vibe Coding</em> is also the textbook for a workshop series I run
+        with Gene Kim under IT Revolution. Hands-on, two-day format for
+        engineering leaders, with the Eight Levels of Agentic Adoption framework
+        as the spine.
+      </p>
+
+      <div class="workshops-grid">
+        <figure class="workshop-photo">
+          <div class="workshop-photo-img">
+            <img src="images/books/vibe-coding-signing.png" alt="Steve Yegge and Gene Kim holding copies of Vibe Coding at a book signing">
+          </div>
+          <figcaption>Book signing with Gene Kim</figcaption>
+        </figure>
+        <figure class="workshop-photo">
+          <div class="workshop-photo-img">
+            <img src="images/books/vibe-coding-workshop.png" alt="Engineers working at long tables in a glass-walled corporate room during a Vibe Coding workshop">
+          </div>
+          <figcaption>Vibe Coding Workshop</figcaption>
+        </figure>
+        <figure class="workshop-photo">
+          <div class="workshop-photo-img">
+            <img src="images/books/vibe-coding-gene.jpg" alt="Steve Yegge and Gene Kim seated outdoors on a tree-lined deck during a co-author working session">
+          </div>
+          <figcaption>With Gene Kim</figcaption>
+        </figure>
+      </div>
+
+      <div class="workshop-cta">
+        <p>
+          More on the workshop format at
+          <a href="https://itrevolution.com/articles/vibe-coding-workshop-for-leaders/" target="_blank" rel="noopener">IT Revolution</a>,
+          or
+          <a href="/cdn-cgi/l/email-protection#b0d5ded7d1d7d5ddd5dec4c3f0d7d8dfc3c4c4c2d1d3db9ed3dfdd">write a short note</a>
+          to enquire about a workshop for your engineering organisation.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+  <footer>
+    <div class="footer-inner">
+      
+      <p class="footer-circleback">AI transformation is a cultural problem. Steve helps engineering orgs get it right. <a href="/services.html">Services &rarr;</a></p>
+      <a href="/index.html" class="footer-logo">yegge<span>.ai</span></a>
+      <ul class="footer-links">
+        <li><a href="/bio.html">About</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/engagements.html">Engagements</a></li>
+        <li><a href="/atlas.html">Atlas</a></li>
+        <li><a href="/friends.html">Friends</a></li>
+        <li><a href="/cdn-cgi/l/email-protection#fb9e959c9a9c9e969e958f88bb9c9394888f8f899a9890d5989496">Contact</a></li>
+      </ul>
+      <p class="footer-copy">&copy; 2004&ndash;2026 Steve Yegge. All rights reserved. &middot; <a href="/colophon.html">Colophon</a> &middot; <a href="/feed.xml">RSS</a></p>
+      <button type="button" class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">&#9790; Dark</button>
+    </div>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    (function () {
+      var btn = document.querySelector('[data-theme-toggle]');
+      if (!btn) return;
+      var sync = function () {
+        var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+        btn.innerHTML = dark ? '☀ Light' : '☾ Dark';
+      };
+      sync();
+      btn.addEventListener('click', function () {
+        var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+        if (dark) {
+          document.documentElement.removeAttribute('data-theme');
+          try { localStorage.setItem('theme', 'light'); } catch (e) {}
+        } else {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          try { localStorage.setItem('theme', 'dark'); } catch (e) {}
+        }
+        sync();
+      });
+    })();
+  </script>
+  <script src="/lightbox.js" defer></script>
+
+</body>
+</html>

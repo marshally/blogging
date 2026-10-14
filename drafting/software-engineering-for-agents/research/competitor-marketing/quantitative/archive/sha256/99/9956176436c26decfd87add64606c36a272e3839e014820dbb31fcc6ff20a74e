@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Steve Yegge — Programmer</title>
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-title" content="Programmer">
+  <meta name="description" content="Engineering-culture expertise from forty years across Amazon, Google, and Grab. Independent advisor on AI-native transformation. Co-author of Vibe Coding (with Gene Kim, IT Revolution 2025).">
+
+  
+  <link rel="canonical" href="https://yegge.ai/">
+  <meta property="og:site_name" content="yegge.ai">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Steve Yegge — Programmer">
+  <meta property="og:description" content="Engineering-culture expertise from forty years across Amazon, Google, and Grab. Independent advisor on AI-native transformation. Co-author of Vibe Coding (with Gene Kim, IT Revolution 2025).">
+  <meta property="og:url" content="https://yegge.ai/">
+  <meta property="og:image" content="https://yegge.ai/images/og-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Steve Yegge — Programmer">
+  <meta name="twitter:description" content="Engineering-culture expertise from forty years across Amazon, Google, and Grab. Independent advisor on AI-native transformation. Co-author of Vibe Coding (with Gene Kim, IT Revolution 2025).">
+  <meta name="twitter:image" content="https://yegge.ai/images/og-card.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Cardo:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem('theme') !== 'light')
+          document.documentElement.setAttribute('data-theme', 'dark');
+      } catch (e) { document.documentElement.setAttribute('data-theme', 'dark'); }
+    })();
+  </script>
+  
+  <link rel="alternate" type="application/atom+xml" title="Steve Yegge — essays" href="/feed.xml">
+  
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "ebdb66d0808941fb94041c4f2320eb00"}'></script>
+</head>
+<body class="page-logbook">
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">yegge<span>.ai</span></a>
+      <ul class="nav-links">
+        <li><a href="bio.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="atlas.html">Atlas</a></li>
+        <li><a href="friends.html">Friends</a></li>
+        <li><a href="search.html" class="nav-search" aria-label="Search the archive">Search</a></li>
+        <li><a href="/cdn-cgi/l/email-protection#670209000600020a0209131427000f081413131506040c4904080a" class="nav-cta">Get in touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main" tabindex="-1" data-pagefind-body>
+
+  
+  <h1 class="sr-only">Steve Yegge</h1>
+
+  <!-- ── Portrait + customer pull-quote ─────────────────────── -->
+  <section class="profile-block">
+    <div class="profile-block-inner">
+      <div class="profile-portrait">
+        <div class="portrait-photo">
+          <a href="bio.html"><img src="photo-web.jpg" alt="Steve Yegge" width="375" height="500" fetchpriority="high"></a>
+        </div>
+        <p class="profile-meta">
+          <span class="profile-meta-key">Photographed</span>
+          <span class="profile-meta-val">2025</span>
+        </p>
+      </div>
+      <figure class="profile-quote">
+        <span class="profile-quote-rule" aria-hidden="true">
+          <img src="images/ghosttrack/lp-mark.svg" alt="" class="lp-mark lp-mark--ornament">
+        </span>
+        <blockquote class="profile-quote-body">
+          Having you at Arkana gave our engineering team a massive boost
+          and the energy hasn't worn off.
+        </blockquote>
+        <figcaption class="profile-quote-attrib">— Owen Parker · CTO, Arkana Labs</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ── Narrative ─────────────────────────────────────────── -->
+  <section class="narrative">
+    <div class="narrative-inner">
+      <div class="narrative-body">
+        <p class="narrative-body-illuminated">
+          <span class="drop-cap">I</span> have been writing code for forty years: first with
+          assembly, then with high-level languages, then with AI. My 35 years in the tech industry
+          includes almost two decades split between Amazon (1998-2005) and Google (2005-2017).
+        </p>
+        <p>
+          I've also been writing <em>about</em> code, and the industry in general, since 2004.
+          My writing has impacted companies, boardrooms, entire generations of programmers.
+          My essays may not all be great, or even good, or even readable. But I've got some
+          bangers in there.
+        <p>
+          Today, with <a href="gastown.html">Gas Town, Beads, and Gas City</a>,
+          I am exploring what the future looks like with multi-agent and orchestration.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── The work: six featured tiles, two rows of three ───── -->
+  <section class="featured">
+    <div class="featured-inner">
+      <p class="featured-label">Showcase</p>
+      <div class="featured-grid featured-grid--six">
+        <a class="featured-entry featured-entry--thumb" href="atlas.html">
+          <span class="featured-entry-thumb">
+            <img src="images/showcase/writing.png" alt="" loading="lazy" decoding="async">
+          </span>
+          <h3 class="featured-entry-title">Writing</h3>
+          <p class="featured-entry-dek">
+            Twenty-plus years of essays &mdash; from <em>Tour de Babel</em>
+            to the Platforms Rant to the Gas Town pieces.
+          </p>
+          <p class="featured-entry-cont">Open the archive <span aria-hidden="true">→</span></p>
+        </a>
+        <a class="featured-entry featured-entry--thumb" href="talks.html">
+          <span class="featured-entry-thumb">
+            <img src="images/showcase/talks.jpg" alt="" loading="lazy" decoding="async">
+          </span>
+          <h3 class="featured-entry-title">Talks</h3>
+          <p class="featured-entry-dek">
+            Public appearances from Stanford to AI Engineer NYC.
+          </p>
+          <p class="featured-entry-cont">See the talks <span aria-hidden="true">→</span></p>
+        </a>
+        <a class="featured-entry featured-entry--thumb" href="cio.html">
+          <span class="featured-entry-thumb">
+            <img src="images/covers/cio-tile.png" alt="" loading="lazy" decoding="async">
+          </span>
+          <h3 class="featured-entry-title">For CIOs</h3>
+          <p class="featured-entry-dek">
+            AI transformation is a cultural problem &mdash; where the work is,
+            and how to bring Steve in.
+          </p>
+          <p class="featured-entry-cont">Start here <span aria-hidden="true">→</span></p>
+        </a>
+        <a class="featured-entry featured-entry--thumb" href="gastown.html">
+          <span class="featured-entry-thumb">
+            <img src="images/showcase/gastown.png" alt="" loading="lazy" decoding="async">
+          </span>
+          <h3 class="featured-entry-title">Gas Town</h3>
+          <p class="featured-entry-dek">
+            Current work: a dark-factory orchestration system for engineering teams.
+          </p>
+          <p class="featured-entry-cont">Visit Gas Town <span aria-hidden="true">→</span></p>
+        </a>
+        <a class="featured-entry featured-entry--thumb" href="podcasts.html">
+          <span class="featured-entry-thumb">
+            <img src="images/showcase/podcasts.png" alt="" loading="lazy" decoding="async">
+          </span>
+          <h3 class="featured-entry-title">Podcasts</h3>
+          <p class="featured-entry-dek">
+            Long conversations with Swyx, Tim O'Reilly, Gergely, and others.
+          </p>
+          <p class="featured-entry-cont">See the podcasts <span aria-hidden="true">→</span></p>
+        </a>
+        <a class="featured-entry featured-entry--thumb" href="vibe-coding.html">
+          <span class="featured-entry-thumb">
+            <img src="images/showcase/vibe-coding.jpg" alt="" loading="lazy" decoding="async">
+          </span>
+          <h3 class="featured-entry-title">Vibe Coding</h3>
+          <p class="featured-entry-dek">
+            The award-winning book with Gene Kim &mdash; IT Revolution, 2025.
+          </p>
+          <p class="featured-entry-cont">About the book <span aria-hidden="true">→</span></p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Customers ledger ──────────────────────────────────── -->
+  <section class="ledger ledger--customers">
+    <div class="ledger-inner">
+      <p class="ledger-label">Companies engaged</p>
+      <ul class="customer-row customer-row--primary">
+        <li>
+          <a class="customer" href="engagements.html#aristocrat-2026">
+          <svg class="customer-mark customer-mark--inline" viewBox="0 0 132.29 41.69" fill="currentColor" role="img" aria-label="Aristocrat" xmlns="http://www.w3.org/2000/svg"><g transform="scale(0.926542)"><path d="m 139,43.52 v 0.18 h 0.33 v 0.91 h 0.22 V 43.7 h 0.33 v -0.18 z m 2,0 -0.27,0.74 -0.28,-0.74 h -0.34 v 1.09 h 0.22 v -0.86 0 l 0.31,0.86 h 0.17 l 0.31,-0.86 v 0 0.86 h 0.21 v -1.09 z"/><polygon points="47.91,25.85 52.31,25.86 52.31,44.61 55.11,44.61 55.12,25.86 75.12,25.86 75.12,23.05 47.91,23.05"/><polygon points="129.41,25.86 134.69,25.86 134.69,44.61 137.5,44.61 137.5,25.86 142.78,25.86 142.78,23.05 129.41,23.05"/><rect x="33.459999" y="23.049999" width="2.8099999" height="21.559999"/><rect x="89.889999" y="17.18" width="14.78" height="2.8099999"/><path d="m 99.53,42.16 a 8.71,8.71 0 1 1 5.14,-15.73 v -3.29 a 11.41,11.41 0 0 0 -5.14,-1.21 11.53,11.53 0 1 0 5.14,21.84 v -3.29 a 8.71,8.71 0 0 1 -5.14,1.68"/><path d="M 104.67,7.39 A 7.39,7.39 0 1 1 97.28,0 a 7.39,7.39 0 0 1 7.39,7.39"/><path d="m 72.22,15.43 a 14.8,14.8 0 0 0 -12.34,6.63 h 3.56 a 12,12 0 1 1 -2.71,4.78 h -2.9 A 14.77,14.77 0 1 0 87,30.2 14.77,14.77 0 0 0 72.22,15.43"/><path d="m 40.73,36.19 c 1.05,1 2.94,2.87 2.94,4.34 a 6.54,6.54 0 0 1 -1.86,4.08 h 3.38 a 7.79,7.79 0 0 0 1.22,-4.08 c 0,-2.62 -2.25,-4.79 -3.76,-6.3 a 7.49,7.49 0 0 1 -2.51,-5.43 2.78,2.78 0 0 1 3.09,-2.94 5.52,5.52 0 0 1 3.77,2 v -3.57 a 7,7 0 0 0 -3.77,-1.17 5.45,5.45 0 0 0 -5.83,5.68 10.13,10.13 0 0 0 3.33,7.39"/><path d="m 25.6,23.35 a 17.52,17.52 0 0 0 -5.07,-0.49 v 21.76 h 2.81 v -6.57 h 0.8 c 0,0 1.3,3.53 3.08,4.94 a 13.86,13.86 0 0 0 4.46,1.82 v -2.67 a 9.38,9.38 0 0 1 -3.52,-2 6.08,6.08 0 0 1 -1.67,-2.74 7.11,7.11 0 0 0 4.41,-6.9 c 0.05,-4.47 -2.45,-6.21 -5.3,-7.18 m 2.63,6.71 c 0,5.07 -4.9,5.09 -4.9,5.09 v -9.56 c 0,0 4.88,0.27 4.89,4.5"/><path d="m 112,23.35 a 17.6,17.6 0 0 0 -5.08,-0.49 v 21.76 h 2.81 v -6.57 h 0.8 c 0,0 1.31,3.53 3.08,4.94 a 13.86,13.86 0 0 0 4.46,1.82 v -2.67 a 9.38,9.38 0 0 1 -3.52,-2 6.26,6.26 0 0 1 -1.67,-2.74 7.09,7.09 0 0 0 4.41,-6.9 c 0,-4.47 -2.44,-6.21 -5.29,-7.18 m 2.62,6.71 c 0,5.07 -4.9,5.09 -4.89,5.09 v -9.56 c 0,0 4.88,0.27 4.89,4.5"/><path d="M 17.83,16.18 A 43.38,43.38 0 0 0 6.09,27.23 C 1.37,34.18 0,44.62 0,44.62 h 3.12 c 0.46,-2.55 1.49,-7 1.82,-7.9 H 15 v 7.9 h 2.81 z M 5.89,33.92 C 8.26,27 12.78,23.74 15,21.83 v 12.09 z"/><path d="M 119.89,22.75 V 44.6 h 2.8 v -5.68 h 6.55 A 17.25,17.25 0 0 1 130,44.6 h 2.8 a 18.94,18.94 0 0 0 -1.75,-9.25 24.62,24.62 0 0 0 -11.17,-12.62 m 8.3,13.36 h -5.5 v -8.24 c 2.09,1.73 5.5,7.46 5.5,8.26"/></g></svg>
+          </a>
+        </li>
+        <li>
+          <a class="customer" href="engagements.html#genetec-elevatedev-2026">
+            <img src="images/customers/genetec.png" alt="" class="customer-mark customer-mark--icon">
+            <span class="customer-name">Genetec</span>
+          </a>
+        </li>
+        <li>
+          <a class="customer" href="engagements.html#arkana">
+          <svg class="customer-mark customer-mark--tall customer-mark--inline" viewBox="0 0 147 96" role="img" aria-label="Arkana Labs" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="ark-a" d="M0 0h11.43v14.494H0z"/><path id="ark-c" d="M0 0h11.431v14.494H0z"/><path id="ark-e" d="M0 96h147V0H0z"/></defs><g fill="none" fill-rule="evenodd"><path d="m13.193 64.305-.767-2.269c-.74-2.213-1.65-4.765-2.332-7.063-.654 2.354-1.507 4.964-2.275 7.204l-.71 2.128h6.084Zm1.251 3.801H5.8l-1.194 3.517H0l7.165-20.138h6.057l7.193 20.138H15.61l-1.166-3.517ZM32.13 57.13l-.796 3.743c-.939-.227-1.422-.312-1.934-.312-1.905 0-3.07 1.531-3.07 4.084v6.978h-4.266v-14.75h3.953v2.1c.71-1.39 1.82-2.355 3.696-2.355.768 0 1.564.227 2.417.511M40.006 65.099l-1.848 1.872v4.652h-4.265V51.484h4.265v10.807l5.033-5.417h4.918l-5.146 5.417 5.687 9.332h-4.692zM59.085 65.61v-.567l-2.446.453c-2.132.397-3.213.964-3.213 2.014 0 .766.74 1.305 2.076 1.305 1.62 0 3.583-.738 3.583-3.205m4.037-3.83v9.843h-3.839v-1.475c-.852 1.162-2.331 1.985-4.691 1.985-2.872 0-5.26-1.276-5.26-4.282 0-3.32 2.73-4.596 6.369-5.19l3.384-.569v-.17c0-1.36-.967-2.07-2.474-2.07-2.019 0-3.128 1.077-4.521 2.354l-2.701-2.44c1.962-2.212 4.208-3.403 7.165-3.403 4.407 0 6.568 2.213 6.568 5.418M79.216 61.525v10.098H74.95v-8.906c0-1.702-.852-2.667-2.474-2.667-1.563 0-2.615 1.05-2.615 2.752v8.82h-4.266V56.875h3.953v1.588c.881-1.248 2.36-2.099 4.379-2.099 3.384 0 5.289 2.07 5.289 5.162M90.901 65.61v-.567l-2.445.453c-2.133.397-3.213.964-3.213 2.014 0 .766.74 1.305 2.076 1.305 1.62 0 3.582-.738 3.582-3.205m4.038-3.83v9.843h-3.838v-1.475c-.854 1.162-2.332 1.985-4.692 1.985-2.872 0-5.26-1.276-5.26-4.282 0-3.32 2.73-4.596 6.37-5.19l3.382-.569v-.17c0-1.36-.966-2.07-2.473-2.07-2.02 0-3.128 1.077-4.521 2.354l-2.701-2.44c1.961-2.212 4.208-3.403 7.165-3.403 4.407 0 6.568 2.213 6.568 5.418M2.132 93.901h9.64v1.673H.114V75.436h2.018z" fill="currentColor"/><g transform="translate(13.762 81.506)"><mask id="ark-b" fill="#fff"><use xlink:href="#ark-a"/></mask><path d="M9.61 9.161V6.864l-2.587.51c-2.986.596-5.175 1.135-5.175 3.32 0 1.417 1.194 2.24 3.156 2.24 2.673 0 4.607-1.56 4.607-3.773m1.82-4.736v9.643H9.695v-1.787c-.967 1.504-2.787 2.213-4.777 2.213C2.218 14.494 0 13.416 0 10.721 0 7.488 3.042 6.61 6.625 5.956L9.61 5.39v-.822c0-1.958-1.45-3.035-3.526-3.035-1.678 0-2.929.595-4.635 2.382L.256 2.836C1.962.851 3.78 0 5.999 0c3.498 0 5.431 1.843 5.431 4.425" fill="currentColor" mask="url(#ark-b)"/></g><path d="M38.982 88.739c0-3.347-1.706-5.645-4.294-5.645-2.7 0-4.663 2.071-4.663 5.645 0 3.545 1.99 5.587 4.663 5.587 2.588 0 4.294-2.297 4.294-5.587m1.934 0c0 4.283-2.56 7.176-6.057 7.176-2.274 0-3.895-.936-4.862-2.582v2.241h-1.763V75.436h1.877v8.594c.967-1.588 2.559-2.496 4.748-2.496 3.554 0 6.057 2.894 6.057 7.205M44.896 88.739c0 3.29 1.82 5.644 4.692 5.644 2.9 0 4.72-2.354 4.72-5.644 0-3.347-1.82-5.701-4.72-5.701-2.872 0-4.692 2.354-4.692 5.7m11.345 0c0 4.256-2.7 7.205-6.653 7.205-3.924 0-6.625-2.95-6.625-7.204 0-4.283 2.7-7.233 6.625-7.233 3.952 0 6.653 2.95 6.653 7.233M66.193 82.13l-.37 1.503c-.682-.198-1.222-.283-1.791-.283-1.848 0-3.298 1.616-3.298 4.594v7.63h-1.877v-13.7h1.763v2.128c.597-1.39 1.82-2.27 3.412-2.27.825 0 1.592.2 2.161.398" fill="currentColor"/><g transform="translate(67.302 81.506)"><mask id="ark-d" fill="#fff"><use xlink:href="#ark-c"/></mask><path d="M9.61 9.161V6.864l-2.587.51c-2.985.596-5.175 1.135-5.175 3.32 0 1.417 1.194 2.24 3.156 2.24 2.673 0 4.607-1.56 4.607-3.773m1.82-4.736v9.643H9.696v-1.787c-.967 1.504-2.787 2.213-4.777 2.213C2.218 14.494 0 13.416 0 10.721 0 7.488 3.042 6.61 6.625 5.956l2.986-.567v-.822c0-1.958-1.45-3.035-3.526-3.035-1.678 0-2.929.595-4.635 2.382L.256 2.836C1.962.851 3.78 0 5.999 0c3.498 0 5.432 1.843 5.432 4.425" fill="currentColor" mask="url(#ark-d)"/></g><path d="M89.224 95.32c-.91.34-1.905.482-2.701.482-2.531 0-3.355-1.249-3.355-3.205v-9.332H80.55v-1.39h2.617V77.08h1.876v4.794h3.924v1.39h-3.924v9.076c0 1.362.483 1.872 1.734 1.872.57 0 1.195-.085 2.104-.369l.342 1.475ZM92.522 88.739c0 3.29 1.82 5.644 4.692 5.644 2.9 0 4.72-2.354 4.72-5.644 0-3.347-1.82-5.701-4.72-5.701-2.872 0-4.692 2.354-4.692 5.7m11.345 0c0 4.256-2.701 7.205-6.653 7.205-3.924 0-6.626-2.95-6.626-7.204 0-4.283 2.702-7.233 6.626-7.233 3.952 0 6.653 2.95 6.653 7.233M113.819 82.13l-.37 1.503c-.682-.198-1.223-.283-1.791-.283-1.848 0-3.299 1.616-3.299 4.594v7.63h-1.876v-13.7h1.763v2.128c.597-1.39 1.82-2.27 3.412-2.27.824 0 1.592.2 2.161.398" fill="currentColor"/><mask id="ark-f" fill="#fff"><use xlink:href="#ark-e"/></mask><path d="M116.32 95.574h1.877v-13.7h-1.877v13.7Zm0-16.734h1.877v-2.666h-1.877v2.666ZM123.059 87.462h8.644c-.085-2.637-1.592-4.424-4.208-4.424-2.389 0-4.095 1.475-4.436 4.424Zm10.577 5.56c-2.018 2.184-3.696 2.921-5.942 2.921-4.066 0-6.596-2.864-6.596-7.12 0-4.31 2.53-7.317 6.397-7.317 3.838 0 6.085 2.553 6.085 6.495 0 .199-.029.68-.057.88h-10.521c.085 2.78 1.394 5.502 4.692 5.502 1.848 0 2.986-.68 4.748-2.496l1.194 1.135ZM146.773 83.463l-1.053 1.277c-1.848-1.39-2.9-1.702-4.435-1.702-2.076 0-3.356 1.021-3.356 2.382 0 1.333 1.337 1.645 3.924 2.24 3.498.795 5.147 1.76 5.147 4.114 0 2.524-2.189 4.17-5.346 4.17-2.388 0-4.009-.653-6.17-2.525l1.138-1.248c2.047 1.73 3.327 2.212 5.032 2.212 1.991 0 3.498-.964 3.498-2.524 0-1.702-1.763-2.212-4.094-2.695-3.527-.766-4.948-1.503-4.948-3.687 0-2.41 2.19-3.97 5.118-3.97 2.218 0 3.753.538 5.545 1.956" fill="currentColor" mask="url(#ark-f)"/><path d="M22.104 4.66 5.282 39.098 33.404 27.77l-11.3-23.11Zm21.414 35.983h8.325l-8.306-13.26-5.432 2.188 5.413 11.072Zm11.423 3.425H42.445l-1.543-.962-5.99-12.25L2.425 43.945.237 41.605 20.559.001 23.647 0l12.949 26.484 6.99-2.815 2.1.68 10.71 17.099-1.455 2.62Z" fill="#FF1919" mask="url(#ark-f)"/></g></svg>
+          </a>
+        </li>
+      </ul>
+
+      <p class="ledger-label ledger-label--second">Companies advised</p>
+      <ul class="customer-row customer-row--secondary">
+        <li>
+          <a class="customer" href="engagements.html">
+            <img src="images/customers/gascity.png" alt="" class="customer-mark customer-mark--icon">
+            <span class="customer-name">Gas City</span>
+          </a>
+        </li>
+        <li>
+          <a class="customer" href="engagements.html">
+            <img src="images/customers/sageox.png" alt="SageOx" class="customer-mark">
+          </a>
+        </li>
+        <li>
+          <a class="customer" href="engagements.html">
+          <svg class="customer-mark customer-mark--inline" viewBox="0 0 78 28" fill="currentColor" role="img" aria-label="Tessl" xmlns="http://www.w3.org/2000/svg">
+            <mask id="tessl_mask" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="30" y="6" width="48" height="16">
+              <path d="M77.3948 6.70508H30.6831V21.5867H77.3948V6.70508Z" fill="white"/>
+            </mask>
+            <g mask="url(#tessl_mask)">
+              <path d="M35.4441 21.2513V8.63531H30.7471V6.7041H42.4023V8.63531H37.7053V21.2416H35.4441V21.2513Z"/>
+              <path d="M50.7869 16.4942H42.8097C42.8486 18.2216 43.8676 19.8326 45.9249 19.8326C47.759 19.8326 48.4675 18.6486 48.6519 17.9596H50.6899C50.1366 19.949 48.6131 21.4532 45.886 21.4532C42.5865 21.4532 40.7621 19.1144 40.7621 15.941C40.7621 12.7676 42.7127 10.4482 45.886 10.4482C49.0594 10.4482 50.8063 12.5251 50.8063 15.7372C50.8063 16.0187 50.8063 16.3292 50.7869 16.4942ZM48.7295 14.922C48.7295 13.2917 47.5941 12.0786 45.8182 12.0786C44.149 12.0786 42.9262 13.214 42.8097 14.922H48.7295Z"/>
+              <path d="M52.7954 17.688H54.8042C54.8818 18.8913 55.6194 19.823 57.5506 19.823C59.2975 19.823 59.7632 19.0466 59.7632 18.2993C59.7632 16.999 58.3756 16.8534 57.0363 16.572C55.2216 16.1449 53.1544 15.6112 53.1544 13.4568C53.1544 11.6712 54.6004 10.4678 57.1042 10.4678C59.9477 10.4678 61.316 11.9914 61.4616 13.7867H59.443C59.2975 12.9909 58.8705 12.0787 57.1431 12.0787C55.8039 12.0787 55.2313 12.6028 55.2313 13.3792C55.2313 14.4564 56.386 14.5632 57.8515 14.8834C59.7632 15.3298 61.8401 15.8829 61.8401 18.2023C61.8401 20.2112 60.297 21.434 57.5701 21.434C54.4161 21.434 52.8537 19.8036 52.7856 17.688H52.7954Z"/>
+              <path d="M63.7134 17.688H65.7222C65.7998 18.8913 66.5374 19.823 68.4686 19.823C70.2155 19.823 70.6812 19.0466 70.6812 18.2993C70.6812 16.999 69.2935 16.8534 67.9543 16.572C66.1395 16.1449 64.0724 15.6112 64.0724 13.4568C64.0724 11.6712 65.5184 10.4678 68.0222 10.4678C70.8657 10.4678 72.2339 11.9914 72.3795 13.7867H70.361C70.2155 12.9909 69.7885 12.0787 68.0611 12.0787C66.7218 12.0787 66.1492 12.6028 66.1492 13.3792C66.1492 14.4564 67.304 14.5632 68.7695 14.8834C70.6812 15.3298 72.758 15.8829 72.758 18.2023C72.758 20.2112 71.215 21.434 68.4881 21.434C65.3341 21.434 63.7716 19.8036 63.7036 17.688H63.7134Z"/>
+              <path d="M75.3307 21.2513V6.7041H77.3201V21.2513H75.3307Z"/>
+            </g>
+            <path d="M6.87137 12.2181C6.87168 11.9667 7.1427 11.8117 7.35901 11.9355L11.7957 14.5036V20.2812C11.7957 21.292 12.8941 21.9163 13.7598 21.4012L18.0221 18.8605V25.1769L13.7473 27.6516C12.9434 28.1161 11.9546 28.1161 11.1507 27.6516L6.87137 25.1769V12.2181ZM24.9025 19.7013C24.9024 20.6306 24.4075 21.4902 23.6037 21.9549L19.3256 24.4295V18.0857L24.9025 14.7588V19.7013ZM5.57365 17.9774H5.57023V24.4262L1.29885 21.9549C0.495145 21.4902 0.00016839 20.6305 0 19.7013V14.7554L5.57365 17.9774ZM23.6003 6.04969C24.404 6.51447 24.8992 7.37397 24.8992 8.3033V13.2446L13.5855 19.9918C13.3693 20.1227 13.0958 19.964 13.0956 19.7126V14.5115L18.5142 11.3739C19.1632 10.998 19.1664 10.0648 18.5211 9.68532L13.6846 6.83697L19.3221 3.5739L23.6003 6.04969ZM16.9021 10.2436C17.1183 10.3676 17.1184 10.6814 16.9021 10.8053L12.453 13.3802L7.03884 10.247C6.38961 9.8714 5.5777 10.3401 5.57365 11.0913V16.4746L0 13.2526V8.3033C0 7.37399 0.495181 6.51448 1.29885 6.04969L5.57707 3.57048L16.9021 10.2436ZM13.6846 6.83697L13.6823 6.83925V6.83583L13.6846 6.83697ZM11.1507 0.348424C11.9546 -0.116155 12.9434 -0.116127 13.7473 0.348424L18.0221 2.81966L12.3949 6.07589L6.87137 2.82307L11.1507 0.348424Z"/>
+          </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- ── Closing ───────────────────────────────────────────── -->
+  <section class="closing">
+    <div class="closing-inner">
+      <p class="closing-mark" aria-hidden="true">¶</p>
+      <p class="closing-line">
+        Considering an engagement? I work with a handful of organizations
+        making the AI-native pivot: keynotes, leadership sessions, and team
+        workshops.
+        <a class="closing-link" href="/cdn-cgi/l/email-protection#e0858e878187858d858e9493a087888f9394949281838bce838f8d">Write a short note</a>.
+      </p>
+    </div>
+  </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="ghosttrack-mark ghosttrack-mark--footer">
+        <img src="images/ghosttrack/lp-mark.svg" alt="" class="ghosttrack-lp" aria-hidden="true">
+        <span class="ghosttrack-wordmark-text">Ghost Track</span>
+      </span>
+      <a href="index.html" class="footer-logo">yegge<span>.ai</span></a>
+      <ul class="footer-links">
+        <li><a href="bio.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="engagements.html">Engagements</a></li>
+        <li><a href="atlas.html">Atlas</a></li>
+        <li><a href="friends.html">Friends</a></li>
+        <li><a href="/cdn-cgi/l/email-protection#8de8e3eaeceae8e0e8e3f9fecdeae5e2fef9f9ffeceee6a3eee2e0">Contact</a></li>
+      </ul>
+      <p class="footer-colophon">© 2026 Steve Yegge</p>
+      <button type="button" class="theme-toggle" data-theme-toggle aria-label="Toggle dark mode">&#9790; Dark</button>
+    </div>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    (function () {
+      var btn = document.querySelector('[data-theme-toggle]');
+      if (!btn) return;
+      var sync = function () {
+        var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+        btn.innerHTML = dark ? '☀ Light' : '☾ Dark';
+      };
+      sync();
+      btn.addEventListener('click', function () {
+        var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+        if (dark) {
+          document.documentElement.removeAttribute('data-theme');
+          try { localStorage.setItem('theme', 'light'); } catch (e) {}
+        } else {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          try { localStorage.setItem('theme', 'dark'); } catch (e) {}
+        }
+        sync();
+      });
+    })();
+  </script>
+  <script src="lightbox.js" defer></script>
+
+</body>
+</html>
