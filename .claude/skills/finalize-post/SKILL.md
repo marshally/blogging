@@ -15,6 +15,10 @@ promoted into house guidance — publish without harvesting and it's gone.
 
 ## Workflow
 
+### Already finalized primer article
+
+If the input is a publication copy from `marshally/vibe-engineering-primer`, follow `docs/primer-article-handoff.md` instead of steps 1–6 below. Verify the source receipt, prose, assets, and links, then commit only the accepted publication files and receipt. The primer has already harvested its author edits; leave blogging's `docs/writing-style.md` unchanged. If the receipt is missing, recover it from the primer rather than treating the copy as a local draft. General blog drafts use the existing steps below.
+
 ### 1. Identify the draft
 
 The user-approved draft file under `drafting/<slug>/drafts/`: the one Marshall names,

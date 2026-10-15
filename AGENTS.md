@@ -19,6 +19,7 @@ Marshall Yount's blog-writing repo. Agents draft posts here; Marshall edits them
 | `docs/2026-posting-strategy.md` | Before distribution, syndication, platform adaptation, or publishing-system work. It records approved platform decisions; do not infer content pillars or posting cadence. |
 | `docs/wordpress-mcp.md` | When configuring, authenticating, or troubleshooting WordPress.com MCP access. |
 | `docs/publishing-wordpress.md` | Before publishing or updating a post on WordPress: post creation, media upload, and conversion mechanics. |
+| `docs/primer-article-handoff.md` | Before accepting or correcting an already finalized primer article from `marshally/vibe-engineering-primer`. |
 
 ## Drafting rules
 
@@ -49,6 +50,8 @@ Commit as you go, in a series of orthogonal commits. Each commit contains one sp
 When a draft contains both Marshall's unstaged prose and approved agent revisions, preserve the authorship boundary at the hunk level. Stage only the approved agent-authored hunks and leave every unrelated Marshall-authored hunk unstaged. Use any safe hunk-selective method; generated zero-context patches require `git apply --cached --unidiff-zero`. Commit Marshall-authored prose only on explicit request, and do not add a Claude co-author trailer to a commit containing only Marshall's prose.
 
 ## Finalizing a post
+
+For an already finalized primer article, use `docs/primer-article-handoff.md` to verify its source receipt and accept the publication copy without harvesting into this repository's style guide. Primer authoring and style harvesting belong in the private primer repository.
 
 When Marshall approves a draft ("finalize it", "ship it", "this is done"), use the repo-local `finalize-post` skill (`.claude/skills/finalize-post/SKILL.md`). It publishes the post to `posts/` **and** harvests his edits into `docs/writing-style.md` — never publish by hand-copying the file, or the style learnings are lost.
 
